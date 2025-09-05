@@ -4,6 +4,7 @@
 	let mobileMenuOpen = false;
 	let searchOpen = false;
 	let searchQuery = '';
+	let searchTimeout;
 	
 	const mainMenu = [
 		{ name: 'Home', href: '/', description: 'Luxury Las Vegas Real Estate' },
@@ -64,6 +65,13 @@
 		mobileMenuOpen = false;
 	}
 	
+	// Optimize mobile menu closing with event delegation
+	function handleMobileMenuClick(event) {
+		if (event.target.tagName === 'A') {
+			closeMobileMenu();
+		}
+	}
+	
 	function toggleSearch() {
 		searchOpen = !searchOpen;
 	}
@@ -73,10 +81,23 @@
 		searchQuery = '';
 	}
 	
+	function handleSearchInput(event) {
+		// Debounce input to prevent excessive calls
+		clearTimeout(searchTimeout);
+		searchTimeout = setTimeout(() => {
+			// Handle search input here if needed
+		}, 150);
+	}
+	
 	function handleSearch(event) {
 		event.preventDefault();
 		if (searchQuery.trim()) {
-			console.log('Searching for:', searchQuery);
+			// Debounce search to prevent excessive calls
+			clearTimeout(searchTimeout);
+			searchTimeout = setTimeout(() => {
+				console.log('Searching for:', searchQuery);
+				// Add actual search functionality here
+			}, 300);
 		}
 	}
 </script>
@@ -101,13 +122,13 @@
 					<div class="relative group">
 						<a 
 							href={item.href} 
-							class="px-4 py-2 text-gray-700 hover:text-primary-600 font-medium transition-colors rounded-lg hover:bg-gray-50 {$page.url.pathname === item.href ? 'text-primary-600 bg-primary-50' : ''}"
+							class="px-4 py-2 text-gray-700 hover:text-vegas-gold-600 font-medium transition-colors rounded-lg hover:bg-vegas-gold-50 {$page.url.pathname === item.href ? 'text-vegas-gold-600 bg-vegas-gold-50' : ''}"
 						>
 							{item.name}
 						</a>
 						
 						{#if item.name === 'Properties'}
-							<div class="absolute top-full left-0 mt-2 w-96 bg-white rounded-lg shadow-xl border border-gray-200 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+							<div class="absolute top-full left-0 mt-2 w-96 bg-white rounded-lg shadow-xl border border-gray-200 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-opacity duration-150 z-50">
 								<div class="p-6">
 									<h3 class="text-lg font-semibold text-vegas-deep-900 mb-4">Luxury Property Search</h3>
 									
@@ -185,11 +206,12 @@
 										type="text"
 										bind:value={searchQuery}
 										placeholder="Search properties, neighborhoods..."
-										class="flex-1 px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
+										class="flex-1 px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-vegas-gold-500 focus:border-transparent"
+										on:input={handleSearchInput}
 									/>
 									<button
 										type="submit"
-										class="px-4 py-2 bg-primary-600 text-white rounded-md hover:bg-primary-700 transition-colors"
+										class="px-4 py-2 bg-vegas-gold-600 text-vegas-deep-900 rounded-md hover:bg-vegas-gold-700 transition-colors"
 									>
 										Search
 									</button>
@@ -249,11 +271,12 @@
 						type="text"
 						bind:value={searchQuery}
 						placeholder="Search properties..."
-						class="flex-1 px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
+						class="flex-1 px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-vegas-gold-500 focus:border-transparent"
+						on:input={handleSearchInput}
 					/>
 					<button
 						type="submit"
-						class="px-4 py-2 bg-primary-600 text-white rounded-md hover:bg-primary-700 transition-colors"
+						class="px-4 py-2 bg-vegas-gold-600 text-vegas-deep-900 rounded-md hover:bg-vegas-gold-700 transition-colors"
 					>
 						Search
 					</button>
@@ -263,14 +286,13 @@
 		
 		<!-- Mobile Navigation -->
 		{#if mobileMenuOpen}
-			<div class="lg:hidden border-t border-gray-200 bg-gray-50">
+			<div class="lg:hidden border-t border-gray-200 bg-gray-50" on:click={handleMobileMenuClick}>
 				<div class="px-4 py-2 space-y-1">
 					<!-- Main Menu -->
 					{#each mainMenu as item}
 						<a 
 							href={item.href} 
-							class="flex items-center space-x-3 px-3 py-3 text-gray-700 hover:text-primary-600 font-medium transition-colors rounded-lg hover:bg-white {$page.url.pathname === item.href ? 'text-primary-600 bg-white' : ''}"
-							on:click={closeMobileMenu}
+							class="flex items-center space-x-3 px-3 py-3 text-gray-700 hover:text-vegas-gold-600 font-medium transition-colors rounded-lg hover:bg-white {$page.url.pathname === item.href ? 'text-vegas-gold-600 bg-white' : ''}"
 						>
 							<span class="font-medium">{item.name}</span>
 						</a>
@@ -284,8 +306,7 @@
 							{#each propertySubmenu as subItem}
 								<a 
 									href={subItem.href} 
-									class="flex items-center space-x-3 px-3 py-2 text-sm text-gray-600 hover:text-primary-600 hover:bg-white transition-colors rounded-md"
-									on:click={closeMobileMenu}
+									class="flex items-center space-x-3 px-3 py-2 text-sm text-gray-600 hover:text-vegas-gold-600 hover:bg-white transition-colors rounded-md"
 								>
 									<span class="font-medium">{subItem.name}</span>
 								</a>
@@ -301,8 +322,7 @@
 							{#each quickLinks as link}
 								<a 
 									href={link.href} 
-									class="flex items-center space-x-3 px-3 py-2 text-sm text-gray-600 hover:text-primary-600 hover:bg-white rounded-md transition-colors"
-									on:click={closeMobileMenu}
+									class="flex items-center space-x-3 px-3 py-2 text-sm text-gray-600 hover:text-vegas-gold-600 hover:bg-white rounded-md transition-colors"
 								>
 									<span class="font-medium">{link.name}</span>
 								</a>
@@ -319,7 +339,6 @@
 								<a 
 									href={community.href} 
 									class="flex items-center space-x-2 px-3 py-2 text-sm text-gray-600 hover:text-vegas-gold-600 hover:bg-vegas-gold-50 rounded-md transition-colors"
-									on:click={closeMobileMenu}
 								>
 									<div>
 										<div class="font-medium">{community.name}</div>
@@ -338,14 +357,12 @@
 							<a 
 								href="tel:+17022221964" 
 								class="flex items-center space-x-3 px-3 py-2 text-sm bg-vegas-gold-600 text-vegas-deep-900 hover:bg-vegas-gold-700 transition-colors rounded-md font-semibold"
-								on:click={closeMobileMenu}
 							>
 								<span class="font-medium">Call Direct: 702-222-1964</span>
 							</a>
 							<a 
 								href="mailto:drduffy@bhhsnv.com" 
 								class="flex items-center space-x-3 px-3 py-2 text-sm text-gray-600 hover:text-vegas-gold-600 hover:bg-vegas-gold-50 transition-colors rounded-md"
-								on:click={closeMobileMenu}
 							>
 								<span class="font-medium">drduffy@bhhsnv.com</span>
 							</a>
