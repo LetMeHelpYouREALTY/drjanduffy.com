@@ -245,30 +245,14 @@ onMount(() => {
 			
 			<div class="grid md:grid-cols-3 gap-8 mb-12">
 				<div class="text-center bg-white p-8 rounded-2xl shadow-xl border border-vegas-gold-200">
-					<div class="w-16 h-16 bg-vegas-gold-100 rounded-full flex items-center justify-center mx-auto mb-4">
-						<svg class="w-8 h-8 text-vegas-gold-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
-							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
-						</svg>
-					</div>
 					<h3 class="text-2xl font-bold mb-4 text-vegas-deep-900">West Summerlin Expert</h3>
 					<p class="text-vegas-deep-700">Specialized knowledge of 89138, 89144, and 89135 zip codes. Deep understanding of luxury market trends, timing advantages, and failed competitor listings for strategic positioning.</p>
 				</div>
 				<div class="text-center bg-white p-8 rounded-2xl shadow-xl border border-vegas-gold-200">
-					<div class="w-16 h-16 bg-vegas-gold-100 rounded-full flex items-center justify-center mx-auto mb-4">
-						<svg class="w-8 h-8 text-vegas-gold-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-						</svg>
-					</div>
 					<h3 class="text-2xl font-bold mb-4 text-vegas-deep-900">Executive Relocations</h3>
 					<p class="text-vegas-deep-700">Dedicated expertise in corporate relocations and California migration. Proven track record with C-suite executives, investment sales, and divorce relocation scenarios.</p>
 				</div>
 				<div class="text-center bg-white p-8 rounded-2xl shadow-xl border border-vegas-gold-200">
-					<div class="w-16 h-16 bg-vegas-gold-100 rounded-full flex items-center justify-center mx-auto mb-4">
-						<svg class="w-8 h-8 text-vegas-gold-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
-						</svg>
-					</div>
 					<h3 class="text-2xl font-bold mb-4 text-vegas-deep-900">Timing Advantage</h3>
 					<p class="text-vegas-deep-700">Strategic market insights and urgent messaging about rate changes, hot listings, and market opportunities. Turn market volatility into your competitive advantage.</p>
 				</div>
@@ -315,11 +299,6 @@ onMount(() => {
 			
 			<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
 				<div class="bg-white p-8 rounded-2xl shadow-xl border-l-4 border-vegas-gold-600 hover:shadow-2xl transition-all duration-300">
-					<div class="w-12 h-12 bg-vegas-gold-100 rounded-lg flex items-center justify-center mb-4">
-						<svg class="w-6 h-6 text-vegas-gold-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path>
-						</svg>
-					</div>
 					<h3 class="text-2xl font-bold mb-4 text-vegas-deep-900">Executive Home Buying</h3>
 					<p class="text-vegas-deep-700 mb-4">Luxury home acquisition with strategic market timing and failed competitor listing advantages.</p>
 					<ul class="text-sm text-vegas-deep-600 space-y-2">
@@ -331,11 +310,6 @@ onMount(() => {
 				</div>
 				
 				<div class="bg-white p-8 rounded-2xl shadow-xl border-l-4 border-vegas-gold-600 hover:shadow-2xl transition-all duration-300">
-					<div class="w-12 h-12 bg-vegas-gold-100 rounded-lg flex items-center justify-center mb-4">
-						<svg class="w-6 h-6 text-vegas-gold-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1"></path>
-						</svg>
-					</div>
 					<h3 class="text-2xl font-bold mb-4 text-vegas-deep-900">Luxury Home Selling</h3>
 					<p class="text-vegas-deep-700 mb-4">Maximize value with strategic pricing, urgent market messaging, and premium marketing.</p>
 					<ul class="text-sm text-vegas-deep-600 space-y-2">
@@ -347,11 +321,6 @@ onMount(() => {
 				</div>
 				
 				<div class="bg-white p-8 rounded-2xl shadow-xl border-l-4 border-vegas-gold-600 hover:shadow-2xl transition-all duration-300">
-					<div class="w-12 h-12 bg-vegas-gold-100 rounded-lg flex items-center justify-center mb-4">
-						<svg class="w-6 h-6 text-vegas-gold-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path>
-						</svg>
-					</div>
 					<h3 class="text-2xl font-bold mb-4 text-vegas-deep-900">Investment Sales</h3>
 					<p class="text-vegas-deep-700 mb-4">Strategic investment opportunities with market timing advantages and rate change insights.</p>
 					<ul class="text-sm text-vegas-deep-600 space-y-2">
@@ -547,9 +516,6 @@ onMount(() => {
 					class="inline-flex items-center text-vegas-gold-600 hover:text-vegas-gold-700 font-semibold transition-colors"
 				>
 					View All Motivational Quotes
-					<svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
-					</svg>
 				</a>
 			</div>
 		</div>
