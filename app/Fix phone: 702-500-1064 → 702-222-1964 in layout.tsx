@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com'),
   title: 'Sell Your House Fast Las Vegas | Summerlin Real Estate Specialist',
   description:
-    'Las Vegas real estate specialist for homes that will not sell. 7 homes that did not sell - now sold. Summerlin luxury expert. Free consultation: 702-500-1064',
+    'Las Vegas real estate specialist for homes that will not sell. 7 homes that did not sell - now sold. Summerlin luxury expert. Free consultation: 702-222-1964',
   keywords: [
     'home that DID NOT sell las vegas',
     'house will not sell vegas',
