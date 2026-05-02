@@ -1,197 +1,214 @@
-<script>
-import { onMount } from 'svelte';
-import { browser } from '$app/env';
-
-let _realScoutReady = false;
-let mobileMenuOpen = false;
-
-onMount(() => {
-  if (browser) {
-    // Wait for RealScout to load - check for any RealScout components
-    if (
-      window.customElements &&
-      (customElements.get('realscout-office-listings') ||
-        customElements.get('realscout-advanced-search') ||
-        customElements.get('realscout-home-value') ||
-        customElements.get('realscout-simple-search') ||
-        customElements.get('realscout-your-listings'))
-    ) {
-      realScoutReady = true;
-    } else {
-      // Wait for the components to be defined
-      const checkInterval = setInterval(() => {
-        if (
-          window.customElements &&
-          (customElements.get('realscout-office-listings') ||
-            customElements.get('realscout-advanced-search') ||
-            customElements.get('realscout-home-value') ||
-            customElements.get('realscout-simple-search') ||
-            customElements.get('realscout-your-listings'))
-        ) {
-          clearInterval(checkInterval);
-          _realScoutReady = true;
-        }
-      }, 100);
-
-      // Timeout after 5 seconds
-      setTimeout(() => {
-        clearInterval(checkInterval);
-        _realScoutReady = true; // Show fallback
-      }, 5000);
+<script lang="ts">
+  import { page } from '$app/stores';
+  import { Menu, X, Phone, ChevronDown } from 'lucide-svelte';
+  
+  let mobileMenuOpen = false;
+  let dropdownOpen = '';
+  
+  const phoneNumber = '(702) 222-1964';
+  
+  const navigation = [
+    {
+      name: 'Buy',
+      href: '/buy',
+      dropdown: [
+        { name: 'Search Homes', href: '/properties' },
+        { name: 'New Listings', href: '/properties?sort=newest' },
+        { name: 'Open Houses', href: '/open-houses' },
+        { name: 'Buyer Resources', href: '/buyers-guide' }
+      ]
+    },
+    {
+      name: 'Sell',
+      href: '/sell',
+      dropdown: [
+        { name: 'Home Valuation', href: '/home-valuation' },
+        { name: 'Marketing Plan', href: '/marketing' },
+        { name: 'Seller Resources', href: '/sellers-guide' }
+      ]
+    },
+    {
+      name: 'Communities',
+      href: '/communities',
+      dropdown: [
+        { name: 'West Summerlin', href: '/communities/west-summerlin' },
+        { name: 'The Ridges', href: '/communities/the-ridges' },
+        { name: 'Red Rock Country Club', href: '/communities/red-rock' },
+        { name: 'Anthem Country Club', href: '/communities/anthem' },
+        { name: 'MacDonald Highlands', href: '/communities/macdonald' },
+        { name: 'Seven Hills', href: '/communities/seven-hills' }
+      ]
+    },
+    {
+      name: 'About Dr. Duffy',
+      href: '/about'
+    },
+    {
+      name: 'Blog',
+      href: '/blog'
+    },
+    {
+      name: 'Contact',
+      href: '/contact'
     }
+  ];
+  
+  function toggleDropdown(name: string) {
+    dropdownOpen = dropdownOpen === name ? '' : name;
   }
-});
-
-function _toggleMobileMenu() {
-  mobileMenuOpen = !mobileMenuOpen;
-}
+  
+  function closeDropdowns() {
+    dropdownOpen = '';
+  }
+  
+  function closeMobileMenu() {
+    mobileMenuOpen = false;
+  }
 </script>
 
-<header class="bg-white shadow-lg sticky top-0 z-50">
-	<!-- Top Bar with Search -->
-	<div class="bg-primary-600 text-white py-3">
-		<div class="container mx-auto px-4">
-			<div class="max-w-4xl mx-auto">
-				{#if realScoutReady}
-					<realscout-simple-search 
-						agent-encoded-id="QWdlbnQtMjI1MDUw">
-					</realscout-simple-search>
-				{:else}
-					<div class="animate-pulse">
-						<div class="h-12 bg-primary-500 rounded"></div>
-					</div>
-				{/if}
-			</div>
-		</div>
-	</div>
-	
-	<!-- Main Navigation -->
-	<nav class="container mx-auto px-4 py-4">
-		<div class="flex items-center justify-between">
-			<!-- Logo -->
-			<div class="flex items-center space-x-2">
-				<div class="w-10 h-10 bg-primary-600 rounded-full flex items-center justify-center">
-					<span class="text-white font-bold text-lg">JD</span>
-				</div>
-				<div>
-					<h1 class="text-xl font-bold text-gray-800">Dr. Jan Duffy</h1>
-					<p class="text-sm text-gray-600">REALTOR</p>
-				</div>
-			</div>
-			
-			<!-- Desktop Navigation -->
-			<div class="hidden md:flex items-center space-x-8">
-				<a 
-					href="/" 
-					class="text-gray-700 hover:text-primary-600 font-medium transition-colors {$page.url.pathname === '/' ? 'text-primary-600' : ''}"
-				>
-					Home
-				</a>
-				<a 
-					href="/properties" 
-					class="text-gray-700 hover:text-primary-600 font-medium transition-colors {$page.url.pathname === '/properties' ? 'text-primary-600' : ''}"
-				>
-					Properties
-				</a>
-				<a 
-					href="/home-value" 
-					class="text-gray-700 hover:text-primary-600 font-medium transition-colors {$page.url.pathname === '/home-value' ? 'text-primary-600' : ''}"
-				>
-					Home Value
-				</a>
-				<a 
-					href="/rentals" 
-					class="text-gray-700 hover:text-primary-600 font-medium transition-colors {$page.url.pathname === '/rentals' ? 'text-primary-600' : ''}"
-				>
-					Rentals
-				</a>
-				<a 
-					href="/about" 
-					class="text-gray-700 hover:text-primary-600 font-medium transition-colors {$page.url.pathname === '/about' ? 'text-primary-600' : ''}"
-				>
-					About
-				</a>
-				<a 
-					href="/contact" 
-					class="text-gray-700 hover:text-primary-600 font-medium transition-colors {$page.url.pathname === '/contact' ? 'text-primary-600' : ''}"
-				>
-					Contact
-				</a>
-				<a 
-					href="tel:+17025551234" 
-					class="bg-primary-600 text-white px-6 py-2 rounded-lg font-semibold hover:bg-primary-700 transition-colors"
-				>
-					(702) 555-1234
-				</a>
-			</div>
-			
-			<!-- Mobile Menu Button -->
-			<button 
-				on:click={toggleMobileMenu}
-				class="md:hidden p-2 rounded-lg text-gray-700 hover:bg-gray-100 transition-colors"
-				aria-label="Toggle mobile menu"
-			>
-				<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
-				</svg>
-			</button>
-		</div>
-		
-		<!-- Mobile Navigation -->
-		{#if mobileMenuOpen}
-			<div class="md:hidden mt-4 pb-4 border-t border-gray-200">
-				<div class="flex flex-col space-y-4 pt-4">
-					<a 
-						href="/" 
-						class="text-gray-700 hover:text-primary-600 font-medium transition-colors {$page.url.pathname === '/' ? 'text-primary-600' : ''}"
-						on:click={() => mobileMenuOpen = false}
-					>
-						Home
-					</a>
-					<a 
-						href="/properties" 
-						class="text-gray-700 hover:text-primary-600 font-medium transition-colors {$page.url.pathname === '/properties' ? 'text-primary-600' : ''}"
-						on:click={() => mobileMenuOpen = false}
-					>
-						Properties
-					</a>
-					<a 
-						href="/home-value" 
-						class="text-gray-700 hover:text-primary-600 font-medium transition-colors {$page.url.pathname === '/home-value' ? 'text-primary-600' : ''}"
-						on:click={() => mobileMenuOpen = false}
-					>
-						Home Value
-					</a>
-					<a 
-						href="/rentals" 
-						class="text-gray-700 hover:text-primary-600 font-medium transition-colors {$page.url.pathname === '/rentals' ? 'text-primary-600' : ''}"
-						on:click={() => mobileMenuOpen = false}
-					>
-						Rentals
-					</a>
-					<a 
-						href="/about" 
-						class="text-gray-700 hover:text-primary-600 font-medium transition-colors {$page.url.pathname === '/about' ? 'text-primary-600' : ''}"
-						on:click={() => mobileMenuOpen = false}
-					>
-						About
-					</a>
-					<a 
-						href="/contact" 
-						class="text-gray-700 hover:text-primary-600 font-medium transition-colors {$page.url.pathname === '/contact' ? 'text-primary-600' : ''}"
-						on:click={() => mobileMenuOpen = false}
-					>
-						Contact
-					</a>
-					<a 
-						href="tel:+17025551234" 
-						class="bg-primary-600 text-white px-6 py-2 rounded-lg font-semibold hover:bg-primary-700 transition-colors text-center"
-						on:click={() => mobileMenuOpen = false}
-					>
-						(702) 555-1234
-					</a>
-				</div>
-			</div>
-		{/if}
-	</nav>
+<header class="sticky top-0 z-50 bg-white shadow-lg">
+  <!-- Top contact bar -->
+  <div class="bg-primary-600 text-white py-2">
+    <div class="container mx-auto px-4">
+      <div class="flex justify-between items-center text-sm">
+        <div class="flex items-center gap-4">
+          <a href="tel:{phoneNumber}" class="flex items-center gap-1 hover:text-primary-100 transition-colors">
+            <Phone size={14} />
+            Call Dr. Duffy: {phoneNumber}
+          </a>
+          <span class="hidden md:inline">|</span>
+          <a href="mailto:drduffy@bhhsnv.com" class="hidden md:flex items-center gap-1 hover:text-primary-100 transition-colors">
+            drduffy@bhhsnv.com
+          </a>
+        </div>
+        <div class="hidden lg:flex items-center gap-1 text-primary-100">
+          <span>Serving Las Vegas & Surrounding Areas</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main navigation -->
+  <nav class="container mx-auto px-4">
+    <div class="flex justify-between items-center py-4">
+      <!-- Logo/Branding -->
+      <a href="/" class="flex items-center group">
+        <div class="text-2xl lg:text-3xl font-display font-bold text-primary-600 group-hover:text-primary-700 transition-colors">
+          Dr. Jan Duffy
+        </div>
+        <div class="ml-2 text-sm lg:text-base text-neutral-600 font-medium">
+          REALTOR<sup>®</sup>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <div class="hidden lg:flex items-center gap-8">
+        {#each navigation as item}
+          <div class="relative" on:mouseleave={closeDropdowns}>
+            <button
+              on:click={() => toggleDropdown(item.name)}
+              class="flex items-center gap-1 text-neutral-700 hover:text-primary-600 font-medium transition-colors py-2"
+              class:text-primary-600={$page.url.pathname.startsWith(item.href)}
+            >
+              {item.name}
+              {#if item.dropdown}
+                <ChevronDown size={16} class="transition-transform" class:rotate-180={dropdownOpen === item.name} />
+              {/if}
+            </button>
+            
+            {#if item.dropdown && dropdownOpen === item.name}
+              <div class="absolute top-full left-0 mt-2 w-64 bg-white rounded-lg shadow-xl border border-neutral-200 py-2">
+                {#each item.dropdown as subItem}
+                  <a 
+                    href={subItem.href}
+                    class="block px-4 py-3 text-sm text-neutral-700 hover:bg-primary-50 hover:text-primary-600 transition-colors"
+                    on:click={closeDropdowns}
+                  >
+                    {subItem.name}
+                  </a>
+                {/each}
+              </div>
+            {/if}
+          </div>
+        {/each}
+        
+        <!-- CTA Button -->
+        <a href="/contact" class="btn-primary">
+          Get Started
+        </a>
+      </div>
+
+      <!-- Mobile menu button -->
+      <button 
+        class="lg:hidden p-2 text-neutral-700 hover:text-primary-600 transition-colors"
+        on:click={() => mobileMenuOpen = !mobileMenuOpen}
+        aria-label="Toggle mobile menu"
+      >
+        {#if mobileMenuOpen}
+          <X size={24} />
+        {:else}
+          <Menu size={24} />
+        {/if}
+      </button>
+    </div>
+
+    <!-- Mobile Navigation -->
+    {#if mobileMenuOpen}
+      <div class="lg:hidden border-t bg-white">
+        <div class="py-4 space-y-2">
+          {#each navigation as item}
+            <div>
+              <a 
+                href={item.href}
+                class="block py-3 px-4 text-neutral-700 hover:text-primary-600 hover:bg-primary-50 font-medium transition-colors"
+                on:click={closeMobileMenu}
+              >
+                {item.name}
+              </a>
+              
+              {#if item.dropdown}
+                <div class="ml-4 space-y-1">
+                  {#each item.dropdown as subItem}
+                    <a 
+                      href={subItem.href}
+                      class="block py-2 px-4 text-sm text-neutral-600 hover:text-primary-600 hover:bg-primary-50 transition-colors"
+                      on:click={closeMobileMenu}
+                    >
+                      {subItem.name}
+                    </a>
+                  {/each}
+                </div>
+              {/if}
+            </div>
+          {/each}
+          
+          <!-- Mobile CTA -->
+          <div class="pt-4 border-t">
+            <a href="/contact" class="btn-primary w-full text-center block" on:click={closeMobileMenu}>
+              Get Started
+            </a>
+          </div>
+          
+          <!-- Mobile Contact Info -->
+          <div class="pt-4 border-t">
+            <a href="tel:{phoneNumber}" class="flex items-center gap-2 py-2 px-4 text-primary-600 font-medium">
+              <Phone size={16} />
+              Call Dr. Duffy: {phoneNumber}
+            </a>
+            <a href="mailto:drduffy@bhhsnv.com" class="block py-2 px-4 text-neutral-600 text-sm">
+              drduffy@bhhsnv.com
+            </a>
+          </div>
+        </div>
+      </div>
+    {/if}
+  </nav>
 </header>
+
+<style>
+  .btn-primary {
+    @apply bg-primary-600 text-white px-6 py-3 rounded-lg font-medium 
+           hover:bg-primary-700 transition-colors duration-200 
+           focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2;
+  }
+</style>
