@@ -1,6 +1,7 @@
 <script>
 import { onMount } from 'svelte';
 import { browser } from '$app/env';
+import PalmsListingCard from '$lib/PalmsListingCard.svelte';
 
 let mounted = false;
 
@@ -37,13 +38,14 @@ onMount(() => {
 	
 	{#if mounted && browser}
 		<div class="realscout-wrapper">
-			<realscout-office-listings 
+			<realscout-office-listings
 				agent-encoded-id="QWdlbnQtMjI1MDUw"
 				sort-order="STATUS_AND_SIGNIFICANT_CHANGE"
 				listing-status="For Sale"
 				property-types="SFR,MF,TC">
 			</realscout-office-listings>
 		</div>
+		<PalmsListingCard />
 	{:else}
 		<div class="loading-skeleton">
 			<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
