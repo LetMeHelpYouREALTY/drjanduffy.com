@@ -1,0 +1,157 @@
+<!--
+  PalmsListingCard — Featured listing widget for Palms Place #822
+  MLS# 2782527 · $437,777 · Active
+
+  TO REMOVE when listing sells:
+    1. Delete this file
+    2. Remove import + <PalmsListingCard /> from any page that imports it
+-->
+<div class="palms-card">
+  <div class="gold-bar"></div>
+
+  <!-- Listing photo -->
+  <img
+    src="https://cdn.propertypanorama.com/las/2782527/0.jpg"
+    alt="4381 W Flamingo Rd #822 · Palms Place Las Vegas"
+    class="listing-photo"
+    on:error={(e) => { e.currentTarget.style.display = 'none' }}
+  />
+
+  <div class="badge-row">
+    <span class="featured-badge">✦ Featured Listing</span>
+    <span class="agent-label">Dr. Jan Duffy · BHHS Nevada Properties</span>
+  </div>
+
+  <div class="price-block">
+    <div class="price">$437,777</div>
+    <div class="address">4381 W Flamingo Rd #822 · Palms Place</div>
+    <div class="sub-address">Las Vegas, NV 89103 · MLS# 2782527</div>
+  </div>
+
+  <div class="badges">
+    {#each ['🏨 STR Permitted', '💡 HOA Covers All Utilities', '🏢 8th Floor Corner', '📐 1,220 SF', '🌟 Strip Views'] as badge}
+      <span class="badge">{badge}</span>
+    {/each}
+  </div>
+
+  <div class="cta-row">
+    <a href="tel:702-222-1964" class="btn-cta">📞 Call/Text 702-222-1964</a>
+    <a
+      href="https://www.luxevegasliving.com/idx/4381-w-flamingo-rd-las-vegas-nv-89103/1801545223_spid/"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="link-details"
+    >View Full Details →</a>
+  </div>
+</div>
+
+<style>
+  .palms-card {
+    background: linear-gradient(135deg, #0A2440 0%, #0d2d52 100%);
+    border: 1px solid #C9A84C;
+    border-radius: 12px;
+    padding: 28px 32px;
+    margin: 32px 0;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+    font-family: Inter, system-ui, sans-serif;
+  }
+  .listing-photo {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    display: block;
+  }
+  .gold-bar {
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, #C9A84C, #F0D080, #C9A84C);
+  }
+  .badge-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 12px;
+    flex-wrap: wrap;
+  }
+  .featured-badge {
+    background: #C9A84C;
+    color: #0A2440;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 3px 10px;
+    border-radius: 20px;
+  }
+  .agent-label {
+    font-size: 12px;
+    color: #C9A84C;
+    font-weight: 600;
+  }
+  .price-block {
+    margin-bottom: 16px;
+  }
+  .price {
+    font-size: 32px;
+    font-weight: 800;
+    color: #F0D080;
+    letter-spacing: -0.5px;
+    line-height: 1;
+    margin-bottom: 6px;
+  }
+  .address {
+    font-size: 16px;
+    font-weight: 600;
+    color: #e8edf2;
+  }
+  .sub-address {
+    font-size: 13px;
+    color: #94a3b8;
+    margin-top: 2px;
+  }
+  .badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 20px;
+  }
+  .badge {
+    background: rgba(201,168,76,0.15);
+    border: 1px solid rgba(201,168,76,0.4);
+    color: #F0D080;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 4px 12px;
+    border-radius: 20px;
+    white-space: nowrap;
+  }
+  .cta-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    align-items: center;
+  }
+  .btn-cta {
+    background: #C9A84C;
+    color: #0A2440;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 10px 22px;
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-block;
+    letter-spacing: 0.02em;
+  }
+  .link-details {
+    color: #C9A84C;
+    font-weight: 600;
+    font-size: 13px;
+    text-decoration: underline;
+  }
+</style>
