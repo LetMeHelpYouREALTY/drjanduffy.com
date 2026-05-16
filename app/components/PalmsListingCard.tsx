@@ -1,3 +1,5 @@
+'use client'
+
 /**
  * PalmsListingCard — Featured listing widget for Palms Place #822
  * MLS# 2782527 · $437,777 · Active · Last updated: 2026-05-16
