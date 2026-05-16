@@ -2,6 +2,7 @@ import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
 import FAQSchema from '@/app/components/faq-schema'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
+import PalmsListingCard from '@/app/components/PalmsListingCard'
 export const metadata = {
   title: 'Palms Place Condos Las Vegas | failed listing specialist | Dr. Jan Duffy',
   description:
@@ -116,6 +117,8 @@ export default function PalmsPlaceCondosPage() {
                 </p>
               </div>
               
+              <PalmsListingCard />
+
               <div className="bg-white border-2 border-gray-200 rounded-lg p-8">
                 <h2 className="text-3xl font-black mb-4 text-center">
                   READY TO SELL YOUR PALMS PLACE CONDO?
