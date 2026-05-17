@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from 'next/font/google'
 import Script from 'next/script'
 import { ThemeProvider } from 'next-themes'
 import Footer from './components/footer'
+import CalendlyProvider from './components/calendly/calendly-provider'
 import './globals.css'
 
 const geistSans = Geist({
@@ -66,6 +67,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <link
+          href="https://assets.calendly.com/assets/external/widget.css"
+          rel="stylesheet"
+        />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
@@ -332,6 +339,7 @@ export default function RootLayout({
             },
           ])}
         </Script>
+        <CalendlyProvider />
         <ThemeProvider
           attribute="class"
           defaultTheme="light"

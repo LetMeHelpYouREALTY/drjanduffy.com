@@ -62,6 +62,7 @@ export default function ExitIntentPopup() {
           source="exit_intent"
           buttonText="GET THE REPORT"
           showAddress={false}
+          variant="popup"
         />
       </div>
     </div>

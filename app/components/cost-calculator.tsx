@@ -5,6 +5,7 @@ import { calculateExpiredCosts, type CostCalculationResult } from '@/lib/utils/c
 import { formatCurrency } from '@/lib/utils'
 import { trackCalculatorUsed } from '@/lib/config/analytics'
 import { Button } from '@/components/ui/button'
+import CalendlyPopupButton from '@/app/components/calendly/calendly-popup-button'
 
 export default function CostCalculator() {
   const [daysExpired, setDaysExpired] = useState(63)
@@ -146,12 +147,15 @@ export default function CostCalculator() {
               </div>
             </div>
           </div>
-          <div className="mt-6 text-center">
+          <div className="mt-6 flex flex-col items-center gap-4 text-center">
+            <CalendlyPopupButton className="w-full max-w-md py-6 text-lg font-bold bg-red-600 hover:bg-red-700">
+              STOP THE BLEEDING — SCHEDULE A CALL
+            </CalendlyPopupButton>
             <a
               href="tel:7025001064"
-              className="inline-block bg-red-600 text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-red-700 transition-colors"
+              className="text-red-800 font-semibold hover:underline"
             >
-              STOP THE BLEEDING NOW - CALL (702) 500-1064
+              Or call (702) 500-1064
             </a>
           </div>
         </div>

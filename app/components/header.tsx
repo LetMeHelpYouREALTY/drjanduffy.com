@@ -2,8 +2,9 @@
 
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
-import { Phone, Menu, X, ChevronDown } from 'lucide-react'
+import { Phone, Menu, X, ChevronDown, Calendar } from 'lucide-react'
 import { useState } from 'react'
+import CalendlyPopupButton from '@/app/components/calendly/calendly-popup-button'
 
 export default function Header() {
   const pathname = usePathname()
@@ -181,8 +182,16 @@ export default function Header() {
               </Link>
             </nav>
 
-            {/* CTA Button */}
+            {/* CTA Buttons */}
             <div className="flex items-center gap-3 flex-shrink-0">
+              <CalendlyPopupButton
+                variant="outline"
+                size="default"
+                className="hidden md:inline-flex gap-2 font-bold border-2 border-primary text-primary hover:bg-primary/10"
+              >
+                <Calendar className="w-4 h-4" />
+                Schedule
+              </CalendlyPopupButton>
               <a
                 href="tel:7025001064"
                 className="hidden sm:flex items-center gap-2 bg-[var(--color-cta)] text-[var(--color-cta-foreground)] px-6 py-3 rounded-lg font-bold hover:bg-[var(--color-cta-hover)] transition-colors shadow-md"
@@ -286,7 +295,13 @@ export default function Header() {
               </div>
 
               {/* Mobile CTA */}
-              <div className="pt-4 border-t border-gray-200">
+              <div className="pt-4 border-t border-gray-200 space-y-3">
+                <CalendlyPopupButton
+                  className="w-full font-bold"
+                  onClick={() => setMobileMenuOpen(false)}
+                >
+                  Schedule time with me
+                </CalendlyPopupButton>
                 <a
                   href="tel:7025001064"
                   onClick={() => setMobileMenuOpen(false)}
