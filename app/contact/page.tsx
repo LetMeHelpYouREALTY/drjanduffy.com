@@ -213,15 +213,15 @@ export default function ContactPage() {
               </div>
               <div className="bg-white border-2 border-gray-200 rounded-lg p-8 mb-12">
                 <h2 className="text-3xl font-black mb-4 text-center">
-                  SEND A MESSAGE
+                  SCHEDULE YOUR FREE CONSULTATION
                 </h2>
                 <p className="text-center text-lg text-gray-700 mb-6">
-                  Fill out the form below and I will contact you within 24 hours. Include details about your HOME THAT DID NOT SELL - how long it was on the market, what your previous agent did (or DID NOT do), and what you are looking for in your next agent. The more information you provide, the better I can help.
+                  Pick a time below for a private 15-minute conversation about your HOME THAT DID NOT SELL. Share days on market and what your previous agent did (or did not do) when we meet.
                 </p>
                 <p className="text-center text-gray-600 mb-6">
                   Or call me directly at <a href="tel:7025001064" className="text-primary font-bold hover:underline">(702) 500-1064</a> for immediate assistance.
                 </p>
-                <LeadForm source="contact_page" buttonText="SEND MESSAGE" />
+                <LeadForm source="contact_page" buttonText="BOOK YOUR 15-MINUTE CALL" />
               </div>
 
               {/* Google Map Section */}

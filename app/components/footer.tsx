@@ -2,6 +2,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { Phone, Mail, MapPin, Clock } from 'lucide-react'
 import GoogleBusinessLink from './google-business-link'
+import CalendlyPopupLink from './calendly/calendly-popup-link'
 
 export default function Footer() {
   const currentYear = new Date().getFullYear()
@@ -25,6 +26,9 @@ export default function Footer() {
                 <Phone className="w-4 h-4" />
                 (702) 500-1064
               </a>
+              <CalendlyPopupLink className="flex items-center gap-2 text-sm hover:text-primary transition-colors font-semibold">
+                Schedule time with me
+              </CalendlyPopupLink>
               <a
                 href="mailto:info@drjanduffy.com"
                 className="flex items-center gap-2 text-sm hover:text-primary transition-colors"

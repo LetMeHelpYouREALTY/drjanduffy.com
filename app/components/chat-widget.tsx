@@ -65,6 +65,7 @@ export default function ChatWidget() {
               source="chat_widget"
               buttonText="GET HELP NOW"
               showAddress={false}
+              variant="popup"
             />
           </div>
         </div>

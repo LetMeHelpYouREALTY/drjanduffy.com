@@ -69,10 +69,10 @@ export default function HeroSection() {
               <LiveCounter />
             </div>
 
-            <div className="max-w-md mx-auto">
+            <div className="max-w-3xl mx-auto">
               <LeadForm
                 source="hero"
-                buttonText="GET HELP SELLING MY HOME"
+                buttonText="BOOK YOUR FREE 15-MINUTE CONSULTATION"
               />
             </div>
           </div>

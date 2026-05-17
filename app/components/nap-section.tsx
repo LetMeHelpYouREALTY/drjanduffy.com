@@ -1,5 +1,6 @@
 import { Phone, MapPin, Clock, Mail } from 'lucide-react'
 import GoogleBusinessLink from './google-business-link'
+import CalendlyPopupLink from './calendly/calendly-popup-link'
 
 interface NAPSectionProps {
   variant?: 'default' | 'compact' | 'detailed'
@@ -163,7 +164,10 @@ export default function NAPSection({
           <p className="text-sm opacity-90 mt-1">{hours.note}</p>
         </div>
       )}
-      <div className="mt-6 text-center">
+      <div className="mt-6 flex flex-col items-center gap-4 text-center">
+        <CalendlyPopupLink className="inline-block bg-white text-primary px-8 py-3 rounded-lg font-bold hover:bg-gray-100 transition-colors">
+          Schedule time with me
+        </CalendlyPopupLink>
         <GoogleBusinessLink variant="button" />
       </div>
     </div>
