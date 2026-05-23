@@ -1,4 +1,3 @@
-import Script from 'next/script'
 import { Star, ExternalLink } from 'lucide-react'
 import GoogleBusinessLink from './google-business-link'
 
@@ -47,12 +46,10 @@ export default function GoogleReviews({ reviews, showSchema = true }: GoogleRevi
   return (
     <>
       {showSchema && (
-        <Script
-          id="review-schema"
+        <script
           type="application/ld+json"
-          strategy="afterInteractive"
-        >
-          {JSON.stringify(
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(
             defaultReviews.map((review, index) => {
               const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com'
               const reviewId = `review-${review.date?.replace(/-/g, '') || Date.now()}-${index}`
@@ -82,8 +79,9 @@ export default function GoogleReviews({ reviews, showSchema = true }: GoogleRevi
                 },
               }
             })
-          )}
-        </Script>
+          ).replace(/</g, '\\u003c'),
+          }}
+        />
       )}
 
       <div className="bg-white py-20">

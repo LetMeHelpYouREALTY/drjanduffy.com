@@ -1,19 +1,17 @@
-import Script from 'next/script'
-
 interface BreadcrumbSchemaProps {
   items: Array<{ name: string; url: string }>
 }
 
 export default function BreadcrumbSchema({ items }: BreadcrumbSchemaProps) {
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com'
-  
+
   // Ensure URLs are properly formatted
   const formatUrl = (url: string) => {
     if (url.startsWith('http')) return url
     if (url.startsWith('/')) return `${baseUrl}${url}`
     return `${baseUrl}/${url}`
   }
-  
+
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
@@ -25,13 +23,14 @@ export default function BreadcrumbSchema({ items }: BreadcrumbSchemaProps) {
     })),
   }
 
+  // Server-rendered into the initial HTML so search and AI crawlers see the
+  // structured data without executing JavaScript.
   return (
-    <Script
-      id="breadcrumb-schema"
+    <script
       type="application/ld+json"
-      strategy="afterInteractive"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify(schema).replace(/</g, '\\u003c'),
+      }}
     />
   )
 }
-

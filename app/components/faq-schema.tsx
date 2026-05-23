@@ -1,5 +1,3 @@
-import Script from 'next/script'
-
 interface FAQ {
   question: string
   answer: string
@@ -10,8 +8,6 @@ interface FAQSchemaProps {
 }
 
 export default function FAQSchema({ faqs }: FAQSchemaProps) {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com'
-  
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
@@ -25,13 +21,14 @@ export default function FAQSchema({ faqs }: FAQSchemaProps) {
     })),
   }
 
+  // Server-rendered into the initial HTML so search and AI crawlers see the
+  // structured data without executing JavaScript.
   return (
-    <Script
-      id="faq-schema"
+    <script
       type="application/ld+json"
-      strategy="afterInteractive"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify(schema).replace(/</g, '\\u003c'),
+      }}
     />
   )
 }
-
