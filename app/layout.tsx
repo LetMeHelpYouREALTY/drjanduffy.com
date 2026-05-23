@@ -59,6 +59,52 @@ export const metadata: Metadata = {
   },
 }
 
+// SEO/AEO/GEO 3-Surface Schema Strategy (per CLAUDE.md v3.1.6, May 2026)
+// - Phone number in schema = site-specific CallAction (702-500-1064) — matches GBP NAP
+// - sameAs uses env-var slots for verifiable web-wide entity footprint (GEO trust signal)
+// - hasCredential is an array: NV license + PhD (March 2026 author-expertise signal)
+// - worksFor: full BHHS Nevada Properties entity name
+
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com'
+const SCHEMA_PHONE = '(702) 500-1064' // Site-specific CallAction — NEVER replace with 702-222-1964
+const SITE_AGENT_ID = `${SITE_URL}#agent`
+const SITE_BUSINESS_ID = `${SITE_URL}#business`
+const SITE_PERSON_ID = `${SITE_URL}#person`
+const SITE_ORG_ID = `${SITE_URL}#organization`
+const SITE_WEBSITE_ID = `${SITE_URL}#website`
+
+const sameAsLinks = [
+  process.env.NEXT_PUBLIC_GOOGLE_BUSINESS_URL || 'https://share.google/ocO9fjtV1xkSkqZIe',
+  process.env.NEXT_PUBLIC_BHHS_PROFILE_URL,
+  process.env.NEXT_PUBLIC_LINKEDIN_URL,
+  process.env.NEXT_PUBLIC_REALTOR_COM_URL,
+  process.env.NEXT_PUBLIC_ZILLOW_PROFILE_URL,
+].filter(Boolean) as string[]
+
+const credentials = [
+  {
+    '@type': 'EducationalOccupationalCredential',
+    credentialCategory: 'Professional License',
+    recognizedBy: {
+      '@type': 'Organization',
+      name: 'Nevada Real Estate Division',
+    },
+    credentialNumber: 'S.0197614.LLC',
+  },
+  {
+    '@type': 'EducationalOccupationalCredential',
+    credentialCategory: 'degree',
+    educationalLevel: 'Doctorate',
+    name: 'PhD',
+  },
+]
+
+const bhhsNevadaProperties = {
+  '@type': 'Organization',
+  name: 'Berkshire Hathaway HomeServices Nevada Properties',
+  url: 'https://www.bhhsnv.com',
+}
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -121,24 +167,22 @@ export default function RootLayout({
             `}
           </Script>
         )}
-        {/* Schema Markup - Multiple Schemas */}
-        <Script
-          id="schema-markup"
+        {/* Schema Markup - Multiple Schemas (SEO/AEO/GEO 3-Surface Strategy, May 2026) */}
+        <script
           type="application/ld+json"
-          strategy="afterInteractive"
-        >
-          {JSON.stringify([
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify([
             {
               '@context': 'https://schema.org',
               '@type': 'RealEstateAgent',
-              '@id': `${process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com'}#agent`,
+              '@id': SITE_AGENT_ID,
               name: 'Dr. Janet Duffy',
               alternateName: 'Dr. Jan Duffy',
               description: 'Las Vegas real estate expert specializing in homes that DID NOT sell. Helped 7 Summerlin sellers who could not sell with their previous agent - 19 day average and 98.7% of asking price.',
-              telephone: '(702) 222-1964',
+              telephone: SCHEMA_PHONE,
               email: 'info@drjanduffy.com',
-              url: process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com',
-              image: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com'}/og-image.png`,
+              url: SITE_URL,
+              image: `${SITE_URL}/og-image.png`,
               specialty: ['Homes That DID NOT Sell', 'Failed Listing Specialist', 'Homes That Did Not Sell Specialist', 'Unsold Home Expert', 'Luxury Real Estate', 'Summerlin Real Estate'],
               areaServed: [
                 {
@@ -166,34 +210,24 @@ export default function RootLayout({
                   '@type': 'Organization',
                   name: 'Nevada Real Estate Division',
                 },
-                {
-                  '@type': 'Organization',
-                  name: 'Berkshire Hathaway HomeServices',
-                },
+                bhhsNevadaProperties,
               ],
-              hasCredential: {
-                '@type': 'EducationalOccupationalCredential',
-                credentialCategory: 'Professional License',
-                recognizedBy: {
-                  '@type': 'Organization',
-                  name: 'Nevada Real Estate Division',
-                },
-                credentialNumber: 'S.0197614',
-              },
+              hasCredential: credentials,
+              sameAs: sameAsLinks,
             },
             {
               '@context': 'https://schema.org',
               '@type': 'LocalBusiness',
-              '@id': `${process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com'}#business`,
+              '@id': SITE_BUSINESS_ID,
               name: 'Dr. Janet Duffy Real Estate',
               alternateName: 'Dr. Jan Duffy - Failed Listing Specialist',
               description: 'Las Vegas real estate agent specializing in homes that DID NOT sell and luxury properties in Summerlin, The Ridges, and surrounding areas.',
-              telephone: '(702) 222-1964',
+              telephone: SCHEMA_PHONE,
               email: 'info@drjanduffy.com',
-              url: process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com',
+              url: SITE_URL,
               image: [
-                `${process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com'}/og-image.png`,
-                `${process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com'}/images/team/las-vegas-real-estate-agent-dr-janet-duffy-headshot.jpg`,
+                `${SITE_URL}/og-image.png`,
+                `${SITE_URL}/images/team/las-vegas-real-estate-agent-dr-janet-duffy-headshot.jpg`,
               ],
               address: {
                 '@type': 'PostalAddress',
@@ -247,91 +281,68 @@ export default function RootLayout({
                 bestRating: '5',
                 worstRating: '1',
               },
-              servesCuisine: undefined,
               paymentAccepted: 'Cash, Check, Credit Card',
               currenciesAccepted: 'USD',
-              sameAs: [
-                process.env.NEXT_PUBLIC_GOOGLE_BUSINESS_URL || 'https://share.google/ocO9fjtV1xkSkqZIe',
-                process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com',
-              ],
+              sameAs: sameAsLinks,
             },
             {
               '@context': 'https://schema.org',
               '@type': 'Person',
-              '@id': `${process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com'}#person`,
+              '@id': SITE_PERSON_ID,
               name: 'Dr. Janet Duffy',
               alternateName: 'Dr. Jan Duffy',
               jobTitle: 'Real Estate Agent',
               description: 'Las Vegas real estate expert with extensive experience helping sellers whose homes DID NOT sell. Specializes in luxury properties in Summerlin, The Ridges, and surrounding areas. 7 homes that did not sell - now sold.',
-              worksFor: {
-                '@type': 'Organization',
-                name: 'Berkshire Hathaway HomeServices',
-              },
-              hasCredential: {
-                '@type': 'EducationalOccupationalCredential',
-                credentialCategory: 'Professional License',
-                recognizedBy: {
-                  '@type': 'Organization',
-                  name: 'Nevada Real Estate Division',
-                },
-                credentialNumber: 'S.0197614',
-              },
-              telephone: '(702) 222-1964',
+              worksFor: bhhsNevadaProperties,
+              hasCredential: credentials,
+              telephone: SCHEMA_PHONE,
               email: 'info@drjanduffy.com',
-              url: process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com',
-              image: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com'}/images/team/las-vegas-real-estate-agent-dr-janet-duffy-headshot.jpg`,
+              url: SITE_URL,
+              image: `${SITE_URL}/images/team/las-vegas-real-estate-agent-dr-janet-duffy-headshot.jpg`,
               award: ['Failed Listing Specialist 2026', 'Good Neighbor Award'],
               knowsAbout: ['Real Estate', 'Homes That DID NOT Sell', 'Failed Listings', 'Unsold Homes', 'Luxury Properties', 'Property Marketing', 'Real Estate Negotiation', 'Summerlin Real Estate', 'Las Vegas Real Estate Market'],
-              alumniOf: {
-                '@type': 'EducationalOrganization',
-                name: 'University',
-              },
-              sameAs: [
-                process.env.NEXT_PUBLIC_GOOGLE_BUSINESS_URL || 'https://share.google/ocO9fjtV1xkSkqZIe',
-                process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com',
-              ],
+              sameAs: sameAsLinks,
             },
             {
               '@context': 'https://schema.org',
               '@type': 'Organization',
-              '@id': `${process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com'}#organization`,
+              '@id': SITE_ORG_ID,
               name: 'Dr. Janet Duffy Real Estate',
               alternateName: 'Dr. Jan Duffy - Failed Listing Specialist',
-              url: process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com',
-              logo: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com'}/og-image.png`,
+              url: SITE_URL,
+              logo: `${SITE_URL}/og-image.png`,
               contactPoint: {
                 '@type': 'ContactPoint',
-                telephone: '(702) 222-1964',
+                telephone: SCHEMA_PHONE,
                 contactType: 'Customer Service',
                 areaServed: 'US',
                 availableLanguage: 'English',
               },
-              sameAs: [
-                process.env.NEXT_PUBLIC_GOOGLE_BUSINESS_URL || 'https://share.google/ocO9fjtV1xkSkqZIe',
-                process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com',
-              ],
+              parentOrganization: bhhsNevadaProperties,
+              sameAs: sameAsLinks,
             },
             {
               '@context': 'https://schema.org',
               '@type': 'WebSite',
-              '@id': `${process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com'}#website`,
+              '@id': SITE_WEBSITE_ID,
               name: 'Dr. Janet Duffy - Failed Listing Specialist',
-              url: process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com',
+              url: SITE_URL,
               description: 'Las Vegas real estate expert specializing in homes that DID NOT sell. Helped 7 Summerlin sellers who could not sell with their previous agent - 19 day average and 98.7% of asking price.',
               publisher: {
-                '@id': `${process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com'}#organization`,
+                '@id': SITE_ORG_ID,
               },
               potentialAction: {
                 '@type': 'SearchAction',
                 target: {
                   '@type': 'EntryPoint',
-                  urlTemplate: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com'}/search?q={search_term_string}`,
+                  urlTemplate: `${SITE_URL}/search?q={search_term_string}`,
                 },
                 'query-input': 'required name=search_term_string',
               },
             },
-          ])}
-        </Script>
+          ]).replace(/</g, '\\u003c'),
+          }}
+        />
         <ThemeProvider
           attribute="class"
           defaultTheme="light"
