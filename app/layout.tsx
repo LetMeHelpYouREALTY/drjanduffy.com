@@ -19,11 +19,11 @@ export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com'),
   title: 'Sell Your House Fast Las Vegas | Summerlin Real Estate Specialist',
   description:
-    'Las Vegas real estate specialist for homes that won\'t sell. 500+ families served, $127M+ in sales. Summerlin luxury expert. Free consultation: 702-500-1064',
+    'Las Vegas real estate specialist for homes that will not sell. 500+ families served, $127M+ in sales. Summerlin luxury expert. Free consultation: 702-500-1064',
   keywords: [
-    'home that didn\'t sell las vegas',
-    'house won\'t sell vegas',
-    'couldn\'t sell my house',
+    'home that did not sell las vegas',
+    'house will not sell vegas',
+    'could not sell my house',
     'fire my real estate agent',
     'failed listing help',
     'unsold home las vegas',
@@ -31,16 +31,16 @@ export const metadata: Metadata = {
     're-list my home las vegas',
   ],
   openGraph: {
-    title: 'Couldn\'t Sell Your Las Vegas Home? | Dr. Jan Duffy - I Sell Homes That Didn\'t Sell',
+    title: 'Could Not Sell Your Las Vegas Home? | Dr. Jan Duffy - I Sell Homes That Did Not Sell',
     description:
-      'Your home didn\'t sell? I\'ve helped 47 Summerlin sellers who couldn\'t sell with their previous agent. Average 19 days to contract, 98.7% of asking.',
+      'Your home did not sell? I have helped 47 Summerlin sellers who could not sell with their previous agent. Average 19 days to contract, 98.7% of asking.',
     images: ['/og-image.png'],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Couldn\'t Sell Your Home? | Dr. Jan Duffy',
+    title: 'Could Not Sell Your Home? | Dr. Jan Duffy',
     description:
-      'Your house didn\'t sell? Get your home sold in 30 days or less with proven results.',
+      'Your house did not sell? Get your home sold in 30 days or less with proven results.',
     images: ['/og-image.png'],
   },
 }
