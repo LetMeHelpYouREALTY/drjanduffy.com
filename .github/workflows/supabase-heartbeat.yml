@@ -1,0 +1,87 @@
+# .github/workflows/supabase-heartbeat.yml
+#
+# Supabase Keep-Alive — Dr. Jan Duffy
+# Strategy A + C: single repo, matrix job — one entry per project.
+#
+# TO ADD A NEW PROJECT:
+#   1. Add a new block under matrix.include (copy/paste any existing block, update 3 fields)
+#   2. Add 2 GitHub Secrets for the new project (URL + anon key)
+#   Done — no other changes needed.
+#
+# Fires every 3 days at 07:00 UTC (redundancy layer).
+# Primary keep-alive: daily Claude Cowork scheduled task.
+#
+# ── CURRENT PROJECTS ──────────────────────────────────────────────────────────
+#   OpenBrain       eigkvbicjteowmavhyah   Secrets: SUPABASE_OPENBRAIN_*
+#   fub-enrichment  aytsbglbeesjzgyxutik   Secrets: SUPABASE_FUBENRICHMENT_*
+# ─────────────────────────────────────────────────────────────────────────────
+#
+# GITHUB SECRETS REQUIRED (Settings → Secrets and variables → Actions):
+#   SUPABASE_OPENBRAIN_URL          = https://eigkvbicjteowmavhyah.supabase.co
+#   SUPABASE_OPENBRAIN_ANON_KEY     = (Supabase dashboard → OpenBrain → Settings → API → anon public)
+#   SUPABASE_FUBENRICHMENT_URL      = https://aytsbglbeesjzgyxutik.supabase.co
+#   SUPABASE_FUBENRICHMENT_ANON_KEY = (Supabase dashboard → fub-enrichment → Settings → API → anon public)
+
+name: Supabase Keep-Alive
+
+on:
+  schedule:
+    - cron: "0 7 */3 * *"   # Every 3 days at 07:00 UTC
+  workflow_dispatch:          # Manual trigger from GitHub Actions UI
+
+jobs:
+  keepalive:
+    name: Ping ${{ matrix.name }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    strategy:
+      fail-fast: false        # If one project fails, still ping the rest
+      matrix:
+        include:
+
+          # ── Project 1: OpenBrain ─────────────────────────────────────────
+          - name:       "OpenBrain"
+            project_id: "eigkvbicjteowmavhyah"
+            url_secret:  "SUPABASE_OPENBRAIN_URL"
+            key_secret:  "SUPABASE_OPENBRAIN_ANON_KEY"
+
+          # ── Project 2: fub-enrichment ─────────────────────────────────────
+          - name:       "fub-enrichment"
+            project_id: "aytsbglbeesjzgyxutik"
+            url_secret:  "SUPABASE_FUBENRICHMENT_URL"
+            key_secret:  "SUPABASE_FUBENRICHMENT_ANON_KEY"
+
+          # ── ADD NEW PROJECT HERE ──────────────────────────────────────────
+          # - name:       "YourProjectName"
+          #   project_id: "your_project_id"
+          #   url_secret:  "SUPABASE_YOURPROJECT_URL"
+          #   key_secret:  "SUPABASE_YOURPROJECT_ANON_KEY"
+
+    steps:
+      - name: Ping ${{ matrix.name }} (${{ matrix.project_id }})
+        id: ping
+        run: |
+          echo "→ Pinging ${{ matrix.name }} (${{ matrix.project_id }})..."
+
+          HTTP_STATUS=$(curl -s -o response.txt -w "%{http_code}" \
+            "${{ secrets[matrix.url_secret] }}/rest/v1/" \
+            -H "apikey: ${{ secrets[matrix.key_secret] }}" \
+            -H "Authorization: Bearer ${{ secrets[matrix.key_secret] }}" \
+            --max-time 30)
+
+          echo "HTTP status: $HTTP_STATUS"
+
+          if [ "$HTTP_STATUS" -ge 200 ] && [ "$HTTP_STATUS" -lt 300 ]; then
+            echo "✅ ${{ matrix.name }} — OK ($HTTP_STATUS) — $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+            echo "result=OK" >> $GITHUB_OUTPUT
+          elif [ "$HTTP_STATUS" = "503" ]; then
+            echo "⚠️  ${{ matrix.name }} — PROJECT MAY BE PAUSED (503)"
+            echo "result=PAUSED" >> $GITHUB_OUTPUT
+            exit 1
+          else
+            echo "❌ ${{ matrix.name }} — ERROR ($HTTP_STATUS)"
+            cat response.txt || true
+            echo "result=ERROR" >> $GITHUB_OUTPUT
+            exit 1
+          fi
