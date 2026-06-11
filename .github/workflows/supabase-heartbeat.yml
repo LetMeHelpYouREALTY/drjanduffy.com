@@ -3,10 +3,13 @@
 # Supabase Keep-Alive — Dr. Jan Duffy
 # Strategy A + C: single repo, matrix job — one entry per project.
 #
+# NOTE: GitHub Actions does NOT support dynamic secret access via secrets[variable].
+# Each project's secrets must be referenced by literal name in the "Resolve secrets" step.
+#
 # TO ADD A NEW PROJECT:
-#   1. Add a new block under matrix.include (copy/paste any existing block, update 3 fields)
-#   2. Add 2 GitHub Secrets for the new project (URL + anon key)
-#   Done — no other changes needed.
+#   1. Add a new block under matrix.include (name + project_id only)
+#   2. Add an elif block in the "Resolve secrets" step for the new project's literal secret names
+#   3. Add 2 GitHub Secrets for the new project (URL + anon key)
 #
 # Fires every 3 days at 07:00 UTC (redundancy layer).
 # Primary keep-alive: daily Claude Cowork scheduled task.
@@ -43,31 +46,42 @@ jobs:
           # ── Project 1: OpenBrain ─────────────────────────────────────────
           - name:       "OpenBrain"
             project_id: "eigkvbicjteowmavhyah"
-            url_secret:  "SUPABASE_OPENBRAIN_URL"
-            key_secret:  "SUPABASE_OPENBRAIN_ANON_KEY"
 
           # ── Project 2: fub-enrichment ─────────────────────────────────────
           - name:       "fub-enrichment"
             project_id: "aytsbglbeesjzgyxutik"
-            url_secret:  "SUPABASE_FUBENRICHMENT_URL"
-            key_secret:  "SUPABASE_FUBENRICHMENT_ANON_KEY"
 
           # ── ADD NEW PROJECT HERE ──────────────────────────────────────────
           # - name:       "YourProjectName"
           #   project_id: "your_project_id"
-          #   url_secret:  "SUPABASE_YOURPROJECT_URL"
-          #   key_secret:  "SUPABASE_YOURPROJECT_ANON_KEY"
+          # Then add an elif block below in the "Resolve secrets" step.
 
     steps:
+      - name: Resolve secrets for ${{ matrix.name }}
+        # GitHub Actions does not resolve secrets[variable] dynamically.
+        # Each project must be mapped to literal secret names here.
+        run: |
+          if [ "${{ matrix.name }}" = "OpenBrain" ]; then
+            echo "PROJECT_URL=${{ secrets.SUPABASE_OPENBRAIN_URL }}" >> $GITHUB_ENV
+            echo "PROJECT_KEY=${{ secrets.SUPABASE_OPENBRAIN_ANON_KEY }}" >> $GITHUB_ENV
+          elif [ "${{ matrix.name }}" = "fub-enrichment" ]; then
+            echo "PROJECT_URL=${{ secrets.SUPABASE_FUBENRICHMENT_URL }}" >> $GITHUB_ENV
+            echo "PROJECT_KEY=${{ secrets.SUPABASE_FUBENRICHMENT_ANON_KEY }}" >> $GITHUB_ENV
+          else
+            echo "❌ No secrets configured for project: ${{ matrix.name }}"
+            echo "   Add an elif block in the 'Resolve secrets' step."
+            exit 1
+          fi
+
       - name: Ping ${{ matrix.name }} (${{ matrix.project_id }})
         id: ping
         run: |
           echo "→ Pinging ${{ matrix.name }} (${{ matrix.project_id }})..."
 
           HTTP_STATUS=$(curl -s -o response.txt -w "%{http_code}" \
-            "${{ secrets[matrix.url_secret] }}/rest/v1/" \
-            -H "apikey: ${{ secrets[matrix.key_secret] }}" \
-            -H "Authorization: Bearer ${{ secrets[matrix.key_secret] }}" \
+            "$PROJECT_URL/rest/v1/" \
+            -H "apikey: $PROJECT_KEY" \
+            -H "Authorization: Bearer $PROJECT_KEY" \
             --max-time 30)
 
           echo "HTTP status: $HTTP_STATUS"
