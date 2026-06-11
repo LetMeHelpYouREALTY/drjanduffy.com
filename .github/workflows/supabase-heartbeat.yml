@@ -1,10 +1,12 @@
 # .github/workflows/supabase-heartbeat.yml
 #
-# Supabase Keep-Alive — Dr. Jan Duffy
-# Strategy A + C: single repo, matrix job — one entry per project.
+# Supabase Keep-Alive -- Dr. Jan Duffy
+# Strategy A + C: single repo, matrix job -- one entry per project.
 #
 # NOTE: GitHub Actions does NOT support dynamic secret access via secrets[variable].
 # Each project's secrets must be referenced by literal name in the "Resolve secrets" step.
+#
+# Endpoint: /auth/v1/health -- works with anon key; /rest/v1/ requires service_role.
 #
 # TO ADD A NEW PROJECT:
 #   1. Add a new block under matrix.include (name + project_id only)
@@ -13,24 +15,13 @@
 #
 # Fires every 3 days at 07:00 UTC (redundancy layer).
 # Primary keep-alive: daily Claude Cowork scheduled task.
-#
-# ── CURRENT PROJECTS ──────────────────────────────────────────────────────────
-#   OpenBrain       eigkvbicjteowmavhyah   Secrets: SUPABASE_OPENBRAIN_*
-#   fub-enrichment  aytsbglbeesjzgyxutik   Secrets: SUPABASE_FUBENRICHMENT_*
-# ─────────────────────────────────────────────────────────────────────────────
-#
-# GITHUB SECRETS REQUIRED (Settings → Secrets and variables → Actions):
-#   SUPABASE_OPENBRAIN_URL          = https://eigkvbicjteowmavhyah.supabase.co
-#   SUPABASE_OPENBRAIN_ANON_KEY     = (Supabase dashboard → OpenBrain → Settings → API → anon public)
-#   SUPABASE_FUBENRICHMENT_URL      = https://aytsbglbeesjzgyxutik.supabase.co
-#   SUPABASE_FUBENRICHMENT_ANON_KEY = (Supabase dashboard → fub-enrichment → Settings → API → anon public)
 
 name: Supabase Keep-Alive
 
 on:
   schedule:
-    - cron: "0 7 */3 * *"   # Every 3 days at 07:00 UTC
-  workflow_dispatch:          # Manual trigger from GitHub Actions UI
+    - cron: "0 7 */3 * *"
+  workflow_dispatch:
 
 jobs:
   keepalive:
@@ -39,27 +30,16 @@ jobs:
     timeout-minutes: 5
 
     strategy:
-      fail-fast: false        # If one project fails, still ping the rest
+      fail-fast: false
       matrix:
         include:
-
-          # ── Project 1: OpenBrain ─────────────────────────────────────────
-          - name:       "OpenBrain"
+          - name: "OpenBrain"
             project_id: "eigkvbicjteowmavhyah"
-
-          # ── Project 2: fub-enrichment ─────────────────────────────────────
-          - name:       "fub-enrichment"
+          - name: "fub-enrichment"
             project_id: "aytsbglbeesjzgyxutik"
-
-          # ── ADD NEW PROJECT HERE ──────────────────────────────────────────
-          # - name:       "YourProjectName"
-          #   project_id: "your_project_id"
-          # Then add an elif block below in the "Resolve secrets" step.
 
     steps:
       - name: Resolve secrets for ${{ matrix.name }}
-        # GitHub Actions does not resolve secrets[variable] dynamically.
-        # Each project must be mapped to literal secret names here.
         run: |
           if [ "${{ matrix.name }}" = "OpenBrain" ]; then
             echo "PROJECT_URL=${{ secrets.SUPABASE_OPENBRAIN_URL }}" >> $GITHUB_ENV
@@ -68,33 +48,28 @@ jobs:
             echo "PROJECT_URL=${{ secrets.SUPABASE_FUBENRICHMENT_URL }}" >> $GITHUB_ENV
             echo "PROJECT_KEY=${{ secrets.SUPABASE_FUBENRICHMENT_ANON_KEY }}" >> $GITHUB_ENV
           else
-            echo "❌ No secrets configured for project: ${{ matrix.name }}"
-            echo "   Add an elif block in the 'Resolve secrets' step."
+            echo "No secrets configured for ${{ matrix.name }}"
             exit 1
           fi
 
       - name: Ping ${{ matrix.name }} (${{ matrix.project_id }})
         id: ping
         run: |
-          echo "→ Pinging ${{ matrix.name }} (${{ matrix.project_id }})..."
-
+          echo "Pinging ${{ matrix.name }}..."
           HTTP_STATUS=$(curl -s -o response.txt -w "%{http_code}" \
-            "$PROJECT_URL/rest/v1/" \
+            "$PROJECT_URL/auth/v1/health" \
             -H "apikey: $PROJECT_KEY" \
-            -H "Authorization: Bearer $PROJECT_KEY" \
             --max-time 30)
-
           echo "HTTP status: $HTTP_STATUS"
-
           if [ "$HTTP_STATUS" -ge 200 ] && [ "$HTTP_STATUS" -lt 300 ]; then
-            echo "✅ ${{ matrix.name }} — OK ($HTTP_STATUS) — $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+            echo "OK ${{ matrix.name }} -- $(date -u)"
             echo "result=OK" >> $GITHUB_OUTPUT
           elif [ "$HTTP_STATUS" = "503" ]; then
-            echo "⚠️  ${{ matrix.name }} — PROJECT MAY BE PAUSED (503)"
+            echo "PAUSED -- project may be paused"
             echo "result=PAUSED" >> $GITHUB_OUTPUT
             exit 1
           else
-            echo "❌ ${{ matrix.name }} — ERROR ($HTTP_STATUS)"
+            echo "ERROR -- $HTTP_STATUS"
             cat response.txt || true
             echo "result=ERROR" >> $GITHUB_OUTPUT
             exit 1
