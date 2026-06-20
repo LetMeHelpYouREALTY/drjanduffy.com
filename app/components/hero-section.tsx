@@ -61,7 +61,7 @@ export default function HeroSection() {
                 Summerlin West luxury specialist: The Ridges, The Summit, Red Rock Country Club, and newer villages.
               </p>
               <div className="flex flex-wrap justify-center gap-4 mb-6 text-lg">
-                <a href="tel:7022221964" className="font-bold hover:underline">Call 702-222-1964</a>
+                <a href="tel:7025001064" className="font-bold hover:underline">Call (702) 500-1064</a>
               </div>
               <p className="text-sm md:text-base text-gray-300 mb-4">
                 Dr. Jan Duffy | Berkshire Hathaway HomeServices | License #S.0197614.LLC
