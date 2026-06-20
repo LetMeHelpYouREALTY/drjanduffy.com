@@ -20,19 +20,19 @@ export default function GoogleReviews({ reviews, showSchema = true }: GoogleRevi
       author: 'Summerlin West Seller',
       rating: 5,
       text: 'Dr. Jan sold my home that DID NOT sell in 16 days at 99% of asking. My previous agent had it for 90 days and it expired. The difference was night and day.',
-      date: '2025-01-15',
+      date: '2026-01-15',
     },
     {
       author: 'The Ridges Seller',
       rating: 5,
       text: 'I was skeptical after my home DID NOT sell. But Dr. Jan\'s marketing was incredible. Professional photos, aggressive follow-up, strategic negotiation. Sold in 19 days.',
-      date: '2025-01-10',
+      date: '2026-01-10',
     },
     {
       author: 'Red Rock Country Club Seller',
       rating: 5,
       text: 'The weekly updates were amazing. I always knew what was happening. The transparency and accountability were refreshing after my previous agent disappeared.',
-      date: '2025-01-05',
+      date: '2026-01-05',
     },
   ]
 
