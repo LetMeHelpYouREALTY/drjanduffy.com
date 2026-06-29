@@ -1,7 +1,7 @@
+import { withWorkflow } from 'workflow/next'
 import type { NextConfig } from 'next'
 
 const nextConfig: NextConfig = {
-  /* config options here */
   images: {
     formats: ['image/avif', 'image/webp'],
     remotePatterns: [
@@ -11,12 +11,20 @@ const nextConfig: NextConfig = {
       },
     ],
   },
-  // Performance optimizations
   compress: true,
   poweredByHeader: false,
-  // Output file tracing for better performance
   outputFileTracingRoot: process.cwd(),
-  // SEO optimizations
+  experimental: {
+    optimizePackageImports: [
+      'lucide-react',
+      '@radix-ui/react-alert-dialog',
+      '@radix-ui/react-dialog',
+      '@radix-ui/react-dropdown-menu',
+      '@radix-ui/react-popover',
+      '@radix-ui/react-slot',
+      '@radix-ui/react-switch',
+    ],
+  },
   async headers() {
     return [
       {
@@ -44,4 +52,4 @@ const nextConfig: NextConfig = {
   },
 }
 
-export default nextConfig
+export default withWorkflow(nextConfig)
