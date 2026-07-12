@@ -1,6 +1,7 @@
 import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
 import FAQSchema from '@/app/components/faq-schema'
+import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 export const metadata = {
   title: 'The 30-Day Plan | Dr. Jan Duffy',
   description:
@@ -78,6 +79,7 @@ export default function ThirtyDayPlanPage() {
   ]
   return (
     <>
+      <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'The 30-Day Plan', url: '/30-day-plan' }]} />
       <FAQSchema faqs={faqs} />
       <Header />
       <div className="min-h-screen bg-gray-50">

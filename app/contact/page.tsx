@@ -1,6 +1,7 @@
 import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
 import FAQSchema from '@/app/components/faq-schema'
+import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 import GoogleBusinessLink from '@/app/components/google-business-link'
 import GoogleMapEmbed from '@/app/components/google-map-embed'
 import Image from 'next/image'
@@ -36,6 +37,7 @@ export default function ContactPage() {
 
   return (
     <>
+      <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'Contact', url: '/contact' }]} />
       <FAQSchema faqs={faqs} />
       <Header />
       <div className="min-h-screen bg-gray-50">

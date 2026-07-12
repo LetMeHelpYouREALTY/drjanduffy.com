@@ -1,4 +1,5 @@
 import Header from '@/app/components/header'
+import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 export const metadata = {
   title: 'Terms of Service | Dr. Jan Duffy',
   description: 'Terms of service for Dr. Janet Duffy real estate website.',
@@ -6,6 +7,7 @@ export const metadata = {
 export default function TermsPage() {
   return (
     <>
+      <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'Terms of Service', url: '/terms' }]} />
       <Header />
       <div className="min-h-screen bg-gray-50">
         <section className="py-20 bg-white">

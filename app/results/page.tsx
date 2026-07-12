@@ -2,6 +2,7 @@ import Header from '@/app/components/header'
 import { successStories } from '@/lib/data/success-stories'
 import { formatCurrency } from '@/lib/utils'
 import FAQSchema from '@/app/components/faq-schema'
+import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 import { TrendingUp, Clock, DollarSign, Home } from 'lucide-react'
 export const metadata = {
   title: 'Results & Statistics | Dr. Jan Duffy',
@@ -63,6 +64,7 @@ export default function ResultsPage() {
 
   return (
     <>
+      <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'Results & Statistics', url: '/results' }]} />
       <FAQSchema faqs={faqs} />
       <Header />
       <div className="min-h-screen bg-gray-50">

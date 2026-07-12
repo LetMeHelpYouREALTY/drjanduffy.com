@@ -1,6 +1,7 @@
 import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
 import FAQSchema from '@/app/components/faq-schema'
+import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 import { Lightbulb, AlertCircle, CheckCircle } from 'lucide-react'
 export const metadata = {
   title: 'Selling Tips | HOME THAT DID NOT SELL Tips | Dr. Jan Duffy',
@@ -56,6 +57,7 @@ export default function SellingTipsPage() {
   ]
   return (
     <>
+      <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'Selling Tips', url: '/selling-tips' }]} />
       <FAQSchema faqs={faqs} />
       <Header />
       <div className="min-h-screen bg-gray-50">

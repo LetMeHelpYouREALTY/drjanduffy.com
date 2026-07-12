@@ -2,6 +2,7 @@ import Header from '@/app/components/header'
 import { successStories } from '@/lib/data/success-stories'
 import { formatCurrency } from '@/lib/utils'
 import FAQSchema from '@/app/components/faq-schema'
+import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 import Link from 'next/link'
 export const metadata = {
   title: 'Case Studies | HOME THAT DID NOT SELL Case Studies | Dr. Jan Duffy',
@@ -34,6 +35,7 @@ export default function CaseStudiesPage() {
 
   return (
     <>
+      <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'Case Studies', url: '/case-studies' }]} />
       <FAQSchema faqs={faqs} />
       <Header />
       <div className="min-h-screen bg-gray-50">

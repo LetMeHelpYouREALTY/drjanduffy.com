@@ -1,6 +1,7 @@
 import Header from '@/app/components/header'
 import FAQSchema from '@/app/components/faq-schema'
 import LeadForm from '@/app/components/lead-form'
+import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 import { Check, X } from 'lucide-react'
 export const metadata = {
   title: 'Why Choose Dr. Jan Duffy | specialist in homes that DID NOT sell',
@@ -97,6 +98,7 @@ export default function WhyChooseMePage() {
 
   return (
     <>
+      <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'Why Choose Me', url: '/why-choose-me' }]} />
       <FAQSchema faqs={faqs} />
       <Header />
       <div className="min-h-screen bg-gray-50">

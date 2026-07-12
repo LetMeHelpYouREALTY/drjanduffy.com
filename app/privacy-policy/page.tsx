@@ -1,4 +1,5 @@
 import Header from '@/app/components/header'
+import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 export const metadata = {
   title: 'Privacy Policy | Dr. Jan Duffy',
   description: 'Privacy policy for Dr. Janet Duffy real estate website.',
@@ -6,6 +7,7 @@ export const metadata = {
 export default function PrivacyPolicyPage() {
   return (
     <>
+      <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'Privacy Policy', url: '/privacy-policy' }]} />
       <Header />
       <div className="min-h-screen bg-gray-50">
         <section className="py-20 bg-white">

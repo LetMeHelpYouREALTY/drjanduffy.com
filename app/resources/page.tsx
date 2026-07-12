@@ -1,6 +1,7 @@
 import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
 import FAQSchema from '@/app/components/faq-schema'
+import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 import { FileText, Download, BookOpen, Video, HelpCircle } from 'lucide-react'
 export const metadata = {
   title: 'Resources | HOME THAT DID NOT SELL Resources | Dr. Jan Duffy',
@@ -89,6 +90,7 @@ export default function ResourcesPage() {
 
   return (
     <>
+      <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'Resources', url: '/resources' }]} />
       <FAQSchema faqs={faqs} />
       <Header />
       <div className="min-h-screen bg-gray-50">
