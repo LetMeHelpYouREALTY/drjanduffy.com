@@ -312,13 +312,13 @@ export default function HomeWontSellPage() {
                 href="tel:7025001064"
                 className="inline-block bg-[var(--color-cta)] text-[var(--color-cta-foreground)] px-12 py-6 rounded-lg font-bold text-2xl hover:bg-[var(--color-cta-hover)] transition-colors"
               >
-                CALL NOW: (702) 500-1955
+                CALL NOW: (702) 500-1064
               </a>
               <a
                 href="tel:7025001064"
                 className="inline-block bg-[var(--color-cta)] text-[var(--color-cta-foreground)] px-12 py-6 rounded-lg font-bold text-2xl hover:bg-[var(--color-cta-hover)] transition-colors"
               >
-                TEXT: (702) 222-1964
+                TEXT: (702) 500-1064
               </a>
             </div>
             <div className="bg-white/10 p-6 rounded-lg max-w-2xl mx-auto">
