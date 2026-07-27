@@ -16,12 +16,14 @@ export const metadata = {
     locale: 'en_US',
     url: 'https://www.drjanduffy.com/blog',
     title: 'Las Vegas Real Estate Blog | Market Insights & Selling Tips',
-    description: 'Expert insights on Las Vegas real estate, market trends, selling tips, and neighborhood guides.',
+    description:
+      'Expert insights on Las Vegas real estate, market trends, selling tips, and neighborhood guides.',
   },
   twitter: {
     card: 'summary',
     title: 'Las Vegas Real Estate Blog',
-    description: 'Expert insights on Las Vegas real estate, market trends, and selling tips.',
+    description:
+      'Expert insights on Las Vegas real estate, market trends, and selling tips.',
   },
 }
 
@@ -29,22 +31,25 @@ export const metadata = {
 const blogPosts = [
   {
     slug: 'why-house-wont-sell-las-vegas',
-    title: 'Why Your House Won\'t Sell in Las Vegas: 7 Common Mistakes',
-    excerpt: 'Data-driven analysis of why homes don\'t sell in Las Vegas. Common agent failures and how to avoid them.',
+    title: "Why Your House Won't Sell in Las Vegas: 7 Common Mistakes",
+    excerpt:
+      "Data-driven analysis of why homes don't sell in Las Vegas. Common agent failures and how to avoid them.",
     date: '2026-01-15',
     category: 'Selling Tips',
   },
   {
     slug: 'how-to-sell-house-fast-las-vegas',
     title: 'How to Sell Your House Fast in Las Vegas: Complete 2026 Guide',
-    excerpt: 'Complete guide to selling your house fast in Las Vegas. Timeline, checklist, and local considerations.',
+    excerpt:
+      'Complete guide to selling your house fast in Las Vegas. Timeline, checklist, and local considerations.',
     date: '2026-01-10',
     category: 'Selling Tips',
   },
   {
     slug: 'summerlin-market-report-january-2026',
     title: 'Summerlin Real Estate Market Report January 2026',
-    excerpt: 'Current Summerlin market insights: inventory, prices, days on market, trends, and predictions.',
+    excerpt:
+      'Current Summerlin market insights: inventory, prices, days on market, trends, and predictions.',
     date: '2026-01-05',
     category: 'Market Reports',
   },
@@ -53,10 +58,12 @@ const blogPosts = [
 export default function BlogPage() {
   return (
     <>
-      <BreadcrumbSchema items={[
-        { name: 'Home', url: '/' },
-        { name: 'Blog', url: '/blog' }
-      ]} />
+      <BreadcrumbSchema
+        items={[
+          { name: 'Home', url: '/' },
+          { name: 'Blog', url: '/blog' },
+        ]}
+      />
       <Header />
       <div className="min-h-screen bg-gray-50">
         <section className="py-20 bg-white">
@@ -66,24 +73,31 @@ export default function BlogPage() {
                 Las Vegas Real Estate Blog
               </h1>
               <p className="text-xl text-center text-gray-600 mb-12">
-                Expert insights on Las Vegas real estate, market trends, selling tips, and neighborhood guides
+                Expert insights on Las Vegas real estate, market trends, selling
+                tips, and neighborhood guides
               </p>
 
               <div className="space-y-8">
                 {blogPosts.map((post) => (
-                  <article key={post.slug} className="bg-white border-2 border-gray-200 rounded-lg p-8 hover:border-primary transition-colors">
+                  <article
+                    key={post.slug}
+                    className="bg-white border-2 border-gray-200 rounded-lg p-8 hover:border-primary transition-colors"
+                  >
                     <div className="flex items-center gap-4 mb-4">
-                      <span className="text-sm font-semibold text-primary">{post.category}</span>
+                      <span className="text-sm font-semibold text-primary">
+                        {post.category}
+                      </span>
                       <span className="text-sm text-gray-500">{post.date}</span>
                     </div>
                     <h2 className="text-3xl font-black mb-4">
-                      <Link href={`/blog/${post.slug}`} className="hover:text-primary transition-colors">
+                      <Link
+                        href={`/blog/${post.slug}`}
+                        className="hover:text-primary transition-colors"
+                      >
                         {post.title}
                       </Link>
                     </h2>
-                    <p className="text-lg text-gray-700 mb-4">
-                      {post.excerpt}
-                    </p>
+                    <p className="text-lg text-gray-700 mb-4">{post.excerpt}</p>
                     <Link
                       href={`/blog/${post.slug}`}
                       className="inline-block text-primary font-semibold hover:underline"
@@ -112,4 +126,3 @@ export default function BlogPage() {
     </>
   )
 }
-

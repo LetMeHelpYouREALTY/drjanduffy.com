@@ -18,8 +18,9 @@ export default function ServiceSchema({
   areaServed,
   serviceType = 'Real Estate Service',
 }: ServiceSchemaProps) {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com'
-  
+  const baseUrl =
+    process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com'
+
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'Service',
@@ -64,4 +65,3 @@ export default function ServiceSchema({
     />
   )
 }
-

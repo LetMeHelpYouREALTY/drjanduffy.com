@@ -4,7 +4,13 @@ import { calculateExpiredCosts } from '@/lib/utils/calculations'
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json()
-    const { daysExpired, monthlyMortgage, monthlyHOA, monthlyInsurance, monthlyUtilities } = body
+    const {
+      daysExpired,
+      monthlyMortgage,
+      monthlyHOA,
+      monthlyInsurance,
+      monthlyUtilities,
+    } = body
 
     if (
       daysExpired === undefined ||
@@ -35,4 +41,3 @@ export async function POST(request: NextRequest) {
     )
   }
 }
-

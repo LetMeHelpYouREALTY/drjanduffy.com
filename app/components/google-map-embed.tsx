@@ -15,14 +15,18 @@ export default function GoogleMapEmbed({
 }: GoogleMapEmbedProps) {
   // Google Maps embed URL - replace with your actual Google Business Profile embed URL
   // You can get this from Google Maps by clicking Share > Embed a map
-  const mapEmbedUrl = process.env.NEXT_PUBLIC_GOOGLE_MAP_EMBED_URL || 
+  const mapEmbedUrl =
+    process.env.NEXT_PUBLIC_GOOGLE_MAP_EMBED_URL ||
     `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3218.1234567890!2d-115.3030!3d36.1579!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzYsLTE1NS4zMDMw!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus`
 
   const directionsUrl = `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(address)}`
 
   return (
     <div className={`relative ${className}`}>
-      <div className="rounded-lg overflow-hidden border-2 border-gray-200 shadow-lg" style={{ height }}>
+      <div
+        className="rounded-lg overflow-hidden border-2 border-gray-200 shadow-lg"
+        style={{ height }}
+      >
         <iframe
           src={mapEmbedUrl}
           width="100%"
@@ -58,4 +62,3 @@ export default function GoogleMapEmbed({
     </div>
   )
 }
-

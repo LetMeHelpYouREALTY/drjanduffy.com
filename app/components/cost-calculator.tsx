@@ -1,7 +1,10 @@
 'use client'
 
 import { useState } from 'react'
-import { calculateExpiredCosts, type CostCalculationResult } from '@/lib/utils/calculations'
+import {
+  calculateExpiredCosts,
+  type CostCalculationResult,
+} from '@/lib/utils/calculations'
 import { formatCurrency } from '@/lib/utils'
 import { trackCalculatorUsed } from '@/lib/config/analytics'
 import { Button } from '@/components/ui/button'
@@ -23,7 +26,7 @@ export default function CostCalculator() {
       monthlyUtilities,
     })
     setResult(calculation)
-    
+
     // Track calculator usage
     trackCalculatorUsed(daysExpired, calculation.totalWasted)
   }
@@ -36,7 +39,10 @@ export default function CostCalculator() {
 
       <div className="space-y-4 mb-6">
         <div>
-          <label htmlFor="days-expired" className="block text-sm font-semibold mb-2">
+          <label
+            htmlFor="days-expired"
+            className="block text-sm font-semibold mb-2"
+          >
             Days Expired
           </label>
           <input
@@ -50,7 +56,10 @@ export default function CostCalculator() {
         </div>
 
         <div>
-          <label htmlFor="monthly-mortgage" className="block text-sm font-semibold mb-2">
+          <label
+            htmlFor="monthly-mortgage"
+            className="block text-sm font-semibold mb-2"
+          >
             Monthly Mortgage
           </label>
           <input
@@ -64,7 +73,10 @@ export default function CostCalculator() {
         </div>
 
         <div>
-          <label htmlFor="monthly-hoa" className="block text-sm font-semibold mb-2">
+          <label
+            htmlFor="monthly-hoa"
+            className="block text-sm font-semibold mb-2"
+          >
             Monthly HOA
           </label>
           <input
@@ -78,7 +90,10 @@ export default function CostCalculator() {
         </div>
 
         <div>
-          <label htmlFor="monthly-insurance" className="block text-sm font-semibold mb-2">
+          <label
+            htmlFor="monthly-insurance"
+            className="block text-sm font-semibold mb-2"
+          >
             Monthly Insurance
           </label>
           <input
@@ -92,7 +107,10 @@ export default function CostCalculator() {
         </div>
 
         <div>
-          <label htmlFor="monthly-utilities" className="block text-sm font-semibold mb-2">
+          <label
+            htmlFor="monthly-utilities"
+            className="block text-sm font-semibold mb-2"
+          >
             Monthly Utilities
           </label>
           <input
@@ -126,13 +144,17 @@ export default function CostCalculator() {
               </span>
             </div>
             <div className="flex justify-between items-center">
-              <span className="text-lg font-semibold">Total Wasted So Far:</span>
+              <span className="text-lg font-semibold">
+                Total Wasted So Far:
+              </span>
               <span className="text-2xl font-black text-red-600">
                 {formatCurrency(result.totalWasted)}
               </span>
             </div>
             <div className="flex justify-between items-center">
-              <span className="text-lg font-semibold">Projected 30-Day Loss:</span>
+              <span className="text-lg font-semibold">
+                Projected 30-Day Loss:
+              </span>
               <span className="text-2xl font-black text-red-600">
                 {formatCurrency(result.projected30DayLoss)}
               </span>
@@ -159,4 +181,3 @@ export default function CostCalculator() {
     </div>
   )
 }
-

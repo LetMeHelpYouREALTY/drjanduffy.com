@@ -21,7 +21,12 @@ export default function NotFound() {
             <Button asChild size="lg" className="text-lg px-8 py-6">
               <Link href="/">Go to Homepage</Link>
             </Button>
-            <Button asChild size="lg" variant="outline" className="text-lg px-8 py-6">
+            <Button
+              asChild
+              size="lg"
+              variant="outline"
+              className="text-lg px-8 py-6"
+            >
               <a href="tel:7025001064">Call (702) 500-1064</a>
             </Button>
           </div>
@@ -59,4 +64,3 @@ export default function NotFound() {
     </>
   )
 }
-

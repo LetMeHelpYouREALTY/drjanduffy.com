@@ -34,7 +34,10 @@ export default function ResultsPage() {
       description: 'In Summerlin properties',
     },
   ]
-  const totalValue = successStories.reduce((sum, story) => sum + story.soldPrice, 0)
+  const totalValue = successStories.reduce(
+    (sum, story) => sum + story.soldPrice,
+    0,
+  )
   const avgDays = Math.round(
     successStories.reduce((sum, story) => sum + story.daysSold, 0) /
       successStories.length,
@@ -54,7 +57,8 @@ export default function ResultsPage() {
                 REAL RESULTS
               </h1>
               <p className="text-xl text-center text-gray-600 mb-12">
-                Actual statistics from homes that didn't sell - now sold by Dr. Jan Duffy
+                Actual statistics from homes that didn't sell - now sold by Dr.
+                Jan Duffy
               </p>
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
                 {stats.map((stat, index) => {
@@ -90,7 +94,9 @@ export default function ResultsPage() {
                     <p className="text-3xl font-black text-primary mb-2">
                       {avgDays} Days
                     </p>
-                    <p className="text-lg font-semibold">Average Time to Sell</p>
+                    <p className="text-lg font-semibold">
+                      Average Time to Sell
+                    </p>
                     <p className="text-sm text-gray-600">
                       From expired to sold
                     </p>
@@ -118,7 +124,9 @@ export default function ResultsPage() {
                     >
                       <div className="flex justify-between items-start mb-4">
                         <div>
-                          <h3 className="text-2xl font-bold">{story.neighborhood}</h3>
+                          <h3 className="text-2xl font-bold">
+                            {story.neighborhood}
+                          </h3>
                           <p className="text-gray-600 text-sm">
                             Previous Agent: {story.previousAgent}
                           </p>
@@ -149,7 +157,8 @@ export default function ResultsPage() {
                         <div className="flex justify-between">
                           <span className="text-gray-600">Sold:</span>
                           <span className="font-bold text-green-700">
-                            {formatCurrency(story.soldPrice)} ({story.soldPercentage}%)
+                            {formatCurrency(story.soldPrice)} (
+                            {story.soldPercentage}%)
                           </span>
                         </div>
                       </div>

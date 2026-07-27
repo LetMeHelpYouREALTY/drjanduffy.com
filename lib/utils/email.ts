@@ -14,7 +14,7 @@ export async function sendExpiredReport(email: string, name: string) {
   // TODO: Integrate with Resend API
   // For now, this is a placeholder
   console.log(`Sending expired report to ${email} for ${name}`)
-  
+
   // When Resend is configured:
   // await resend.emails.send({
   //   from: 'Dr. Jan <drjan@example.com>',
@@ -30,7 +30,7 @@ export async function sendFollowUpEmail(
   day: number,
 ) {
   console.log(`Sending day ${day} follow-up to ${email} for ${name}`)
-  
+
   // TODO: Implement email sequences
 }
 
@@ -45,4 +45,3 @@ function getExpiredReportEmail(name: string): string {
     </html>
   `
 }
-

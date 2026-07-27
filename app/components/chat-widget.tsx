@@ -10,8 +10,8 @@ export default function ChatWidget() {
 
   const messages = [
     { text: "Still expired? Let's talk 🔥", delay: 3000 },
-    { text: "Your agent wasted 63 days. I need 30.", delay: 30000 },
-    { text: "Leaving? Your house is still expired...", delay: 60000 },
+    { text: 'Your agent wasted 63 days. I need 30.', delay: 30000 },
+    { text: 'Leaving? Your house is still expired...', delay: 60000 },
   ]
 
   useEffect(() => {
@@ -72,4 +72,3 @@ export default function ChatWidget() {
     </>
   )
 }
-

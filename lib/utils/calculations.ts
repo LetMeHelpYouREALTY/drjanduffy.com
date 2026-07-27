@@ -67,4 +67,3 @@ export function calculateHomeValue(inputs: ValueCheckInputs): ValueCheckResult {
     estimatedPriceDrop: Math.round(estimatedPriceDrop),
   }
 }
-

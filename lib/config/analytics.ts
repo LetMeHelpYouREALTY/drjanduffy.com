@@ -2,11 +2,7 @@
 
 declare global {
   interface Window {
-    fbq?: (
-      action: string,
-      event: string,
-      params?: Record<string, any>,
-    ) => void
+    fbq?: (action: string, event: string, params?: Record<string, any>) => void
     dataLayer?: any[]
   }
 }
@@ -64,4 +60,3 @@ export function trackValueCheck(address?: string) {
     address,
   })
 }
-

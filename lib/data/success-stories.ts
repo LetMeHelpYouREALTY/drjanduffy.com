@@ -21,7 +21,8 @@ export const successStories: SuccessStory[] = [
     soldPrice: 1240000,
     soldPercentage: 99.2,
     previousAgent: 'Big Franchise',
-    testimonial: 'Previous agent had my house for 4 months with zero offers. Dr. Jan sold it in 2 weeks at 99.2% of asking.',
+    testimonial:
+      'Previous agent had my house for 4 months with zero offers. Dr. Jan sold it in 2 weeks at 99.2% of asking.',
   },
   {
     id: '2',
@@ -32,7 +33,8 @@ export const successStories: SuccessStory[] = [
     soldPrice: 837250,
     soldPercentage: 98.5,
     previousAgent: 'Discount Broker',
-    testimonial: 'After 94 days with Redfin and multiple price drops, Dr. Jan got us full asking price in 21 days.',
+    testimonial:
+      'After 94 days with Redfin and multiple price drops, Dr. Jan got us full asking price in 21 days.',
   },
   {
     id: '3',
@@ -43,7 +45,8 @@ export const successStories: SuccessStory[] = [
     soldPrice: 2053800,
     soldPercentage: 97.8,
     previousAgent: 'Luxury Expert',
-    testimonial: 'Three agents failed over 6 months. Dr. Jan sold our luxury home in 31 days at 97.8% of asking.',
+    testimonial:
+      'Three agents failed over 6 months. Dr. Jan sold our luxury home in 31 days at 97.8% of asking.',
   },
   {
     id: '4',
@@ -54,7 +57,8 @@ export const successStories: SuccessStory[] = [
     soldPrice: 666225,
     soldPercentage: 98.7,
     previousAgent: 'Friend Referral',
-    testimonial: 'My friend\'s agent was nice but couldn\'t sell. Dr. Jan got it done in 19 days.',
+    testimonial:
+      "My friend's agent was nice but couldn't sell. Dr. Jan got it done in 19 days.",
   },
   {
     id: '5',
@@ -65,14 +69,16 @@ export const successStories: SuccessStory[] = [
     soldPrice: 1432750,
     soldPercentage: 98.8,
     previousAgent: 'National Brand',
-    testimonial: 'Failed in Oct, sold in Dec for 98.8% asking. Dr. Jan knows how to sell luxury homes.',
+    testimonial:
+      'Failed in Oct, sold in Dec for 98.8% asking. Dr. Jan knows how to sell luxury homes.',
   },
 ]
 
-export function getSuccessStoriesByNeighborhood(neighborhood?: string): SuccessStory[] {
+export function getSuccessStoriesByNeighborhood(
+  neighborhood?: string,
+): SuccessStory[] {
   if (!neighborhood) return successStories
   return successStories.filter((story) =>
     story.neighborhood.toLowerCase().includes(neighborhood.toLowerCase()),
   )
 }
-

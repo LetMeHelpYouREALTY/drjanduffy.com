@@ -13,7 +13,9 @@ export default function SuccessStoriesCarousel() {
   }
 
   const prev = () => {
-    setCurrentIndex((prev) => (prev - 1 + successStories.length) % successStories.length)
+    setCurrentIndex(
+      (prev) => (prev - 1 + successStories.length) % successStories.length,
+    )
   }
 
   const currentStory = successStories[currentIndex]
@@ -44,7 +46,9 @@ export default function SuccessStoriesCarousel() {
         <div className="flex justify-between items-start mb-4">
           <div>
             <h3 className="text-2xl font-bold">{currentStory.neighborhood}</h3>
-            <p className="text-gray-600">Previous Agent: {currentStory.previousAgent}</p>
+            <p className="text-gray-600">
+              Previous Agent: {currentStory.previousAgent}
+            </p>
           </div>
           <div className="text-right">
             <div className="bg-red-100 text-red-800 px-3 py-1 rounded-full text-sm font-bold">
@@ -71,12 +75,15 @@ export default function SuccessStoriesCarousel() {
         <div className="space-y-2 mb-4">
           <div className="flex justify-between">
             <span className="text-gray-600">Asking Price:</span>
-            <span className="font-bold">{formatCurrency(currentStory.askingPrice)}</span>
+            <span className="font-bold">
+              {formatCurrency(currentStory.askingPrice)}
+            </span>
           </div>
           <div className="flex justify-between">
             <span className="text-gray-600">Sold Price:</span>
             <span className="font-bold text-green-700">
-              {formatCurrency(currentStory.soldPrice)} ({currentStory.soldPercentage}%)
+              {formatCurrency(currentStory.soldPrice)} (
+              {currentStory.soldPercentage}%)
             </span>
           </div>
         </div>
@@ -103,4 +110,3 @@ export default function SuccessStoriesCarousel() {
     </div>
   )
 }
-

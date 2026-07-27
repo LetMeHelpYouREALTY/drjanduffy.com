@@ -14,7 +14,7 @@ export default function Header() {
   const mainNavItems = [
     { href: '/', label: 'Home' },
     { href: '/sell-house-fast-las-vegas', label: 'Sell Your Home' },
-    { href: '/home-wont-sell-las-vegas', label: 'Home Won\'t Sell?' },
+    { href: '/home-wont-sell-las-vegas', label: "Home Won't Sell?" },
     { href: '/summerlin-real-estate-agent', label: 'Summerlin Agent' },
     { href: '/neighborhoods', label: 'Neighborhoods' },
     { href: '/blog', label: 'Blog' },
@@ -61,7 +61,9 @@ export default function Header() {
       <div className="bg-primary text-primary-foreground text-sm py-2">
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-center gap-4 flex-wrap">
-            <span className="font-bold">🔥 47 homes that DIDN\'T sell - now sold</span>
+            <span className="font-bold">
+              🔥 47 homes that DIDN\'T sell - now sold
+            </span>
             <span className="hidden md:inline">|</span>
             <span className="hidden md:inline">19 Day Average</span>
             <span className="hidden md:inline">|</span>
@@ -110,7 +112,11 @@ export default function Header() {
               >
                 <button
                   className={`px-4 py-2 rounded-lg font-semibold transition-colors flex items-center gap-1 ${
-                    pathname.startsWith('/services') || pathname.startsWith('/process') || pathname.startsWith('/marketing-strategy') || pathname.startsWith('/why-choose-me') || pathname.startsWith('/comparison')
+                    pathname.startsWith('/services') ||
+                    pathname.startsWith('/process') ||
+                    pathname.startsWith('/marketing-strategy') ||
+                    pathname.startsWith('/why-choose-me') ||
+                    pathname.startsWith('/comparison')
                       ? 'text-primary bg-primary/10'
                       : 'text-gray-700 hover:text-primary hover:bg-gray-100'
                   }`}
@@ -125,7 +131,9 @@ export default function Header() {
                         key={item.href}
                         href={item.href}
                         className={`block px-4 py-2 hover:bg-primary/10 hover:text-primary transition-colors ${
-                          isActive(item.href) ? 'text-primary font-semibold' : 'text-gray-700'
+                          isActive(item.href)
+                            ? 'text-primary font-semibold'
+                            : 'text-gray-700'
                         }`}
                       >
                         {item.label}
@@ -158,7 +166,9 @@ export default function Header() {
                         key={item.href}
                         href={item.href}
                         className={`block px-4 py-2 hover:bg-primary/10 hover:text-primary transition-colors ${
-                          isActive(item.href) ? 'text-primary font-semibold' : 'text-gray-700'
+                          isActive(item.href)
+                            ? 'text-primary font-semibold'
+                            : 'text-gray-700'
                         }`}
                       >
                         {item.label}
@@ -172,7 +182,10 @@ export default function Header() {
               <Link
                 href="/resources"
                 className={`px-4 py-2 rounded-lg font-semibold transition-colors ${
-                  pathname.startsWith('/resources') || pathname.startsWith('/tools') || pathname.startsWith('/why-expire') || pathname.startsWith('/testimonials')
+                  pathname.startsWith('/resources') ||
+                  pathname.startsWith('/tools') ||
+                  pathname.startsWith('/why-expire') ||
+                  pathname.startsWith('/testimonials')
                     ? 'text-primary bg-primary/10'
                     : 'text-gray-700 hover:text-primary hover:bg-gray-100'
                 }`}
@@ -203,7 +216,11 @@ export default function Header() {
                 className="lg:hidden p-2 text-gray-700 hover:text-primary transition-colors"
                 aria-label="Toggle menu"
               >
-                {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+                {mobileMenuOpen ? (
+                  <X className="w-6 h-6" />
+                ) : (
+                  <Menu className="w-6 h-6" />
+                )}
               </button>
             </div>
           </div>
@@ -230,7 +247,9 @@ export default function Header() {
 
               {/* Mobile Services Section */}
               <div className="pt-2">
-                <div className="px-4 py-2 text-sm font-bold text-gray-500 uppercase">Services</div>
+                <div className="px-4 py-2 text-sm font-bold text-gray-500 uppercase">
+                  Services
+                </div>
                 {servicesItems.map((item) => (
                   <Link
                     key={item.href}
@@ -249,7 +268,9 @@ export default function Header() {
 
               {/* Mobile Condos Section */}
               <div className="pt-2">
-                <div className="px-4 py-2 text-sm font-bold text-gray-500 uppercase">Condos</div>
+                <div className="px-4 py-2 text-sm font-bold text-gray-500 uppercase">
+                  Condos
+                </div>
                 {condosItems.map((item) => (
                   <Link
                     key={item.href}
@@ -268,7 +289,9 @@ export default function Header() {
 
               {/* Mobile Resources Section */}
               <div className="pt-2">
-                <div className="px-4 py-2 text-sm font-bold text-gray-500 uppercase">Resources</div>
+                <div className="px-4 py-2 text-sm font-bold text-gray-500 uppercase">
+                  Resources
+                </div>
                 {resourcesItems.map((item) => (
                   <Link
                     key={item.href}
@@ -303,4 +326,3 @@ export default function Header() {
     </>
   )
 }
-

@@ -44,9 +44,7 @@ export default function ExitIntentPopup() {
           <h2 className="text-3xl font-black mb-2">
             WAIT! STILL TRUSTING THE AGENT WHO FAILED YOU?
           </h2>
-          <p className="text-lg font-semibold mb-4">
-            Get My Free Report:
-          </p>
+          <p className="text-lg font-semibold mb-4">Get My Free Report:</p>
           <p className="text-xl font-bold text-primary mb-2">
             "7 Reasons your home didn't sell
           </p>
@@ -67,4 +65,3 @@ export default function ExitIntentPopup() {
     </div>
   )
 }
-

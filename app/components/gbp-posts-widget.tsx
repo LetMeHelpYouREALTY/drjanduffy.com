@@ -24,19 +24,22 @@ export default function GBPPostsWidget({
   const defaultPosts: GBPPost[] = posts || [
     {
       title: 'New Year, New Opportunities for Sellers',
-      description: 'January 2026 is the perfect time to reset your home that didn\'t sell. Spring buyers are already looking, and we\'re here to help you get top dollar.',
+      description:
+        "January 2026 is the perfect time to reset your home that didn't sell. Spring buyers are already looking, and we're here to help you get top dollar.",
       date: '2026-01-15',
       type: 'update',
     },
     {
       title: 'Free Home Valuation for Las Vegas Sellers',
-      description: 'Get a free, no-obligation home valuation. Understand your home\'s true market value and what it could sell for with the right marketing strategy.',
+      description:
+        "Get a free, no-obligation home valuation. Understand your home's true market value and what it could sell for with the right marketing strategy.",
       date: '2026-01-10',
       type: 'offer',
     },
     {
-      title: '47 Homes That Didn\'t Sell - Now Sold',
-      description: 'We\'ve helped 47 Summerlin sellers who couldn\'t sell with their previous agent. Average 19 days to contract, 98.7% of asking price.',
+      title: "47 Homes That Didn't Sell - Now Sold",
+      description:
+        "We've helped 47 Summerlin sellers who couldn't sell with their previous agent. Average 19 days to contract, 98.7% of asking price.",
       date: '2026-01-05',
       type: 'update',
     },
@@ -74,7 +77,13 @@ export default function GBPPostsWidget({
                   {post.date && (
                     <div className="flex items-center gap-1 text-sm text-gray-600">
                       <Calendar className="w-4 h-4" />
-                      <span>{new Date(post.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}</span>
+                      <span>
+                        {new Date(post.date).toLocaleDateString('en-US', {
+                          month: 'short',
+                          day: 'numeric',
+                          year: 'numeric',
+                        })}
+                      </span>
                     </div>
                   )}
                 </div>
@@ -94,4 +103,3 @@ export default function GBPPostsWidget({
     </div>
   )
 }
-

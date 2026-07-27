@@ -3,9 +3,9 @@ import { successStories } from '@/lib/data/success-stories'
 import { formatCurrency } from '@/lib/utils'
 import Link from 'next/link'
 export const metadata = {
-  title: 'Case Studies | HOME THAT DIDN\'T SELL Case Studies | Dr. Jan Duffy',
+  title: "Case Studies | HOME THAT DIDN'T SELL Case Studies | Dr. Jan Duffy",
   description:
-    'Detailed case studies of homes that didn\'t sell - now sold by Dr. Jan Duffy. See how failed listings became successful sales.',
+    "Detailed case studies of homes that didn't sell - now sold by Dr. Jan Duffy. See how failed listings became successful sales.",
 }
 export default function CaseStudiesPage() {
   return (
@@ -19,7 +19,8 @@ export default function CaseStudiesPage() {
                 DETAILED CASE STUDIES
               </h1>
               <p className="text-xl text-center text-gray-600 mb-12">
-                In-depth analysis of how HOMES THAT DIDN\'T SELL became successful sales
+                In-depth analysis of how HOMES THAT DIDN\'T SELL became
+                successful sales
               </p>
               <div className="space-y-12">
                 {successStories.map((story) => (
@@ -29,7 +30,9 @@ export default function CaseStudiesPage() {
                   >
                     <div className="flex flex-col md:flex-row justify-between items-start mb-6">
                       <div>
-                        <h2 className="text-3xl font-black mb-2">{story.neighborhood}</h2>
+                        <h2 className="text-3xl font-black mb-2">
+                          {story.neighborhood}
+                        </h2>
                         <p className="text-gray-600">
                           Previous Agent: {story.previousAgent}
                         </p>
@@ -44,7 +47,9 @@ export default function CaseStudiesPage() {
                       <div className="bg-gray-50 p-6 rounded-lg">
                         <h3 className="text-xl font-bold mb-4">The Problem</h3>
                         <ul className="space-y-2 text-gray-700">
-                          <li>• home didn't sell after {story.daysExpired} days</li>
+                          <li>
+                            • home didn't sell after {story.daysExpired} days
+                          </li>
                           <li>• Previous agent: {story.previousAgent}</li>
                           <li>• Zero offers during listing period</li>
                           <li>• Stigma from expired status</li>
@@ -63,14 +68,20 @@ export default function CaseStudiesPage() {
                       </div>
                     </div>
                     <div className="bg-primary text-primary-foreground p-6 rounded-lg mb-6">
-                      <h3 className="text-2xl font-black mb-4 text-center">THE RESULTS</h3>
+                      <h3 className="text-2xl font-black mb-4 text-center">
+                        THE RESULTS
+                      </h3>
                       <div className="grid md:grid-cols-4 gap-4 text-center">
                         <div>
-                          <p className="text-3xl font-black mb-1">{story.daysSold}</p>
+                          <p className="text-3xl font-black mb-1">
+                            {story.daysSold}
+                          </p>
                           <p className="text-sm opacity-90">Days to Sell</p>
                         </div>
                         <div>
-                          <p className="text-3xl font-black mb-1">{story.soldPercentage}%</p>
+                          <p className="text-3xl font-black mb-1">
+                            {story.soldPercentage}%
+                          </p>
                           <p className="text-sm opacity-90">Of Asking</p>
                         </div>
                         <div>
@@ -89,7 +100,9 @@ export default function CaseStudiesPage() {
                     </div>
                     {story.testimonial && (
                       <div className="border-t pt-6">
-                        <h3 className="text-xl font-bold mb-3">Client Testimonial</h3>
+                        <h3 className="text-xl font-bold mb-3">
+                          Client Testimonial
+                        </h3>
                         <p className="text-lg text-gray-700 italic">
                           "{story.testimonial}"
                         </p>

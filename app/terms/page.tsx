@@ -16,36 +16,50 @@ export default function TermsPage() {
               </h1>
               <div className="space-y-8">
                 <div>
-                  <h2 className="text-2xl font-bold mb-4">Agreement to Terms</h2>
+                  <h2 className="text-2xl font-bold mb-4">
+                    Agreement to Terms
+                  </h2>
                   <p>
-                    By accessing and using this website, you agree to be bound by these Terms of Service.
+                    By accessing and using this website, you agree to be bound
+                    by these Terms of Service.
                   </p>
                 </div>
                 <div>
-                  <h2 className="text-2xl font-bold mb-4">Real Estate Services</h2>
+                  <h2 className="text-2xl font-bold mb-4">
+                    Real Estate Services
+                  </h2>
                   <p>
-                    Dr. Janet Duffy is a licensed real estate agent. All real estate services are subject to
-                    separate written agreements and applicable real estate laws and regulations.
+                    Dr. Janet Duffy is a licensed real estate agent. All real
+                    estate services are subject to separate written agreements
+                    and applicable real estate laws and regulations.
                   </p>
                 </div>
                 <div>
                   <h2 className="text-2xl font-bold mb-4">Website Content</h2>
                   <p>
-                    All content on this website is for informational purposes only. Results may vary.
-                    Statistics and testimonials are based on actual results but individual results may differ.
+                    All content on this website is for informational purposes
+                    only. Results may vary. Statistics and testimonials are
+                    based on actual results but individual results may differ.
                   </p>
                 </div>
                 <div>
                   <h2 className="text-2xl font-bold mb-4">Contact</h2>
-                  <p>
-                    For questions about these terms, contact:
-                  </p>
+                  <p>For questions about these terms, contact:</p>
                   <p>
                     <strong>Dr. Janet Duffy</strong>
                     <br />
-                    Phone: <a href="tel:7025001064" className="text-primary">(702) 500-1064</a>
+                    Phone:{' '}
+                    <a href="tel:7025001064" className="text-primary">
+                      (702) 500-1064
+                    </a>
                     <br />
-                    Email: <a href="mailto:drjan@drjanduffy.com" className="text-primary">drjan@drjanduffy.com</a>
+                    Email:{' '}
+                    <a
+                      href="mailto:drjan@drjanduffy.com"
+                      className="text-primary"
+                    >
+                      drjan@drjanduffy.com
+                    </a>
                   </p>
                 </div>
                 <div>

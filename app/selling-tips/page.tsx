@@ -72,8 +72,13 @@ export default function SellingTipsPage() {
                       </div>
                       <ul className="space-y-3">
                         {tip.items.map((item, i) => (
-                          <li key={i} className="flex items-start gap-2 text-sm">
-                            <span className="text-primary font-bold mt-1">•</span>
+                          <li
+                            key={i}
+                            className="flex items-start gap-2 text-sm"
+                          >
+                            <span className="text-primary font-bold mt-1">
+                              •
+                            </span>
                             <span className="text-gray-700">{item}</span>
                           </li>
                         ))}
@@ -90,14 +95,19 @@ export default function SellingTipsPage() {
                   Don't hire the same type of agent who failed you.
                 </p>
                 <p className="text-lg text-center opacity-90">
-                  If your previous agent was a generalist, hire a specialist. If they were part-time, hire full-time. If they invested $37, hire someone who invests $3,700.
+                  If your previous agent was a generalist, hire a specialist. If
+                  they were part-time, hire full-time. If they invested $37,
+                  hire someone who invests $3,700.
                 </p>
               </div>
               <div className="bg-white border-2 border-gray-200 rounded-lg p-8">
                 <h2 className="text-2xl font-black mb-4 text-center">
                   NEED PERSONALIZED ADVICE?
                 </h2>
-                <LeadForm source="selling_tips" buttonText="GET EXPERT ADVICE" />
+                <LeadForm
+                  source="selling_tips"
+                  buttonText="GET EXPERT ADVICE"
+                />
               </div>
             </div>
           </div>

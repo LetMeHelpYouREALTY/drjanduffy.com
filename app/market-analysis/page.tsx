@@ -3,7 +3,7 @@ import LeadForm from '@/app/components/lead-form'
 export const metadata = {
   title: 'Market Analysis | Las Vegas Real Estate Market | Dr. Jan Duffy',
   description:
-    'Current Las Vegas real estate market analysis: inventory, pricing trends, and what it means for HOMES THAT DIDN\'T SELL.',
+    "Current Las Vegas real estate market analysis: inventory, pricing trends, and what it means for HOMES THAT DIDN'T SELL.",
 }
 export default function MarketAnalysisPage() {
   return (
@@ -17,22 +17,31 @@ export default function MarketAnalysisPage() {
                 LAS VEGAS MARKET ANALYSIS
               </h1>
               <p className="text-xl text-center text-gray-600 mb-12">
-                Current market conditions and what they mean for HOMES THAT DIDN\'T SELL
+                Current market conditions and what they mean for HOMES THAT
+                DIDN\'T SELL
               </p>
               <div className="space-y-8 mb-12">
                 <div className="bg-white border-2 border-gray-200 rounded-lg p-8">
-                  <h2 className="text-3xl font-black mb-4">Current Market Conditions</h2>
+                  <h2 className="text-3xl font-black mb-4">
+                    Current Market Conditions
+                  </h2>
                   <div className="grid md:grid-cols-2 gap-6">
                     <div>
                       <p className="text-sm text-gray-600 mb-1">Inventory</p>
-                      <p className="text-2xl font-bold">7,500+ Active Listings</p>
+                      <p className="text-2xl font-bold">
+                        7,500+ Active Listings
+                      </p>
                     </div>
                     <div>
-                      <p className="text-sm text-gray-600 mb-1">Months of Supply</p>
+                      <p className="text-sm text-gray-600 mb-1">
+                        Months of Supply
+                      </p>
                       <p className="text-2xl font-bold">4.8 Months</p>
                     </div>
                     <div>
-                      <p className="text-sm text-gray-600 mb-1">Average Days on Market</p>
+                      <p className="text-sm text-gray-600 mb-1">
+                        Average Days on Market
+                      </p>
                       <p className="text-2xl font-bold">63+ Days</p>
                     </div>
                     <div>
@@ -48,19 +57,31 @@ export default function MarketAnalysisPage() {
                   <ul className="space-y-3 text-lg">
                     <li className="flex items-start gap-3">
                       <span className="text-red-600 font-bold">•</span>
-                      <span><strong>1,500-2,250 listings will fail to sell</strong> - Massive opportunity</span>
+                      <span>
+                        <strong>1,500-2,250 listings will fail to sell</strong>{' '}
+                        - Massive opportunity
+                      </span>
                     </li>
                     <li className="flex items-start gap-3">
                       <span className="text-red-600 font-bold">•</span>
-                      <span><strong>Increased competition</strong> - Buyers have more options, need better marketing</span>
+                      <span>
+                        <strong>Increased competition</strong> - Buyers have
+                        more options, need better marketing
+                      </span>
                     </li>
                     <li className="flex items-start gap-3">
                       <span className="text-red-600 font-bold">•</span>
-                      <span><strong>Price sensitivity</strong> - Data-driven pricing is critical</span>
+                      <span>
+                        <strong>Price sensitivity</strong> - Data-driven pricing
+                        is critical
+                      </span>
                     </li>
                     <li className="flex items-start gap-3">
                       <span className="text-red-600 font-bold">•</span>
-                      <span><strong>Stigma risk</strong> - HOMES That Didn\'t SELL need aggressive reset</span>
+                      <span>
+                        <strong>Stigma risk</strong> - HOMES That Didn\'t SELL
+                        need aggressive reset
+                      </span>
                     </li>
                   </ul>
                 </div>
@@ -71,19 +92,31 @@ export default function MarketAnalysisPage() {
                   <ul className="space-y-3 text-lg">
                     <li className="flex items-start gap-3">
                       <span className="text-green-700 font-bold">✓</span>
-                      <span><strong>Fresh start eliminates stigma</strong> - Complete reset removes "expired" label</span>
+                      <span>
+                        <strong>Fresh start eliminates stigma</strong> -
+                        Complete reset removes "expired" label
+                      </span>
                     </li>
                     <li className="flex items-start gap-3">
                       <span className="text-green-700 font-bold">✓</span>
-                      <span><strong>Motivated sellers</strong> - Ready to price competitively and be flexible</span>
+                      <span>
+                        <strong>Motivated sellers</strong> - Ready to price
+                        competitively and be flexible
+                      </span>
                     </li>
                     <li className="flex items-start gap-3">
                       <span className="text-green-700 font-bold">✓</span>
-                      <span><strong>Professional marketing stands out</strong> - Most listings have poor marketing</span>
+                      <span>
+                        <strong>Professional marketing stands out</strong> -
+                        Most listings have poor marketing
+                      </span>
                     </li>
                     <li className="flex items-start gap-3">
                       <span className="text-green-700 font-bold">✓</span>
-                      <span><strong>Buyers are still active</strong> - Just need the right property at the right price</span>
+                      <span>
+                        <strong>Buyers are still active</strong> - Just need the
+                        right property at the right price
+                      </span>
                     </li>
                   </ul>
                 </div>
@@ -102,7 +135,9 @@ export default function MarketAnalysisPage() {
                     </div>
                     <div>
                       <p className="text-4xl font-black mb-2">47</p>
-                      <p className="text-lg">homes that didn't sell - now sold</p>
+                      <p className="text-lg">
+                        homes that didn't sell - now sold
+                      </p>
                     </div>
                   </div>
                 </div>

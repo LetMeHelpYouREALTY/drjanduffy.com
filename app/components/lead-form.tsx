@@ -70,11 +70,10 @@ export default function LeadForm({
   if (submitted) {
     return (
       <div className="p-6 bg-green-50 border-2 border-green-500 rounded-lg text-center">
-        <h3 className="text-xl font-bold text-green-800 mb-2">
-          Thank You!
-        </h3>
+        <h3 className="text-xl font-bold text-green-800 mb-2">Thank You!</h3>
         <p className="text-green-700">
-          We'll contact you within 24 hours to discuss your HOME THAT DIDN\'T SELL.
+          We'll contact you within 24 hours to discuss your HOME THAT DIDN\'T
+          SELL.
         </p>
       </div>
     )
@@ -88,9 +87,7 @@ export default function LeadForm({
           placeholder="Your Name"
           required
           value={formData.name}
-          onChange={(e) =>
-            setFormData({ ...formData, name: e.target.value })
-          }
+          onChange={(e) => setFormData({ ...formData, name: e.target.value })}
           className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-primary focus:outline-none"
         />
       </div>
@@ -100,9 +97,7 @@ export default function LeadForm({
           placeholder="Your Email"
           required
           value={formData.email}
-          onChange={(e) =>
-            setFormData({ ...formData, email: e.target.value })
-          }
+          onChange={(e) => setFormData({ ...formData, email: e.target.value })}
           className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-primary focus:outline-none"
         />
       </div>
@@ -112,9 +107,7 @@ export default function LeadForm({
           placeholder="Your Phone"
           required
           value={formData.phone}
-          onChange={(e) =>
-            setFormData({ ...formData, phone: e.target.value })
-          }
+          onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
           className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-primary focus:outline-none"
         />
       </div>
@@ -141,4 +134,3 @@ export default function LeadForm({
     </form>
   )
 }
-

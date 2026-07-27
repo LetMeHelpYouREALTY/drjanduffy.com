@@ -3,7 +3,7 @@ import LeadForm from '@/app/components/lead-form'
 export const metadata = {
   title: 'Marketing Strategy | 97-Point System | Dr. Jan Duffy',
   description:
-    'Learn about Dr. Jan Duffy\'s 97-point marketing system that sells homes that didn\'t sell in 19 days average.',
+    "Learn about Dr. Jan Duffy's 97-point marketing system that sells homes that didn't sell in 19 days average.",
 }
 export default function MarketingStrategyPage() {
   const strategies = [
@@ -85,7 +85,8 @@ export default function MarketingStrategyPage() {
                 THE 97-POINT MARKETING SYSTEM
               </h1>
               <p className="text-xl text-center text-gray-600 mb-12">
-                Comprehensive marketing strategy that sells homes that DIDN\'T sell fast
+                Comprehensive marketing strategy that sells homes that DIDN\'T
+                sell fast
               </p>
               <div className="grid md:grid-cols-2 gap-8 mb-12">
                 {strategies.map((strategy, index) => (
@@ -113,10 +114,12 @@ export default function MarketingStrategyPage() {
                 </h2>
                 <div className="space-y-4 text-lg">
                   <p>
-                    Your previous agent did <strong>3-5 points</strong>: MLS posting, maybe one open house, zero follow-up.
+                    Your previous agent did <strong>3-5 points</strong>: MLS
+                    posting, maybe one open house, zero follow-up.
                   </p>
                   <p>
-                    I do <strong>97 points</strong>: Complete marketing system, aggressive follow-up, strategic negotiation.
+                    I do <strong>97 points</strong>: Complete marketing system,
+                    aggressive follow-up, strategic negotiation.
                   </p>
                   <p className="text-2xl font-bold mt-4">
                     That's why I sell in 19 days and they got you expired.
@@ -127,7 +130,10 @@ export default function MarketingStrategyPage() {
                 <h2 className="text-2xl font-black mb-4 text-center">
                   READY FOR REAL MARKETING?
                 </h2>
-                <LeadForm source="marketing_strategy" buttonText="GET MY STRATEGY" />
+                <LeadForm
+                  source="marketing_strategy"
+                  buttonText="GET MY STRATEGY"
+                />
               </div>
             </div>
           </div>

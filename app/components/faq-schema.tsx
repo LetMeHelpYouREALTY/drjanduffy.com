@@ -10,8 +10,9 @@ interface FAQSchemaProps {
 }
 
 export default function FAQSchema({ faqs }: FAQSchemaProps) {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com'
-  
+  const baseUrl =
+    process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com'
+
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
@@ -34,4 +35,3 @@ export default function FAQSchema({ faqs }: FAQSchemaProps) {
     />
   )
 }
-

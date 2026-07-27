@@ -1,6 +1,9 @@
 'use client'
 import { useState } from 'react'
-import { calculateHomeValue, type ValueCheckResult } from '@/lib/utils/calculations'
+import {
+  calculateHomeValue,
+  type ValueCheckResult,
+} from '@/lib/utils/calculations'
 import { formatCurrency } from '@/lib/utils'
 import { trackValueCheck } from '@/lib/config/analytics'
 import { Button } from '@/components/ui/button'
@@ -38,13 +41,17 @@ export default function ValueCheckPage() {
                 </h2>
                 <div className="space-y-4 mb-6">
                   <div className="p-4 bg-blue-50 border-2 border-blue-200 rounded-lg">
-                    <div className="text-sm text-gray-600 mb-1">Market Value</div>
+                    <div className="text-sm text-gray-600 mb-1">
+                      Market Value
+                    </div>
                     <div className="text-3xl font-black text-blue-600">
                       {formatCurrency(result.marketValue)}
                     </div>
                   </div>
                   <div className="p-4 bg-green-50 border-2 border-green-200 rounded-lg">
-                    <div className="text-sm text-gray-600 mb-1">Quick Sale Value</div>
+                    <div className="text-sm text-gray-600 mb-1">
+                      Quick Sale Value
+                    </div>
                     <div className="text-3xl font-black text-green-700">
                       {formatCurrency(result.quickSaleValue)}
                     </div>
@@ -53,7 +60,9 @@ export default function ValueCheckPage() {
                     </div>
                   </div>
                   <div className="p-4 bg-yellow-50 border-2 border-yellow-200 rounded-lg">
-                    <div className="text-sm text-gray-600 mb-1">Spring Market Potential</div>
+                    <div className="text-sm text-gray-600 mb-1">
+                      Spring Market Potential
+                    </div>
                     <div className="text-3xl font-black text-yellow-600">
                       {formatCurrency(result.springMarketPotential)}
                     </div>
@@ -63,7 +72,9 @@ export default function ValueCheckPage() {
                   </div>
                   {result.estimatedPriceDrop > 0 && (
                     <div className="p-4 bg-red-50 border-2 border-red-200 rounded-lg">
-                      <div className="text-sm text-gray-600 mb-1">Estimated Price Drop Needed</div>
+                      <div className="text-sm text-gray-600 mb-1">
+                        Estimated Price Drop Needed
+                      </div>
                       <div className="text-2xl font-black text-red-600">
                         {formatCurrency(result.estimatedPriceDrop)}
                       </div>
@@ -96,9 +107,7 @@ export default function ValueCheckPage() {
               <h1 className="text-4xl md:text-5xl font-black mb-4">
                 WHAT'S YOUR HOME REALLY WORTH?
               </h1>
-              <p className="text-xl text-gray-600">
-                (Not the Fantasy Number)
-              </p>
+              <p className="text-xl text-gray-600">(Not the Fantasy Number)</p>
             </div>
             <div className="bg-white rounded-lg shadow-xl p-8 border-2 border-gray-200">
               <div className="space-y-4 mb-6">

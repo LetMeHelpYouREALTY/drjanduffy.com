@@ -2,40 +2,46 @@ import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
 import { Check, X } from 'lucide-react'
 export const metadata = {
-  title: 'Why Choose Dr. Jan Duffy | specialist in homes that didn\'t sell',
+  title: "Why Choose Dr. Jan Duffy | specialist in homes that didn't sell",
   description:
-    'Why choose Dr. Jan Duffy for your HOME THAT DIDN\'T SELL? 47 sold, 19 day average, 98.7% of asking, and proven results.',
+    "Why choose Dr. Jan Duffy for your HOME THAT DIDN'T SELL? 47 sold, 19 day average, 98.7% of asking, and proven results.",
 }
 export default function WhyChooseMePage() {
   const reasons = [
     {
       title: 'Proven Track Record',
-      description: '47 homes that didn\'t sell - now sold with 19 day average and 98.7% of asking price.',
+      description:
+        "47 homes that didn't sell - now sold with 19 day average and 98.7% of asking price.",
       proof: 'Real results, not promises',
     },
     {
-      title: 'specialist in homes that DIDN\'T sell',
-      description: 'I don\'t dabble in HOMES THAT DIDN\'T SELL - I specialize in them. This is all I do.',
-      proof: '100% focus on HOMES THAT DIDN\'T SELL',
+      title: "specialist in homes that DIDN'T sell",
+      description:
+        "I don't dabble in HOMES THAT DIDN'T SELL - I specialize in them. This is all I do.",
+      proof: "100% focus on HOMES THAT DIDN'T SELL",
     },
     {
       title: 'Maximum 6 Listings',
-      description: 'I take maximum 6 listings at a time. You get 100% focus, not 2.1% like with big franchise agents.',
+      description:
+        'I take maximum 6 listings at a time. You get 100% focus, not 2.1% like with big franchise agents.',
       proof: 'Quality over quantity',
     },
     {
       title: '$5,000+ Marketing Investment',
-      description: 'I invest $5,000+ per listing in professional media and marketing. Your previous agent spent $37.',
+      description:
+        'I invest $5,000+ per listing in professional media and marketing. Your previous agent spent $37.',
       proof: 'Real investment in your success',
     },
     {
       title: 'Proven Results',
-      description: '47 homes that DIDN\'T sell - now sold with 19 day average and 98.7% of asking price. Weekly updates with real accountability.',
+      description:
+        "47 homes that DIDN'T sell - now sold with 19 day average and 98.7% of asking price. Weekly updates with real accountability.",
       proof: 'Accountability, not excuses',
     },
     {
       title: 'Aggressive Follow-Up',
-      description: 'I don\'t post and disappear. I aggressively follow up on every showing and negotiate every offer.',
+      description:
+        "I don't post and disappear. I aggressively follow up on every showing and negotiate every offer.",
       proof: 'Relentless pursuit of results',
     },
   ]
@@ -82,7 +88,8 @@ export default function WhyChooseMePage() {
                 WHY CHOOSE DR. JAN DUFFY?
               </h1>
               <p className="text-xl text-center text-gray-600 mb-12">
-                The specialist in homes that DIDN\'T sell who actually delivers results
+                The specialist in homes that DIDN\'T sell who actually delivers
+                results
               </p>
               <div className="grid md:grid-cols-2 gap-8 mb-12">
                 {reasons.map((reason, index) => (
@@ -117,14 +124,18 @@ export default function WhyChooseMePage() {
                         <div className="flex items-start gap-3">
                           <X className="w-6 h-6 text-red-600 flex-shrink-0 mt-1" />
                           <div>
-                            <p className="font-semibold text-red-600">Other Agents</p>
+                            <p className="font-semibold text-red-600">
+                              Other Agents
+                            </p>
                             <p className="text-gray-700">{comp.otherAgents}</p>
                           </div>
                         </div>
                         <div className="flex items-start gap-3">
                           <Check className="w-6 h-6 text-green-700 flex-shrink-0 mt-1" />
                           <div>
-                            <p className="font-semibold text-green-700">Dr. Jan Duffy</p>
+                            <p className="font-semibold text-green-700">
+                              Dr. Jan Duffy
+                            </p>
                             <p className="text-gray-700">{comp.drJan}</p>
                           </div>
                         </div>
@@ -139,7 +150,8 @@ export default function WhyChooseMePage() {
                   Your previous agent failed. I won\'t.
                 </p>
                 <p className="text-xl">
-                  47 homes that didn't sell - now sold. 19 day average. 98.7% of asking.
+                  47 homes that didn't sell - now sold. 19 day average. 98.7% of
+                  asking.
                 </p>
               </div>
               <div className="bg-white border-2 border-gray-200 rounded-lg p-8">

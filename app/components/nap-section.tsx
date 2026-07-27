@@ -32,17 +32,24 @@ export default function NAPSection({
 
   if (variant === 'compact') {
     return (
-      <div className={`bg-gray-50 border-2 border-gray-200 rounded-lg p-6 ${className}`}>
+      <div
+        className={`bg-gray-50 border-2 border-gray-200 rounded-lg p-6 ${className}`}
+      >
         <div className="grid md:grid-cols-3 gap-4 text-center">
           <div>
             <Phone className="w-6 h-6 mx-auto mb-2 text-primary" />
-            <a href={`tel:${phone.replace(/\D/g, '')}`} className="text-lg font-bold hover:text-primary transition-colors">
+            <a
+              href={`tel:${phone.replace(/\D/g, '')}`}
+              className="text-lg font-bold hover:text-primary transition-colors"
+            >
               {phone}
             </a>
           </div>
           <div>
             <MapPin className="w-6 h-6 mx-auto mb-2 text-primary" />
-            <p className="text-sm text-gray-700">{address.city}, {address.state}</p>
+            <p className="text-sm text-gray-700">
+              {address.city}, {address.state}
+            </p>
           </div>
           <div>
             <Clock className="w-6 h-6 mx-auto mb-2 text-primary" />
@@ -55,8 +62,12 @@ export default function NAPSection({
 
   if (variant === 'detailed') {
     return (
-      <div className={`bg-white border-2 border-primary rounded-lg p-8 ${className}`}>
-        <h2 className="text-3xl font-black mb-6 text-center">Contact Information</h2>
+      <div
+        className={`bg-white border-2 border-primary rounded-lg p-8 ${className}`}
+      >
+        <h2 className="text-3xl font-black mb-6 text-center">
+          Contact Information
+        </h2>
         <div className="grid md:grid-cols-2 gap-8">
           <div className="space-y-6">
             <div>
@@ -66,7 +77,10 @@ export default function NAPSection({
                   <Phone className="w-5 h-5 mt-1 text-primary flex-shrink-0" />
                   <div>
                     <p className="font-semibold mb-1">Phone</p>
-                    <a href={`tel:${phone.replace(/\D/g, '')}`} className="text-lg font-bold text-primary hover:underline">
+                    <a
+                      href={`tel:${phone.replace(/\D/g, '')}`}
+                      className="text-lg font-bold text-primary hover:underline"
+                    >
                       {phone}
                     </a>
                   </div>
@@ -75,7 +89,10 @@ export default function NAPSection({
                   <Mail className="w-5 h-5 mt-1 text-primary flex-shrink-0" />
                   <div>
                     <p className="font-semibold mb-1">Email</p>
-                    <a href={`mailto:${email}`} className="text-lg font-bold text-primary hover:underline">
+                    <a
+                      href={`mailto:${email}`}
+                      className="text-lg font-bold text-primary hover:underline"
+                    >
                       {email}
                     </a>
                   </div>
@@ -85,7 +102,9 @@ export default function NAPSection({
                   <div>
                     <p className="font-semibold mb-1">Address</p>
                     <p className="text-gray-700">{address.street}</p>
-                    <p className="text-gray-700">{address.city}, {address.state} {address.zip}</p>
+                    <p className="text-gray-700">
+                      {address.city}, {address.state} {address.zip}
+                    </p>
                   </div>
                 </div>
                 {showHours && (
@@ -93,7 +112,9 @@ export default function NAPSection({
                     <Clock className="w-5 h-5 mt-1 text-primary flex-shrink-0" />
                     <div>
                       <p className="font-semibold mb-1">Business Hours</p>
-                      <p className="text-gray-700">Monday - Sunday: {hours.weekdays}</p>
+                      <p className="text-gray-700">
+                        Monday - Sunday: {hours.weekdays}
+                      </p>
                       <p className="text-sm text-gray-600 mt-1">{hours.note}</p>
                     </div>
                   </div>
@@ -126,8 +147,12 @@ export default function NAPSection({
 
   // Default variant
   return (
-    <div className={`bg-primary text-primary-foreground rounded-lg p-8 ${className}`}>
-      <h2 className="text-3xl font-black mb-6 text-center">Contact Dr. Janet Duffy</h2>
+    <div
+      className={`bg-primary text-primary-foreground rounded-lg p-8 ${className}`}
+    >
+      <h2 className="text-3xl font-black mb-6 text-center">
+        Contact Dr. Janet Duffy
+      </h2>
       <div className="grid md:grid-cols-2 gap-8 mb-6">
         <div className="text-center">
           <Phone className="w-12 h-12 mx-auto mb-4" />
@@ -144,7 +169,9 @@ export default function NAPSection({
           <MapPin className="w-12 h-12 mx-auto mb-4" />
           <h3 className="text-xl font-bold mb-2">Visit Us</h3>
           <p className="text-lg mb-1">{address.street}</p>
-          <p className="text-lg">{address.city}, {address.state} {address.zip}</p>
+          <p className="text-lg">
+            {address.city}, {address.state} {address.zip}
+          </p>
           <a
             href={`https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(address.full)}`}
             target="_blank"
@@ -169,4 +196,3 @@ export default function NAPSection({
     </div>
   )
 }
-

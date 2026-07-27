@@ -12,7 +12,7 @@ export async function sendSMS(phone: string, message: string) {
   // TODO: Integrate with Twilio API
   // For now, this is a placeholder
   console.log(`Sending SMS to ${phone}: ${message}`)
-  
+
   // When Twilio is configured:
   // await twilioClient.messages.create({
   //   body: message,
@@ -45,4 +45,3 @@ export async function sendFollowUpSMS(
     await sendSMS(phone, message)
   }
 }
-

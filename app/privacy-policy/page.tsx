@@ -16,9 +16,12 @@ export default function PrivacyPolicyPage() {
               </h1>
               <div className="space-y-8">
                 <div>
-                  <h2 className="text-2xl font-bold mb-4">Information We Collect</h2>
+                  <h2 className="text-2xl font-bold mb-4">
+                    Information We Collect
+                  </h2>
                   <p>
-                    We collect information that you provide directly to us, including:
+                    We collect information that you provide directly to us,
+                    including:
                   </p>
                   <ul>
                     <li>Name, email address, and phone number</li>
@@ -28,19 +31,26 @@ export default function PrivacyPolicyPage() {
                   </ul>
                 </div>
                 <div>
-                  <h2 className="text-2xl font-bold mb-4">How We Use Your Information</h2>
+                  <h2 className="text-2xl font-bold mb-4">
+                    How We Use Your Information
+                  </h2>
                   <p>We use the information we collect to:</p>
                   <ul>
                     <li>Respond to your inquiries and provide services</li>
-                    <li>Send you marketing communications (with your consent)</li>
+                    <li>
+                      Send you marketing communications (with your consent)
+                    </li>
                     <li>Improve our website and services</li>
                     <li>Comply with legal obligations</li>
                   </ul>
                 </div>
                 <div>
-                  <h2 className="text-2xl font-bold mb-4">Information Sharing</h2>
+                  <h2 className="text-2xl font-bold mb-4">
+                    Information Sharing
+                  </h2>
                   <p>
-                    We do not sell your personal information. We may share your information only:
+                    We do not sell your personal information. We may share your
+                    information only:
                   </p>
                   <ul>
                     <li>With service providers who assist in our operations</li>
@@ -51,14 +61,24 @@ export default function PrivacyPolicyPage() {
                 <div>
                   <h2 className="text-2xl font-bold mb-4">Contact Us</h2>
                   <p>
-                    If you have questions about this privacy policy, please contact us at:
+                    If you have questions about this privacy policy, please
+                    contact us at:
                   </p>
                   <p>
                     <strong>Dr. Janet Duffy</strong>
                     <br />
-                    Phone: <a href="tel:7025001064" className="text-primary">(702) 500-1064</a>
+                    Phone:{' '}
+                    <a href="tel:7025001064" className="text-primary">
+                      (702) 500-1064
+                    </a>
                     <br />
-                    Email: <a href="mailto:drjan@drjanduffy.com" className="text-primary">drjan@drjanduffy.com</a>
+                    Email:{' '}
+                    <a
+                      href="mailto:drjan@drjanduffy.com"
+                      className="text-primary"
+                    >
+                      drjan@drjanduffy.com
+                    </a>
                   </p>
                 </div>
                 <div>

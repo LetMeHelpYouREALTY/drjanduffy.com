@@ -2,10 +2,20 @@ import Link from 'next/link'
 
 interface RelatedCondoLinksProps {
   currentBuilding?: string
-  category?: 'luxury' | 'mid-rise' | 'loft' | 'condo-hotel' | 'strip' | 'summerlin' | 'henderson'
+  category?:
+    | 'luxury'
+    | 'mid-rise'
+    | 'loft'
+    | 'condo-hotel'
+    | 'strip'
+    | 'summerlin'
+    | 'henderson'
 }
 
-export default function RelatedCondoLinks({ currentBuilding, category }: RelatedCondoLinksProps) {
+export default function RelatedCondoLinks({
+  currentBuilding,
+  category,
+}: RelatedCondoLinksProps) {
   const luxuryBuildings = [
     { name: 'Cosmopolitan', path: '/condos/cosmopolitan' },
     { name: 'Vdara', path: '/condos/vdara' },
@@ -45,16 +55,27 @@ export default function RelatedCondoLinks({ currentBuilding, category }: Related
   let categoryLink = '/condos'
 
   if (category === 'luxury' || category === 'strip') {
-    relatedBuildings = luxuryBuildings.filter(b => b.path !== currentBuilding)
+    relatedBuildings = luxuryBuildings.filter((b) => b.path !== currentBuilding)
     categoryLink = '/condos/luxury'
-  } else if (category === 'mid-rise' || category === 'summerlin' || category === 'henderson') {
-    relatedBuildings = midRiseBuildings.filter(b => b.path !== currentBuilding)
-    categoryLink = category === 'summerlin' ? '/condos/summerlin' : category === 'henderson' ? '/condos/henderson' : '/condos/mid-rise'
+  } else if (
+    category === 'mid-rise' ||
+    category === 'summerlin' ||
+    category === 'henderson'
+  ) {
+    relatedBuildings = midRiseBuildings.filter(
+      (b) => b.path !== currentBuilding,
+    )
+    categoryLink =
+      category === 'summerlin'
+        ? '/condos/summerlin'
+        : category === 'henderson'
+          ? '/condos/henderson'
+          : '/condos/mid-rise'
   } else if (category === 'loft') {
-    relatedBuildings = loftBuildings.filter(b => b.path !== currentBuilding)
+    relatedBuildings = loftBuildings.filter((b) => b.path !== currentBuilding)
     categoryLink = '/condos/mid-rise'
   } else if (category === 'condo-hotel') {
-    relatedBuildings = condoHotels.filter(b => b.path !== currentBuilding)
+    relatedBuildings = condoHotels.filter((b) => b.path !== currentBuilding)
     categoryLink = '/condos/condo-hotels'
   }
 
@@ -81,11 +102,29 @@ export default function RelatedCondoLinks({ currentBuilding, category }: Related
         ))}
       </ul>
       <p className="text-sm text-gray-600">
-        <Link href={categoryLink} className="text-primary hover:underline font-semibold">
-          View all {category === 'luxury' ? 'luxury' : category === 'mid-rise' ? 'mid-rise' : category === 'loft' ? 'loft' : category === 'condo-hotel' ? 'condo hotel' : category === 'strip' ? 'Strip' : category === 'summerlin' ? 'Summerlin' : category === 'henderson' ? 'Henderson' : ''} condos →
+        <Link
+          href={categoryLink}
+          className="text-primary hover:underline font-semibold"
+        >
+          View all{' '}
+          {category === 'luxury'
+            ? 'luxury'
+            : category === 'mid-rise'
+              ? 'mid-rise'
+              : category === 'loft'
+                ? 'loft'
+                : category === 'condo-hotel'
+                  ? 'condo hotel'
+                  : category === 'strip'
+                    ? 'Strip'
+                    : category === 'summerlin'
+                      ? 'Summerlin'
+                      : category === 'henderson'
+                        ? 'Henderson'
+                        : ''}{' '}
+          condos →
         </Link>
       </p>
     </div>
   )
 }
-

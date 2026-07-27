@@ -11,14 +11,16 @@ export default function ResourcesPage() {
     {
       icon: FileText,
       title: '7 Reasons your home did not sell',
-      description: 'Free report revealing the 5 fatal mistakes that killed your listing and how to fix them.',
+      description:
+        'Free report revealing the 5 fatal mistakes that killed your listing and how to fix them.',
       type: 'Free Report',
       cta: 'Download Now',
     },
     {
       icon: Download,
       title: 'cost when your home will not sell Calculator',
-      description: 'Calculate exactly how much money you are losing every day your listing sits expired.',
+      description:
+        'Calculate exactly how much money you are losing every day your listing sits expired.',
       type: 'Interactive Tool',
       cta: 'Calculate Now',
       link: '/tools/cost-calculator',
@@ -26,7 +28,8 @@ export default function ResourcesPage() {
     {
       icon: BookOpen,
       title: 'The 30-Day Sale Plan',
-      description: 'Complete week-by-week breakdown of how to sell your HOME THAT DIDN\'T SELL in 30 days or less.',
+      description:
+        "Complete week-by-week breakdown of how to sell your HOME THAT DIDN'T SELL in 30 days or less.",
       type: 'Guide',
       cta: 'View Plan',
       link: '/30-day-plan',
@@ -34,7 +37,8 @@ export default function ResourcesPage() {
     {
       icon: Video,
       title: 'Success Story Videos',
-      description: 'Watch real testimonials from sellers who fired their agents and sold with Dr. Jan.',
+      description:
+        'Watch real testimonials from sellers who fired their agents and sold with Dr. Jan.',
       type: 'Video Content',
       cta: 'Watch Videos',
       link: '/success-stories',
@@ -42,14 +46,16 @@ export default function ResourcesPage() {
     {
       icon: FileText,
       title: 'Market Analysis Report',
-      description: 'Current Las Vegas market conditions and what it means for HOMES THAT DIDN\'T SELL.',
+      description:
+        "Current Las Vegas market conditions and what it means for HOMES THAT DIDN'T SELL.",
       type: 'Market Report',
       cta: 'Get Report',
     },
     {
       icon: Download,
       title: 'Agent Performance Quiz',
-      description: '60-second assessment to find out why your home DIDN\'T sell and what your agent did wrong.',
+      description:
+        "60-second assessment to find out why your home DIDN'T sell and what your agent did wrong.",
       type: 'Interactive Quiz',
       cta: 'Take Quiz',
       link: '/tools/blame-analyzer',
@@ -66,7 +72,8 @@ export default function ResourcesPage() {
                 FREE RESOURCES
               </h1>
               <p className="text-xl text-center text-gray-600 mb-12">
-                Tools, guides, and reports to help you understand and fix your HOME THAT DIDN\'T SELL
+                Tools, guides, and reports to help you understand and fix your
+                HOME THAT DIDN\'T SELL
               </p>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
                 {resources.map((resource, index) => {
@@ -84,8 +91,12 @@ export default function ResourcesPage() {
                           {resource.type}
                         </span>
                       </div>
-                      <h3 className="text-xl font-black mb-3">{resource.title}</h3>
-                      <p className="text-gray-700 mb-4">{resource.description}</p>
+                      <h3 className="text-xl font-black mb-3">
+                        {resource.title}
+                      </h3>
+                      <p className="text-gray-700 mb-4">
+                        {resource.description}
+                      </p>
                       {resource.link ? (
                         <a
                           href={resource.link}
@@ -103,7 +114,9 @@ export default function ResourcesPage() {
                 })}
               </div>
               <div className="bg-primary text-primary-foreground p-8 rounded-lg text-center mb-12">
-                <h2 className="text-3xl font-black mb-4">NEED PERSONALIZED HELP?</h2>
+                <h2 className="text-3xl font-black mb-4">
+                  NEED PERSONALIZED HELP?
+                </h2>
                 <p className="text-xl mb-4">
                   Call me directly for a free consultation
                 </p>
@@ -119,9 +132,13 @@ export default function ResourcesPage() {
                   GET YOUR FREE REPORT
                 </h2>
                 <p className="text-center text-gray-600 mb-6">
-                  "7 Reasons your home didn't sell (And How to Fix Them in 30 Days)"
+                  "7 Reasons your home didn't sell (And How to Fix Them in 30
+                  Days)"
                 </p>
-                <LeadForm source="resources_page" buttonText="GET FREE REPORT" />
+                <LeadForm
+                  source="resources_page"
+                  buttonText="GET FREE REPORT"
+                />
               </div>
             </div>
           </div>

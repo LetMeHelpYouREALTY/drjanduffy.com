@@ -80,17 +80,17 @@ export default function BlameAnalyzer() {
           <h2 className="text-4xl font-black mb-4">YOUR AGENT SCORE</h2>
           <div
             className={`text-6xl font-black mb-4 ${
-              score < 50 ? 'text-red-600' : score < 75 ? 'text-yellow-600' : 'text-green-700'
+              score < 50
+                ? 'text-red-600'
+                : score < 75
+                  ? 'text-yellow-600'
+                  : 'text-green-700'
             }`}
           >
             {score}/100
           </div>
           <p className="text-2xl font-bold mb-2">
-            {score < 50
-              ? 'FAILURE'
-              : score < 75
-                ? 'BELOW AVERAGE'
-                : 'GOOD'}
+            {score < 50 ? 'FAILURE' : score < 75 ? 'BELOW AVERAGE' : 'GOOD'}
           </p>
           <p className="text-lg text-gray-600">
             Here's what they should have done...
@@ -118,7 +118,9 @@ export default function BlameAnalyzer() {
 
       <div className="mb-6">
         <div className="flex justify-between mb-2">
-          <span className="text-sm font-semibold">Question {currentQuestion + 1} of {questions.length}</span>
+          <span className="text-sm font-semibold">
+            Question {currentQuestion + 1} of {questions.length}
+          </span>
           <span className="text-sm font-semibold">
             {Math.round(((currentQuestion + 1) / questions.length) * 100)}%
           </span>
@@ -126,7 +128,9 @@ export default function BlameAnalyzer() {
         <div className="w-full bg-gray-200 rounded-full h-2">
           <div
             className="bg-primary h-2 rounded-full transition-all"
-            style={{ width: `${((currentQuestion + 1) / questions.length) * 100}%` }}
+            style={{
+              width: `${((currentQuestion + 1) / questions.length) * 100}%`,
+            }}
           />
         </div>
       </div>
@@ -148,4 +152,3 @@ export default function BlameAnalyzer() {
     </div>
   )
 }
-
