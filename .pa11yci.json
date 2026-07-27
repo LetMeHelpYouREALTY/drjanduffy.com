@@ -1,0 +1,16 @@
+{
+  "urls": [
+    "http://localhost:3000",
+    "http://localhost:3000/about",
+    "http://localhost:3000/contact",
+    "http://localhost:3000/success-stories"
+  ],
+  "defaults": {
+    "timeout": 30000,
+    "wait": 1000,
+    "chromeLaunchConfig": {
+      "args": ["--no-sandbox"]
+    }
+  },
+  "standard": "WCAG2AA"
+}
