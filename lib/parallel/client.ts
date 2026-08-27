@@ -23,7 +23,7 @@ function parallelHeaders(apiKey: string): HeadersInit {
 
 export async function parallelSearch(params: {
   objective: string
-  search_queries?: string[]
+  search_queries?: readonly string[]
   max_results?: number
 }): Promise<ParallelSearchResponse | { skipped: true; reason: string }> {
   const apiKey = process.env.PARALLEL_API_KEY?.trim()
