@@ -20,7 +20,7 @@ const DISCLAIMER =
 
 async function fetchMarketIntel(
   objective: string,
-  search_queries?: string[],
+  search_queries?: readonly string[],
   preset?: MarketIntelPreset | null,
 ) {
   const result = await parallelSearch({
@@ -43,7 +43,7 @@ async function fetchMarketIntel(
 
 function getCachedMarketIntel(
   objective: string,
-  search_queries: string[] | undefined,
+  search_queries: readonly string[] | undefined,
   preset: MarketIntelPreset | null,
 ) {
   const cacheKey = preset ?? objective.slice(0, 64)
