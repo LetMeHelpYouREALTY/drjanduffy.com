@@ -2,6 +2,7 @@ import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
 import FAQSchema from '@/app/components/faq-schema'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
+import HeadingMedia from '@/app/components/heading-media'
 export const metadata = {
   title: 'The 30-Day Plan | Dr. Jan Duffy',
   description:
@@ -88,6 +89,7 @@ export default function ThirtyDayPlanPage() {
             <h1 className="text-4xl md:text-5xl font-black text-center mb-4">
               THE 30-DAY PLAN
             </h1>
+            <HeadingMedia level={1} heading="THE 30-DAY PLAN" />
             <p className="text-xl text-center text-gray-600 mb-12">
               How I sell homes that DID NOT sell in 30 days or less
             </p>
@@ -113,6 +115,8 @@ export default function ThirtyDayPlanPage() {
                       {weekData.week}
                     </div>
                     <h2 className="text-3xl font-black">{weekData.title}</h2>
+                    <HeadingMedia level={2} heading={weekData.title} size="compact" />
+
                   </div>
                   <ul className="space-y-3">
                     {weekData.items.map((item, index) => (
@@ -128,9 +132,11 @@ export default function ThirtyDayPlanPage() {
               ))}
               <div className="bg-gray-100 p-8 rounded-lg mt-12">
                 <h2 className="text-3xl font-black mb-4 text-center">Why the 30-Day Plan Works</h2>
+                <HeadingMedia level={2} heading="Why the 30-Day Plan Works" />
                 <div className="space-y-6">
                   <div>
                     <h3 className="text-2xl font-bold mb-3">Week 1: Aggressive Reset</h3>
+                    <HeadingMedia level={3} heading="Week 1: Aggressive Reset" />
                     <p className="text-lg text-gray-700 mb-4">
                       The first week is critical. This is when we completely reset your listing - new photos, new pricing strategy, fresh MLS listing. We eliminate the stigma of "expired" by making your home look brand new. Professional photography, staging, and 3D virtual tours make buyers forget it ever expired. The aggressive reset is what separates my system from your previous agent's "hope and pray" approach.
                     </p>
@@ -145,6 +151,7 @@ export default function ThirtyDayPlanPage() {
                   </div>
                   <div>
                     <h3 className="text-2xl font-bold mb-3">Week 2: Maximum Exposure</h3>
+                    <HeadingMedia level={3} heading="Week 2: Maximum Exposure" />
                     <p className="text-lg text-gray-700 mb-4">
                       Week 2 is all about getting your home in front of as many qualified buyers as possible. Strategic open houses with buyer pre-qualification. Network activation reaching 500+ agents. Targeted Facebook and Google ads. Email marketing to qualified buyers. Daily follow-up on all showings. This is when the momentum builds and offers start coming in.
                     </p>
@@ -159,6 +166,7 @@ export default function ThirtyDayPlanPage() {
                   </div>
                   <div>
                     <h3 className="text-2xl font-bold mb-3">Week 3: Negotiation Warfare</h3>
+                    <HeadingMedia level={3} heading="Week 3: Negotiation Warfare" />
                     <p className="text-lg text-gray-700 mb-4">
                       Week 3 is when offers come in and negotiations begin. This is where most agents fail. They accept lowball offers or let negotiations drag on. I use aggressive follow-up, buyer psychology tactics, and strategic counter-offers to get you top dollar. I do not wait for offers. I create them. I do not accept lowball offers. I negotiate them up.
                     </p>
@@ -173,6 +181,7 @@ export default function ThirtyDayPlanPage() {
                   </div>
                   <div>
                     <h3 className="text-2xl font-bold mb-3">Week 4: Closing & Escrow</h3>
+                    <HeadingMedia level={3} heading="Week 4: Closing & Escrow" />
                     <p className="text-lg text-gray-700 mb-4">
                       Week 4 is closing. Escrow management, timeline enforcement, problem resolution, final walkthrough coordination. This is where deals fall apart with other agents. I do not let that happen. I manage every detail, enforce every timeline, resolve every problem. SOLD - Proven results.
                     </p>
@@ -191,6 +200,7 @@ export default function ThirtyDayPlanPage() {
                 <h2 className="text-2xl font-black mb-4 text-center">
                   READY TO GET STARTED?
                 </h2>
+                <HeadingMedia level={2} heading={"READY TO GET STARTED?"} />
                 <LeadForm
                   source="30_day_plan"
                   buttonText="START MY 30-DAY PLAN"

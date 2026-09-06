@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import HeadingMedia from '@/app/components/heading-media'
 
 interface RelatedCondoLinksProps {
   currentBuilding?: string
@@ -15,6 +16,10 @@ export default function RelatedCondoLinks({ currentBuilding, category }: Related
     { name: 'Trump International', path: '/condos/trump-international' },
     { name: 'Waldorf Astoria', path: '/condos/waldorf-astoria' },
     { name: 'One Las Vegas', path: '/condos/one-las-vegas' },
+    { name: 'Sky Las Vegas', path: '/condos/sky-las-vegas' },
+    { name: 'Park Towers', path: '/condos/park-towers' },
+    { name: 'Manhattan', path: '/condos/manhattan' },
+    { name: 'Regency Towers', path: '/condos/regency-towers' },
   ]
 
   const midRiseBuildings = [
@@ -24,6 +29,7 @@ export default function RelatedCondoLinks({ currentBuilding, category }: Related
     { name: 'Viera', path: '/condos/viera' },
     { name: 'Tramonto', path: '/condos/tramonto' },
     { name: 'Wimbledon Tennis Club', path: '/condos/wimbledon' },
+    { name: 'South Shore at Lake Las Vegas', path: '/condos/south-shore' },
   ]
 
   const loftBuildings = [
@@ -34,6 +40,7 @@ export default function RelatedCondoLinks({ currentBuilding, category }: Related
     { name: 'Eleventh Street Lofts', path: '/condos/eleventh-street-lofts' },
     { name: 'Summerlin Lofts', path: '/condos/summerlin-lofts' },
     { name: 'Loft 5', path: '/condos/loft-5' },
+    { name: 'Streamline Tower', path: '/condos/streamline-tower' },
   ]
 
   const condoHotels = [
@@ -65,6 +72,7 @@ export default function RelatedCondoLinks({ currentBuilding, category }: Related
   return (
     <div className="bg-gray-100 p-8 rounded-lg mb-12">
       <h2 className="text-2xl font-black mb-4">Related Condo Buildings</h2>
+      <HeadingMedia level={2} heading="Related Condo Buildings" />
       <p className="text-lg text-gray-700 mb-4">
         Explore other Las Vegas condos I specialize in selling:
       </p>

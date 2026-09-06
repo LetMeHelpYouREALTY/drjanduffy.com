@@ -1,5 +1,6 @@
 import Header from '@/app/components/header'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
+import HeadingMedia from '@/app/components/heading-media'
 export const metadata = {
   title: 'Terms of Service | Dr. Jan Duffy',
   description: 'Terms of service for Dr. Janet Duffy real estate website.',
@@ -16,15 +17,18 @@ export default function TermsPage() {
               <h1 className="text-4xl md:text-5xl font-black mb-8">
                 Terms of Service
               </h1>
+              <HeadingMedia level={1} heading="Terms of Service" />
               <div className="space-y-8">
                 <div>
                   <h2 className="text-2xl font-bold mb-4">Agreement to Terms</h2>
+                  <HeadingMedia level={2} heading="Agreement to Terms" />
                   <p>
                     By accessing and using this website, you agree to be bound by these Terms of Service.
                   </p>
                 </div>
                 <div>
                   <h2 className="text-2xl font-bold mb-4">Real Estate Services</h2>
+                  <HeadingMedia level={2} heading="Real Estate Services" />
                   <p>
                     Dr. Janet Duffy is a licensed real estate agent. All real estate services are subject to
                     separate written agreements and applicable real estate laws and regulations.
@@ -32,6 +36,7 @@ export default function TermsPage() {
                 </div>
                 <div>
                   <h2 className="text-2xl font-bold mb-4">Website Content</h2>
+                  <HeadingMedia level={2} heading="Website Content" />
                   <p>
                     All content on this website is for informational purposes only. Results may vary.
                     Statistics and testimonials are based on actual results but individual results may differ.
@@ -39,6 +44,7 @@ export default function TermsPage() {
                 </div>
                 <div>
                   <h2 className="text-2xl font-bold mb-4">Contact</h2>
+                  <HeadingMedia level={2} heading="Contact" />
                   <p>
                     For questions about these terms, contact:
                   </p>

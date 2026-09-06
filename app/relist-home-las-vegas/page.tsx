@@ -3,6 +3,7 @@ import LeadForm from '@/app/components/lead-form'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 import FAQSchema from '@/app/components/faq-schema'
 import Link from 'next/link'
+import HeadingMedia from '@/app/components/heading-media'
 
 export const metadata = {
   title: 'Relist Your Home Las Vegas | Failed Listing Specialist',
@@ -66,6 +67,7 @@ export default function RelistHomePage() {
               <h1 className="text-4xl md:text-5xl font-black text-center mb-6">
                 Time to Relist Your Home in Las Vegas? Here's How We Do It Right.
               </h1>
+              <HeadingMedia level={1} heading="Time to Relist Your Home in Las Vegas? Here's How We Do It Right." />
               <p className="text-xl text-center text-gray-600 mb-12">
                 Your listing expired. Your agent could not sell it. You need a fresh start. I specialize in relisting homes that DID NOT sell.
               </p>
@@ -88,12 +90,14 @@ export default function RelistHomePage() {
               <h2 className="text-4xl md:text-5xl font-black text-center mb-6">
                 Why Relisting With the Same Strategy Fails
               </h2>
+              <HeadingMedia level={2} heading="Why Relisting With the Same Strategy Fails" />
               <div className="prose prose-lg max-w-none">
                 <p className="text-lg text-gray-700 mb-6">
                   Relisting with the same strategy is like doing the same thing and expecting different results. It does not work. Here's why:
                 </p>
                 <div className="bg-red-50 border-2 border-red-200 rounded-lg p-8 mb-6">
                   <h3 className="text-2xl font-black mb-4 text-red-800">Same Photos, Same Problem</h3>
+                  <HeadingMedia level={3} heading="Same Photos, Same Problem" />
                   <p className="text-lg text-gray-700 mb-4">
                     Your previous agent used iPhone photos. Dark rooms, cluttered spaces, unprofessional staging. Relisting with the same photos means buyers see the same problems. They scroll past. Your home stays invisible.
                   </p>
@@ -104,6 +108,7 @@ export default function RelistHomePage() {
 
                 <div className="bg-red-50 border-2 border-red-200 rounded-lg p-8 mb-6">
                   <h3 className="text-2xl font-black mb-4 text-red-800">Same Pricing, Same Result</h3>
+                  <HeadingMedia level={3} heading="Same Pricing, Same Result" />
                   <p className="text-lg text-gray-700 mb-4">
                     Your previous agent overpriced your home. Then they suggested price drop after price drop. Relisting with the same pricing strategy means the same problem. Too high (sits on market). Too low (leaves money on table).
                   </p>
@@ -114,6 +119,7 @@ export default function RelistHomePage() {
 
                 <div className="bg-red-50 border-2 border-red-200 rounded-lg p-8 mb-6">
                   <h3 className="text-2xl font-black mb-4 text-red-800">Same Marketing, Same Invisibility</h3>
+                  <HeadingMedia level={3} heading="Same Marketing, Same Invisibility" />
                   <p className="text-lg text-gray-700 mb-4">
                     Your previous agent posted to MLS and disappeared. One open house, zero follow-up, no buyer targeting. Relisting with the same marketing means the same invisibility. Buyers never see your home.
                   </p>
@@ -124,6 +130,7 @@ export default function RelistHomePage() {
 
                 <div className="bg-red-50 border-2 border-red-200 rounded-lg p-8 mb-6">
                   <h3 className="text-2xl font-black mb-4 text-red-800">Same Agent, Same Failure</h3>
+                  <HeadingMedia level={3} heading="Same Agent, Same Failure" />
                   <p className="text-lg text-gray-700 mb-4">
                     Your previous agent had 47+ listings. You got 2.1% of their attention. They could not afford to invest $5,000+ in every listing. Relisting with the same agent means the same part-time effort. Your listing gets lost in the shuffle.
                   </p>
@@ -142,27 +149,33 @@ export default function RelistHomePage() {
               <h2 className="text-4xl md:text-5xl font-black text-center mb-6">
                 The Complete Reset: What Changes
               </h2>
+              <HeadingMedia level={2} heading="The Complete Reset: What Changes" />
               <div className="prose prose-lg max-w-none">
                 <p className="text-lg text-gray-700 mb-6">
                   Relisting with me means a complete reset. Here's what changes:
                 </p>
                 <h3 className="text-2xl font-black mb-4 mt-8">New Professional Photography</h3>
+                <HeadingMedia level={3} heading="New Professional Photography" />
                 <p className="text-lg text-gray-700 mb-4">
                   I invest $3,700 in professional media - twilight drone shots, 3D virtual tours, magazine-quality staging. Professional photography showcases your home at its best. Buyers see a beautiful, properly staged home. They do not see "expired." They see "opportunity." This professional media is what gets homes sold.
                 </p>
                 <h3 className="text-2xl font-black mb-4 mt-8">Strategic Pricing Analysis</h3>
+                <HeadingMedia level={3} heading="Strategic Pricing Analysis" />
                 <p className="text-lg text-gray-700 mb-4">
                   I use data-driven pricing and market analysis to price your home right from day one. I do not just lower the price. I analyze comparable sales, market trends, buyer psychology, and competitive positioning. I price strategically to attract qualified buyers while maximizing your sale price. The result? 98.7% of asking price average, not 92% or 95%.
                 </p>
                 <h3 className="text-2xl font-black mb-4 mt-8">Fresh MLS Listing</h3>
+                <HeadingMedia level={3} heading="Fresh MLS Listing" />
                 <p className="text-lg text-gray-700 mb-4">
                   Fresh MLS listing with optimized description highlighting unique features. New photos. New pricing. New listing number. This fresh listing eliminates the stigma of "expired." Buyers see a new opportunity, not a failed listing. This is what gets homes sold.
                 </p>
                 <h3 className="text-2xl font-black mb-4 mt-8">Aggressive Marketing Campaign</h3>
+                <HeadingMedia level={3} heading="Aggressive Marketing Campaign" />
                 <p className="text-lg text-gray-700 mb-4">
                   I use a 97-point marketing system that includes social media blitzes, network activation (500+ agents), targeted Facebook/Google ads, strategic open houses, and email marketing campaigns. This aggressive marketing creates maximum exposure to qualified buyers. This is what gets homes sold fast.
                 </p>
                 <h3 className="text-2xl font-black mb-4 mt-8">Active Agent Involvement</h3>
+                <HeadingMedia level={3} heading="Active Agent Involvement" />
                 <p className="text-lg text-gray-700 mb-4">
                   I take maximum 6 listings at a time. You get 100% focus. Every showing tracked. Every buyer contacted. Every opportunity maximized. This active involvement is what turns showings into offers and offers into sales.
                 </p>
@@ -177,6 +190,7 @@ export default function RelistHomePage() {
               <h2 className="text-4xl md:text-5xl font-black text-center mb-6">
                 Homes That Failed to Sell - Now Sold
               </h2>
+              <HeadingMedia level={2} heading="Homes That Failed to Sell - Now Sold" />
               <div className="prose prose-lg max-w-none">
                 <p className="text-lg text-gray-700 mb-6">
                   These are real Las Vegas homes that failed to sell with other agents - until I relisted them:
@@ -184,6 +198,7 @@ export default function RelistHomePage() {
                 <div className="space-y-6 mb-8">
                   <div className="bg-white border-2 border-gray-200 rounded-lg p-6">
                     <h3 className="text-xl font-black mb-3">Summerlin West Home - Relisted</h3>
+                    <HeadingMedia level={3} heading={"Summerlin West Home - Relisted"} size="compact" />
                     <p className="text-gray-700 mb-2">
                       <strong>Previous Agent:</strong> 90 days, zero offers, expired
                     </p>
@@ -196,6 +211,7 @@ export default function RelistHomePage() {
                   </div>
                   <div className="bg-white border-2 border-gray-200 rounded-lg p-6">
                     <h3 className="text-xl font-black mb-3">The Ridges Estate - Relisted</h3>
+                    <HeadingMedia level={3} heading={"The Ridges Estate - Relisted"} size="compact" />
                     <p className="text-gray-700 mb-2">
                       <strong>Previous Agent:</strong> 120 days, 3 price drops, expired
                     </p>
@@ -208,6 +224,7 @@ export default function RelistHomePage() {
                   </div>
                   <div className="bg-white border-2 border-gray-200 rounded-lg p-6">
                     <h3 className="text-xl font-black mb-3">Henderson Home - Relisted</h3>
+                    <HeadingMedia level={3} heading={"Henderson Home - Relisted"} size="compact" />
                     <p className="text-gray-700 mb-2">
                       <strong>Previous Agent:</strong> 100 days, 5 price drops, expired
                     </p>
@@ -233,23 +250,28 @@ export default function RelistHomePage() {
               <h2 className="text-4xl md:text-5xl font-black text-center mb-6">
                 What to Expect When You Relist
               </h2>
+              <HeadingMedia level={2} heading="What to Expect When You Relist" />
               <div className="prose prose-lg max-w-none">
                 <p className="text-lg text-gray-700 mb-6">
                   Here's what happens when you relist with me:
                 </p>
                 <h3 className="text-2xl font-black mb-4 mt-8">Week 1: Complete Reset</h3>
+                <HeadingMedia level={3} heading="Week 1: Complete Reset" />
                 <p className="text-lg text-gray-700 mb-4">
                   Professional photography and staging ($3,700 investment). 3D virtual tour creation. Market analysis and strategic pricing. Fresh MLS listing with optimized description. Social media marketing blitz launch. This complete reset eliminates expired listing stigma. Buyers see a beautiful, properly priced home with professional marketing.
                 </p>
                 <h3 className="text-2xl font-black mb-4 mt-8">Week 2: Maximum Exposure</h3>
+                <HeadingMedia level={3} heading="Week 2: Maximum Exposure" />
                 <p className="text-lg text-gray-700 mb-4">
                   Strategic open house with buyer pre-qualification. Network activation reaching 500+ agents. Targeted Facebook and Google ads. Email marketing to qualified buyers. Daily follow-up on all showings. This aggressive marketing creates momentum and generates offers.
                 </p>
                 <h3 className="text-2xl font-black mb-4 mt-8">Week 3: Active Negotiation</h3>
+                <HeadingMedia level={3} heading="Week 3: Active Negotiation" />
                 <p className="text-lg text-gray-700 mb-4">
                   Offers come in. I use aggressive follow-up, buyer psychology tactics, and strategic counter-offers to get you top dollar. I do not accept lowball offers. I negotiate them up. This aggressive negotiation is how I get 98.7% of asking price average.
                 </p>
                 <h3 className="text-2xl font-black mb-4 mt-8">Week 4: Closing</h3>
+                <HeadingMedia level={3} heading="Week 4: Closing" />
                 <p className="text-lg text-gray-700 mb-4">
                   Escrow management, timeline enforcement, problem resolution, final walkthrough coordination. I manage every detail through closing. This complete management ensures your sale closes smoothly and on time.
                 </p>
@@ -266,6 +288,7 @@ export default function RelistHomePage() {
             <h2 className="text-4xl md:text-5xl font-black mb-6">
               Let's Relist and Sell Your Home
             </h2>
+            <HeadingMedia level={2} heading="Let's Relist and Sell Your Home" />
             <p className="text-xl mb-4 max-w-2xl mx-auto">
               Your listing expired. Your agent could not sell it. Let's fix this with a complete reset.
             </p>

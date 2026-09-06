@@ -3,6 +3,7 @@ import LeadForm from '@/app/components/lead-form'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 import FAQSchema from '@/app/components/faq-schema'
 import Link from 'next/link'
+import HeadingMedia from '@/app/components/heading-media'
 
 export const metadata = {
   title: 'Summerlin Real Estate Agent | Luxury Home Specialist | The Ridges',
@@ -66,6 +67,7 @@ export default function SummerlinAgentPage() {
               <h1 className="text-4xl md:text-5xl font-black text-center mb-6">
                 Summerlin Real Estate Agent - Luxury Home Specialist
               </h1>
+              <HeadingMedia level={1} heading="Summerlin Real Estate Agent - Luxury Home Specialist" />
               <p className="text-xl text-center text-gray-600 mb-12">
                 Local expert in The Ridges, Red Rock Country Club, The Summit, and newer Summerlin villages. 7 homes that did not sell - now sold.
               </p>
@@ -88,6 +90,7 @@ export default function SummerlinAgentPage() {
               <h2 className="text-4xl md:text-5xl font-black text-center mb-6">
                 Summerlin West Luxury Property Expert
               </h2>
+              <HeadingMedia level={2} heading="Summerlin West Luxury Property Expert" />
               <div className="prose prose-lg max-w-none">
                 <p className="text-lg text-gray-700 mb-6">
                   Summerlin West is Las Vegas's premier luxury community. With price ranges from $800K to $10M+, this market requires specialized expertise. I've sold homes in every major Summerlin West neighborhood:
@@ -95,6 +98,7 @@ export default function SummerlinAgentPage() {
                 <div className="grid md:grid-cols-2 gap-6 mb-8">
                   <Link href="/neighborhoods/the-ridges" className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:border-primary transition-colors">
                     <h3 className="text-2xl font-black mb-3">The Ridges</h3>
+                    <HeadingMedia level={3} heading="The Ridges" />
                     <p className="text-gray-700 mb-2">
                       Ultra-luxury estates, gated communities, mountain views. Price range: $1.5M-$10M+.
                     </p>
@@ -104,6 +108,7 @@ export default function SummerlinAgentPage() {
                   </Link>
                   <Link href="/neighborhoods/red-rock-country-club" className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:border-primary transition-colors">
                     <h3 className="text-2xl font-black mb-3">Red Rock Country Club</h3>
+                    <HeadingMedia level={3} heading="Red Rock Country Club" />
                     <p className="text-gray-700 mb-2">
                       Golf course homes, resort-style living, luxury amenities. Price range: $800K-$5M+.
                     </p>
@@ -113,6 +118,7 @@ export default function SummerlinAgentPage() {
                   </Link>
                   <Link href="/neighborhoods/the-summit" className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:border-primary transition-colors">
                     <h3 className="text-2xl font-black mb-3">The Summit</h3>
+                    <HeadingMedia level={3} heading="The Summit" />
                     <p className="text-gray-700 mb-2">
                       Luxury condos, high-rise living, Strip views. Price range: $500K-$3M+.
                     </p>
@@ -122,6 +128,7 @@ export default function SummerlinAgentPage() {
                   </Link>
                   <Link href="/neighborhoods/summerlin-west" className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:border-primary transition-colors">
                     <h3 className="text-2xl font-black mb-3">Newer Summerlin Villages</h3>
+                    <HeadingMedia level={3} heading="Newer Summerlin Villages" />
                     <p className="text-gray-700 mb-2">
                       New construction, master-planned communities, modern amenities. Price range: $600K-$2M+.
                     </p>
@@ -141,9 +148,11 @@ export default function SummerlinAgentPage() {
               <h2 className="text-4xl md:text-5xl font-black text-center mb-6">
                 The Ridges | Red Rock Country Club | The Summit
               </h2>
+              <HeadingMedia level={2} heading="The Ridges | Red Rock Country Club | The Summit" />
               <div className="prose prose-lg max-w-none">
                 <div className="bg-gray-50 border-2 border-gray-200 rounded-lg p-8 mb-6">
                   <h3 className="text-2xl font-black mb-4">The Ridges</h3>
+                  <HeadingMedia level={3} heading="The Ridges" />
                   <p className="text-lg text-gray-700 mb-4">
                     The Ridges is Summerlin's most exclusive community. Ultra-luxury estates from $1.5M to $10M+. Gated communities, mountain views, private golf courses. This market requires specialized marketing for high-net-worth buyers, off-market property access, and luxury home expertise.
                   </p>
@@ -154,6 +163,7 @@ export default function SummerlinAgentPage() {
 
                 <div className="bg-gray-50 border-2 border-gray-200 rounded-lg p-8 mb-6">
                   <h3 className="text-2xl font-black mb-4">Red Rock Country Club</h3>
+                  <HeadingMedia level={3} heading="Red Rock Country Club" />
                   <p className="text-lg text-gray-700 mb-4">
                     Red Rock Country Club offers golf course living at its finest. Homes from $800K to $5M+. Resort-style amenities, championship golf, active adult communities. This market attracts buyers who want the golf course lifestyle.
                   </p>
@@ -164,6 +174,7 @@ export default function SummerlinAgentPage() {
 
                 <div className="bg-gray-50 border-2 border-gray-200 rounded-lg p-8 mb-6">
                   <h3 className="text-2xl font-black mb-4">The Summit</h3>
+                  <HeadingMedia level={3} heading="The Summit" />
                   <p className="text-lg text-gray-700 mb-4">
                     The Summit offers luxury high-rise living with Strip views. Condos from $500K to $3M+. Urban luxury, modern amenities, second-home market. This market attracts buyers who want the convenience of high-rise living with luxury finishes.
                   </p>
@@ -182,23 +193,28 @@ export default function SummerlinAgentPage() {
               <h2 className="text-4xl md:text-5xl font-black text-center mb-6">
                 Why Choose a Summerlin Specialist
               </h2>
+              <HeadingMedia level={2} heading="Why Choose a Summerlin Specialist" />
               <div className="prose prose-lg max-w-none">
                 <p className="text-lg text-gray-700 mb-6">
                   Summerlin is different from other Las Vegas markets. You need an agent who understands these differences:
                 </p>
                 <h3 className="text-2xl font-black mb-4 mt-8">Market Knowledge</h3>
+                <HeadingMedia level={3} heading="Market Knowledge" />
                 <p className="text-lg text-gray-700 mb-4">
                   I know every Summerlin neighborhood. Price ranges, buyer demographics, market trends, inventory levels. I know which neighborhoods are hot, which are cooling, and where the opportunities are. This market knowledge is what gets you top dollar when selling and the best deals when buying.
                 </p>
                 <h3 className="text-2xl font-black mb-4 mt-8">Builder Relationships</h3>
+                <HeadingMedia level={3} heading="Builder Relationships" />
                 <p className="text-lg text-gray-700 mb-4">
                   I have relationships with major builders: Century, KB Home, Lennar, Pulte, Toll Brothers. This gives you access to new construction, builder incentives, and off-market opportunities. When buying new construction, I negotiate builder upgrades, closing costs, and incentives. When selling, I understand new construction competition and how to position your resale home.
                 </p>
                 <h3 className="text-2xl font-black mb-4 mt-8">Luxury Marketing Expertise</h3>
+                <HeadingMedia level={3} heading="Luxury Marketing Expertise" />
                 <p className="text-lg text-gray-700 mb-4">
                   Luxury homes require luxury marketing. Professional photography worth $3,700. Twilight drone shots. 3D virtual tours. Magazine-quality staging. Targeted marketing to high-net-worth buyers. This is what $5,000+ buys you. This is what gets luxury homes sold.
                 </p>
                 <h3 className="text-2xl font-black mb-4 mt-8">Off-Market Access</h3>
+                <HeadingMedia level={3} heading="Off-Market Access" />
                 <p className="text-lg text-gray-700 mb-4">
                   I have access to off-market properties through my network of 500+ agents and builder relationships. When buying, this gives you access to properties before they hit the market. When selling, this gives you access to qualified buyers who are actively looking but have not found the right property yet.
                 </p>
@@ -213,6 +229,7 @@ export default function SummerlinAgentPage() {
               <h2 className="text-4xl md:text-5xl font-black text-center mb-6">
                 Current Summerlin Market Insights
               </h2>
+              <HeadingMedia level={2} heading="Current Summerlin Market Insights" />
               <div className="prose prose-lg max-w-none">
                 <p className="text-lg text-gray-700 mb-6">
                   As of January 2026, the Summerlin market shows:
@@ -220,24 +237,28 @@ export default function SummerlinAgentPage() {
                 <div className="grid md:grid-cols-2 gap-6 mb-8">
                   <div className="bg-gray-50 border-2 border-gray-200 rounded-lg p-6">
                     <h3 className="text-xl font-black mb-3">Inventory Levels</h3>
+                    <HeadingMedia level={3} heading={"Inventory Levels"} size="compact" />
                     <p className="text-gray-700">
                       Summerlin has approximately 400-500 active listings, with The Ridges and Red Rock Country Club having the lowest inventory (creating seller advantage) and newer villages having higher inventory (creating buyer advantage).
                     </p>
                   </div>
                   <div className="bg-gray-50 border-2 border-gray-200 rounded-lg p-6">
                     <h3 className="text-xl font-black mb-3">Days on Market</h3>
+                    <HeadingMedia level={3} heading={"Days on Market"} size="compact" />
                     <p className="text-gray-700">
                       Average days on market varies by price range: $800K-$1.5M (30-45 days), $1.5M-$3M (45-60 days), $3M+ (60-90 days). Properly priced and marketed homes sell faster.
                     </p>
                   </div>
                   <div className="bg-gray-50 border-2 border-gray-200 rounded-lg p-6">
                     <h3 className="text-xl font-black mb-3">Price Trends</h3>
+                    <HeadingMedia level={3} heading={"Price Trends"} size="compact" />
                     <p className="text-gray-700">
                       Summerlin prices have stabilized after 2023-2024 adjustments. Luxury segment ($2M+) remains strong with limited inventory. Mid-range ($800K-$1.5M) is competitive with good buyer activity.
                     </p>
                   </div>
                   <div className="bg-gray-50 border-2 border-gray-200 rounded-lg p-6">
                     <h3 className="text-xl font-black mb-3">Buyer Activity</h3>
+                    <HeadingMedia level={3} heading={"Buyer Activity"} size="compact" />
                     <p className="text-gray-700">
                       Spring 2026 buyers are already active. Pre-qualified, serious buyers looking for luxury homes. Tax refund season (February-April) typically increases buyer activity and purchasing power.
                     </p>
@@ -257,6 +278,7 @@ export default function SummerlinAgentPage() {
               <h2 className="text-4xl md:text-5xl font-black text-center mb-6">
                 Seller Results: Specific Summerlin Sales
               </h2>
+              <HeadingMedia level={2} heading="Seller Results: Specific Summerlin Sales" />
               <div className="prose prose-lg max-w-none">
                 <p className="text-lg text-gray-700 mb-6">
                   Here are real Summerlin homes I've sold:
@@ -264,18 +286,21 @@ export default function SummerlinAgentPage() {
                 <div className="space-y-6 mb-8">
                   <div className="bg-white border-2 border-gray-200 rounded-lg p-6">
                     <h3 className="text-xl font-black mb-3">The Ridges Estate - $2.4M</h3>
+                    <HeadingMedia level={3} heading={"The Ridges Estate - $2.4M"} size="compact" />
                     <p className="text-gray-700">
                       Sold in 21 days at 98.5% of asking. Previous agent had it for 90 days with zero offers. Complete luxury marketing reset with professional photography, targeted buyer outreach, and strategic negotiation.
                     </p>
                   </div>
                   <div className="bg-white border-2 border-gray-200 rounded-lg p-6">
                     <h3 className="text-xl font-black mb-3">Red Rock Country Club - $1.2M</h3>
+                    <HeadingMedia level={3} heading={"Red Rock Country Club - $1.2M"} size="compact" />
                     <p className="text-gray-700">
                       Sold in 19 days at 99% of asking. Golf course home that sat with previous agent for 75 days. Professional staging, strategic open house, aggressive follow-up with golf course property buyers.
                     </p>
                   </div>
                   <div className="bg-white border-2 border-gray-200 rounded-lg p-6">
                     <h3 className="text-xl font-black mb-3">The Summit Condo - $850K</h3>
+                    <HeadingMedia level={3} heading={"The Summit Condo - $850K"} size="compact" />
                     <p className="text-gray-700">
                       Sold in 16 days at 99.2% of asking. High-rise condo that DID NOT sell with previous agent. Professional photography showcasing Strip views, targeted marketing to second-home buyers, strategic pricing.
                     </p>
@@ -295,23 +320,28 @@ export default function SummerlinAgentPage() {
               <h2 className="text-4xl md:text-5xl font-black text-center mb-6">
                 Buyer Services: New Construction & Off-Market Access
               </h2>
+              <HeadingMedia level={2} heading="Buyer Services: New Construction & Off-Market Access" />
               <div className="prose prose-lg max-w-none">
                 <p className="text-lg text-gray-700 mb-6">
                   Buying in Summerlin? I provide specialized buyer services:
                 </p>
                 <h3 className="text-2xl font-black mb-4 mt-8">New Construction Relationships</h3>
+                <HeadingMedia level={3} heading="New Construction Relationships" />
                 <p className="text-lg text-gray-700 mb-4">
                   I have relationships with major builders: Century, KB Home, Lennar, Pulte, Toll Brothers. This gives you access to new construction opportunities, builder incentives, and negotiation on upgrades and closing costs. I understand builder contracts, construction timelines, and how to protect your interests.
                 </p>
                 <h3 className="text-2xl font-black mb-4 mt-8">Off-Market Properties</h3>
+                <HeadingMedia level={3} heading="Off-Market Properties" />
                 <p className="text-lg text-gray-700 mb-4">
                   Through my network of 500+ agents, I have access to off-market properties. These are homes that have not hit the market yet but sellers are ready to sell. This gives you first access to properties before they become available to the general public.
                 </p>
                 <h3 className="text-2xl font-black mb-4 mt-8">Neighborhood Expertise</h3>
+                <HeadingMedia level={3} heading="Neighborhood Expertise" />
                 <p className="text-lg text-gray-700 mb-4">
                   I know every Summerlin neighborhood. Schools, amenities, HOA fees, lifestyle, resale value. I can help you find the right neighborhood for your lifestyle and budget. Whether you want golf course living, mountain views, or new construction, I know where to look.
                 </p>
                 <h3 className="text-2xl font-black mb-4 mt-8">Negotiation Expertise</h3>
+                <HeadingMedia level={3} heading="Negotiation Expertise" />
                 <p className="text-lg text-gray-700 mb-4">
                   Luxury home negotiation is different. I understand luxury buyer psychology, seller motivations, and how to structure deals that work for both parties. I negotiate builder upgrades, closing costs, inspection items, and price. I get you the best deal possible.
                 </p>
@@ -325,6 +355,7 @@ export default function SummerlinAgentPage() {
             <h2 className="text-4xl md:text-5xl font-black mb-6">
               Thinking of Buying or Selling in Summerlin?
             </h2>
+            <HeadingMedia level={2} heading={"Thinking of Buying or Selling in Summerlin?"} />
             <p className="text-xl mb-4 max-w-2xl mx-auto">
               Let's discuss your Summerlin real estate goals. Free consultation, no obligation.
             </p>

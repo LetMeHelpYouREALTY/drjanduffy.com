@@ -42,6 +42,7 @@ export default function Header() {
 
   const resourcesItems = [
     { href: '/resources', label: 'Free Resources' },
+    { href: '/answers', label: 'Seller Answers' },
     { href: '/tools/cost-calculator', label: 'Cost Calculator' },
     { href: '/tools/blame-analyzer', label: 'Blame Analyzer' },
     { href: '/why-expire', label: 'Why homes fail to sell' },

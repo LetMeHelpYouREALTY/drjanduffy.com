@@ -3,6 +3,7 @@ import LeadForm from '@/app/components/lead-form'
 import FAQSchema from '@/app/components/faq-schema'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 import { FileText, Download, BookOpen, Video, HelpCircle } from 'lucide-react'
+import HeadingMedia from '@/app/components/heading-media'
 export const metadata = {
   title: 'Resources | HOME THAT DID NOT SELL Resources | Dr. Jan Duffy',
   description:
@@ -100,6 +101,7 @@ export default function ResourcesPage() {
               <h1 className="text-4xl md:text-5xl font-black text-center mb-4">
                 FREE RESOURCES
               </h1>
+              <HeadingMedia level={1} heading="FREE RESOURCES" />
               <p className="text-xl text-center text-gray-600 mb-12">
                 Tools, guides, and reports to help you understand and fix your HOME THAT DID NOT SELL
               </p>
@@ -120,6 +122,7 @@ export default function ResourcesPage() {
                         </span>
                       </div>
                       <h3 className="text-xl font-black mb-3">{resource.title}</h3>
+                      <HeadingMedia level={3} heading={resource.title} size="compact" />
                       <p className="text-gray-700 mb-4">{resource.description}</p>
                       {resource.link ? (
                         <a
@@ -139,6 +142,8 @@ export default function ResourcesPage() {
               </div>
               <div className="bg-primary text-primary-foreground p-8 rounded-lg text-center mb-12">
                 <h2 className="text-3xl font-black mb-4">NEED PERSONALIZED HELP?</h2>
+                <HeadingMedia level={2} heading="NEED PERSONALIZED HELP?" />
+
                 <p className="text-xl mb-4">
                   Call me directly for a free consultation
                 </p>
@@ -153,6 +158,7 @@ export default function ResourcesPage() {
                 <h2 className="text-2xl font-black mb-4 text-center">
                   GET YOUR FREE REPORT
                 </h2>
+                <HeadingMedia level={2} heading="GET YOUR FREE REPORT" />
                 <p className="text-center text-gray-600 mb-6">
                   "7 Reasons your home did not sell (And How to Fix Them in 30 Days)"
                 </p>

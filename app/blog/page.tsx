@@ -2,6 +2,8 @@ import Header from '@/app/components/header'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 import FAQSchema from '@/app/components/faq-schema'
 import Link from 'next/link'
+import { BLOG_INDEX } from '@/lib/content/blog-posts'
+import HeadingMedia from '@/app/components/heading-media'
 
 export const metadata = {
   title: 'Las Vegas Real Estate Blog | Market Insights & Selling Tips',
@@ -26,30 +28,7 @@ export const metadata = {
   },
 }
 
-// Blog posts will be stored here - for now showing placeholder structure
-const blogPosts = [
-  {
-    slug: 'why-house-wont-sell-las-vegas',
-    title: 'Why Your House will not Sell in Las Vegas: 7 Common Mistakes',
-    excerpt: 'Data-driven analysis of why homes do not sell in Las Vegas. Common agent failures and how to avoid them.',
-    date: '2026-01-15',
-    category: 'Selling Tips',
-  },
-  {
-    slug: 'how-to-sell-house-fast-las-vegas',
-    title: 'How to Sell Your House Fast in Las Vegas: Complete 2026 Guide',
-    excerpt: 'Complete guide to selling your house fast in Las Vegas. Timeline, checklist, and local considerations.',
-    date: '2026-01-10',
-    category: 'Selling Tips',
-  },
-  {
-    slug: 'summerlin-market-report-january-2026',
-    title: 'Summerlin Real Estate Market Report January 2026',
-    excerpt: 'Current Summerlin market insights: inventory, prices, days on market, trends, and predictions.',
-    date: '2026-01-05',
-    category: 'Market Reports',
-  },
-]
+const blogPosts = BLOG_INDEX
 
 export default function BlogPage() {
   const faqs = [
@@ -90,6 +69,7 @@ export default function BlogPage() {
               <h1 className="text-4xl md:text-5xl font-black text-center mb-6">
                 Las Vegas Real Estate Blog
               </h1>
+              <HeadingMedia level={1} heading="Las Vegas Real Estate Blog" />
               <p className="text-xl text-center text-gray-600 mb-12">
                 Expert insights on Las Vegas real estate, market trends, selling tips, and neighborhood guides
               </p>
@@ -106,6 +86,7 @@ export default function BlogPage() {
                         {post.title}
                       </Link>
                     </h2>
+                    <HeadingMedia level={2} heading={post.title} size="compact" />
                     <p className="text-lg text-gray-700 mb-4">
                       {post.excerpt}
                     </p>

@@ -2,6 +2,7 @@ import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
 import FAQSchema from '@/app/components/faq-schema'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
+import HeadingMedia from '@/app/components/heading-media'
 export const metadata = {
   title: 'Las Vegas Strip Condos for Sale | Luxury Strip Condos | Dr. Jan Duffy',
   description:
@@ -21,6 +22,11 @@ export const metadata = {
 }
 export default function StripCondosPage() {
   const faqs = [
+    {
+      question: 'Are there condos for sale on the Las Vegas Strip?',
+      answer:
+        'Yes. Strip condo inventory includes Cosmopolitan, Vdara, Veer Towers, and nearby high-rises. Dr. Jan Duffy markets Strip condos for buyers and sellers from 1180 N Town Center Dr, Las Vegas, NV 89144. Call (702) 500-1064.',
+    },
     {
       question: 'What real estate services does Dr. Jan Duffy provide for Las Vegas Strip condos?',
       answer:
@@ -57,10 +63,11 @@ export default function StripCondosPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <h1 className="text-4xl md:text-5xl font-black text-center mb-4">
-                CONDOS ON THE STRIP
+                LAS VEGAS STRIP CONDOS FOR SALE
               </h1>
+              <HeadingMedia level={1} heading="LAS VEGAS STRIP CONDOS FOR SALE" />
               <p className="text-xl text-center text-gray-600 mb-12">
-                Expert help selling expired Las Vegas Strip condos - luxury high-rise condos that require sophisticated marketing
+                Las Vegas Strip condos for sale — Cosmopolitan, Vdara, Veer Towers, and nearby high-rises
               </p>
               <div className="prose prose-lg max-w-none mb-12">
                 <p className="text-lg text-gray-700 mb-6">
@@ -75,54 +82,66 @@ export default function StripCondosPage() {
               </div>
               <div className="bg-primary/10 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">Why Strip Condos Expire</h2>
+                <HeadingMedia level={2} heading="Why Strip Condos Expire" />
                 <p className="text-lg text-gray-700 mb-4">
                   Strip condos expire for the same reasons other condos expire - poor marketing, minimal investment, and zero follow-up. But Strip condos face additional challenges that most agents do not understand or address.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Competition from Luxury Resorts</h3>
+                <HeadingMedia level={3} heading="Competition from Luxury Resorts" />
                 <p className="text-lg text-gray-700 mb-4">
                   Strip condos compete with world-class luxury resorts. Buyers can stay at The Bellagio, The Venetian, or The Wynn. Why buy a condo? Most agents do not know how to answer this question. They do not know how to position condos against luxury resorts. I do. I highlight unique features, emphasize ownership benefits, and position condos competitively against luxury resorts.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">High HOA Fees</h3>
+                <HeadingMedia level={3} heading="High HOA Fees" />
                 <p className="text-lg text-gray-700 mb-4">
                   Strip condos have high HOA fees. Buyers are concerned about affordability. Most agents do not address HOA fee concerns. They do not explain value. They do not justify costs. I address HOA fee concerns. I explain value. I justify costs. I show buyers why high HOA fees are worth it for luxury amenities and exclusive access.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Strict Building Restrictions</h3>
+                <HeadingMedia level={3} heading="Strict Building Restrictions" />
                 <p className="text-lg text-gray-700 mb-4">
                   Strip condos have strict building restrictions. Limited open houses. Restricted photography. Complex approval processes. Most agents do not know how to work within these restrictions. They try to market Strip condos like regular condos, hit restrictions, and give up. I know how to market Strip condos effectively within building restrictions. I use digital marketing, exclusive access events, and targeted advertising that does not violate building rules.
                 </p>
               </div>
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">My Strip Condo Expertise</h2>
+                <HeadingMedia level={2} heading="My Strip Condo Expertise" />
                 <p className="text-lg text-gray-700 mb-4">
                   I've sold expired Strip condos in The Cosmopolitan, Vdara, Veer Towers, Turnberry Place, and other luxury properties. I understand the luxury market. I know how to market high-rise condos. I know how to attract high-end buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Luxury Marketing</h3>
+                <HeadingMedia level={3} heading="Luxury Marketing" />
                 <p className="text-lg text-gray-700 mb-4">
                   Strip condos require luxury marketing. Professional photography. Luxury staging. Exclusive access events. High-end advertising. Most agents do not invest in luxury marketing. I invest $5,000+ in professional media, luxury staging, and exclusive marketing that attracts high-end buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">High-End Buyer Targeting</h3>
+                <HeadingMedia level={3} heading="High-End Buyer Targeting" />
                 <p className="text-lg text-gray-700 mb-4">
                   Strip condos attract high-end buyers. Investors. Second-home buyers. Luxury lifestyle seekers. Most agents do not know how to target these buyers. I do. I use targeted advertising, exclusive access events, and luxury marketing that attracts high-end buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Exclusive Access</h3>
+                <HeadingMedia level={3} heading="Exclusive Access" />
                 <p className="text-lg text-gray-700 mb-4">
                   Strip condos offer exclusive access. Private amenities. Concierge services. Resort access. Most agents do not highlight exclusive access. I do. I showcase private amenities, emphasize concierge services, and highlight resort access that attracts high-end buyers.
                 </p>
               </div>
               <div className="bg-white border-2 border-primary rounded-lg p-8 mb-12">
                 <h2 className="text-3xl font-black mb-4">Popular Strip Condo Buildings</h2>
+                <HeadingMedia level={2} heading="Popular Strip Condo Buildings" />
                 <p className="text-lg text-gray-700 mb-4">
                   Las Vegas Strip has many luxury high-rise condos. Each building has unique features, amenities, and buyer appeal. I've sold expired condos in many of these buildings. I understand what makes each building unique. I know how to market each building effectively.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">The Cosmopolitan</h3>
+                <HeadingMedia level={3} heading="The Cosmopolitan" />
                 <p className="text-lg text-gray-700 mb-4">
                   The Cosmopolitan offers luxury condos with resort access, world-class amenities, and prime Strip location. I've sold expired Cosmopolitan condos by highlighting resort access, showcasing amenities, and positioning condos competitively against luxury resorts.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Vdara</h3>
+                <HeadingMedia level={3} heading="Vdara" />
                 <p className="text-lg text-gray-700 mb-4">
                   Vdara offers non-gaming luxury condos with Aria access, sophisticated design, and exclusive amenities. I've sold expired Vdara condos by emphasizing non-gaming appeal, highlighting Aria access, and targeting sophisticated buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Veer Towers</h3>
+                <HeadingMedia level={3} heading="Veer Towers" />
                 <p className="text-lg text-gray-700 mb-4">
                   Veer Towers offers luxury condos with CityCenter access, modern design, and exclusive amenities. I've sold expired Veer Towers condos by showcasing CityCenter access, highlighting modern design, and attracting luxury lifestyle seekers.
                 </p>
@@ -132,6 +151,7 @@ export default function StripCondosPage() {
                 <h2 className="text-3xl font-black mb-4 text-center">
                   READY TO SELL YOUR STRIP CONDO?
                 </h2>
+                <HeadingMedia level={2} heading={"READY TO SELL YOUR STRIP CONDO?"} />
                 <p className="text-center text-lg text-gray-700 mb-6">
                   If your Las Vegas Strip condo home DID NOT sell, do not wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>

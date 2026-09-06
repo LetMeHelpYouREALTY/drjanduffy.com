@@ -8,6 +8,7 @@ import LeadForm from '@/app/components/lead-form'
 import Header from '@/app/components/header'
 import FAQSchema from '@/app/components/faq-schema'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
+import HeadingMedia from '@/app/components/heading-media'
 
 const faqs = [
   {
@@ -62,6 +63,7 @@ export default function ValueCheckPage() {
                 <h2 className="text-3xl font-black mb-6 text-center">
                   REALITY CHECK
                 </h2>
+                <HeadingMedia level={2} heading="REALITY CHECK" />
                 <div className="space-y-4 mb-6">
                   <div className="p-4 bg-blue-50 border-2 border-blue-200 rounded-lg">
                     <div className="text-sm text-gray-600 mb-1">Market Value</div>
@@ -101,6 +103,7 @@ export default function ValueCheckPage() {
                 <h3 className="text-2xl font-black mb-4 text-center">
                   GET DETAILED ANALYSIS
                 </h3>
+                <HeadingMedia level={3} heading="GET DETAILED ANALYSIS" />
                 <LeadForm
                   source="value_check"
                   buttonText="GET DETAILED ANALYSIS"
@@ -128,6 +131,7 @@ export default function ValueCheckPage() {
               <h1 className="text-4xl md:text-5xl font-black mb-4">
                 WHAT'S YOUR HOME REALLY WORTH?
               </h1>
+              <HeadingMedia level={1} heading={"WHAT'S YOUR HOME REALLY WORTH?"} />
               <p className="text-xl text-gray-600">
                 (Not the Fantasy Number)
               </p>

@@ -2,13 +2,19 @@ import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
 import FAQSchema from '@/app/components/faq-schema'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
+import HeadingMedia from '@/app/components/heading-media'
 export const metadata = {
-  title: 'Trump International Condos Las Vegas | failed listing specialist | Dr. Jan Duffy',
+  title: 'Trump International Condos Las Vegas for Sale | Dr. Jan Duffy',
   description:
     'Expert help selling expired Trump International condos in Las Vegas. Luxury high-rise condos with brand recognition. Proven results and professional marketing.',
 }
 export default function TrumpInternationalCondosPage() {
   const faqs = [
+    {
+      question: 'Are there condos for sale at Trump International Condos?',
+      answer:
+        'Yes. Dr. Jan Duffy represents Trump International Condos condos for sale in Las Vegas. Inventory changes daily. Call (702) 500-1064 for a current search. She also resets Trump International Condos listings that did not sell with a 97-point system and $3,700 photography.',
+    },
     {
       question: 'What real estate services does Dr. Jan Duffy provide for Trump International condos in Las Vegas?',
       answer:
@@ -45,8 +51,9 @@ export default function TrumpInternationalCondosPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <h1 className="text-4xl md:text-5xl font-black text-center mb-4">
-                TRUMP INTERNATIONAL CONDOS LAS VEGAS
+                TRUMP INTERNATIONAL CONDOS FOR SALE
               </h1>
+              <HeadingMedia level={1} heading="TRUMP INTERNATIONAL CONDOS FOR SALE" />
               <p className="text-xl text-center text-gray-600 mb-12">
                 Expert help selling expired Trump International condos - luxury high-rise condos with brand recognition and exclusive amenities
               </p>
@@ -63,54 +70,66 @@ export default function TrumpInternationalCondosPage() {
               </div>
               <div className="bg-primary/10 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">Why Trump International Condos Expire</h2>
+                <HeadingMedia level={2} heading="Why Trump International Condos Expire" />
                 <p className="text-lg text-gray-700 mb-4">
                   Trump International condos expire for the same reasons other luxury condos expire - poor marketing, minimal investment, and zero follow-up. But Trump International condos face additional challenges that most agents do not understand or address.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Brand Recognition Marketing</h3>
+                <HeadingMedia level={3} heading="Brand Recognition Marketing" />
                 <p className="text-lg text-gray-700 mb-4">
                   Trump International offers brand recognition. Buyers need to understand brand value. Most agents do not market brand recognition effectively. They do not explain benefits. They do not showcase brand appeal. They do not highlight brand prestige. I market brand recognition effectively. I explain benefits, showcase brand appeal, and highlight brand prestige that attracts brand-conscious buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Exclusive Amenity Highlighting</h3>
+                <HeadingMedia level={3} heading="Exclusive Amenity Highlighting" />
                 <p className="text-lg text-gray-700 mb-4">
                   Trump International offers exclusive amenities. Concierge services. Private pools. Exclusive events. Brand recognition. Most agents do not highlight exclusive amenities effectively. They do not showcase concierge services. They do not emphasize private pools. They do not highlight exclusive events. I highlight exclusive amenities effectively. I showcase concierge services, emphasize private pools, and highlight exclusive events that attract amenity-conscious buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Brand-Conscious Buyer Targeting</h3>
+                <HeadingMedia level={3} heading="Brand-Conscious Buyer Targeting" />
                 <p className="text-lg text-gray-700 mb-4">
                   Trump International attracts brand-conscious buyers. High-net-worth individuals. Brand enthusiasts. Luxury lifestyle seekers. Most agents do not know how to target brand-conscious buyers. They use generic advertising, and brand-conscious buyers look elsewhere. I know how to target brand-conscious buyers. I use targeted advertising, exclusive access events, and brand marketing that attracts brand-conscious buyers.
                 </p>
               </div>
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">Trump International Condo Features</h2>
+                <HeadingMedia level={2} heading="Trump International Condo Features" />
                 <p className="text-lg text-gray-700 mb-4">
                   Trump International offers luxury condos with brand recognition, exclusive amenities, and prime Strip location. Understanding these features is essential for effective marketing.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Brand Recognition</h3>
+                <HeadingMedia level={3} heading="Brand Recognition" />
                 <p className="text-lg text-gray-700 mb-4">
                   Trump International offers brand recognition with luxury branding, prestige appeal, and brand value. Most agents do not market brand recognition effectively. I do. I showcase luxury branding, highlight prestige appeal, and emphasize brand value that attracts brand-conscious buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Exclusive Amenities</h3>
+                <HeadingMedia level={3} heading="Exclusive Amenities" />
                 <p className="text-lg text-gray-700 mb-4">
                   Trump International offers exclusive amenities including concierge services, private pools, exclusive events, and sophisticated design. Most agents do not highlight exclusive amenities effectively. I do. I showcase concierge services, emphasize private pools, highlight exclusive events, and showcase sophisticated design that attracts amenity-conscious buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Prime Strip Location</h3>
+                <HeadingMedia level={3} heading="Prime Strip Location" />
                 <p className="text-lg text-gray-700 mb-4">
                   Trump International's prime Strip location offers proximity to world-class entertainment, dining, and shopping. Most agents do not emphasize location effectively. I do. I highlight proximity to entertainment, showcase dining options, and emphasize shopping access that attracts location-conscious buyers.
                 </p>
               </div>
               <div className="bg-white border-2 border-primary rounded-lg p-8 mb-12">
                 <h2 className="text-3xl font-black mb-4">My Trump International Condo Marketing Strategy</h2>
+                <HeadingMedia level={2} heading="My Trump International Condo Marketing Strategy" />
                 <p className="text-lg text-gray-700 mb-4">
                   I have a proven strategy for marketing Trump International condos. This strategy addresses unique challenges, highlights unique features, and attracts brand-conscious buyers. It sells Trump International condos. Fast. At top dollar.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Luxury Marketing Investment</h3>
+                <HeadingMedia level={3} heading="Luxury Marketing Investment" />
                 <p className="text-lg text-gray-700 mb-4">
                   Trump International condos require luxury marketing investment. Professional photography. Luxury staging. Exclusive access events. High-end advertising. Most agents do not invest in luxury marketing. I invest $5,000+ in professional media, luxury staging, and exclusive marketing that attracts brand-conscious buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Brand Recognition Highlighting</h3>
+                <HeadingMedia level={3} heading="Brand Recognition Highlighting" />
                 <p className="text-lg text-gray-700 mb-4">
                   Trump International condos offer brand recognition. I highlight this recognition effectively. I showcase luxury branding, highlight prestige appeal, and emphasize brand value that attracts brand-conscious buyers. Most agents do not do this. They use generic marketing, and Trump International condos expire.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Brand-Conscious Buyer Targeting</h3>
+                <HeadingMedia level={3} heading="Brand-Conscious Buyer Targeting" />
                 <p className="text-lg text-gray-700 mb-4">
                   Trump International attracts brand-conscious buyers. High-net-worth individuals. Brand enthusiasts. Luxury lifestyle seekers. Most agents do not know how to target these buyers. I do. I use targeted advertising, exclusive access events, and brand marketing that attracts brand-conscious buyers.
                 </p>
@@ -120,6 +139,7 @@ export default function TrumpInternationalCondosPage() {
                 <h2 className="text-3xl font-black mb-4 text-center">
                   READY TO SELL YOUR TRUMP INTERNATIONAL CONDO?
                 </h2>
+                <HeadingMedia level={2} heading={"READY TO SELL YOUR TRUMP INTERNATIONAL CONDO?"} />
                 <p className="text-center text-lg text-gray-700 mb-6">
                   If your Trump International condo home DID NOT sell, do not wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>

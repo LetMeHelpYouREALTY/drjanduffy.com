@@ -3,13 +3,19 @@ import LeadForm from '@/app/components/lead-form'
 import FAQSchema from '@/app/components/faq-schema'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 import PalmsListingCard from '@/app/components/PalmsListingCard'
+import HeadingMedia from '@/app/components/heading-media'
 export const metadata = {
-  title: 'Palms Place Condos Las Vegas | failed listing specialist | Dr. Jan Duffy',
+  title: 'Palms Place Condos Las Vegas for Sale | Dr. Jan Duffy',
   description:
     'Expert help selling expired Palms Place condos in Las Vegas. Luxury condo hotel with resort access. Proven results and professional marketing.',
 }
 export default function PalmsPlaceCondosPage() {
   const faqs = [
+    {
+      question: 'Are there condos for sale at Palms Place Condos?',
+      answer:
+        'Yes. Dr. Jan Duffy represents Palms Place Condos condos for sale in Las Vegas. Inventory changes daily. Call (702) 500-1064 for a current search. She also resets Palms Place Condos listings that did not sell with a 97-point system and $3,700 photography.',
+    },
     {
       question: 'What real estate services does Dr. Jan Duffy provide for Palms Place condos in Las Vegas?',
       answer:
@@ -46,8 +52,9 @@ export default function PalmsPlaceCondosPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <h1 className="text-4xl md:text-5xl font-black text-center mb-4">
-                PALMS PLACE CONDOS LAS VEGAS
+                PALMS PLACE CONDOS FOR SALE
               </h1>
+              <HeadingMedia level={1} heading="PALMS PLACE CONDOS FOR SALE" />
               <p className="text-xl text-center text-gray-600 mb-12">
                 Expert help selling expired Palms Place condos - luxury condo hotel with Palms resort access and rental programs
               </p>
@@ -64,54 +71,66 @@ export default function PalmsPlaceCondosPage() {
               </div>
               <div className="bg-primary/10 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">Why Palms Place Condos Expire</h2>
+                <HeadingMedia level={2} heading="Why Palms Place Condos Expire" />
                 <p className="text-lg text-gray-700 mb-4">
                   Palms Place condos expire for the same reasons other condo hotels expire - poor marketing, minimal investment, and zero follow-up. But Palms Place condos face additional challenges that most agents do not understand or address.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Rental Program Explanation</h3>
+                <HeadingMedia level={3} heading="Rental Program Explanation" />
                 <p className="text-lg text-gray-700 mb-4">
                   Palms Place offers rental programs. Buyers need to understand how rental programs work. Most agents do not explain rental programs effectively. They do not explain income potential. They do not showcase hotel management. They do not highlight rental history. I explain rental programs effectively. I explain income potential, showcase hotel management, and highlight rental history that attracts investors.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Resort Access Marketing</h3>
+                <HeadingMedia level={3} heading="Resort Access Marketing" />
                 <p className="text-lg text-gray-700 mb-4">
                   Palms Place condos offer Palms resort access. Buyers need to understand this value. Most agents do not market resort access effectively. They do not explain benefits. They do not showcase amenities. They do not highlight exclusive access. I market resort access effectively. I explain benefits, showcase amenities, and highlight exclusive access that attracts resort-conscious buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Investment Buyer Targeting</h3>
+                <HeadingMedia level={3} heading="Investment Buyer Targeting" />
                 <p className="text-lg text-gray-700 mb-4">
                   Palms Place attracts investors. Investors need to understand ROI, rental income, and management. Most agents do not know how to market to investors. They use residential marketing, and investors look elsewhere. I know how to market to investors. I emphasize ROI, highlight rental income, and showcase management that attracts investment buyers.
                 </p>
               </div>
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">Palms Place Condo Features</h2>
+                <HeadingMedia level={2} heading="Palms Place Condo Features" />
                 <p className="text-lg text-gray-700 mb-4">
                   Palms Place offers luxury condo hotel units with Palms resort access, rental programs, and world-class amenities. Understanding these features is essential for effective marketing.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Palms Resort Access</h3>
+                <HeadingMedia level={3} heading="Palms Resort Access" />
                 <p className="text-lg text-gray-700 mb-4">
                   Palms Place condos offer Palms resort access including pools, restaurants, entertainment, and amenities. Most agents do not market resort access effectively. I do. I showcase pools, highlight restaurants, emphasize entertainment, and showcase amenities that attract resort-conscious buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Rental Programs</h3>
+                <HeadingMedia level={3} heading="Rental Programs" />
                 <p className="text-lg text-gray-700 mb-4">
                   Palms Place offers rental programs with hotel management, income potential, and rental history. Most agents do not explain rental programs effectively. I do. I explain hotel management, highlight income potential, and showcase rental history that attracts investors.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">World-Class Amenities</h3>
+                <HeadingMedia level={3} heading="World-Class Amenities" />
                 <p className="text-lg text-gray-700 mb-4">
                   Palms Place offers world-class amenities including concierge services, fitness centers, pools, and exclusive access. Most agents do not showcase amenities effectively. I do. I showcase concierge services, emphasize fitness centers, highlight pools, and showcase exclusive access that attracts amenity-conscious buyers.
                 </p>
               </div>
               <div className="bg-white border-2 border-primary rounded-lg p-8 mb-12">
                 <h2 className="text-3xl font-black mb-4">My Palms Place Condo Marketing Strategy</h2>
+                <HeadingMedia level={2} heading="My Palms Place Condo Marketing Strategy" />
                 <p className="text-lg text-gray-700 mb-4">
                   I have a proven strategy for marketing Palms Place condos. This strategy addresses unique challenges, highlights unique features, and attracts investors and second-home buyers. It sells Palms Place condos. Fast. At top dollar.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Investment-Focused Marketing</h3>
+                <HeadingMedia level={3} heading="Investment-Focused Marketing" />
                 <p className="text-lg text-gray-700 mb-4">
                   Palms Place condos require investment-focused marketing. Professional photography highlighting hotel amenities. Strategic positioning emphasizing rental income potential. Explanation of rental programs. Most agents do not understand this. I do. I use investment-focused marketing, highlight rental programs, and attract investors and second-home buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Rental Program Explanation</h3>
+                <HeadingMedia level={3} heading="Rental Program Explanation" />
                 <p className="text-lg text-gray-700 mb-4">
                   Palms Place condos offer rental programs. I explain these programs effectively. I explain hotel management, highlight income potential, and showcase rental history that attracts investors. Most agents do not do this. They use generic explanations, and Palms Place condos expire.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Investor Network</h3>
+                <HeadingMedia level={3} heading="Investor Network" />
                 <p className="text-lg text-gray-700 mb-4">
                   Palms Place attracts investors. I have a network of investors seeking rental properties. I use this network to market Palms Place condos effectively. Most agents do not have this network. They use generic advertising, and Palms Place condos expire.
                 </p>
@@ -123,6 +142,7 @@ export default function PalmsPlaceCondosPage() {
                 <h2 className="text-3xl font-black mb-4 text-center">
                   READY TO SELL YOUR PALMS PLACE CONDO?
                 </h2>
+                <HeadingMedia level={2} heading={"READY TO SELL YOUR PALMS PLACE CONDO?"} />
                 <p className="text-center text-lg text-gray-700 mb-6">
                   If your Palms Place condo home DID NOT sell, do not wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>

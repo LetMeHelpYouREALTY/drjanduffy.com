@@ -2,6 +2,7 @@ import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
 import FAQSchema from '@/app/components/faq-schema'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
+import HeadingMedia from '@/app/components/heading-media'
 export const metadata = {
   title: 'FAQ | HOME THAT DID NOT SELL Questions | Dr. Jan Duffy',
   description:
@@ -142,6 +143,7 @@ export default function FAQPage() {
               <h1 className="text-4xl md:text-5xl font-black text-center mb-4">
                 FREQUENTLY ASKED QUESTIONS
               </h1>
+              <HeadingMedia level={1} heading="FREQUENTLY ASKED QUESTIONS" />
               <p className="text-xl text-center text-gray-600 mb-12">
                 Everything you need to know about selling your HOME THAT DID NOT SELL
               </p>
@@ -153,10 +155,12 @@ export default function FAQPage() {
                   The FAQ below covers the most common questions I get from HOME That DID NOT SELL sellers. These are not generic answers. These are real answers based on 7 homes that DID NOT sell - now sold, 19 day average, 98.7% of asking price. If you have questions that are not covered here, call me directly at (702) 500-1064. I'll give you real answers, not sales pitches. Learn more about <a href="/about" className="text-primary font-semibold hover:underline">my background</a>, <a href="/services" className="text-primary font-semibold hover:underline">my services</a>, <a href="/process" className="text-primary font-semibold hover:underline">my selling process</a>, and check out my <a href="/guides/sellers-guide" className="text-primary font-semibold hover:underline">complete seller's guide</a> for comprehensive guidance.
                 </p>
                 <h2 className="text-3xl font-black mb-4 mt-8">Why These Questions Matter</h2>
+                <HeadingMedia level={2} heading="Why These Questions Matter" />
                 <p className="text-lg text-gray-700 mb-4">
                   Most agents avoid answering tough questions. They give vague answers, make promises, and hope you do not ask follow-ups. I answer every question directly, honestly, and with real data. You deserve to know what you're getting into. You deserve real answers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">The Real Answers</h3>
+                <HeadingMedia level={3} heading="The Real Answers" />
                 <p className="text-lg text-gray-700">
                   The answers below are based on real experience, real results, and real data. I've sold 7 HOMES THAT DID NOT SELL. I know what works. I know what does not. I know how long it takes. I know what percentage of asking you can expect. I'll give you real answers, not marketing fluff.
                 </p>
@@ -170,6 +174,8 @@ export default function FAQPage() {
                     <h3 className="text-xl font-black mb-3 text-primary">
                       {faq.question}
                     </h3>
+                    <HeadingMedia level={3} heading={faq.question} size="compact" />
+
                     <p className="text-gray-700 text-lg leading-relaxed">
                       {faq.answer}
                     </p>
@@ -178,6 +184,8 @@ export default function FAQPage() {
               </div>
               <div className="bg-primary text-primary-foreground p-8 rounded-lg text-center mb-12">
                 <h2 className="text-3xl font-black mb-4">STILL HAVE QUESTIONS?</h2>
+                <HeadingMedia level={2} heading="STILL HAVE QUESTIONS?" />
+
                 <p className="text-xl mb-4">Call me directly:</p>
                 <a
                   href="tel:7025001064"
@@ -191,9 +199,11 @@ export default function FAQPage() {
               </div>
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4 text-center">Common Concerns About HOMES THAT DID NOT SELL</h2>
+                <HeadingMedia level={2} heading="Common Concerns About HOMES THAT DID NOT SELL" />
                 <div className="space-y-6">
                   <div>
                     <h3 className="text-2xl font-bold mb-3">Is My Home Stigmatized?</h3>
+                    <HeadingMedia level={3} heading={"Is My Home Stigmatized?"} />
                     <p className="text-lg text-gray-700 mb-4">
                       Many sellers worry that their HOME THAT DID NOT SELL is stigmatized - that buyers will see "expired" and think "what's wrong with it?" The truth is, HOMES THAT DID NOT SELL can be stigmatized, but the stigma can be overcome. The key is a complete reset: new photos, new pricing strategy, fresh MLS listing, and aggressive marketing. When buyers see a beautiful, properly priced home with professional marketing, they forget it ever expired.
                     </p>
@@ -204,6 +214,7 @@ export default function FAQPage() {
                   </div>
                   <div>
                     <h3 className="text-2xl font-bold mb-3">Will I Get Less Than Asking?</h3>
+                    <HeadingMedia level={3} heading={"Will I Get Less Than Asking?"} />
                     <p className="text-lg text-gray-700 mb-4">
                       Many sellers worry that HOMES THAT DID NOT SELL sell for less than asking. The truth is, it depends on the agent. Your previous agent probably got you expired because they overpriced your home or did not negotiate effectively. I average 98.7% of asking price on HOMES THAT DID NOT SELL through aggressive marketing and strategic negotiation.
                     </p>
@@ -214,6 +225,7 @@ export default function FAQPage() {
                   </div>
                   <div>
                     <h3 className="text-2xl font-bold mb-3">How Long Will It Really Take?</h3>
+                    <HeadingMedia level={3} heading={"How Long Will It Really Take?"} />
                     <p className="text-lg text-gray-700 mb-4">
                       Many sellers worry that HOMES THAT DID NOT SELL take longer to sell. The truth is, it depends on the agent. Your previous agent probably got you expired because they DID NOT have a system. I have a proven 30-day plan that sells homes that did not sell. I average 19 days to contract and continue working until your home sells.
                     </p>
@@ -228,6 +240,7 @@ export default function FAQPage() {
                 <h2 className="text-2xl font-black mb-4 text-center">
                   READY TO GET ANSWERS?
                 </h2>
+                <HeadingMedia level={2} heading={"READY TO GET ANSWERS?"} />
                 <LeadForm source="faq_page" buttonText="ASK YOUR QUESTION" />
               </div>
             </div>

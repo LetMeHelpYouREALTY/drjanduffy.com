@@ -5,6 +5,7 @@ import FAQSchema from '@/app/components/faq-schema'
 import NAPSection from '@/app/components/nap-section'
 import GoogleBusinessLink from '@/app/components/google-business-link'
 import Link from 'next/link'
+import HeadingMedia from '@/app/components/heading-media'
 
 export const metadata = {
   title: 'Complete Guide: What to Do When Your Home Did Not Sell | Dr. Jan Duffy',
@@ -64,6 +65,7 @@ export default function SellersGuidePage() {
               <h1 className="text-4xl md:text-5xl font-black text-center mb-4">
                 Complete Guide: What to Do When Your Home Did Not Sell
               </h1>
+              <HeadingMedia level={1} heading="Complete Guide: What to Do When Your Home Did Not Sell" />
               <p className="text-xl text-center text-gray-600 mb-12">
                 Expert guidance for evaluating agents, addressing concerns, and successfully relisting your home
               </p>
@@ -82,11 +84,13 @@ export default function SellersGuidePage() {
                 <h2 className="text-3xl font-black mb-6 text-primary">
                   1. Understanding Your Situation
                 </h2>
+                <HeadingMedia level={2} heading="1. Understanding Your Situation" />
                 <p className="text-lg text-gray-700 mb-6">
                   The first step is understanding what happened and why. Most homes do not sell due to specific, addressable issues - not because there is something wrong with your home.
                 </p>
 
                 <h3 className="text-2xl font-bold mb-4 mt-8">What Went Wrong?</h3>
+                <HeadingMedia level={3} heading={"What Went Wrong?"} />
                 <p className="text-lg text-gray-700 mb-4">
                   There are usually three main reasons a home did not sell: price, presentation, and promotion. Understanding which areas were weak helps you evaluate what needs to change.
                 </p>
@@ -124,11 +128,13 @@ export default function SellersGuidePage() {
                 <h2 className="text-3xl font-black mb-6 text-primary">
                   2. How to Evaluate Agent Outreach
                 </h2>
+                <HeadingMedia level={2} heading="2. How to Evaluate Agent Outreach" />
                 <p className="text-lg text-gray-700 mb-6">
                   When your listing expires, agents will contact you through various channels. Here is how to evaluate their outreach and identify quality agents.
                 </p>
 
                 <h3 className="text-2xl font-bold mb-4 mt-8">Evaluating Text Messages</h3>
+                <HeadingMedia level={3} heading="Evaluating Text Messages" />
                 <p className="text-lg text-gray-700 mb-4">
                   Quality agents will mention that they noticed your home came off the market, explain their specialization in expired listings, and invite a conversation rather than just asking for the listing. Look for agents who mention specific strategies or results, not just generic promises.
                 </p>
@@ -137,6 +143,7 @@ export default function SellersGuidePage() {
                 </p>
 
                 <h3 className="text-2xl font-bold mb-4 mt-8">Evaluating Email Outreach</h3>
+                <HeadingMedia level={3} heading="Evaluating Email Outreach" />
                 <p className="text-lg text-gray-700 mb-4">
                   Quality emails should include: acknowledgment of your specific situation, explanation of the agent's approach to expired listings, specific strategies they use, questions about what happened previously, and an invitation to discuss rather than just asking for a listing.
                 </p>
@@ -145,6 +152,7 @@ export default function SellersGuidePage() {
                 </p>
 
                 <h3 className="text-2xl font-bold mb-4 mt-8">Evaluating Voicemail Messages</h3>
+                <HeadingMedia level={3} heading="Evaluating Voicemail Messages" />
                 <p className="text-lg text-gray-700 mb-4">
                   Quality voicemails will mention: that they noticed your home came off the market, their specialization in helping sellers in your situation, specific strategies or results, and an invitation to discuss when convenient. They should sound professional, respectful, and focused on helping you.
                 </p>
@@ -153,6 +161,7 @@ export default function SellersGuidePage() {
                 </p>
 
                 <h3 className="text-2xl font-bold mb-4 mt-8">Handling Door-to-Door Visits</h3>
+                <HeadingMedia level={3} heading="Handling Door-to-Door Visits" />
                 <p className="text-lg text-gray-700 mb-4">
                   You are not obligated to talk to agents who come to your door. If you do choose to engage, evaluate them the same way you would any agent: ask about their specific strategies, track record with expired listings, and approach. A quality agent will respect your time, explain their methods briefly, and offer to schedule a proper consultation rather than trying to get a listing on the spot.
                 </p>
@@ -177,11 +186,13 @@ export default function SellersGuidePage() {
                 <h2 className="text-3xl font-black mb-6 text-primary">
                   3. Common Concerns and Objections
                 </h2>
+                <HeadingMedia level={2} heading="3. Common Concerns and Objections" />
                 <p className="text-lg text-gray-700 mb-6">
                   Many sellers have concerns about relisting. Here is how to think through common objections and make informed decisions.
                 </p>
 
                 <h3 className="text-2xl font-bold mb-4 mt-8">"I am Thinking of Selling It Myself (FSBO)"</h3>
+                <HeadingMedia level={3} heading="I am Thinking of Selling It Myself (FSBO)" />
                 <p className="text-lg text-gray-700 mb-4">
                   Selling yourself can work, but it requires significant time and effort. You will handle all calls, showings, buyer questions, contracts, and negotiations yourself. Many FSBO sellers find the workload overwhelming and eventually list with an agent.
                 </p>
@@ -190,6 +201,7 @@ export default function SellersGuidePage() {
                 </p>
 
                 <h3 className="text-2xl font-bold mb-4 mt-8">"I am Going to Rent It Instead"</h3>
+                <HeadingMedia level={3} heading="I am Going to Rent It Instead" />
                 <p className="text-lg text-gray-700 mb-4">
                   Renting can make sense in some situations, but it comes with responsibilities: repairs, vacancies, tenant management, and lease enforcement. Many homeowners who plan to rent later realize they prefer to sell, especially when they understand the ongoing responsibilities.
                 </p>
@@ -198,6 +210,7 @@ export default function SellersGuidePage() {
                 </p>
 
                 <h3 className="text-2xl font-bold mb-4 mt-8">"I am Staying with My Previous Agent"</h3>
+                <HeadingMedia level={3} heading="I am Staying with My Previous Agent" />
                 <p className="text-lg text-gray-700 mb-4">
                   Staying loyal can make sense, but only if your previous agent can clearly explain what will be different this time. If your listing did not sell, it is rarely just bad luck - usually there are concrete issues that need addressing: pricing strategy, marketing reach, staging, or timing.
                 </p>
@@ -206,6 +219,7 @@ export default function SellersGuidePage() {
                 </p>
 
                 <h3 className="text-2xl font-bold mb-4 mt-8">"It is Not the Right Time to Sell"</h3>
+                <HeadingMedia level={3} heading="It is Not the Right Time to Sell" />
                 <p className="text-lg text-gray-700 mb-4">
                   Timing matters, but when a listing does not sell, it is rarely due to timing alone. Often there are tangible issues that can be addressed: pricing strategy, staging, or marketing. Market conditions matter, but proper pricing and marketing can overcome timing challenges.
                 </p>
@@ -219,11 +233,13 @@ export default function SellersGuidePage() {
                 <h2 className="text-3xl font-black mb-6 text-primary">
                   4. What to Expect in a Consultation
                 </h2>
+                <HeadingMedia level={2} heading="4. What to Expect in a Consultation" />
                 <p className="text-lg text-gray-700 mb-6">
                   A quality consultation should give you clarity on what went wrong, what needs to change, and how the agent plans to help you succeed.
                 </p>
 
                 <h3 className="text-2xl font-bold mb-4 mt-8">The Diagnostic Process</h3>
+                <HeadingMedia level={3} heading="The Diagnostic Process" />
                 <p className="text-lg text-gray-700 mb-4">
                   A good agent will analyze why your home did not sell by examining three areas: price, presentation, and promotion. They should ask about showing activity, agent feedback, marketing efforts, and your experience with the previous listing.
                 </p>
@@ -232,6 +248,7 @@ export default function SellersGuidePage() {
                 </p>
 
                 <h3 className="text-2xl font-bold mb-4 mt-8">Understanding Your Goals</h3>
+                <HeadingMedia level={3} heading="Understanding Your Goals" />
                 <p className="text-lg text-gray-700 mb-4">
                   A quality consultation should include discussion of your goals: timeline, price expectations, and priorities. The agent should explain how their approach aligns with your goals and what you can realistically expect.
                 </p>
@@ -240,6 +257,7 @@ export default function SellersGuidePage() {
                 </p>
 
                 <h3 className="text-2xl font-bold mb-4 mt-8">The Marketing Plan Overview</h3>
+                <HeadingMedia level={3} heading="The Marketing Plan Overview" />
                 <p className="text-lg text-gray-700 mb-4">
                   You should receive a clear explanation of the marketing plan, including: professional photography and staging, online advertising strategy, social media marketing, agent network activation, targeted buyer outreach, and follow-up systems.
                 </p>
@@ -268,11 +286,13 @@ export default function SellersGuidePage() {
                 <h2 className="text-3xl font-black mb-6 text-primary">
                   5. Preparing to Relist Your Home
                 </h2>
+                <HeadingMedia level={2} heading="5. Preparing to Relist Your Home" />
                 <p className="text-lg text-gray-700 mb-6">
                   Once you decide to work with an agent, here is what to expect and how to prepare for a successful relisting.
                 </p>
 
                 <h3 className="text-2xl font-bold mb-4 mt-8">The Complete Reset</h3>
+                <HeadingMedia level={3} heading="The Complete Reset" />
                 <p className="text-lg text-gray-700 mb-4">
                   A quality agent will implement a complete reset: new professional photography, fresh staging, updated MLS listing with optimized description, and comprehensive marketing launch. This eliminates the stigma of the expired listing and presents your home as a fresh opportunity.
                 </p>
@@ -281,6 +301,7 @@ export default function SellersGuidePage() {
                 </p>
 
                 <h3 className="text-2xl font-bold mb-4 mt-8">Strategic Pricing</h3>
+                <HeadingMedia level={3} heading="Strategic Pricing" />
                 <p className="text-lg text-gray-700 mb-4">
                   Pricing should be data-driven, not based on what you want to hear. A quality agent will conduct market analysis, review comparable sales, consider buyer feedback from the previous listing, and price strategically to attract qualified buyers while maximizing your sale price.
                 </p>
@@ -289,6 +310,7 @@ export default function SellersGuidePage() {
                 </p>
 
                 <h3 className="text-2xl font-bold mb-4 mt-8">Marketing Launch</h3>
+                <HeadingMedia level={3} heading="Marketing Launch" />
                 <p className="text-lg text-gray-700 mb-4">
                   Quality marketing should launch immediately and include: professional photography and virtual tours, online advertising (Facebook, Google), social media marketing, email campaigns to buyer database, agent network activation, and strategic open houses.
                 </p>
@@ -297,6 +319,7 @@ export default function SellersGuidePage() {
                 </p>
 
                 <h3 className="text-2xl font-bold mb-4 mt-8">Ongoing Communication</h3>
+                <HeadingMedia level={3} heading="Ongoing Communication" />
                 <p className="text-lg text-gray-700 mb-4">
                   You should expect regular updates on: showing activity and feedback, buyer interest and inquiries, market response and adjustments, and progress toward your goals. A quality agent will keep you informed and engaged throughout the process.
                 </p>
@@ -310,6 +333,7 @@ export default function SellersGuidePage() {
                 <h2 className="text-3xl font-black mb-6 text-primary">
                   6. Questions to Ask Before Signing
                 </h2>
+                <HeadingMedia level={2} heading="6. Questions to Ask Before Signing" />
                 <p className="text-lg text-gray-700 mb-6">
                   Before signing a listing agreement, make sure you have answers to these critical questions. A quality agent will answer them directly and specifically.
                 </p>
@@ -317,6 +341,7 @@ export default function SellersGuidePage() {
                 <div className="space-y-6">
                   <div>
                     <h3 className="text-xl font-bold mb-2">Track Record Questions</h3>
+                    <HeadingMedia level={3} heading={"Track Record Questions"} size="compact" />
                     <ul className="space-y-2 text-gray-700">
                       <li>• What is your track record with expired listings?</li>
                       <li>• How many homes that did not sell have you sold?</li>
@@ -328,6 +353,7 @@ export default function SellersGuidePage() {
 
                   <div>
                     <h3 className="text-xl font-bold mb-2">Strategy Questions</h3>
+                    <HeadingMedia level={3} heading={"Strategy Questions"} size="compact" />
                     <ul className="space-y-2 text-gray-700">
                       <li>• What specific strategies will you use that are different from my previous agent?</li>
                       <li>• What is your marketing budget per listing?</li>
@@ -339,6 +365,7 @@ export default function SellersGuidePage() {
 
                   <div>
                     <h3 className="text-xl font-bold mb-2">Availability Questions</h3>
+                    <HeadingMedia level={3} heading={"Availability Questions"} size="compact" />
                     <ul className="space-y-2 text-gray-700">
                       <li>• How many listings do you handle at once?</li>
                       <li>• How much time can you dedicate to my listing?</li>
@@ -349,6 +376,7 @@ export default function SellersGuidePage() {
 
                   <div>
                     <h3 className="text-xl font-bold mb-2">Process Questions</h3>
+                    <HeadingMedia level={3} heading={"Process Questions"} size="compact" />
                     <ul className="space-y-2 text-gray-700">
                       <li>• What happens if my home does not sell?</li>
                       <li>• What is your timeline for getting started?</li>
@@ -369,6 +397,7 @@ export default function SellersGuidePage() {
               {/* Call to Action Section */}
               <div className="bg-primary text-primary-foreground p-8 rounded-lg text-center mb-12">
                 <h2 className="text-3xl font-black mb-4">READY TO GET STARTED?</h2>
+                <HeadingMedia level={2} heading={"READY TO GET STARTED?"} />
                 <p className="text-xl mb-4">
                   I have helped 7 Summerlin sellers whose homes did not sell with other agents
                 </p>
@@ -394,9 +423,11 @@ export default function SellersGuidePage() {
               {/* Additional Resources */}
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-6 text-center">Additional Resources</h2>
+                <HeadingMedia level={2} heading="Additional Resources" />
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
                     <h3 className="text-xl font-bold mb-3">Learn More</h3>
+                    <HeadingMedia level={3} heading={"Learn More"} size="compact" />
                     <ul className="space-y-2">
                       <li>
                         <Link href="/why-expire" className="text-primary hover:underline">
@@ -422,6 +453,7 @@ export default function SellersGuidePage() {
                   </div>
                   <div>
                     <h3 className="text-xl font-bold mb-3">Get Help</h3>
+                    <HeadingMedia level={3} heading={"Get Help"} size="compact" />
                     <ul className="space-y-2">
                       <li>
                         <Link href="/faq" className="text-primary hover:underline">
@@ -453,6 +485,7 @@ export default function SellersGuidePage() {
                 <h2 className="text-2xl font-black mb-4 text-center">
                   HAVE QUESTIONS ABOUT RELISTING?
                 </h2>
+                <HeadingMedia level={2} heading={"HAVE QUESTIONS ABOUT RELISTING?"} />
                 <p className="text-center text-gray-600 mb-6">
                   Get personalized guidance on your specific situation
                 </p>

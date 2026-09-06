@@ -4,6 +4,7 @@ import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 import FAQSchema from '@/app/components/faq-schema'
 import NAPSection from '@/app/components/nap-section'
 import GoogleBusinessLink from '@/app/components/google-business-link'
+import HeadingMedia from '@/app/components/heading-media'
 export const metadata = {
   title: 'Why Homes Do Not Sell | Dr. Jan Duffy',
   description:
@@ -37,6 +38,7 @@ export default function WhyExpirePage() {
             <h1 className="text-4xl md:text-5xl font-black text-center mb-12">
               WHY homes fail to sell
             </h1>
+            <HeadingMedia level={1} heading="WHY homes fail to sell" />
             <div className="max-w-4xl mx-auto space-y-12">
               <div className="prose prose-lg max-w-none">
                   <p className="text-lg text-gray-700 mb-6">
@@ -48,6 +50,7 @@ export default function WhyExpirePage() {
               </div>
               <div>
                 <h2 className="text-3xl font-black mb-4">The Data: Las Vegas HOME THAT DID NOT SELL Reality</h2>
+                <HeadingMedia level={2} heading="The Data: Las Vegas HOME THAT DID NOT SELL Reality" />
                 <div className="bg-gray-100 p-6 rounded-lg mb-6">
                   <ul className="space-y-3 text-lg mb-4">
                     <li>
@@ -70,6 +73,7 @@ export default function WhyExpirePage() {
                     </li>
                   </ul>
                   <h3 className="text-2xl font-bold mb-3">What This Data Means</h3>
+                  <HeadingMedia level={3} heading="What This Data Means" />
                   <p className="text-lg text-gray-700">
                     These numbers are not abstract statistics. They represent real homes, real sellers, and real money lost. In Las Vegas alone, 1,500-2,250 listings will fail to sell this year. That's 1,500-2,250 sellers who trusted their agents, got failed results, and lost thousands of dollars in holding costs. The problem is not the market. The problem is not the homes. The problem is the agents.
                   </p>
@@ -79,6 +83,7 @@ export default function WhyExpirePage() {
                 <h2 className="text-3xl font-black mb-4">
                   Common Agent Failure Patterns
                 </h2>
+                <HeadingMedia level={2} heading="Common Agent Failure Patterns" />
                 <p className="text-lg text-gray-700 mb-6">
                   After analyzing hundreds of HOMES THAT DID NOT SELL, I have identified five common failure patterns that cause listings to expire. Your previous agent likely made at least three of these mistakes. Understanding what went wrong is the first step to fixing it.
                 </p>
@@ -87,6 +92,7 @@ export default function WhyExpirePage() {
                     <h3 className="text-2xl font-bold mb-2">
                       1. Poor Photography
                     </h3>
+                    <HeadingMedia level={3} heading="1. Poor Photography" />
                     <p className="text-gray-700 mb-3">
                       iPhone photos in 2026? Dark rooms, cluttered spaces, and unprofessional staging kill buyer interest in the first 2.3 seconds. Buyers scroll through hundreds of listings online. If your photos do not grab them immediately, they move on. Your previous agent spent $37 on photos. I spend $3,700 on professional media - twilight drone shots, 3D virtual tours, magazine-quality staging. The difference is obvious.
                     </p>
@@ -99,6 +105,7 @@ export default function WhyExpirePage() {
                     <h3 className="text-2xl font-bold mb-2">
                       2. Minimal Marketing
                     </h3>
+                    <HeadingMedia level={3} heading="2. Minimal Marketing" />
                     <p className="text-gray-700 mb-3">
                       "Posted to MLS" is not a strategy. One open house, zero follow-up, no buyer targeting. Your house becomes invisible. Your previous agent posted your listing to MLS and disappeared. That's not marketing. That's laziness.
                     </p>
@@ -111,6 +118,7 @@ export default function WhyExpirePage() {
                     <h3 className="text-2xl font-bold mb-2">
                       3. Overpricing Strategy
                     </h3>
+                    <HeadingMedia level={3} heading="3. Overpricing Strategy" />
                     <p className="text-gray-700 mb-3">
                       Agents tell you what you want to hear to get the listing. Then suggest price drops every month. Amateur hour. Your previous agent probably told you your home was worth more than it actually was, just to get the listing. Then, when it DID NOT sell, they suggested price drops. That's not a strategy. That's incompetence.
                     </p>
@@ -123,6 +131,7 @@ export default function WhyExpirePage() {
                     <h3 className="text-2xl font-bold mb-2">
                       4. Part-Time Effort
                     </h3>
+                    <HeadingMedia level={3} heading="4. Part-Time Effort" />
                     <p className="text-gray-700 mb-3">
                       Your agent is juggling 47 other listings. You're inventory number #48. You get 2.1% of their attention. That's not enough to sell a home. Your previous agent spread themselves too thin, and your listing suffered.
                     </p>
@@ -135,6 +144,7 @@ export default function WhyExpirePage() {
                     <h3 className="text-2xl font-bold mb-2">
                       5. No Follow-Up System
                     </h3>
+                    <HeadingMedia level={3} heading="5. No Follow-Up System" />
                     <p className="text-gray-700 mb-3">
                       Showings happen, feedback disappears. No aggressive follow-up, no negotiation strategy, no urgency. Your previous agent probably held showings, collected feedback, and did nothing with it. That's not how you sell homes.
                     </p>
@@ -147,6 +157,7 @@ export default function WhyExpirePage() {
               </div>
               <div className="bg-white border-2 border-gray-200 rounded-lg p-8 mb-12">
                 <h2 className="text-3xl font-black mb-6 text-center">Frequently Asked Questions</h2>
+                <HeadingMedia level={2} heading="Frequently Asked Questions" />
                 <div className="space-y-6">
                   {faqs.map((faq, index) => (
                     <div
@@ -156,6 +167,8 @@ export default function WhyExpirePage() {
                       <h3 className="text-xl font-black mb-3 text-primary">
                         {faq.question}
                       </h3>
+                      <HeadingMedia level={3} heading={faq.question} size="compact" />
+
                       <p className="text-gray-700 text-lg leading-relaxed">
                         {faq.answer}
                       </p>
@@ -166,10 +179,12 @@ export default function WhyExpirePage() {
 
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">The Bottom Line</h2>
+                <HeadingMedia level={2} heading="The Bottom Line" />
                 <p className="text-lg text-gray-700 mb-4">
                   Your listing DID NOT expire because of your home. It expired because of your agent. Poor photography, minimal marketing, overpricing, part-time effort, and zero follow-up - these are the five fatal mistakes that kill listings. Your previous agent made at least three of them. That's why your home DID NOT sell.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">What Needs to Change</h3>
+                <HeadingMedia level={3} heading="What Needs to Change" />
                 <p className="text-lg text-gray-700 mb-4">
                   The good news? HOMES THAT DID NOT SELL can be fixed. I have sold 7 Summerlin sellers who could not sell with an average of 19 days to contract and 98.7% of asking price. The key is a complete reset: new photos, new pricing strategy, fresh MLS listing, and aggressive marketing. The same system that sold these 7 HOMES THAT DID NOT SELL can sell yours. The only question is: are you ready to work with an agent who actually knows what they are doing?
                 </p>
@@ -180,12 +195,14 @@ export default function WhyExpirePage() {
 
               <div className="bg-white border-2 border-primary rounded-lg p-8 mb-12">
                 <h2 className="text-3xl font-black mb-4 text-center">The Psychology of HOMES That DID NOT SELL</h2>
+                <HeadingMedia level={2} heading="The Psychology of HOMES That DID NOT SELL" />
                 <p className="text-lg text-gray-700 mb-6 text-center">
                   Understanding why homes fail to sell is not just about data - it's about understanding the psychology of buyers, sellers, and agents.
                 </p>
                 <div className="space-y-6">
                   <div>
                     <h3 className="text-2xl font-bold mb-3">Buyer Psychology: Why They Scroll Past</h3>
+                    <HeadingMedia level={3} heading="Buyer Psychology: Why They Scroll Past" />
                     <p className="text-lg text-gray-700 mb-4">
                       Buyers scroll through hundreds of listings online. They make split-second decisions based on photos, price, and description. If your photos are dark and cluttered, they scroll past. If your price is too high, they scroll past. If your description is generic, they scroll past. Your previous agent's poor marketing made your home invisible. Buyers never even saw it.
                     </p>
@@ -195,6 +212,7 @@ export default function WhyExpirePage() {
                   </div>
                   <div>
                     <h3 className="text-2xl font-bold mb-3">Seller Psychology: The Frustration Factor</h3>
+                    <HeadingMedia level={3} heading="Seller Psychology: The Frustration Factor" />
                     <p className="text-lg text-gray-700 mb-4">
                       Frustrated sellers are frustrated. They trusted their agent, followed their advice, and got failed results. They are angry. They are motivated. They are ready to work with someone who actually knows what they are doing. This psychology makes frustrated sellers the best clients. They are educated about the process. They understand the market. They are realistic about pricing. They are ready to make decisions quickly.
                     </p>
@@ -204,6 +222,7 @@ export default function WhyExpirePage() {
                   </div>
                   <div>
                     <h3 className="text-2xl font-bold mb-3">Agent Psychology: Volume vs. Quality</h3>
+                    <HeadingMedia level={3} heading="Agent Psychology: Volume vs. Quality" />
                     <p className="text-lg text-gray-700 mb-4">
                       Most agents operate on a volume-based model. They take as many listings as possible, invest minimal marketing in each, and hope something sticks. This model works for them - they collect commissions on the few that sell. But it does not work for you. You got minimal marketing, minimal attention, and a HOME THAT DID NOT SELL.
                     </p>
@@ -216,12 +235,14 @@ export default function WhyExpirePage() {
 
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4 text-center">The Cost of HOMES THAT DID NOT SELL</h2>
+                <HeadingMedia level={2} heading="The Cost of HOMES THAT DID NOT SELL" />
                 <p className="text-lg text-gray-700 mb-6 text-center">
                   HOMES That DID NOT SELL cost sellers money. A lot of money. Here is the real cost:
                 </p>
                 <div className="grid md:grid-cols-2 gap-6">
                   <div className="bg-white border-2 border-gray-200 rounded-lg p-6">
                     <h3 className="text-2xl font-black mb-4">Direct Costs</h3>
+                    <HeadingMedia level={3} heading="Direct Costs" />
                     <ul className="space-y-3 text-lg text-gray-700 mb-4">
                       <li>• $4,964/month in holding costs</li>
                       <li>• $116/day in daily costs</li>
@@ -234,6 +255,7 @@ export default function WhyExpirePage() {
                   </div>
                   <div className="bg-white border-2 border-gray-200 rounded-lg p-6">
                     <h3 className="text-2xl font-black mb-4">Hidden Costs</h3>
+                    <HeadingMedia level={3} heading="Hidden Costs" />
                     <ul className="space-y-3 text-lg text-gray-700 mb-4">
                       <li>• Lost opportunity cost</li>
                       <li>• Market depreciation</li>
@@ -253,6 +275,7 @@ export default function WhyExpirePage() {
                 <h2 className="text-3xl font-black mb-4 text-center">
                   YOUR AGENT MADE $0
                 </h2>
+                <HeadingMedia level={2} heading="YOUR AGENT MADE $0" />
                 <p className="text-4xl font-black text-center mb-4">
                   YOU LOST $4,964/MONTH
                 </p>
@@ -264,6 +287,7 @@ export default function WhyExpirePage() {
                 <h2 className="text-2xl font-black mb-4 text-center">
                   GET YOUR FREE REPORT
                 </h2>
+                <HeadingMedia level={2} heading="GET YOUR FREE REPORT" />
                 <p className="text-center text-gray-600 mb-6">
                   "7 Reasons your home did not sell (And How to Fix Them in 30 Days)"
                 </p>

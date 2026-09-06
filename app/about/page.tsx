@@ -6,6 +6,7 @@ import NAPSection from '@/app/components/nap-section'
 import GoogleReviews from '@/app/components/google-reviews'
 import GoogleBusinessLink from '@/app/components/google-business-link'
 import Image from 'next/image'
+import HeadingMedia from '@/app/components/heading-media'
 
 export const metadata = {
   title: 'About Dr. Janet Duffy | Real Estate Agent in Las Vegas, NV | (702) 500-1064',
@@ -66,6 +67,7 @@ export default function AboutPage() {
               <h1 className="text-4xl md:text-5xl font-black text-center mb-12">
                 ABOUT DR. JAN DUFFY
               </h1>
+              <HeadingMedia level={1} heading="ABOUT DR. JAN DUFFY" />
 
               {/* Dr. Jan Duffy Photo */}
               <div className="flex justify-center mb-8">
@@ -88,6 +90,7 @@ export default function AboutPage() {
               <div className="prose prose-lg max-w-none mb-12">
                 <div className="bg-primary/10 p-8 rounded-lg mb-8">
                   <h2 className="text-3xl font-black mb-4">The Failed Listing Specialist</h2>
+                  <HeadingMedia level={2} heading="The Failed Listing Specialist" />
                   <p className="text-xl mb-4">
                     Dr. Janet Duffy has sold <strong>7 Summerlin sellers who could not sell</strong> with an average of <strong>19 days</strong> to contract and <strong>98.7% of asking price</strong>.
                   </p>
@@ -102,10 +105,12 @@ export default function AboutPage() {
                 <div className="grid md:grid-cols-2 gap-8 mb-12">
                   <div>
                     <h2 className="text-3xl font-black mb-4">Professional Credentials</h2>
+                    <HeadingMedia level={2} heading="Professional Credentials" />
                     <p className="text-lg mb-4">
                       Dr. Janet Duffy is a licensed real estate agent with extensive experience in the Las Vegas market, specializing in HOMES That DID NOT SELL and luxury properties.
                     </p>
                     <h3 className="text-2xl font-bold mb-4">Key Achievements</h3>
+                    <HeadingMedia level={3} heading="Key Achievements" />
                     <ul className="space-y-2 text-lg mb-4">
                       <li>• Licensed Real Estate Agent (Nevada)</li>
                       <li>• specialist in homes that DID NOT sell</li>
@@ -117,16 +122,19 @@ export default function AboutPage() {
                       <li>• Good Neighbor Award Recipient</li>
                     </ul>
                     <h3 className="text-2xl font-bold mb-4">Education & Training</h3>
+                    <HeadingMedia level={3} heading="Education & Training" />
                     <p className="text-lg">
                       Continuous education in real estate marketing, negotiation tactics, buyer psychology, and market analysis. Specialized training in HOME That DID NOT SELL strategies and luxury property marketing. See <a href="/why-choose-me" className="text-primary font-semibold hover:underline">why choose me</a> over other agents and read <a href="/testimonials" className="text-primary font-semibold hover:underline">client testimonials</a>.
                     </p>
                   </div>
                   <div>
                     <h2 className="text-3xl font-black mb-4">Market Specialties</h2>
+                    <HeadingMedia level={2} heading="Market Specialties" />
                     <p className="text-lg mb-4">
                       Dr. Jan focuses exclusively on HOMES THAT DID NOT SELL in Las Vegas luxury communities, bringing specialized expertise to each transaction.
                     </p>
                     <h3 className="text-2xl font-bold mb-4">Primary Markets</h3>
+                    <HeadingMedia level={3} heading="Primary Markets" />
                     <ul className="space-y-2 text-lg mb-4">
                       <li>• HOMES THAT DID NOT SELL (All Price Ranges)</li>
                       <li>• Luxury Properties ($675K-$10M+)</li>
@@ -138,6 +146,7 @@ export default function AboutPage() {
                       <li>• Southern Highlands</li>
                     </ul>
                     <h3 className="text-2xl font-bold mb-4">Property Types</h3>
+                    <HeadingMedia level={3} heading="Property Types" />
                     <p className="text-lg">
                       Single-family homes, luxury estates, golf course properties, gated communities, and high-end condominiums. Experience with all property types that have HOMES That DID NOT SELL.
                     </p>
@@ -146,14 +155,18 @@ export default function AboutPage() {
 
                 <div className="bg-gray-100 p-8 rounded-lg mb-12">
                   <h2 className="text-3xl font-black mb-4">Why HOMES THAT DID NOT SELL?</h2>
+                  <HeadingMedia level={2} heading="Why HOMES THAT DID NOT SELL?" />
+
                   <p className="text-lg mb-4">
                     Most agents avoid HOMES THAT DID NOT SELL. They see them as damaged goods or too much work. They think HOMES That DID NOT SELL are stigmatized, overpriced, or have problems. They are wrong. I see HOMES THAT DID NOT SELL as opportunities - homes that just need the right agent, the right strategy, and the right marketing.
                   </p>
                   <h3 className="text-2xl font-bold mb-4">The Psychology of Frustrated Sellers</h3>
+                  <HeadingMedia level={3} heading="The Psychology of Frustrated Sellers" />
                   <p className="text-lg mb-4">
                     Frustrated sellers are frustrated, motivated, and ready to work with someone who actually knows what they are doing. They have already been failed once - they will not accept failure again. They are educated about the process. They understand the market. They are realistic about pricing. They are ready to make decisions quickly. And most importantly, they are willing to pay full commission to someone who can actually sell their home.
                   </p>
                   <h3 className="text-2xl font-bold mb-4">The Opportunity</h3>
+                  <HeadingMedia level={3} heading="The Opportunity" />
                   <p className="text-lg mb-4">
                     In Las Vegas, 20-30% of all homes fail to sell every year. That is 1,500-2,250 homes that sat on the market for months, bleeding money, while agents collected nothing and sellers lost thousands. These are not bad homes. These are homes that had bad agents. With the right agent, the right strategy, and the right marketing, these homes sell. Fast. At top dollar. With zero excuses.
                   </p>
@@ -164,10 +177,12 @@ export default function AboutPage() {
 
                 <div className="bg-white border-2 border-primary rounded-lg p-8 mb-12">
                   <h2 className="text-3xl font-black mb-4">The Dr. Jan Difference</h2>
+                  <HeadingMedia level={2} heading="The Dr. Jan Difference" />
                   <p className="text-lg mb-4">
                     What makes me different from your previous agent? It is not just experience or credentials - it is my approach, my investment, and my proven results.
                   </p>
                   <h3 className="text-2xl font-bold mb-4">Maximum Focus</h3>
+                  <HeadingMedia level={3} heading="Maximum Focus" />
                   <p className="text-lg mb-4">
                     I take maximum 6 listings at a time. Your previous agent had 47+ listings. You got 2.1% of their attention. With me, you get 100% focus. Every listing gets the full treatment - professional marketing, aggressive follow-up, strategic negotiation. Nothing is left to chance.
                   </p>
@@ -175,6 +190,7 @@ export default function AboutPage() {
                     The difference between 2.1% focus and 100% focus is dramatic. Your previous agent could not afford to invest $5,000+ in every listing because they had 47 of them. They spread themselves thin, hoping something would stick. I focus intensely on a few listings, ensuring each one gets the full treatment. This focus is what separates successful sales from homes that DID NOT sell.
                   </p>
                   <h3 className="text-2xl font-bold mb-4">Real Investment</h3>
+                  <HeadingMedia level={3} heading="Real Investment" />
                   <p className="text-lg mb-4">
                     I invest $5,000+ in marketing per listing. Your previous agent spent $37 on photos. I spend $3,700 on professional media - twilight drone shots, 3D virtual tours, magazine-quality staging. I use a 97-point marketing system that includes social media blitzes, network activation, targeted ads, and strategic open houses. Your previous agent posted to MLS and disappeared.
                   </p>
@@ -182,6 +198,7 @@ export default function AboutPage() {
                     The $5,000+ investment pays for itself through faster sales and higher prices. Professional photography increases showing requests by 300% and sale price by 5-10%. Strategic marketing brings qualified buyers. Aggressive follow-up creates urgency. The investment is not a cost - it is an investment in your success. Your previous agent saw it as a cost and minimized it. I see it as an investment and maximize it.
                   </p>
                   <h3 className="text-2xl font-bold mb-4">Proven Results</h3>
+                  <HeadingMedia level={3} heading="Proven Results" />
                   <p className="text-lg mb-4">
                     I deliver proven results. 7 homes that DID NOT sell - now sold with an average of 19 days to contract and 98.7% of asking price. Weekly updates with real accountability. Professional photos worth $3,700+. Your previous agent made promises. I deliver proven results with real consequences.
                   </p>
@@ -192,18 +209,22 @@ export default function AboutPage() {
 
                 <div className="bg-gray-100 p-8 rounded-lg mb-12">
                   <h2 className="text-3xl font-black mb-4">My Journey to Failed Listing Specialist</h2>
+                  <HeadingMedia level={2} heading="My Journey to Failed Listing Specialist" />
                   <p className="text-lg mb-4">
                     I DID NOT start as a Failed Listing Specialist. I started like most agents - taking any listing I could get, hoping for the best. But I quickly learned that most agents fail because they do not have a system. They do not invest in marketing. They do not follow up. They do not deliver results. I decided to be different.
                   </p>
                   <h3 className="text-2xl font-bold mb-4">The Turning Point</h3>
+                  <HeadingMedia level={3} heading="The Turning Point" />
                   <p className="text-lg mb-4">
                     The turning point came when I saw my first HOME THAT DID NOT SELL. The seller was frustrated. The previous agent had failed. The listing had expired. But the home was beautiful. It was properly priced. It just needed the right agent, the right strategy, and the right marketing. I took it on, implemented my system, and sold it in 14 days at 99% of asking price. That is when I knew HOMES THAT DID NOT SELL were not problems - they were opportunities.
                   </p>
                   <h3 className="text-2xl font-bold mb-4">Building the System</h3>
+                  <HeadingMedia level={3} heading="Building the System" />
                   <p className="text-lg mb-4">
                     After that first success, I refined my system. I invested more in marketing. I developed the 97-point marketing system. I created the aggressive follow-up process. I built the strategic negotiation tactics. Each HOME THAT DID NOT SELL taught me something new. Each success validated the system. After 7 HOMES THAT DID NOT SELL, I have a proven system that works. Fast. At top dollar. With zero excuses.
                   </p>
                   <h3 className="text-2xl font-bold mb-4">The Specialization</h3>
+                  <HeadingMedia level={3} heading="The Specialization" />
                   <p className="text-lg mb-4">
                     Most agents avoid HOMES That DID NOT SELL. They see them as damaged goods or too much work. I see them as opportunities. I specialize in HOMES THAT DID NOT SELL because I know how to fix them. I know how to reset them. I know how to market them. I know how to sell them. This specialization is what makes me different. This specialization is what delivers results.
                   </p>
@@ -211,6 +232,7 @@ export default function AboutPage() {
 
                 <div className="bg-white border-2 border-gray-200 rounded-lg p-8 mb-12">
                   <h2 className="text-3xl font-black mb-4">What Clients Say</h2>
+                  <HeadingMedia level={2} heading="What Clients Say" />
                   <p className="text-lg mb-4">
                     Do not just take my word for it. Here's what clients say about working with me:
                   </p>
@@ -241,6 +263,7 @@ export default function AboutPage() {
 
                 <div className="bg-white border-2 border-gray-200 rounded-lg p-8 mb-12">
                   <h2 className="text-3xl font-black mb-4 text-center">Ready to Work with the Expert?</h2>
+                  <HeadingMedia level={2} heading={"Ready to Work with the Expert?"} />
                   <p className="text-lg text-gray-700 mb-4 text-center">
                     If your home did not sell, you need an agent who actually knows what they are doing. You need an agent who specializes in HOMES THAT DID NOT SELL. You need an agent who delivers proven results. That is me. I have sold 7 Summerlin sellers who could not sell with an average of 19 days to contract and 98.7% of asking price. The same system that delivered these results can deliver yours.
                   </p>
@@ -253,32 +276,39 @@ export default function AboutPage() {
 
                 <div className="bg-gray-100 p-8 rounded-lg mb-12">
                   <h2 className="text-3xl font-black mb-4 text-center">Learn More</h2>
+                  <HeadingMedia level={2} heading="Learn More" />
                   <p className="text-center text-lg text-gray-700 mb-6">
                     Explore my services, process, and proven results:
                   </p>
                   <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
                     <a href="/services" className="block p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow text-center">
                       <h3 className="font-bold text-lg mb-2">Services</h3>
+                      <HeadingMedia level={3} heading={"Services"} size="compact" />
                       <p className="text-sm text-gray-600">Complete failed listing solutions</p>
                     </a>
                     <a href="/process" className="block p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow text-center">
                       <h3 className="font-bold text-lg mb-2">Selling Process</h3>
+                      <HeadingMedia level={3} heading={"Selling Process"} size="compact" />
                       <p className="text-sm text-gray-600">30-day plan to sell your home</p>
                     </a>
                     <a href="/success-stories" className="block p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow text-center">
                       <h3 className="font-bold text-lg mb-2">Success Stories</h3>
+                      <HeadingMedia level={3} heading={"Success Stories"} size="compact" />
                       <p className="text-sm text-gray-600">Real results from homes that did not sell</p>
                     </a>
                     <a href="/marketing-strategy" className="block p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow text-center">
                       <h3 className="font-bold text-lg mb-2">Marketing Strategy</h3>
+                      <HeadingMedia level={3} heading={"Marketing Strategy"} size="compact" />
                       <p className="text-sm text-gray-600">97-point marketing system</p>
                     </a>
                     <a href="/why-choose-me" className="block p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow text-center">
                       <h3 className="font-bold text-lg mb-2">Why Choose Me</h3>
+                      <HeadingMedia level={3} heading={"Why Choose Me"} size="compact" />
                       <p className="text-sm text-gray-600">What makes me different</p>
                     </a>
                     <a href="/faq" className="block p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow text-center">
                       <h3 className="font-bold text-lg mb-2">FAQ</h3>
+                      <HeadingMedia level={3} heading={"FAQ"} size="compact" />
                       <p className="text-sm text-gray-600">Common questions answered</p>
                     </a>
                   </div>
@@ -288,6 +318,7 @@ export default function AboutPage() {
                 <h2 className="text-2xl font-black mb-4 text-center">
                   READY TO WORK WITH THE EXPERT?
                 </h2>
+                <HeadingMedia level={2} heading={"READY TO WORK WITH THE EXPERT?"} />
                 <LeadForm source="about_page" buttonText="GET STARTED NOW" />
               </div>
 

@@ -1,5 +1,6 @@
 import { Phone, MapPin, Clock, Mail } from 'lucide-react'
 import GoogleBusinessLink from './google-business-link'
+import HeadingMedia from '@/app/components/heading-media'
 
 interface NAPSectionProps {
   variant?: 'default' | 'compact' | 'detailed'
@@ -57,6 +58,7 @@ export default function NAPSection({
     return (
       <div className={`bg-white border-2 border-primary rounded-lg p-8 ${className}`}>
         <h2 className="text-3xl font-black mb-6 text-center">Contact Information</h2>
+        <HeadingMedia level={2} heading="Contact Information" />
         <div className="grid md:grid-cols-2 gap-8">
           <div className="space-y-6">
             <div>
@@ -128,6 +130,7 @@ export default function NAPSection({
   return (
     <div className={`bg-primary text-primary-foreground rounded-lg p-8 ${className}`}>
       <h2 className="text-3xl font-black mb-6 text-center">Contact Dr. Janet Duffy</h2>
+      <HeadingMedia level={2} heading="Contact Dr. Janet Duffy" />
       <div className="grid md:grid-cols-2 gap-8 mb-6">
         <div className="text-center">
           <Phone className="w-12 h-12 mx-auto mb-4" />

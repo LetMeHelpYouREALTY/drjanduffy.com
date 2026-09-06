@@ -4,6 +4,7 @@ import { useState } from 'react'
 import { ChevronLeft, ChevronRight } from 'lucide-react'
 import { successStories } from '@/lib/data/success-stories'
 import { formatCurrency } from '@/lib/utils'
+import HeadingMedia from '@/app/components/heading-media'
 
 export default function SuccessStoriesCarousel() {
   const [currentIndex, setCurrentIndex] = useState(0)
@@ -22,6 +23,8 @@ export default function SuccessStoriesCarousel() {
     <div className="relative bg-white rounded-lg shadow-xl p-8 border-2 border-gray-200">
       <div className="flex justify-between items-center mb-6">
         <h2 className="text-3xl font-black">SUCCESS STORIES</h2>
+        <HeadingMedia level={2} heading="SUCCESS STORIES" />
+
         <div className="flex gap-2">
           <button
             onClick={prev}
@@ -39,11 +42,13 @@ export default function SuccessStoriesCarousel() {
           </button>
         </div>
       </div>
+      <HeadingMedia level={2} heading="SUCCESS STORIES" />
 
       <div className="mb-6">
         <div className="flex justify-between items-start mb-4">
           <div>
             <h3 className="text-2xl font-bold">{currentStory.neighborhood}</h3>
+            <HeadingMedia level={3} heading={currentStory.neighborhood} />
             <p className="text-gray-600">Previous Agent: {currentStory.previousAgent}</p>
           </div>
           <div className="text-right">

@@ -1,5 +1,6 @@
 import Header from '@/app/components/header'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
+import HeadingMedia from '@/app/components/heading-media'
 export const metadata = {
   title: 'Privacy Policy | Dr. Jan Duffy',
   description: 'Privacy policy for Dr. Janet Duffy real estate website.',
@@ -16,9 +17,11 @@ export default function PrivacyPolicyPage() {
               <h1 className="text-4xl md:text-5xl font-black mb-8">
                 Privacy Policy
               </h1>
+              <HeadingMedia level={1} heading="Privacy Policy" />
               <div className="space-y-8">
                 <div>
                   <h2 className="text-2xl font-bold mb-4">Information We Collect</h2>
+                  <HeadingMedia level={2} heading="Information We Collect" />
                   <p>
                     We collect information that you provide directly to us, including:
                   </p>
@@ -31,6 +34,7 @@ export default function PrivacyPolicyPage() {
                 </div>
                 <div>
                   <h2 className="text-2xl font-bold mb-4">How We Use Your Information</h2>
+                  <HeadingMedia level={2} heading="How We Use Your Information" />
                   <p>We use the information we collect to:</p>
                   <ul>
                     <li>Respond to your inquiries and provide services</li>
@@ -41,6 +45,7 @@ export default function PrivacyPolicyPage() {
                 </div>
                 <div>
                   <h2 className="text-2xl font-bold mb-4">Information Sharing</h2>
+                  <HeadingMedia level={2} heading="Information Sharing" />
                   <p>
                     We do not sell your personal information. We may share your information only:
                   </p>
@@ -52,6 +57,7 @@ export default function PrivacyPolicyPage() {
                 </div>
                 <div>
                   <h2 className="text-2xl font-bold mb-4">Contact Us</h2>
+                  <HeadingMedia level={2} heading="Contact Us" />
                   <p>
                     If you have questions about this privacy policy, please contact us at:
                   </p>

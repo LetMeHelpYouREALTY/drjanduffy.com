@@ -12,9 +12,17 @@ export default function HeroSection() {
   }, [])
 
   return (
-    <section className="relative min-h-[90vh] flex items-center justify-center bg-gradient-to-br from-gray-900 via-gray-800 to-black text-white">
-      {/* Subtle luxury accent - minimal amber/gold hint for premium feel */}
-      <div className="absolute inset-0 bg-gradient-to-br from-amber-950/5 via-transparent to-transparent pointer-events-none"></div>
+    <section className="relative min-h-[90vh] flex items-center justify-center bg-gradient-to-br from-gray-900 via-gray-800 to-black text-white overflow-hidden">
+      <Image
+        src="/images/headings/summerlin-estate-twilight.jpg"
+        alt="Twilight luxury estate in Summerlin near Red Rock Canyon — Dr. Jan Duffy listing photography"
+        fill
+        priority
+        className="object-cover"
+        sizes="100vw"
+      />
+      <div className="absolute inset-0 bg-gradient-to-br from-black/75 via-gray-950/70 to-black/80" />
+      <div className="absolute inset-0 bg-gradient-to-br from-amber-950/10 via-transparent to-transparent pointer-events-none" />
       
       <div className="relative z-10 container mx-auto px-4 py-20">
         <div className="max-w-5xl mx-auto">

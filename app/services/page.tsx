@@ -30,6 +30,7 @@ export const metadata = {
   },
 }
 import Link from 'next/link'
+import HeadingMedia from '@/app/components/heading-media'
 export default function ServicesPage() {
   const faqs = [
     {
@@ -130,6 +131,7 @@ export default function ServicesPage() {
               <h1 className="text-4xl md:text-5xl font-black text-center mb-4">
                 COMPLETE SERVICES
               </h1>
+              <HeadingMedia level={1} heading="COMPLETE SERVICES" />
               <p className="text-xl text-center text-gray-600 mb-12">
                 Everything needed to bring buyers and sell your HOME THAT DID NOT SELL fast and at top dollar
               </p>
@@ -143,6 +145,8 @@ export default function ServicesPage() {
                       <h3 className="text-xl font-black mb-3 text-primary">
                         {faq.question}
                       </h3>
+                      <HeadingMedia level={3} heading={faq.question} size="compact" />
+
                       <p className="text-gray-700 text-lg leading-relaxed">
                         {faq.answer}
                       </p>
@@ -174,6 +178,8 @@ export default function ServicesPage() {
                           <Icon className="w-6 h-6" />
                         </div>
                         <h3 className="text-xl font-black">{service.title}</h3>
+                        <HeadingMedia level={3} heading={service.title} size="compact" />
+
                       </div>
                       <p className="text-gray-700 mb-4">{service.description}</p>
                       <ul className="space-y-2">
@@ -190,14 +196,19 @@ export default function ServicesPage() {
               </div>
               <div className="bg-primary text-primary-foreground p-8 rounded-lg text-center mb-12">
                 <h2 className="text-3xl font-black mb-4">INVESTMENT COMPARISON</h2>
+                <HeadingMedia level={2} heading="INVESTMENT COMPARISON" />
                 <div className="grid md:grid-cols-2 gap-8 max-w-3xl mx-auto">
                   <div className="bg-white/10 p-6 rounded-lg">
                     <h3 className="text-xl font-bold mb-2">Your Previous Agent</h3>
+                    <HeadingMedia level={3} heading="Your Previous Agent" />
+
                     <p className="text-4xl font-black mb-2">~$100</p>
                     <p className="text-sm opacity-90">Basic MLS posting</p>
                   </div>
                   <div className="bg-white/10 p-6 rounded-lg">
                     <h3 className="text-xl font-bold mb-2">Dr. Jan Duffy</h3>
+                    <HeadingMedia level={3} heading="Dr. Jan Duffy" />
+
                     <p className="text-4xl font-black mb-2">$5,000+</p>
                     <p className="text-sm opacity-90">Complete marketing system</p>
                   </div>
@@ -206,12 +217,14 @@ export default function ServicesPage() {
 
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4 text-center">DETAILED SERVICE BREAKDOWN</h2>
+                <HeadingMedia level={2} heading="DETAILED SERVICE BREAKDOWN" />
                 <p className="text-center text-lg text-gray-700 mb-8">
                   Each service is designed to overcome stigma of unsold homes and attract qualified buyers. Here's what you get with each service:
                 </p>
                 <div className="space-y-8">
                   <div>
                     <h3 className="text-2xl font-black mb-4">Professional Photography & Staging ($3,700 Investment)</h3>
+                    <HeadingMedia level={3} heading="Professional Photography & Staging ($3,700 Investment)" />
                     <p className="text-lg text-gray-700 mb-4">
                       Your previous agent used iPhone photos. I use professional photography worth $3,700. The difference is dramatic. Professional photos increase showing requests by 300% and sale price by 5-10%. Twilight drone shots showcase your property at its best. 3D virtual tours allow buyers to tour your home 24/7. Magazine-quality staging makes your home look like it belongs in a design magazine. This is not optional. This is essential. HOMES THAT DID NOT SELL need professional media to overcome stigma and attract qualified buyers.
                     </p>
@@ -221,6 +234,7 @@ export default function ServicesPage() {
                   </div>
                   <div>
                     <h3 className="text-2xl font-black mb-4">Complete MLS Reset</h3>
+                    <HeadingMedia level={3} heading="Complete MLS Reset" />
                     <p className="text-lg text-gray-700 mb-4">
                       Your previous agent posted to MLS with a generic description and iPhone photos. I create a fresh MLS listing with optimized description, professional photos, and strategic pricing. The MLS reset eliminates stigma of unsold homes. Buyers see a beautiful, properly priced home with professional marketing. They do not see "expired." They see "opportunity."
                     </p>
@@ -230,6 +244,7 @@ export default function ServicesPage() {
                   </div>
                   <div>
                     <h3 className="text-2xl font-black mb-4">97-Point Marketing System</h3>
+                    <HeadingMedia level={3} heading="97-Point Marketing System" />
                     <p className="text-lg text-gray-700 mb-4">
                       Your previous agent used a "post to MLS and pray" strategy. I use a 97-point marketing system that leaves nothing to chance. Social media marketing blitz reaches thousands of potential buyers. Network activation reaches 500+ agents who can bring qualified buyers. Targeted Facebook and Google ads reach buyers actively searching for homes. Strategic open houses with buyer pre-qualification attract serious buyers. Email marketing campaigns reach qualified buyers in your price range.
                     </p>
@@ -239,6 +254,7 @@ export default function ServicesPage() {
                   </div>
                   <div>
                     <h3 className="text-2xl font-black mb-4">Aggressive Follow-Up & Negotiation</h3>
+                    <HeadingMedia level={3} heading="Aggressive Follow-Up & Negotiation" />
                     <p className="text-lg text-gray-700 mb-4">
                       Your previous agent had zero follow-up. Buyers saw your home, but your agent never followed up. Feedback disappeared. Opportunities were lost. I have an aggressive follow-up system that ensures every showing is tracked, every buyer is contacted, and every opportunity is maximized. I do not wait for offers. I create them. I do not accept lowball offers. I negotiate them up.
                     </p>
@@ -248,6 +264,7 @@ export default function ServicesPage() {
                   </div>
                   <div>
                     <h3 className="text-2xl font-black mb-4">Escrow Management & Closing</h3>
+                    <HeadingMedia level={3} heading="Escrow Management & Closing" />
                     <p className="text-lg text-gray-700 mb-4">
                       Your previous agent disappeared after getting an offer. I manage every detail through closing. Escrow management ensures timelines are met. Problem resolution handles issues as they arise. Final walkthrough coordination ensures smooth closing. Closing management ensures all documents are signed. Post-closing support ensures you are satisfied with the process.
                     </p>
@@ -257,6 +274,7 @@ export default function ServicesPage() {
                   </div>
                   <div>
                     <h3 className="text-2xl font-black mb-4">Weekly Communication & Accountability</h3>
+                    <HeadingMedia level={3} heading="Weekly Communication & Accountability" />
                     <p className="text-lg text-gray-700 mb-4">
                       Your previous agent disappeared after listing your home. I provide weekly detailed reports with real accountability. Weekly detailed reports show showing activity, buyer feedback, market conditions, and strategy adjustments. Real-time updates keep you informed of all activity. Direct phone access ensures you can reach me when needed. Email communication provides written updates. Text message updates provide instant notifications.
                     </p>
@@ -268,44 +286,55 @@ export default function ServicesPage() {
               </div>
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4 text-center">Related Resources</h2>
+                <HeadingMedia level={2} heading="Related Resources" />
                 <p className="text-center text-lg text-gray-700 mb-6">
                   Learn more about how I sell homes that DID NOT sell:
                 </p>
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
                   <Link href="/process" className="block p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow text-center">
                     <h3 className="font-bold text-lg mb-2">Selling Process</h3>
+                    <HeadingMedia level={3} heading={"Selling Process"} size="compact" />
                     <p className="text-sm text-gray-600">30-day plan to sell your home</p>
                   </Link>
                   <Link href="/marketing-strategy" className="block p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow text-center">
                     <h3 className="font-bold text-lg mb-2">Marketing Strategy</h3>
+                    <HeadingMedia level={3} heading={"Marketing Strategy"} size="compact" />
                     <p className="text-sm text-gray-600">97-point marketing system</p>
                   </Link>
                   <Link href="/success-stories" className="block p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow text-center">
                     <h3 className="font-bold text-lg mb-2">Success Stories</h3>
+                    <HeadingMedia level={3} heading={"Success Stories"} size="compact" />
                     <p className="text-sm text-gray-600">Real results from homes That DID NOT sell</p>
                   </Link>
                   <Link href="/about" className="block p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow text-center">
                     <h3 className="font-bold text-lg mb-2">About Dr. Jan</h3>
+                    <HeadingMedia level={3} heading={"About Dr. Jan"} size="compact" />
                     <p className="text-sm text-gray-600">Learn about the expert</p>
                   </Link>
                   <Link href="/why-choose-me" className="block p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow text-center">
                     <h3 className="font-bold text-lg mb-2">Why Choose Me</h3>
+                    <HeadingMedia level={3} heading="Why Choose Me" size="compact" />
+
                     <p className="text-sm text-gray-600">What makes me different</p>
                   </Link>
                   <Link href="/comparison" className="block p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow text-center">
                     <h3 className="font-bold text-lg mb-2">Agent Comparison</h3>
+                    <HeadingMedia level={3} heading="Agent Comparison" size="compact" />
+
                     <p className="text-sm text-gray-600">See the difference</p>
                   </Link>
                 </div>
               </div>
               <div className="bg-white border-2 border-primary rounded-lg p-8 mb-12">
                 <h2 className="text-3xl font-black mb-4 text-center">The Service Difference</h2>
+                <HeadingMedia level={2} heading="The Service Difference" />
                 <p className="text-lg text-gray-700 mb-6 text-center">
                   The difference between my services and your previous agent's services is dramatic. They spent $100. I spend $5,000+. They used minimal marketing. I use a 97-point marketing system. They had zero follow-up. I have aggressive follow-up. They made promises. I deliver proven results.
                 </p>
                 <div className="grid md:grid-cols-2 gap-6">
                   <div className="bg-red-50 border-2 border-red-200 rounded-lg p-6">
                     <h3 className="text-2xl font-black mb-4 text-red-800">Your Previous Agent's Services</h3>
+                    <HeadingMedia level={3} heading="Your Previous Agent's Services" />
                     <ul className="space-y-2 text-lg text-gray-700">
                       <li>• $37 on iPhone photos</li>
                       <li>• Basic MLS posting</li>
@@ -322,6 +351,7 @@ export default function ServicesPage() {
                   </div>
                   <div className="bg-green-50 border-2 border-green-200 rounded-lg p-6">
                     <h3 className="text-2xl font-black mb-4 text-green-800">My Complete Services</h3>
+                    <HeadingMedia level={3} heading="My Complete Services" />
                     <ul className="space-y-2 text-lg text-gray-700">
                       <li>• $3,700 on professional media</li>
                       <li>• 97-point marketing system</li>
@@ -343,6 +373,7 @@ export default function ServicesPage() {
                 <h2 className="text-2xl font-black mb-4 text-center">
                   READY FOR COMPLETE SERVICE?
                 </h2>
+                <HeadingMedia level={2} heading={"READY FOR COMPLETE SERVICE?"} />
                 <LeadForm source="services_page" buttonText="GET STARTED" />
               </div>
 

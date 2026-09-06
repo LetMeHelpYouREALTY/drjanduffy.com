@@ -4,6 +4,7 @@ import { formatCurrency } from '@/lib/utils'
 import FAQSchema from '@/app/components/faq-schema'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 import { TrendingUp, Clock, DollarSign, Home } from 'lucide-react'
+import HeadingMedia from '@/app/components/heading-media'
 export const metadata = {
   title: 'Results & Statistics | Dr. Jan Duffy',
   description:
@@ -74,6 +75,7 @@ export default function ResultsPage() {
               <h1 className="text-4xl md:text-5xl font-black text-center mb-4">
                 REAL RESULTS
               </h1>
+              <HeadingMedia level={1} heading="REAL RESULTS" />
               <p className="text-xl text-center text-gray-600 mb-12">
                 Actual statistics from homes that did not sell - now sold by Dr. Jan Duffy
               </p>
@@ -97,6 +99,7 @@ export default function ResultsPage() {
                 <h2 className="text-3xl font-black mb-6 text-center">
                   DETAILED STATISTICS
                 </h2>
+                <HeadingMedia level={2} heading="DETAILED STATISTICS" />
                 <div className="grid md:grid-cols-3 gap-6 text-center">
                   <div>
                     <p className="text-3xl font-black text-primary mb-2">
@@ -131,6 +134,7 @@ export default function ResultsPage() {
                 <h2 className="text-3xl font-black mb-6 text-center">
                   INDIVIDUAL RESULTS
                 </h2>
+                <HeadingMedia level={2} heading="INDIVIDUAL RESULTS" />
                 <div className="grid md:grid-cols-2 gap-6">
                   {successStories.map((story) => (
                     <div
@@ -140,6 +144,7 @@ export default function ResultsPage() {
                       <div className="flex justify-between items-start mb-4">
                         <div>
                           <h3 className="text-2xl font-bold">{story.neighborhood}</h3>
+                          <HeadingMedia level={3} heading={story.neighborhood} size="compact" />
                           <p className="text-gray-600 text-sm">
                             Previous Agent: {story.previousAgent}
                           </p>
@@ -189,6 +194,7 @@ export default function ResultsPage() {
                 <h2 className="text-3xl font-black mb-4">
                   READY TO GET THESE RESULTS?
                 </h2>
+                <HeadingMedia level={2} heading={"READY TO GET THESE RESULTS?"} />
                 <p className="text-xl mb-6">
                   Call (702) 500-1064 or fill out the form below
                 </p>

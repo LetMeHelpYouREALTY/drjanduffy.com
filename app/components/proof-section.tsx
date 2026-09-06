@@ -2,6 +2,7 @@
 
 import { successStories } from '@/lib/data/success-stories'
 import { formatCurrency } from '@/lib/utils'
+import HeadingMedia from '@/app/components/heading-media'
 
 export default function ProofSection() {
   return (
@@ -10,6 +11,7 @@ export default function ProofSection() {
         <h2 className="text-4xl md:text-5xl font-black text-center mb-4">
           DID NOT SELL → SOLD: RECENT WINS
         </h2>
+        <HeadingMedia level={2} heading="DID NOT SELL to SOLD: RECENT WINS" />
         <p className="text-xl text-center text-gray-600 mb-12">
           Real results from frustrated sellers who fired their agents
         </p>
@@ -23,6 +25,7 @@ export default function ProofSection() {
               <div className="mb-4">
                 <div className="flex justify-between items-start mb-2">
                   <h3 className="text-2xl font-bold">{story.neighborhood}</h3>
+                  <HeadingMedia level={3} heading={story.neighborhood} />
                   <span className="bg-red-100 text-red-800 px-3 py-1 rounded-full text-sm font-bold">
                     DID NOT SELL: {story.daysExpired} Days
                   </span>

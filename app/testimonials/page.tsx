@@ -7,6 +7,7 @@ import NAPSection from '@/app/components/nap-section'
 import GoogleBusinessLink from '@/app/components/google-business-link'
 import GoogleReviews from '@/app/components/google-reviews'
 import { Star } from 'lucide-react'
+import HeadingMedia from '@/app/components/heading-media'
 export const metadata = {
   title: 'Client Testimonials | Dr. Jan Duffy',
   description:
@@ -79,6 +80,7 @@ export default function TestimonialsPage() {
             <h1 className="text-4xl md:text-5xl font-black text-center mb-4">
               CLIENT TESTIMONIALS
             </h1>
+            <HeadingMedia level={1} heading="CLIENT TESTIMONIALS" />
             <p className="text-xl text-center text-gray-600 mb-12">
               Real reviews from real sellers who fired their agents and hired Dr. Jan
             </p>
@@ -90,10 +92,12 @@ export default function TestimonialsPage() {
                 The common thread in every testimonial? Previous agent failed. home DID NOT sell. Seller frustrated. Then they called me. I reset the listing, implemented my 97-point marketing system, and sold it. Fast. At top dollar. With zero excuses. The testimonials below tell the story better than I ever could.
               </p>
               <h2 className="text-3xl font-black mb-4 mt-8">Why These Testimonials Matter</h2>
+              <HeadingMedia level={2} heading="Why These Testimonials Matter" />
               <p className="text-lg text-gray-700 mb-4">
                 Most agents show you testimonials from their best-case scenarios - luxury homes in perfect condition that sold quickly. I show you testimonials from homes That DID NOT sell. Homes that other agents could not sell. Homes that sat on the market for 60, 90, 120+ days. Then I show you what my clients say after I sold them in 14-31 days at 97-99% of asking price.
               </p>
               <h3 className="text-2xl font-bold mb-3">The Real Story</h3>
+              <HeadingMedia level={3} heading="The Real Story" />
               <p className="text-lg text-gray-700">
                 These testimonials are not just about results. They are about the experience. They are about working with an agent who actually answers the phone, who provides weekly updates, who invests in professional marketing, and who gets results. They are about the difference between an agent who fails and an agent who delivers.
               </p>
@@ -157,16 +161,20 @@ export default function TestimonialsPage() {
               </div>
               <div className="max-w-4xl mx-auto mt-12">
                 <h2 className="text-3xl font-black mb-6 text-center">What Clients Say About the Experience</h2>
+                <HeadingMedia level={2} heading="What Clients Say About the Experience" />
                 <div className="bg-gray-100 p-8 rounded-lg mb-8">
                   <h3 className="text-2xl font-black mb-4">The Common Themes</h3>
+                  <HeadingMedia level={3} heading="The Common Themes" />
                   <p className="text-lg text-gray-700 mb-4">
                     Every testimonial shares common themes: Previous agent DID NOT answer the phone. Previous agent did not provide updates. Previous agent DID NOT invest in marketing. Previous agent got them expired. Then they called me. I answered the phone. I provided weekly updates. I invested $5,000+ in marketing. I sold their home. Fast. At top dollar.
                   </p>
                   <h3 className="text-2xl font-black mb-4 mt-6">The Results</h3>
+                  <HeadingMedia level={3} heading="The Results" />
                   <p className="text-lg text-gray-700 mb-4">
                     The results speak for themselves: 7 homes that DID NOT sell - now sold, 19 day average, 98.7% of asking price. But the testimonials tell the real story - the story of frustrated sellers who finally found an agent who actually delivers. The story of HOMES That DID NOT SELL that became success stories. The story of agents who failed and an agent who succeeded.
                   </p>
                   <h3 className="text-2xl font-black mb-4 mt-6">Your Testimonial Could Be Next</h3>
+                  <HeadingMedia level={3} heading="Your Testimonial Could Be Next" />
                   <p className="text-lg text-gray-700">
                     Your HOME THAT did not SELL could be the next success story. The same system that generated these 47 testimonials can generate yours. The same marketing, the same follow-up, the same proven results. The only question is: are you ready to work with an agent who actually delivers results?
                   </p>

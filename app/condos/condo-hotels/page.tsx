@@ -2,13 +2,19 @@ import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
 import FAQSchema from '@/app/components/faq-schema'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
+import HeadingMedia from '@/app/components/heading-media'
 export const metadata = {
-  title: 'Condo Hotels Las Vegas | Dr. Jan Duffy',
+  title: 'Las Vegas Condo Hotels for Sale | Dr. Jan Duffy',
   description:
     'Expert help selling expired condo hotels in Las Vegas. Investment properties with rental programs. Proven results and professional marketing.',
 }
 export default function CondoHotelsPage() {
   const faqs = [
+    {
+      question: 'Are there condo hotels for sale in Las Vegas?',
+      answer:
+        'Yes. Dr. Jan Duffy represents Las Vegas condo hotels for sale, including units with rental programs. Inventory changes daily. Call (702) 500-1064 for a current search. She also resets condo-hotel listings that did not sell.',
+    },
     {
       question: 'What real estate services does Dr. Jan Duffy provide for condo hotels in Las Vegas?',
       answer:
@@ -45,8 +51,9 @@ export default function CondoHotelsPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <h1 className="text-4xl md:text-5xl font-black text-center mb-4">
-                CONDO HOTELS LAS VEGAS
+                LAS VEGAS CONDO HOTELS FOR SALE
               </h1>
+              <HeadingMedia level={1} heading="LAS VEGAS CONDO HOTELS FOR SALE" />
               <p className="text-xl text-center text-gray-600 mb-12">
                 Expert help selling expired condo hotels - investment properties with rental programs and hotel management
               </p>
@@ -63,50 +70,61 @@ export default function CondoHotelsPage() {
               </div>
               <div className="bg-primary/10 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">Why Condo Hotels Expire</h2>
+                <HeadingMedia level={2} heading="Why Condo Hotels Expire" />
                 <p className="text-lg text-gray-700 mb-4">
                   Condo hotels expire for the same reasons other properties expire - poor marketing, minimal investment, and zero follow-up. But condo hotels face additional challenges that most agents do not understand or address.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Rental Program Explanation</h3>
+                <HeadingMedia level={3} heading="Rental Program Explanation" />
                 <p className="text-lg text-gray-700 mb-4">
                   Condo hotels offer rental programs. Buyers need to understand how rental programs work. Most agents do not explain rental programs effectively. They do not explain income potential. They do not showcase hotel management. They do not highlight rental history. I explain rental programs effectively. I explain income potential, showcase hotel management, and highlight rental history that attracts investors.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Investment Buyer Targeting</h3>
+                <HeadingMedia level={3} heading="Investment Buyer Targeting" />
                 <p className="text-lg text-gray-700 mb-4">
                   Condo hotels attract investors. Investors need to understand ROI, rental income, and management. Most agents do not know how to market to investors. They use residential marketing, and investors look elsewhere. I know how to market to investors. I emphasize ROI, highlight rental income, and showcase management that attracts investment buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Hotel Amenity Marketing</h3>
+                <HeadingMedia level={3} heading="Hotel Amenity Marketing" />
                 <p className="text-lg text-gray-700 mb-4">
                   Condo hotels offer hotel amenities. Pools. Restaurants. Concierge. Room service. Most agents do not market hotel amenities effectively. They do not highlight pools. They do not showcase restaurants. They do not emphasize concierge services. I market hotel amenities effectively. I highlight pools, showcase restaurants, and emphasize concierge services that attract amenity-conscious buyers.
                 </p>
               </div>
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">My Condo Hotel Expertise</h2>
+                <HeadingMedia level={2} heading="My Condo Hotel Expertise" />
                 <p className="text-lg text-gray-700 mb-4">
                   I've sold expired condo hotels throughout Las Vegas. I understand the investment market. I know how to market rental programs. I know how to attract investors and second-home buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Investment-Focused Marketing</h3>
+                <HeadingMedia level={3} heading="Investment-Focused Marketing" />
                 <p className="text-lg text-gray-700 mb-4">
                   Condo hotels require investment-focused marketing. I market condo hotels by emphasizing ROI, highlighting rental income, and showcasing management that attracts investors. Most agents do not do this. They use generic marketing, and condo hotels expire.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Rental Program Explanation</h3>
+                <HeadingMedia level={3} heading="Rental Program Explanation" />
                 <p className="text-lg text-gray-700 mb-4">
                   Condo hotels offer rental programs. I explain rental programs effectively. I explain income potential, showcase hotel management, and highlight rental history that attracts investors. Most agents do not do this. They use generic explanations, and condo hotels expire.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Investor Network</h3>
+                <HeadingMedia level={3} heading="Investor Network" />
                 <p className="text-lg text-gray-700 mb-4">
                   Condo hotels attract investors. I have a network of investors seeking rental properties. I use this network to market condo hotels effectively. Most agents do not have this network. They use generic advertising, and condo hotels expire.
                 </p>
               </div>
               <div className="bg-white border-2 border-primary rounded-lg p-8 mb-12">
                 <h2 className="text-3xl font-black mb-4">Popular Condo Hotel Buildings</h2>
+                <HeadingMedia level={2} heading="Popular Condo Hotel Buildings" />
                 <p className="text-lg text-gray-700 mb-4">
                   Las Vegas has many condo hotel buildings. Each building has unique rental programs, amenities, and buyer appeal. I've sold expired condo hotels in many of these buildings. I understand what makes each building unique. I know how to market each building effectively.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Strip Condo Hotels</h3>
+                <HeadingMedia level={3} heading="Strip Condo Hotels" />
                 <p className="text-lg text-gray-700 mb-4">
                   Strip condo hotels offer prime location, resort access, and high rental income potential. I've sold expired Strip condo hotels by emphasizing prime location, highlighting resort access, and showcasing rental income potential.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Downtown Condo Hotels</h3>
+                <HeadingMedia level={3} heading="Downtown Condo Hotels" />
                 <p className="text-lg text-gray-700 mb-4">
                   Downtown condo hotels offer urban location, value positioning, and investment appeal. I've sold expired downtown condo hotels by emphasizing urban location, highlighting value, and showcasing investment appeal.
                 </p>
@@ -116,6 +134,7 @@ export default function CondoHotelsPage() {
                 <h2 className="text-3xl font-black mb-4 text-center">
                   READY TO SELL YOUR CONDO HOTEL?
                 </h2>
+                <HeadingMedia level={2} heading={"READY TO SELL YOUR CONDO HOTEL?"} />
                 <p className="text-center text-lg text-gray-700 mb-6">
                   If your Las Vegas condo hotel home DID NOT sell, do not wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>

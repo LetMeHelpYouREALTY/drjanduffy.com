@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import StickyHeader from './components/sticky-header'
+import HeadingMedia from '@/app/components/heading-media'
 
 export default function NotFound() {
   return (
@@ -14,6 +15,7 @@ export default function NotFound() {
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             Page Not Found
           </h2>
+          <HeadingMedia level={2} heading={"Page Not Found"} />
           <p className="text-xl text-gray-600 mb-8">
             The page you're looking for does not exist or has been moved.
           </p>

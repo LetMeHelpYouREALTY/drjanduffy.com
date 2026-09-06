@@ -2,6 +2,7 @@ import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
 import FAQSchema from '@/app/components/faq-schema'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
+import HeadingMedia from '@/app/components/heading-media'
 export const metadata = {
   title: 'Ogden Condos for Sale Las Vegas | The Ogden Condos | Dr. Jan Duffy',
   description:
@@ -19,6 +20,11 @@ export const metadata = {
 }
 export default function OgdenCondosPage() {
   const faqs = [
+    {
+      question: 'Are there condos for sale at Ogden Condos?',
+      answer:
+        'Yes. Dr. Jan Duffy represents Ogden Condos condos for sale in Las Vegas. Inventory changes daily. Call (702) 500-1064 for a current search. She also resets Ogden Condos listings that did not sell with a 97-point system and $3,700 photography.',
+    },
     {
       question: 'What real estate services does Dr. Jan Duffy provide for The Ogden condos in Las Vegas?',
       answer:
@@ -55,8 +61,9 @@ export default function OgdenCondosPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <h1 className="text-4xl md:text-5xl font-black text-center mb-4">
-                THE OGDEN CONDOS LAS VEGAS
+                THE OGDEN CONDOS FOR SALE
               </h1>
+              <HeadingMedia level={1} heading="THE OGDEN CONDOS FOR SALE" />
               <p className="text-xl text-center text-gray-600 mb-12">
                 Expert help selling expired Ogden condos - luxury downtown high-rise condos with urban lifestyle and modern design
               </p>
@@ -73,54 +80,66 @@ export default function OgdenCondosPage() {
               </div>
               <div className="bg-primary/10 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">Why Ogden Condos Expire</h2>
+                <HeadingMedia level={2} heading="Why Ogden Condos Expire" />
                 <p className="text-lg text-gray-700 mb-4">
                   Ogden condos expire for the same reasons other luxury condos expire - poor marketing, minimal investment, and zero follow-up. But Ogden condos face additional challenges that most agents do not understand or address.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Urban Lifestyle Marketing</h3>
+                <HeadingMedia level={3} heading="Urban Lifestyle Marketing" />
                 <p className="text-lg text-gray-700 mb-4">
                   Ogden condos offer urban lifestyle. Buyers need to understand urban appeal. Most agents do not market urban lifestyle effectively. They do not explain benefits. They do not showcase downtown location. They do not highlight urban amenities. I market urban lifestyle effectively. I explain benefits, showcase downtown location, and highlight urban amenities that attract urban-conscious buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Modern Design Highlighting</h3>
+                <HeadingMedia level={3} heading="Modern Design Highlighting" />
                 <p className="text-lg text-gray-700 mb-4">
                   Ogden offers modern design. Contemporary finishes. Sleek interiors. Urban aesthetic. Most agents do not highlight modern design effectively. They do not showcase contemporary finishes. They do not emphasize sleek interiors. They do not highlight urban aesthetic. I highlight modern design effectively. I showcase contemporary finishes, emphasize sleek interiors, and highlight urban aesthetic that attracts design-conscious buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Downtown Living Appeal</h3>
+                <HeadingMedia level={3} heading="Downtown Living Appeal" />
                 <p className="text-lg text-gray-700 mb-4">
                   Ogden attracts downtown living enthusiasts. Young professionals. Urban lifestyle seekers. Downtown enthusiasts. Most agents do not know how to market to downtown living enthusiasts. They use suburban marketing, and downtown living enthusiasts look elsewhere. I know how to market to downtown living enthusiasts. I emphasize urban location, highlight downtown amenities, and showcase downtown living appeal that attracts urban-conscious buyers.
                 </p>
               </div>
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">Ogden Condo Features</h2>
+                <HeadingMedia level={2} heading="Ogden Condo Features" />
                 <p className="text-lg text-gray-700 mb-4">
                   The Ogden offers luxury condos with urban lifestyle, modern design, and exclusive amenities. Understanding these features is essential for effective marketing.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Urban Lifestyle</h3>
+                <HeadingMedia level={3} heading="Urban Lifestyle" />
                 <p className="text-lg text-gray-700 mb-4">
                   Ogden condos offer urban lifestyle with downtown location, walkability, and urban amenities. Most agents do not market urban lifestyle effectively. I do. I showcase downtown location, highlight walkability, and emphasize urban amenities that attract urban-conscious buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Modern Design</h3>
+                <HeadingMedia level={3} heading="Modern Design" />
                 <p className="text-lg text-gray-700 mb-4">
                   Ogden offers modern design with contemporary finishes, sleek interiors, and urban aesthetic. Most agents do not highlight modern design effectively. I do. I showcase contemporary finishes, emphasize sleek interiors, and highlight urban aesthetic that attracts design-conscious buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Exclusive Amenities</h3>
+                <HeadingMedia level={3} heading="Exclusive Amenities" />
                 <p className="text-lg text-gray-700 mb-4">
                   Ogden offers exclusive amenities including concierge services, fitness center, rooftop pool, and exclusive access. Most agents do not showcase amenities effectively. I do. I showcase concierge services, emphasize fitness center, highlight rooftop pool, and showcase exclusive access that attracts amenity-conscious buyers.
                 </p>
               </div>
               <div className="bg-white border-2 border-primary rounded-lg p-8 mb-12">
                 <h2 className="text-3xl font-black mb-4">My Ogden Condo Marketing Strategy</h2>
+                <HeadingMedia level={2} heading="My Ogden Condo Marketing Strategy" />
                 <p className="text-lg text-gray-700 mb-4">
                   I have a proven strategy for marketing Ogden condos. This strategy addresses unique challenges, highlights unique features, and attracts urban lifestyle seekers. It sells Ogden condos. Fast. At top dollar.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Luxury Marketing Investment</h3>
+                <HeadingMedia level={3} heading="Luxury Marketing Investment" />
                 <p className="text-lg text-gray-700 mb-4">
                   Ogden condos require luxury marketing investment. Professional photography. Luxury staging. Exclusive access events. High-end advertising. Most agents do not invest in luxury marketing. I invest $5,000+ in professional media, luxury staging, and exclusive marketing that attracts urban lifestyle seekers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Urban Lifestyle Highlighting</h3>
+                <HeadingMedia level={3} heading="Urban Lifestyle Highlighting" />
                 <p className="text-lg text-gray-700 mb-4">
                   Ogden condos offer urban lifestyle. I highlight this lifestyle effectively. I showcase downtown location, highlight walkability, and emphasize urban amenities that attract urban-conscious buyers. Most agents do not do this. They use generic marketing, and Ogden condos expire.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Urban Lifestyle Seeker Targeting</h3>
+                <HeadingMedia level={3} heading="Urban Lifestyle Seeker Targeting" />
                 <p className="text-lg text-gray-700 mb-4">
                   Ogden attracts urban lifestyle seekers. Young professionals. Urban enthusiasts. Downtown living seekers. Most agents do not know how to target these buyers. I do. I use targeted advertising, exclusive access events, and urban marketing that attracts urban-conscious buyers.
                 </p>
@@ -130,6 +149,7 @@ export default function OgdenCondosPage() {
                 <h2 className="text-3xl font-black mb-4 text-center">
                   READY TO SELL YOUR OGDEN CONDO?
                 </h2>
+                <HeadingMedia level={2} heading={"READY TO SELL YOUR OGDEN CONDO?"} />
                 <p className="text-center text-lg text-gray-700 mb-6">
                   If your Ogden condo home DID NOT sell, do not wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>
