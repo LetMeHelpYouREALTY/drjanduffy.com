@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import HeadingMedia from '@/app/components/heading-media'
 
 interface RelatedCondoLinksProps {
   currentBuilding?: string
@@ -71,6 +72,7 @@ export default function RelatedCondoLinks({ currentBuilding, category }: Related
   return (
     <div className="bg-gray-100 p-8 rounded-lg mb-12">
       <h2 className="text-2xl font-black mb-4">Related Condo Buildings</h2>
+      <HeadingMedia level={2} heading="Related Condo Buildings" />
       <p className="text-lg text-gray-700 mb-4">
         Explore other Las Vegas condos I specialize in selling:
       </p>

@@ -2,6 +2,7 @@ import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
 import FAQSchema from '@/app/components/faq-schema'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
+import HeadingMedia from '@/app/components/heading-media'
 export const metadata = {
   title: 'One Queensridge Place Condos | failed listing specialist | Dr. Jan Duffy',
   description:
@@ -47,6 +48,7 @@ export default function OneQueensridgeCondosPage() {
               <h1 className="text-4xl md:text-5xl font-black text-center mb-4">
                 ONE QUEENSRIDGE PLACE CONDOS
               </h1>
+              <HeadingMedia level={1} heading="ONE QUEENSRIDGE PLACE CONDOS" />
               <p className="text-xl text-center text-gray-600 mb-12">
                 Expert help selling expired One Queensridge Place condos - luxury high-rise condos with resort access and exclusive amenities
               </p>
@@ -63,54 +65,66 @@ export default function OneQueensridgeCondosPage() {
               </div>
               <div className="bg-primary/10 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">Why One Queensridge Place Condos Expire</h2>
+                <HeadingMedia level={2} heading="Why One Queensridge Place Condos Expire" />
                 <p className="text-lg text-gray-700 mb-4">
                   One Queensridge Place condos expire for the same reasons other luxury condos expire - poor marketing, minimal investment, and zero follow-up. But One Queensridge Place condos face additional challenges that most agents do not understand or address.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Resort Access Marketing</h3>
+                <HeadingMedia level={3} heading="Resort Access Marketing" />
                 <p className="text-lg text-gray-700 mb-4">
                   One Queensridge Place condos offer resort access. Buyers need to understand this value. Most agents do not market resort access effectively. They do not explain benefits. They do not showcase amenities. They do not highlight exclusive access. I market resort access effectively. I explain benefits, showcase amenities, and highlight exclusive access that attracts resort-conscious buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Exclusive Amenity Highlighting</h3>
+                <HeadingMedia level={3} heading="Exclusive Amenity Highlighting" />
                 <p className="text-lg text-gray-700 mb-4">
                   One Queensridge Place offers exclusive amenities. Concierge services. Private pools. Exclusive events. Most agents do not highlight exclusive amenities effectively. They do not showcase concierge services. They do not emphasize private pools. They do not highlight exclusive events. I highlight exclusive amenities effectively. I showcase concierge services, emphasize private pools, and highlight exclusive events that attract amenity-conscious buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Luxury Lifestyle Positioning</h3>
+                <HeadingMedia level={3} heading="Luxury Lifestyle Positioning" />
                 <p className="text-lg text-gray-700 mb-4">
                   One Queensridge Place attracts luxury lifestyle seekers. High-net-worth individuals. Second-home buyers. Resort enthusiasts. Most agents do not know how to position luxury lifestyle effectively. They use generic positioning, and luxury lifestyle seekers look elsewhere. I know how to position luxury lifestyle effectively. I emphasize resort access, highlight exclusive amenities, and showcase luxury lifestyle appeal that attracts luxury-conscious buyers.
                 </p>
               </div>
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">One Queensridge Place Condo Features</h2>
+                <HeadingMedia level={2} heading="One Queensridge Place Condo Features" />
                 <p className="text-lg text-gray-700 mb-4">
                   One Queensridge Place offers luxury condos with resort access, exclusive amenities, and prime location. Understanding these features is essential for effective marketing.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Resort Access</h3>
+                <HeadingMedia level={3} heading="Resort Access" />
                 <p className="text-lg text-gray-700 mb-4">
                   One Queensridge Place condos offer resort access including pools, restaurants, entertainment, and amenities. Most agents do not market resort access effectively. I do. I showcase pools, highlight restaurants, emphasize entertainment, and showcase amenities that attract resort-conscious buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Exclusive Amenities</h3>
+                <HeadingMedia level={3} heading="Exclusive Amenities" />
                 <p className="text-lg text-gray-700 mb-4">
                   One Queensridge Place offers exclusive amenities including concierge services, private pools, exclusive events, and sophisticated design. Most agents do not highlight exclusive amenities effectively. I do. I showcase concierge services, emphasize private pools, highlight exclusive events, and showcase sophisticated design that attracts amenity-conscious buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Prime Location</h3>
+                <HeadingMedia level={3} heading="Prime Location" />
                 <p className="text-lg text-gray-700 mb-4">
                   One Queensridge Place's prime location offers proximity to world-class entertainment, dining, and shopping. Most agents do not emphasize location effectively. I do. I highlight proximity to entertainment, showcase dining options, and emphasize shopping access that attracts location-conscious buyers.
                 </p>
               </div>
               <div className="bg-white border-2 border-primary rounded-lg p-8 mb-12">
                 <h2 className="text-3xl font-black mb-4">My One Queensridge Place Condo Marketing Strategy</h2>
+                <HeadingMedia level={2} heading="My One Queensridge Place Condo Marketing Strategy" />
                 <p className="text-lg text-gray-700 mb-4">
                   I have a proven strategy for marketing One Queensridge Place condos. This strategy addresses unique challenges, highlights unique features, and attracts luxury lifestyle seekers. It sells One Queensridge Place condos. Fast. At top dollar.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Luxury Marketing Investment</h3>
+                <HeadingMedia level={3} heading="Luxury Marketing Investment" />
                 <p className="text-lg text-gray-700 mb-4">
                   One Queensridge Place condos require luxury marketing investment. Professional photography. Luxury staging. Exclusive access events. High-end advertising. Most agents do not invest in luxury marketing. I invest $5,000+ in professional media, luxury staging, and exclusive marketing that attracts luxury lifestyle seekers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Resort Access Highlighting</h3>
+                <HeadingMedia level={3} heading="Resort Access Highlighting" />
                 <p className="text-lg text-gray-700 mb-4">
                   One Queensridge Place condos offer resort access. I highlight this access effectively. I showcase pools, highlight restaurants, emphasize entertainment, and showcase amenities that attract resort-conscious buyers. Most agents do not do this. They use generic marketing, and One Queensridge Place condos expire.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Luxury Lifestyle Seeker Targeting</h3>
+                <HeadingMedia level={3} heading="Luxury Lifestyle Seeker Targeting" />
                 <p className="text-lg text-gray-700 mb-4">
                   One Queensridge Place attracts luxury lifestyle seekers. High-net-worth individuals. Second-home buyers. Resort enthusiasts. Most agents do not know how to target these buyers. I do. I use targeted advertising, exclusive access events, and luxury marketing that attracts luxury-conscious buyers.
                 </p>

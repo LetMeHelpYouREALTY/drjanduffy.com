@@ -3,6 +3,7 @@ import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 import FAQSchema from '@/app/components/faq-schema'
 import Link from 'next/link'
 import { BLOG_INDEX } from '@/lib/content/blog-posts'
+import HeadingMedia from '@/app/components/heading-media'
 
 export const metadata = {
   title: 'Las Vegas Real Estate Blog | Market Insights & Selling Tips',
@@ -68,6 +69,7 @@ export default function BlogPage() {
               <h1 className="text-4xl md:text-5xl font-black text-center mb-6">
                 Las Vegas Real Estate Blog
               </h1>
+              <HeadingMedia level={1} heading="Las Vegas Real Estate Blog" />
               <p className="text-xl text-center text-gray-600 mb-12">
                 Expert insights on Las Vegas real estate, market trends, selling tips, and neighborhood guides
               </p>

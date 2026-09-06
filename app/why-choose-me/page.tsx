@@ -3,6 +3,7 @@ import FAQSchema from '@/app/components/faq-schema'
 import LeadForm from '@/app/components/lead-form'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 import { Check, X } from 'lucide-react'
+import HeadingMedia from '@/app/components/heading-media'
 export const metadata = {
   title: 'Why Choose Dr. Jan Duffy | specialist in homes that DID NOT sell',
   description:
@@ -133,6 +134,7 @@ export default function WhyChooseMePage() {
                 <h2 className="text-3xl font-black mb-6 text-center">
                   DR. JAN VS. OTHER AGENTS
                 </h2>
+                <HeadingMedia level={2} heading="DR. JAN VS. OTHER AGENTS" />
                 <div className="space-y-4">
                   {comparisons.map((comp, index) => (
                     <div
@@ -162,6 +164,7 @@ export default function WhyChooseMePage() {
               </div>
               <div className="bg-primary text-primary-foreground p-8 rounded-lg text-center mb-12">
                 <h2 className="text-3xl font-black mb-4">THE BOTTOM LINE</h2>
+                <HeadingMedia level={2} heading="THE BOTTOM LINE" />
                 <p className="text-2xl font-bold mb-2">
                   Your previous agent failed. I will not.
                 </p>

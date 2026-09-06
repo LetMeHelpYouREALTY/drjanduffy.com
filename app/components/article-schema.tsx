@@ -24,7 +24,7 @@ export default function ArticleSchema({
     url,
     datePublished,
     dateModified: dateModified || datePublished,
-    image: `${SITE_URL}/og-image.png`,
+    image: `${SITE_URL}/images/headings/summerlin-estate-twilight.jpg`,
     author: {
       '@type': 'Person',
       '@id': `${SITE_URL}#person`,

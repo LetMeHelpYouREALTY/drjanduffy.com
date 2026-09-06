@@ -2,6 +2,7 @@ import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
 import FAQSchema from '@/app/components/faq-schema'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
+import HeadingMedia from '@/app/components/heading-media'
 export const metadata = {
   title: 'One Las Vegas Condos | failed listing specialist | Dr. Jan Duffy',
   description:
@@ -47,6 +48,7 @@ export default function OneLasVegasCondosPage() {
               <h1 className="text-4xl md:text-5xl font-black text-center mb-4">
                 ONE LAS VEGAS CONDOS
               </h1>
+              <HeadingMedia level={1} heading="ONE LAS VEGAS CONDOS" />
               <p className="text-xl text-center text-gray-600 mb-12">
                 Expert help selling expired One Las Vegas condos - luxury high-rise condos with Strip views and world-class amenities
               </p>
@@ -63,54 +65,66 @@ export default function OneLasVegasCondosPage() {
               </div>
               <div className="bg-primary/10 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">Why One Las Vegas Condos Expire</h2>
+                <HeadingMedia level={2} heading="Why One Las Vegas Condos Expire" />
                 <p className="text-lg text-gray-700 mb-4">
                   One Las Vegas condos expire for the same reasons other luxury condos expire - poor marketing, minimal investment, and zero follow-up. But One Las Vegas condos face additional challenges that most agents do not understand or address.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Strip View Marketing</h3>
+                <HeadingMedia level={3} heading="Strip View Marketing" />
                 <p className="text-lg text-gray-700 mb-4">
                   One Las Vegas condos offer Strip views. Buyers need to understand this value. Most agents do not market Strip views effectively. They do not explain benefits. They do not showcase views. They do not highlight prime location. I market Strip views effectively. I explain benefits, showcase views, and highlight prime location that attracts view-conscious buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">World-Class Amenity Highlighting</h3>
+                <HeadingMedia level={3} heading="World-Class Amenity Highlighting" />
                 <p className="text-lg text-gray-700 mb-4">
                   One Las Vegas offers world-class amenities. Concierge services. Fitness centers. Resort-style pools. Exclusive access. Most agents do not highlight world-class amenities effectively. They do not showcase concierge services. They do not emphasize fitness centers. They do not highlight resort-style pools. I highlight world-class amenities effectively. I showcase concierge services, emphasize fitness centers, and highlight resort-style pools that attract amenity-conscious buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Luxury Lifestyle Positioning</h3>
+                <HeadingMedia level={3} heading="Luxury Lifestyle Positioning" />
                 <p className="text-lg text-gray-700 mb-4">
                   One Las Vegas attracts luxury lifestyle seekers. High-net-worth individuals. Second-home buyers. Strip enthusiasts. Most agents do not know how to position luxury lifestyle effectively. They use generic positioning, and luxury lifestyle seekers look elsewhere. I know how to position luxury lifestyle effectively. I emphasize Strip views, highlight world-class amenities, and showcase luxury lifestyle appeal that attracts luxury-conscious buyers.
                 </p>
               </div>
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">One Las Vegas Condo Features</h2>
+                <HeadingMedia level={2} heading="One Las Vegas Condo Features" />
                 <p className="text-lg text-gray-700 mb-4">
                   One Las Vegas offers luxury condos with Strip views, world-class amenities, and prime location. Understanding these features is essential for effective marketing.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Strip Views</h3>
+                <HeadingMedia level={3} heading="Strip Views" />
                 <p className="text-lg text-gray-700 mb-4">
                   One Las Vegas condos offer Strip views including city lights, entertainment, and prime location. Most agents do not market Strip views effectively. I do. I showcase city lights, highlight entertainment, emphasize prime location, and showcase views that attract view-conscious buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">World-Class Amenities</h3>
+                <HeadingMedia level={3} heading="World-Class Amenities" />
                 <p className="text-lg text-gray-700 mb-4">
                   One Las Vegas offers world-class amenities including concierge services, fitness centers, resort-style pools, and exclusive access. Most agents do not highlight world-class amenities effectively. I do. I showcase concierge services, emphasize fitness centers, highlight resort-style pools, and showcase exclusive access that attracts amenity-conscious buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Prime Location</h3>
+                <HeadingMedia level={3} heading="Prime Location" />
                 <p className="text-lg text-gray-700 mb-4">
                   One Las Vegas's prime location offers proximity to world-class entertainment, dining, and shopping. Most agents do not emphasize location effectively. I do. I highlight proximity to entertainment, showcase dining options, and emphasize shopping access that attracts location-conscious buyers.
                 </p>
               </div>
               <div className="bg-white border-2 border-primary rounded-lg p-8 mb-12">
                 <h2 className="text-3xl font-black mb-4">My One Las Vegas Condo Marketing Strategy</h2>
+                <HeadingMedia level={2} heading="My One Las Vegas Condo Marketing Strategy" />
                 <p className="text-lg text-gray-700 mb-4">
                   I have a proven strategy for marketing One Las Vegas condos. This strategy addresses unique challenges, highlights unique features, and attracts luxury lifestyle seekers. It sells One Las Vegas condos. Fast. At top dollar.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Luxury Marketing Investment</h3>
+                <HeadingMedia level={3} heading="Luxury Marketing Investment" />
                 <p className="text-lg text-gray-700 mb-4">
                   One Las Vegas condos require luxury marketing investment. Professional photography. Luxury staging. Exclusive access events. High-end advertising. Most agents do not invest in luxury marketing. I invest $5,000+ in professional media, luxury staging, and exclusive marketing that attracts luxury lifestyle seekers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Strip View Highlighting</h3>
+                <HeadingMedia level={3} heading="Strip View Highlighting" />
                 <p className="text-lg text-gray-700 mb-4">
                   One Las Vegas condos offer Strip views. I highlight these views effectively. I showcase city lights, highlight entertainment, emphasize prime location, and showcase views that attract view-conscious buyers. Most agents do not do this. They use generic marketing, and One Las Vegas condos expire.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Luxury Lifestyle Seeker Targeting</h3>
+                <HeadingMedia level={3} heading="Luxury Lifestyle Seeker Targeting" />
                 <p className="text-lg text-gray-700 mb-4">
                   One Las Vegas attracts luxury lifestyle seekers. High-net-worth individuals. Second-home buyers. Strip enthusiasts. Most agents do not know how to target these buyers. I do. I use targeted advertising, exclusive access events, and luxury marketing that attracts luxury-conscious buyers.
                 </p>

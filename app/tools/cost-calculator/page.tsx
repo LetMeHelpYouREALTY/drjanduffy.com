@@ -2,6 +2,7 @@ import CostCalculator from '@/app/components/cost-calculator'
 import Header from '@/app/components/header'
 import FAQSchema from '@/app/components/faq-schema'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
+import HeadingMedia from '@/app/components/heading-media'
 export const metadata = {
   title: 'cost when your home will not sell Calculator | Dr. Jan Duffy',
   description:
@@ -47,6 +48,7 @@ export default function CostCalculatorPage() {
               <h1 className="text-4xl md:text-5xl font-black mb-4">
                 cost when your home will not sell CALCULATOR
               </h1>
+              <HeadingMedia level={1} heading="cost when your home will not sell CALCULATOR" />
               <p className="text-xl text-gray-600">
                 See exactly how much money you're losing every day
               </p>

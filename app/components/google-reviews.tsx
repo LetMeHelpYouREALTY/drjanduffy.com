@@ -1,5 +1,6 @@
 import { Star, ExternalLink } from 'lucide-react'
 import GoogleBusinessLink from './google-business-link'
+import HeadingMedia from '@/app/components/heading-media'
 
 interface Review {
   author: string
@@ -91,6 +92,7 @@ export default function GoogleReviews({ reviews, showSchema = true }: GoogleRevi
               <h2 className="text-4xl md:text-5xl font-black mb-4">
                 Google Reviews & Client Testimonials
               </h2>
+              <HeadingMedia level={2} heading="Google Reviews and Client Testimonials" />
               <p className="text-xl text-gray-600 mb-6">
                 See what clients say about working with Dr. Jan Duffy
               </p>

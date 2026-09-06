@@ -3,6 +3,7 @@ import LeadForm from '@/app/components/lead-form'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 import FAQSchema from '@/app/components/faq-schema'
 import Link from 'next/link'
+import HeadingMedia from '@/app/components/heading-media'
 
 export const metadata = {
   title: 'Sell My House Fast Summerlin | Luxury Home Specialist | 19 Days',
@@ -66,6 +67,7 @@ export default function SellFastSummerlinPage() {
               <h1 className="text-4xl md:text-5xl font-black text-center mb-6">
                 Sell Your House Fast in Summerlin
               </h1>
+              <HeadingMedia level={1} heading="Sell Your House Fast in Summerlin" />
               <p className="text-xl text-center text-gray-600 mb-12">
                 Luxury home specialist with 7 previously unsold homes sold. Average 19 days to contract, 98.7% of asking price.
               </p>
@@ -88,23 +90,28 @@ export default function SellFastSummerlinPage() {
               <h2 className="text-4xl md:text-5xl font-black text-center mb-6">
                 Why Summerlin Luxury Homes Need Specialized Marketing
               </h2>
+              <HeadingMedia level={2} heading="Why Summerlin Luxury Homes Need Specialized Marketing" />
               <div className="prose prose-lg max-w-none">
                 <p className="text-lg text-gray-700 mb-6">
                   Summerlin luxury homes are different from regular Las Vegas homes. They require specialized marketing:
                 </p>
                 <h3 className="text-2xl font-black mb-4 mt-8">Price Points</h3>
+                <HeadingMedia level={3} heading="Price Points" />
                 <p className="text-lg text-gray-700 mb-4">
                   Summerlin homes range from $800K to $10M+. At these price points, buyers expect luxury marketing. Professional photography worth $3,700. Twilight drone shots. 3D virtual tours. Magazine-quality staging. Generic marketing does not work. Luxury buyers want to see the lifestyle, not just the home.
                 </p>
                 <h3 className="text-2xl font-black mb-4 mt-8">Buyer Expectations</h3>
+                <HeadingMedia level={3} heading="Buyer Expectations" />
                 <p className="text-lg text-gray-700 mb-4">
                   Summerlin buyers are different. They're high-net-worth individuals, second-home buyers, retirees, and executives. They expect professional marketing, strategic pricing, and active agent involvement. They do not respond to generic "post to MLS and pray" strategies. They respond to targeted, high-end marketing.
                 </p>
                 <h3 className="text-2xl font-black mb-4 mt-8">Competition</h3>
+                <HeadingMedia level={3} heading="Competition" />
                 <p className="text-lg text-gray-700 mb-4">
                   Summerlin is competitive. New construction from major builders. Resale homes with professional marketing. Off-market properties. To sell fast, you need marketing that stands out. Professional photography, strategic pricing, aggressive follow-up, and targeted buyer outreach. This is what gets Summerlin homes sold fast.
                 </p>
                 <h3 className="text-2xl font-black mb-4 mt-8">Neighborhood Dynamics</h3>
+                <HeadingMedia level={3} heading="Neighborhood Dynamics" />
                 <p className="text-lg text-gray-700 mb-4">
                   Each Summerlin neighborhood is different. The Ridges (ultra-luxury, $1.5M-$10M+). Red Rock Country Club (golf course, $800K-$5M+). The Summit (high-rise, $500K-$3M+). Newer villages (new construction, $600K-$2M+). Each requires different marketing strategies, buyer targeting, and pricing approaches.
                 </p>
@@ -119,23 +126,28 @@ export default function SellFastSummerlinPage() {
               <h2 className="text-4xl md:text-5xl font-black text-center mb-6">
                 The Fast-Sale Strategy for Summerlin Properties
               </h2>
+              <HeadingMedia level={2} heading="The Fast-Sale Strategy for Summerlin Properties" />
               <div className="prose prose-lg max-w-none">
                 <p className="text-lg text-gray-700 mb-6">
                   Selling your Summerlin home fast requires a specialized strategy:
                 </p>
                 <h3 className="text-2xl font-black mb-4 mt-8">Week 1: Luxury Marketing Reset</h3>
+                <HeadingMedia level={3} heading="Week 1: Luxury Marketing Reset" />
                 <p className="text-lg text-gray-700 mb-4">
                   Professional photography worth $3,700 - twilight drone shots, 3D virtual tours, magazine-quality staging. Market analysis and strategic pricing for luxury market. Fresh MLS listing with optimized description highlighting luxury features. Social media marketing blitz targeting high-net-worth buyers. This luxury marketing reset is what gets Summerlin homes sold fast.
                 </p>
                 <h3 className="text-2xl font-black mb-4 mt-8">Week 2: Targeted Buyer Outreach</h3>
+                <HeadingMedia level={3} heading="Week 2: Targeted Buyer Outreach" />
                 <p className="text-lg text-gray-700 mb-4">
                   Strategic open house with buyer pre-qualification. Network activation reaching 500+ agents who work with luxury buyers. Targeted Facebook and Google ads reaching high-net-worth buyers. Email marketing to qualified buyers in your price range. Off-market property network activation. This targeted outreach is what brings qualified luxury buyers.
                 </p>
                 <h3 className="text-2xl font-black mb-4 mt-8">Week 3: Strategic Negotiation</h3>
+                <HeadingMedia level={3} heading="Week 3: Strategic Negotiation" />
                 <p className="text-lg text-gray-700 mb-4">
                   Luxury home negotiation is different. I understand luxury buyer psychology, seller motivations, and how to structure deals that work for both parties. I negotiate price, terms, inspection items, and closing timeline. I get you top dollar while closing fast. This strategic negotiation is how I get 98.7% of asking price average.
                 </p>
                 <h3 className="text-2xl font-black mb-4 mt-8">Week 4: Closing Management</h3>
+                <HeadingMedia level={3} heading="Week 4: Closing Management" />
                 <p className="text-lg text-gray-700 mb-4">
                   Luxury home closings require careful management. Escrow coordination, timeline enforcement, problem resolution, final walkthrough. I manage every detail through closing. This complete management ensures your sale closes smoothly and on time.
                 </p>
@@ -150,6 +162,7 @@ export default function SellFastSummerlinPage() {
               <h2 className="text-4xl md:text-5xl font-black text-center mb-6">
                 Summerlin Homes Sold Fast: Real Results
               </h2>
+              <HeadingMedia level={2} heading="Summerlin Homes Sold Fast: Real Results" />
               <div className="prose prose-lg max-w-none">
                 <p className="text-lg text-gray-700 mb-6">
                   Here are real Summerlin homes I sold fast:
@@ -206,23 +219,28 @@ export default function SellFastSummerlinPage() {
               <h2 className="text-4xl md:text-5xl font-black text-center mb-6">
                 What Summerlin Buyers Want Right Now
               </h2>
+              <HeadingMedia level={2} heading="What Summerlin Buyers Want Right Now" />
               <div className="prose prose-lg max-w-none">
                 <p className="text-lg text-gray-700 mb-6">
                   Understanding what Summerlin buyers want is key to selling fast:
                 </p>
                 <h3 className="text-2xl font-black mb-4 mt-8">Lifestyle, Not Just Home</h3>
+                <HeadingMedia level={3} heading="Lifestyle, Not Just Home" />
                 <p className="text-lg text-gray-700 mb-4">
                   Summerlin buyers want the lifestyle. Golf course living. Mountain views. Resort-style amenities. Active adult communities. New construction with modern finishes. Your marketing needs to showcase the lifestyle, not just the home. Professional photography that captures the lifestyle. Descriptions that sell the experience.
                 </p>
                 <h3 className="text-2xl font-black mb-4 mt-8">Quality & Condition</h3>
+                <HeadingMedia level={3} heading="Quality & Condition" />
                 <p className="text-lg text-gray-700 mb-4">
                   Summerlin buyers expect quality. Updated kitchens, modern bathrooms, luxury finishes, well-maintained properties. Deferred maintenance is a deal-breaker. Professional staging makes your home look like it belongs in a design magazine. This is what attracts luxury buyers.
                 </p>
                 <h3 className="text-2xl font-black mb-4 mt-8">Location & Neighborhood</h3>
+                <HeadingMedia level={3} heading="Location & Neighborhood" />
                 <p className="text-lg text-gray-700 mb-4">
                   Summerlin buyers care about location. The Ridges (ultra-luxury, exclusivity). Red Rock Country Club (golf course, active adult). The Summit (high-rise, urban luxury). Newer villages (new construction, modern amenities). Each neighborhood attracts different buyers. Your marketing needs to highlight neighborhood advantages.
                 </p>
                 <h3 className="text-2xl font-black mb-4 mt-8">Price & Value</h3>
+                <HeadingMedia level={3} heading="Price & Value" />
                 <p className="text-lg text-gray-700 mb-4">
                   Summerlin buyers are educated. They know market values. They compare your home to new construction, resale homes, and off-market properties. Strategic pricing is critical. Too high (sits on market). Too low (leaves money on table). Just right (sells fast at top dollar). I use data-driven pricing to price your home right from day one.
                 </p>
@@ -236,6 +254,7 @@ export default function SellFastSummerlinPage() {
             <h2 className="text-4xl md:text-5xl font-black mb-6">
               Get Your Summerlin Home Sold Fast
             </h2>
+            <HeadingMedia level={2} heading="Get Your Summerlin Home Sold Fast" />
             <p className="text-xl mb-4 max-w-2xl mx-auto">
               Summerlin luxury home specialist. 7 previously unsold homes sold. Average 19 days. 98.7% of asking.
             </p>

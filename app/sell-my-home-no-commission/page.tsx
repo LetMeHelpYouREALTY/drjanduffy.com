@@ -3,6 +3,7 @@ import LeadForm from '@/app/components/lead-form'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 import FAQSchema from '@/app/components/faq-schema'
 import Link from 'next/link'
+import HeadingMedia from '@/app/components/heading-media'
 
 export const metadata = {
   title: 'Real Estate Agent Who Brings Buyers | Dr. Jan Duffy | Las Vegas',
@@ -81,6 +82,7 @@ export default function SellMyHomeNoCommissionPage() {
               <h1 className="text-4xl md:text-5xl font-black text-center mb-4">
                 REAL ESTATE AGENT WHO BRINGS BUYERS
               </h1>
+              <HeadingMedia level={1} heading="REAL ESTATE AGENT WHO BRINGS BUYERS" />
               <p className="text-xl text-center text-gray-600 mb-12">
                 Dr. Jan Duffy brings qualified buyers with aggressive marketing. 19-day average to contract. 98.7% of asking price. Homes that didn't sell - now sold.
               </p>
@@ -98,18 +100,22 @@ export default function SellMyHomeNoCommissionPage() {
 
               <div className="bg-primary/10 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">How I Bring Buyers</h2>
+                <HeadingMedia level={2} heading="How I Bring Buyers" />
                 <p className="text-lg text-gray-700 mb-4">
                   Most agents list and wait. I bring buyers through aggressive marketing, strategic pricing, and relentless follow-up.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Aggressive Marketing That Attracts Buyers</h3>
+                <HeadingMedia level={3} heading="Aggressive Marketing That Attracts Buyers" />
                 <p className="text-lg text-gray-700 mb-4">
                   I invest $5,000+ in professional marketing per listing to bring buyers: professional photography ($3,700) that increases showing requests by 300%, premium staging that showcases your home's potential, 97-point marketing system across multiple channels, strategic pricing that positions your home competitively, and multi-channel advertising that reaches qualified buyers where they're looking. This comprehensive marketing approach brings buyers who are ready to make offers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Relentless Follow-Up That Converts Interest</h3>
+                <HeadingMedia level={3} heading="Relentless Follow-Up That Converts Interest" />
                 <p className="text-lg text-gray-700 mb-4">
                   I follow up on every showing within 2 hours. I call agents. I text buyers. I email updates. I answer questions immediately. Most agents don't follow up. They list and wait. I bring buyers by converting interest into offers through relentless follow-up. This is why I average 19 days to contract - I don't wait for buyers to come to me, I bring them and convert their interest into offers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Strategic Pricing That Attracts Qualified Buyers</h3>
+                <HeadingMedia level={3} heading="Strategic Pricing That Attracts Qualified Buyers" />
                 <p className="text-lg text-gray-700 mb-4">
                   I price your home strategically based on market analysis, comparable sales, and buyer behavior. Strategic pricing attracts qualified buyers who are ready to make offers. I don't overprice and wait. I price competitively to bring buyers quickly. This is why I average 98.7% of asking price - strategic pricing brings qualified buyers who pay top dollar.
                 </p>
@@ -117,18 +123,22 @@ export default function SellMyHomeNoCommissionPage() {
 
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">Why I Bring Buyers When Others Don't</h2>
+                <HeadingMedia level={2} heading="Why I Bring Buyers When Others Don't" />
                 <p className="text-lg text-gray-700 mb-4">
                   Most agents list and wait. I bring buyers through aggressive marketing, strategic pricing, and relentless follow-up.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">I Invest in Marketing That Brings Buyers</h3>
+                <HeadingMedia level={3} heading="I Invest in Marketing That Brings Buyers" />
                 <p className="text-lg text-gray-700 mb-4">
                   Most agents invest $37 in iPhone photos and post to MLS. I invest $5,000+ per listing in professional marketing that brings buyers: professional photography ($3,700), premium staging, 97-point marketing system, strategic pricing, multi-channel advertising, and aggressive follow-up. This comprehensive marketing approach brings qualified buyers who are ready to make offers. This is why I average 19 days to contract - I bring buyers, not wait for them.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">I Follow Up Relentlessly</h3>
+                <HeadingMedia level={3} heading="I Follow Up Relentlessly" />
                 <p className="text-lg text-gray-700 mb-4">
                   Most agents don't follow up. They list and wait. I follow up on every showing within 2 hours. I call agents. I text buyers. I email updates. I answer questions immediately. I convert interest into offers through relentless follow-up. This is how I bring buyers - I don't wait for them to come to me, I actively pursue them and convert their interest into offers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">I Price Strategically to Attract Buyers</h3>
+                <HeadingMedia level={3} heading="I Price Strategically to Attract Buyers" />
                 <p className="text-lg text-gray-700 mb-4">
                   Most agents overprice and wait. I price strategically based on market analysis to attract qualified buyers quickly. Strategic pricing brings buyers who are ready to make offers. I don't wait for buyers to negotiate down - I price competitively from day one to bring buyers quickly. This is why I average 98.7% of asking price - strategic pricing brings qualified buyers who pay top dollar.
                 </p>
@@ -136,6 +146,7 @@ export default function SellMyHomeNoCommissionPage() {
 
               <div className="bg-white border-2 border-primary rounded-lg p-8 mb-12">
                 <h2 className="text-3xl font-black mb-4">My No Commission Results</h2>
+                <HeadingMedia level={2} heading="My No Commission Results" />
                 <p className="text-lg text-gray-700 mb-4">
                   I've sold 7 homes that did not sell with previous agents using my no commission model. Here's what you can expect:
                 </p>

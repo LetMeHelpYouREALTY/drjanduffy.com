@@ -2,6 +2,7 @@ import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
 import FAQSchema from '@/app/components/faq-schema'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
+import HeadingMedia from '@/app/components/heading-media'
 export const metadata = {
   title: 'MGM Condos for Sale Las Vegas | MGM Signature Condos | Dr. Jan Duffy',
   description:
@@ -57,6 +58,7 @@ export default function MGMSignatureCondosPage() {
               <h1 className="text-4xl md:text-5xl font-black text-center mb-4">
                 MGM SIGNATURE CONDOS LAS VEGAS
               </h1>
+              <HeadingMedia level={1} heading="MGM SIGNATURE CONDOS LAS VEGAS" />
               <p className="text-xl text-center text-gray-600 mb-12">
                 Expert help selling expired MGM Signature condos - luxury condo hotel with resort access and rental programs
               </p>
@@ -73,54 +75,66 @@ export default function MGMSignatureCondosPage() {
               </div>
               <div className="bg-primary/10 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">Why MGM Signature Condos Expire</h2>
+                <HeadingMedia level={2} heading="Why MGM Signature Condos Expire" />
                 <p className="text-lg text-gray-700 mb-4">
                   MGM Signature condos expire for the same reasons other condo hotels expire - poor marketing, minimal investment, and zero follow-up. But MGM Signature condos face additional challenges that most agents do not understand or address.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Rental Program Explanation</h3>
+                <HeadingMedia level={3} heading="Rental Program Explanation" />
                 <p className="text-lg text-gray-700 mb-4">
                   MGM Signature offers rental programs. Buyers need to understand how rental programs work. Most agents do not explain rental programs effectively. They do not explain income potential. They do not showcase hotel management. They do not highlight rental history. I explain rental programs effectively. I explain income potential, showcase hotel management, and highlight rental history that attracts investors.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Resort Access Marketing</h3>
+                <HeadingMedia level={3} heading="Resort Access Marketing" />
                 <p className="text-lg text-gray-700 mb-4">
                   MGM Signature condos offer MGM Grand access. Buyers need to understand this value. Most agents do not market resort access effectively. They do not explain benefits. They do not showcase amenities. They do not highlight exclusive access. I market resort access effectively. I explain benefits, showcase amenities, and highlight exclusive access that attracts resort-conscious buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Investment Buyer Targeting</h3>
+                <HeadingMedia level={3} heading="Investment Buyer Targeting" />
                 <p className="text-lg text-gray-700 mb-4">
                   MGM Signature attracts investors. Investors need to understand ROI, rental income, and management. Most agents do not know how to market to investors. They use residential marketing, and investors look elsewhere. I know how to market to investors. I emphasize ROI, highlight rental income, and showcase management that attracts investment buyers.
                 </p>
               </div>
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">MGM Signature Condo Features</h2>
+                <HeadingMedia level={2} heading="MGM Signature Condo Features" />
                 <p className="text-lg text-gray-700 mb-4">
                   MGM Signature offers luxury condo hotel units with MGM Grand access, rental programs, and world-class amenities. Understanding these features is essential for effective marketing.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">MGM Grand Access</h3>
+                <HeadingMedia level={3} heading="MGM Grand Access" />
                 <p className="text-lg text-gray-700 mb-4">
                   MGM Signature condos offer MGM Grand access including pools, restaurants, entertainment, and amenities. Most agents do not market resort access effectively. I do. I showcase pools, highlight restaurants, emphasize entertainment, and showcase amenities that attract resort-conscious buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Rental Programs</h3>
+                <HeadingMedia level={3} heading="Rental Programs" />
                 <p className="text-lg text-gray-700 mb-4">
                   MGM Signature offers rental programs with hotel management, income potential, and rental history. Most agents do not explain rental programs effectively. I do. I explain hotel management, highlight income potential, and showcase rental history that attracts investors.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">World-Class Amenities</h3>
+                <HeadingMedia level={3} heading="World-Class Amenities" />
                 <p className="text-lg text-gray-700 mb-4">
                   MGM Signature offers world-class amenities including concierge services, fitness centers, pools, and exclusive access. Most agents do not showcase amenities effectively. I do. I showcase concierge services, emphasize fitness centers, highlight pools, and showcase exclusive access that attracts amenity-conscious buyers.
                 </p>
               </div>
               <div className="bg-white border-2 border-primary rounded-lg p-8 mb-12">
                 <h2 className="text-3xl font-black mb-4">My MGM Signature Condo Marketing Strategy</h2>
+                <HeadingMedia level={2} heading="My MGM Signature Condo Marketing Strategy" />
                 <p className="text-lg text-gray-700 mb-4">
                   I have a proven strategy for marketing MGM Signature condos. This strategy addresses unique challenges, highlights unique features, and attracts investors and second-home buyers. It sells MGM Signature condos. Fast. At top dollar.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Investment-Focused Marketing</h3>
+                <HeadingMedia level={3} heading="Investment-Focused Marketing" />
                 <p className="text-lg text-gray-700 mb-4">
                   MGM Signature condos require investment-focused marketing. Professional photography highlighting hotel amenities. Strategic positioning emphasizing rental income potential. Explanation of rental programs. Most agents do not understand this. I do. I use investment-focused marketing, highlight rental programs, and attract investors and second-home buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Rental Program Explanation</h3>
+                <HeadingMedia level={3} heading="Rental Program Explanation" />
                 <p className="text-lg text-gray-700 mb-4">
                   MGM Signature condos offer rental programs. I explain these programs effectively. I explain hotel management, highlight income potential, and showcase rental history that attracts investors. Most agents do not do this. They use generic explanations, and MGM Signature condos expire.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Investor Network</h3>
+                <HeadingMedia level={3} heading="Investor Network" />
                 <p className="text-lg text-gray-700 mb-4">
                   MGM Signature attracts investors. I have a network of investors seeking rental properties. I use this network to market MGM Signature condos effectively. Most agents do not have this network. They use generic advertising, and MGM Signature condos expire.
                 </p>

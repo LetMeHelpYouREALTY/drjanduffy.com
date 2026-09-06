@@ -2,6 +2,7 @@ import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
 import FAQSchema from '@/app/components/faq-schema'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
+import HeadingMedia from '@/app/components/heading-media'
 export const metadata = {
   title: 'Wimbledon Tennis Club Condos Las Vegas | failed listing specialist | Dr. Jan Duffy',
   description:
@@ -47,6 +48,7 @@ export default function WimbledonCondosPage() {
               <h1 className="text-4xl md:text-5xl font-black text-center mb-4">
                 WIMBLEDON TENNIS CLUB CONDOS LAS VEGAS
               </h1>
+              <HeadingMedia level={1} heading="WIMBLEDON TENNIS CLUB CONDOS LAS VEGAS" />
               <p className="text-xl text-center text-gray-600 mb-12">
                 Expert help selling expired Wimbledon Tennis Club condos - mid-rise condos with tennis amenities and community features
               </p>
@@ -63,54 +65,66 @@ export default function WimbledonCondosPage() {
               </div>
               <div className="bg-primary/10 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">Why Wimbledon Condos Expire</h2>
+                <HeadingMedia level={2} heading="Why Wimbledon Condos Expire" />
                 <p className="text-lg text-gray-700 mb-4">
                   Wimbledon condos expire for the same reasons other mid-rise condos expire - poor marketing, minimal investment, and zero follow-up. But Wimbledon condos face additional challenges that most agents do not understand or address.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Tennis Amenity Marketing</h3>
+                <HeadingMedia level={3} heading="Tennis Amenity Marketing" />
                 <p className="text-lg text-gray-700 mb-4">
                   Wimbledon offers tennis amenities. Buyers need to understand tennis appeal. Most agents do not market tennis amenities effectively. They do not explain benefits. They do not showcase tennis courts. They do not highlight tennis programs. I market tennis amenities effectively. I explain benefits, showcase tennis courts, and highlight tennis programs that attract tennis-conscious buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Active Lifestyle Positioning</h3>
+                <HeadingMedia level={3} heading="Active Lifestyle Positioning" />
                 <p className="text-lg text-gray-700 mb-4">
                   Wimbledon attracts active lifestyle buyers. Tennis enthusiasts. Fitness-conscious buyers. Community-oriented buyers. Most agents do not know how to position active lifestyle effectively. They use generic positioning, and active lifestyle buyers look elsewhere. I know how to position active lifestyle effectively. I emphasize tennis amenities, highlight fitness features, and showcase active lifestyle appeal that attracts active-conscious buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Community Feature Marketing</h3>
+                <HeadingMedia level={3} heading="Community Feature Marketing" />
                 <p className="text-lg text-gray-700 mb-4">
                   Wimbledon offers community features. Parks. Pools. Community centers. Tennis facilities. Most agents do not market community features effectively. They do not highlight parks. They do not showcase pools. They do not emphasize tennis facilities. I market community features effectively. I highlight parks, showcase pools, and emphasize tennis facilities that attract community-conscious buyers.
                 </p>
               </div>
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">Wimbledon Condo Features</h2>
+                <HeadingMedia level={2} heading="Wimbledon Condo Features" />
                 <p className="text-lg text-gray-700 mb-4">
                   Wimbledon Tennis Club offers mid-rise condos with tennis amenities, community features, and value positioning. Understanding these features is essential for effective marketing.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Tennis Amenities</h3>
+                <HeadingMedia level={3} heading="Tennis Amenities" />
                 <p className="text-lg text-gray-700 mb-4">
                   Wimbledon offers tennis amenities including tennis courts, tennis programs, and tennis facilities. Most agents do not market tennis amenities effectively. I do. I highlight tennis courts, showcase tennis programs, and emphasize tennis facilities that attract tennis-conscious buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Community Features</h3>
+                <HeadingMedia level={3} heading="Community Features" />
                 <p className="text-lg text-gray-700 mb-4">
                   Wimbledon offers community features including parks, pools, community centers, and tennis facilities. Most agents do not market community features effectively. I do. I highlight parks, showcase pools, emphasize community centers, and showcase tennis facilities that attract community-conscious buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Value Positioning</h3>
+                <HeadingMedia level={3} heading="Value Positioning" />
                 <p className="text-lg text-gray-700 mb-4">
                   Wimbledon offers value positioning with affordable pricing, tennis amenities, and established neighborhoods. Most agents do not position value effectively. I do. I highlight affordable pricing, showcase tennis amenities, and emphasize established neighborhoods that attract value-conscious buyers.
                 </p>
               </div>
               <div className="bg-white border-2 border-primary rounded-lg p-8 mb-12">
                 <h2 className="text-3xl font-black mb-4">My Wimbledon Condo Marketing Strategy</h2>
+                <HeadingMedia level={2} heading="My Wimbledon Condo Marketing Strategy" />
                 <p className="text-lg text-gray-700 mb-4">
                   I have a proven strategy for marketing Wimbledon condos. This strategy addresses unique challenges, highlights unique features, and attracts active lifestyle buyers. It sells Wimbledon condos. Fast. At top dollar.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Lifestyle-Focused Marketing</h3>
+                <HeadingMedia level={3} heading="Lifestyle-Focused Marketing" />
                 <p className="text-lg text-gray-700 mb-4">
                   Wimbledon condos require lifestyle-focused marketing. Professional photography highlighting tennis amenities. Strategic positioning emphasizing active lifestyle and community features. Emphasis on established neighborhoods. Most agents do not understand this. I do. I use lifestyle-focused marketing, highlight tennis amenities, and attract active lifestyle buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Tennis Amenity Highlighting</h3>
+                <HeadingMedia level={3} heading="Tennis Amenity Highlighting" />
                 <p className="text-lg text-gray-700 mb-4">
                   Wimbledon condos offer tennis amenities. I highlight these amenities effectively. I showcase tennis courts, emphasize tennis programs, highlight tennis facilities, and showcase tennis appeal that attracts tennis-conscious buyers. Most agents do not do this. They use generic marketing, and Wimbledon condos expire.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Active Lifestyle Buyer Targeting</h3>
+                <HeadingMedia level={3} heading="Active Lifestyle Buyer Targeting" />
                 <p className="text-lg text-gray-700 mb-4">
                   Wimbledon attracts active lifestyle buyers. Tennis enthusiasts. Fitness-conscious buyers. Community-oriented buyers. Most agents do not know how to target these buyers. I do. I use targeted advertising, lifestyle-focused marketing, and active positioning that attracts active-conscious buyers.
                 </p>

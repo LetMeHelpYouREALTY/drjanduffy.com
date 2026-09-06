@@ -5,6 +5,7 @@ import { calculateExpiredCosts, type CostCalculationResult } from '@/lib/utils/c
 import { formatCurrency } from '@/lib/utils'
 import { trackCalculatorUsed } from '@/lib/config/analytics'
 import { Button } from '@/components/ui/button'
+import HeadingMedia from '@/app/components/heading-media'
 
 export default function CostCalculator() {
   const [daysExpired, setDaysExpired] = useState(63)
@@ -33,6 +34,7 @@ export default function CostCalculator() {
       <h2 className="text-3xl font-black mb-6 text-center">
         STILL EXPIRED? HERE'S WHAT IT'S COSTING YOU
       </h2>
+      <HeadingMedia level={2} heading="Holding-cost review for an unsold Las Vegas listing" />
 
       <div className="space-y-4 mb-6">
         <div>
@@ -118,6 +120,7 @@ export default function CostCalculator() {
           <h3 className="text-2xl font-black text-red-800 mb-4 text-center">
             YOUR FINANCIAL BLEEDING
           </h3>
+          <HeadingMedia level={3} heading="Holding cost of an unsold Las Vegas listing" />
           <div className="space-y-3">
             <div className="flex justify-between items-center">
               <span className="text-lg font-semibold">Daily Loss:</span>

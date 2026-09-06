@@ -3,6 +3,7 @@ import LeadForm from '@/app/components/lead-form'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 import FAQSchema from '@/app/components/faq-schema'
 import Link from 'next/link'
+import HeadingMedia from '@/app/components/heading-media'
 
 export const metadata = {
   title: 'Find New Real Estate Agent Las Vegas | When Your Agent cannot Sell',
@@ -93,12 +94,14 @@ export default function FindNewAgentPage() {
               <h2 className="text-4xl md:text-5xl font-black text-center mb-6">
                 Signs You Need a New Agent
               </h2>
+              <HeadingMedia level={2} heading="Signs You Need a New Agent" />
               <div className="prose prose-lg max-w-none">
                 <p className="text-lg text-gray-700 mb-6">
                   How do you know if you need a new agent? Here are the signs:
                 </p>
                 <div className="bg-red-50 border-2 border-red-200 rounded-lg p-8 mb-6">
                   <h3 className="text-2xl font-black mb-4 text-red-800">No Communication</h3>
+                  <HeadingMedia level={3} heading="No Communication" />
                   <p className="text-lg text-gray-700 mb-4">
                     Your agent disappeared after listing your home. No weekly updates. No showing feedback. No communication. You're left in the dark, wondering what's happening. This is a red flag. You need an agent who communicates regularly and keeps you informed.
                   </p>
@@ -109,6 +112,7 @@ export default function FindNewAgentPage() {
 
                 <div className="bg-red-50 border-2 border-red-200 rounded-lg p-8 mb-6">
                   <h3 className="text-2xl font-black mb-4 text-red-800">No Showings or Feedback</h3>
+                  <HeadingMedia level={3} heading="No Showings or Feedback" />
                   <p className="text-lg text-gray-700 mb-4">
                     Your home has been on the market for weeks with no showings. Or showings happen, but you never get feedback. Your agent does not know why. They do not care. This is a red flag. You need an agent who actively markets your home and follows up on every showing.
                   </p>
@@ -119,6 +123,7 @@ export default function FindNewAgentPage() {
 
                 <div className="bg-red-50 border-2 border-red-200 rounded-lg p-8 mb-6">
                   <h3 className="text-2xl font-black mb-4 text-red-800">Price Drops With No Strategy</h3>
+                  <HeadingMedia level={3} heading="Price Drops With No Strategy" />
                   <p className="text-lg text-gray-700 mb-4">
                     Your agent suggested price drop after price drop with no strategy. No market analysis. No buyer feedback. Just "lower the price." This is a red flag. You need an agent who uses data-driven pricing and market analysis.
                   </p>
@@ -129,6 +134,7 @@ export default function FindNewAgentPage() {
 
                 <div className="bg-red-50 border-2 border-red-200 rounded-lg p-8 mb-6">
                   <h3 className="text-2xl font-black mb-4 text-red-800">No Marketing Beyond MLS</h3>
+                  <HeadingMedia level={3} heading="No Marketing Beyond MLS" />
                   <p className="text-lg text-gray-700 mb-4">
                     Your agent posted to MLS and disappeared. No social media marketing. No network activation. No targeted ads. No strategic open houses. This is a red flag. You need an agent who uses comprehensive marketing.
                   </p>
@@ -139,6 +145,7 @@ export default function FindNewAgentPage() {
 
                 <div className="bg-red-50 border-2 border-red-200 rounded-lg p-8 mb-6">
                   <h3 className="text-2xl font-black mb-4 text-red-800">Listing Sitting 60+ Days</h3>
+                  <HeadingMedia level={3} heading="Listing Sitting 60+ Days" />
                   <p className="text-lg text-gray-700 mb-4">
                     Your listing has been on the market for 60+ days with no offers. Your agent has no plan. No strategy. No urgency. This is a red flag. You need an agent who has a proven system that gets homes sold.
                   </p>
@@ -157,27 +164,33 @@ export default function FindNewAgentPage() {
               <h2 className="text-4xl md:text-5xl font-black text-center mb-6">
                 What to Look for in Your Next Agent
               </h2>
+              <HeadingMedia level={2} heading="What to Look for in Your Next Agent" />
               <div className="prose prose-lg max-w-none">
                 <p className="text-lg text-gray-700 mb-6">
                   When looking for a new agent, here's what to look for:
                 </p>
                 <h3 className="text-2xl font-black mb-4 mt-8">Proven Track Record in YOUR Neighborhood</h3>
+                <HeadingMedia level={3} heading="Proven Track Record in YOUR Neighborhood" />
                 <p className="text-lg text-gray-700 mb-4">
                   Not all agents know all neighborhoods. You need an agent who has sold homes in your specific neighborhood. I specialize in Summerlin West: The Ridges, Red Rock Country Club, The Summit, and newer villages. I know the market, the buyers, and what works. This local expertise is what gets homes sold.
                 </p>
                 <h3 className="text-2xl font-black mb-4 mt-8">Specific Marketing Strategy</h3>
+                <HeadingMedia level={3} heading="Specific Marketing Strategy" />
                 <p className="text-lg text-gray-700 mb-4">
                   Ask about their marketing strategy. Generic answers like "I'll market it" are not enough. You need specific details: professional photography, staging, social media, network activation, targeted ads. I use a 97-point marketing system with specific tactics for each step. This is what gets homes sold.
                 </p>
                 <h3 className="text-2xl font-black mb-4 mt-8">Regular Communication Commitment</h3>
+                <HeadingMedia level={3} heading="Regular Communication Commitment" />
                 <p className="text-lg text-gray-700 mb-4">
                   Ask about communication. How often will you hear from them? What format? Weekly reports? Real-time updates? I provide weekly detailed reports with showing activity, buyer feedback, market conditions, and strategy adjustments. Plus real-time updates, direct phone access, email, and text. This communication ensures you are always informed.
                 </p>
                 <h3 className="text-2xl font-black mb-4 mt-8">Professional Photography & Staging</h3>
+                <HeadingMedia level={3} heading="Professional Photography & Staging" />
                 <p className="text-lg text-gray-700 mb-4">
                   Ask about photography and staging. Will they invest in professional media? How much? I invest $3,700 in professional media - twilight drone shots, 3D virtual tours, magazine-quality staging. Professional photography increases showing requests by 300% and sale price by 5-10%. This is what gets homes sold.
                 </p>
                 <h3 className="text-2xl font-black mb-4 mt-8">Aggressive Pricing Strategy</h3>
+                <HeadingMedia level={3} heading="Aggressive Pricing Strategy" />
                 <p className="text-lg text-gray-700 mb-4">
                   Ask about pricing strategy. Will they use data-driven analysis? Market trends? Buyer psychology? I use data-driven pricing and market analysis to price your home right from day one. I do not guess. I analyze. I price strategically to attract qualified buyers while maximizing your sale price.
                 </p>
@@ -192,6 +205,7 @@ export default function FindNewAgentPage() {
               <h2 className="text-4xl md:text-5xl font-black text-center mb-6">
                 Questions to Ask Before Hiring
               </h2>
+              <HeadingMedia level={2} heading="Questions to Ask Before Hiring" />
               <div className="prose prose-lg max-w-none">
                 <p className="text-lg text-gray-700 mb-6">
                   Before hiring a new agent, ask these questions:
@@ -241,27 +255,33 @@ export default function FindNewAgentPage() {
               <h2 className="text-4xl md:text-5xl font-black text-center mb-6">
                 How to Choose a Real Estate Agent Who Actually Sells
               </h2>
+              <HeadingMedia level={2} heading="How to Choose a Real Estate Agent Who Actually Sells" />
               <div className="prose prose-lg max-w-none">
                 <p className="text-lg text-gray-700 mb-6">
                   Choosing the right agent is critical. Here's how to choose one who actually sells:
                 </p>
                 <h3 className="text-2xl font-black mb-4 mt-8">Look for Specialization</h3>
+                <HeadingMedia level={3} heading="Look for Specialization" />
                 <p className="text-lg text-gray-700 mb-4">
                   Not all agents are good at everything. Some specialize in first-time buyers. Some specialize in luxury homes. Some specialize in homes that DID NOT sell. I specialize in homes that DID NOT sell with other agents. This specialization is what delivers results. 7 homes That DID NOT sell - now sold. 19 day average. 98.7% of asking price.
                 </p>
                 <h3 className="text-2xl font-black mb-4 mt-8">Check Their Track Record</h3>
+                <HeadingMedia level={3} heading="Check Their Track Record" />
                 <p className="text-lg text-gray-700 mb-4">
                   Ask for specific results. How many homes sold? Average days on market? Average sale price percentage? I've sold 7 homes that DID NOT sell with other agents. Average 19 days to contract. 98.7% of asking price. These are real results, not promises.
                 </p>
                 <h3 className="text-2xl font-black mb-4 mt-8">Ask About Their System</h3>
+                <HeadingMedia level={3} heading="Ask About Their System" />
                 <p className="text-lg text-gray-700 mb-4">
                   Results come from systems, not luck. Ask about their process. What happens week by week? What's the marketing strategy? What's the follow-up system? I have a proven 30-day plan with specific tactics for each week. This system is what delivers results.
                 </p>
                 <h3 className="text-2xl font-black mb-4 mt-8">Verify Their Investment</h3>
+                <HeadingMedia level={3} heading="Verify Their Investment" />
                 <p className="text-lg text-gray-700 mb-4">
                   Ask about their marketing investment. How much do they spend per listing? What do they spend it on? I invest $5,000+ per listing: $3,700 on professional media, plus marketing, staging, and follow-up. This investment is what gets homes sold. Your previous agent spent $100. That's why your home DID NOT sell.
                 </p>
                 <h3 className="text-2xl font-black mb-4 mt-8">Read Testimonials</h3>
+                <HeadingMedia level={3} heading="Read Testimonials" />
                 <p className="text-lg text-gray-700 mb-4">
                   Read testimonials from real clients. Do they mention specific results? Communication? Marketing? I have testimonials from 47 sellers who could not sell with their previous agent. They mention specific results, communication, and marketing. See <Link href="/testimonials" className="text-primary font-semibold hover:underline">real client testimonials</Link>.
                 </p>
@@ -275,6 +295,7 @@ export default function FindNewAgentPage() {
             <div className="max-w-4xl mx-auto">
               <div className="bg-white border-2 border-primary rounded-lg p-8">
                 <h2 className="text-3xl font-black mb-4 text-center">My Credentials</h2>
+                <HeadingMedia level={2} heading="My Credentials" />
                 <p className="text-lg text-gray-700 mb-6 text-center">
                   Here's why I'm different from your previous agent:
                 </p>
@@ -313,6 +334,7 @@ export default function FindNewAgentPage() {
             <h2 className="text-4xl md:text-5xl font-black mb-6">
               Let's Discuss Your Situation
             </h2>
+            <HeadingMedia level={2} heading="Let's Discuss Your Situation" />
             <p className="text-xl mb-4 max-w-2xl mx-auto">
               Looking for a new real estate agent? Let's discuss your situation and see if I'm the right fit.
             </p>

@@ -13,6 +13,7 @@ import GBPPostsWidget from './components/gbp-posts-widget'
 import GoogleMapEmbed from './components/google-map-embed'
 import Image from 'next/image'
 import Link from 'next/link'
+import HeadingMedia from '@/app/components/heading-media'
 
 export const metadata = {
   title: 'Dr. Janet Duffy Real Estate | Real Estate Agent in Las Vegas, NV | (702) 500-1064',
@@ -97,6 +98,7 @@ export default function HomePage() {
             <h1 className="text-4xl md:text-5xl font-black text-center mb-4">
               Sell Your House Fast in Las Vegas - Even If It DID NOT Sell Before
             </h1>
+            <HeadingMedia level={1} heading="Sell Your House Fast in Las Vegas - Even If It DID NOT Sell Before" />
             <p className="text-xl text-center text-gray-600 mb-12">
               63 Days on Market. 37 Showings. 5 Price Drops. ZERO OFFERS. Sound Familiar?
             </p>
@@ -126,12 +128,14 @@ export default function HomePage() {
             <h2 className="text-4xl md:text-5xl font-black text-center mb-6">
               Services: Buyers, Sellers, Homes That Will Not Sell
             </h2>
+            <HeadingMedia level={2} heading="Services: Buyers, Sellers, Homes That Will Not Sell" />
             <p className="text-xl text-center text-gray-600 mb-12">
               Complete real estate services for Las Vegas buyers, sellers, and frustrated homeowners
             </p>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-gray-50 border-2 border-gray-200 rounded-lg p-8">
                 <h3 className="text-2xl font-black mb-4">For Sellers</h3>
+                <HeadingMedia level={3} heading="For Sellers" />
                 <p className="text-lg text-gray-700 mb-4">
                   Specialized service for homes that will not sell. Professional marketing, strategic pricing, aggressive follow-up. 7 homes that did not sell with other agents - now sold.
                 </p>
@@ -148,6 +152,7 @@ export default function HomePage() {
               </div>
               <div className="bg-gray-50 border-2 border-gray-200 rounded-lg p-8">
                 <h3 className="text-2xl font-black mb-4">For Buyers</h3>
+                <HeadingMedia level={3} heading="For Buyers" />
                 <p className="text-lg text-gray-700 mb-4">
                   Summerlin luxury home specialist. Access to new construction, off-market properties, and exclusive listings. Builder relationships with Century, KB, Lennar, Pulte, Toll Brothers.
                 </p>
@@ -190,6 +195,7 @@ export default function HomePage() {
             <h2 className="text-4xl md:text-5xl font-black text-center mb-6">
               Your Neighborhood Expert: Summerlin, Henderson & Las Vegas
             </h2>
+            <HeadingMedia level={2} heading="Your Neighborhood Expert: Summerlin, Henderson & Las Vegas" />
             <p className="text-xl text-center text-gray-600 mb-12">
               Specializing in Summerlin West luxury homes: The Ridges, The Summit, Red Rock Country Club, and newer villages
             </p>
@@ -227,6 +233,7 @@ export default function HomePage() {
             <h2 className="text-4xl md:text-5xl font-black text-center mb-6">
               Results: 7 Homes That Did Not Sell - Now Sold
             </h2>
+            <HeadingMedia level={2} heading="Results: 7 Homes That Did Not Sell - Now Sold" />
             <p className="text-xl text-center text-gray-600 mb-12">
               Real results from Las Vegas real estate transactions
             </p>
@@ -246,6 +253,7 @@ export default function HomePage() {
             </div>
             <div className="bg-gray-50 border-2 border-gray-200 rounded-lg p-8">
               <h3 className="text-2xl font-black mb-4 text-center">Specialized Results</h3>
+              <HeadingMedia level={3} heading="Specialized Results" />
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
                   <h4 className="text-xl font-bold mb-2">Homes That did not Sell</h4>
@@ -278,6 +286,7 @@ export default function HomePage() {
               <h2 className="text-4xl md:text-5xl font-black mb-4">
                 CALCULATE YOUR LOSS
               </h2>
+              <HeadingMedia level={2} heading="CALCULATE YOUR LOSS" />
               <p className="text-xl text-gray-600 mb-6">
                 See exactly how much money you're losing every day your home sits unsold
               </p>
@@ -291,6 +300,7 @@ export default function HomePage() {
               <h3 className="text-2xl font-black mb-4 text-center text-red-800">
                 THE REAL COST OF WAITING
               </h3>
+              <HeadingMedia level={3} heading="THE REAL COST OF WAITING" />
               <p className="text-lg text-gray-700 mb-4">
                 While you're reading this, your unsold home is costing you money. Every day you wait is another $116+ in holding costs. Every week is another $812. Every month is another $4,964. And that's just the direct costs - it does not include lost opportunity, market depreciation, or the emotional toll of a home that did not sell.
               </p>
@@ -311,6 +321,7 @@ export default function HomePage() {
             <h2 className="text-4xl md:text-5xl font-black text-center mb-6">
               WHY HOMES THAT did not SELL ARE PERFECT FOR JANUARY 2026
             </h2>
+            <HeadingMedia level={2} heading="WHY HOMES THAT did not SELL ARE PERFECT FOR JANUARY 2026" />
             <div className="prose prose-lg max-w-none">
               <p className="text-lg text-gray-700 mb-6">
                 January 2026 is the perfect storm for homes that did not sell. December is historically the worst month to list a home - properties sit an average of 63 days during the holiday season. All those homes that failed to sell in December need a fresh start, creating a massive inventory of frustrated, motivated sellers.
@@ -318,12 +329,14 @@ export default function HomePage() {
               <h3 className="text-2xl font-black mb-4 mt-8">
                 The January Advantage
               </h3>
+              <HeadingMedia level={3} heading="The January Advantage" />
               <p className="text-lg text-gray-700 mb-4">
                 Spring buyers are already starting to look. They're serious, pre-qualified, and ready to move. Tax refunds are coming, giving buyers more purchasing power. Interest rates are stabilizing, making buyers more confident. And most importantly, there's less competition - while other agents are chasing new listings, I'm focused on helping sellers who tried before.
               </p>
               <h3 className="text-2xl font-black mb-4 mt-8">
                 The Frustrated Seller Psychology
               </h3>
+              <HeadingMedia level={3} heading="The Frustrated Seller Psychology" />
               <p className="text-lg text-gray-700 mb-4">
                 Sellers who tried before are different from first-time sellers. They've already tried once and failed. They're frustrated, angry, and motivated. They've learned the hard way that not all agents are created equal. They're ready to work with someone who actually knows what they're doing. They will not accept excuses. They want results.
               </p>
@@ -333,6 +346,7 @@ export default function HomePage() {
               <h3 className="text-2xl font-black mb-4 mt-8">
                 The Las Vegas Market Reality
               </h3>
+              <HeadingMedia level={3} heading="The Las Vegas Market Reality" />
               <p className="text-lg text-gray-700 mb-4">
                 Las Vegas has 7,500+ active listings as of November 2026. Based on historical averages, 20-30% of these will fail to sell - that's 1,500-2,250 opportunities. In Summerlin West alone, we're looking at 200-300 homes that did not sell. These are not theoretical numbers. These are real homes, real sellers, real opportunities.
               </p>
@@ -350,6 +364,7 @@ export default function HomePage() {
             <h2 className="text-4xl md:text-5xl font-black text-center mb-6">
               Specializing in Summerlin West Luxury Homes
             </h2>
+            <HeadingMedia level={2} heading="Specializing in Summerlin West Luxury Homes" />
             <p className="text-xl text-center text-gray-600 mb-12">
               Local expert in The Ridges, Red Rock Country Club, The Summit, and newer Summerlin villages
             </p>
@@ -360,18 +375,21 @@ export default function HomePage() {
               <h3 className="text-2xl font-black mb-4 mt-8">
                 Maximum Focus vs. Maximum Listings
               </h3>
+              <HeadingMedia level={3} heading="Maximum Focus vs. Maximum Listings" />
               <p className="text-lg text-gray-700 mb-4">
                 Your previous agent had 47+ listings. You got 2.1% of their attention. They could not afford to invest $5,000+ in every listing, so they invested $100, hoped for the best, and your home did not sell. I take maximum 6 listings at a time. You get 100% focus. Every home gets the full treatment - professional marketing, aggressive follow-up, strategic negotiation. Nothing is left to chance.
               </p>
               <h3 className="text-2xl font-black mb-4 mt-8">
                 Real Investment vs. Minimal Spending
               </h3>
+              <HeadingMedia level={3} heading="Real Investment vs. Minimal Spending" />
               <p className="text-lg text-gray-700 mb-4">
                 Your previous agent spent $37 on photos. I spend $3,700 on professional media - twilight drone shots, 3D virtual tours, magazine-quality staging. Your previous agent posted to MLS and disappeared. I use a 97-point marketing system that includes social media blitzes, network activation, targeted ads, and strategic open houses. The difference in investment is dramatic: $100 vs. $5,000+. But the difference in results is even more dramatic: unsold vs. sold, $0 commission vs. full commission, $4,964/month loss vs. top dollar sale.
               </p>
               <h3 className="text-2xl font-black mb-4 mt-8">
                 Proven System That Brings Buyers vs. Hope and Pray
               </h3>
+              <HeadingMedia level={3} heading="Proven System That Brings Buyers vs. Hope and Pray" />
               <p className="text-lg text-gray-700 mb-4">
                 Your previous agent had no system. They posted to MLS, held maybe one open house, and hoped for the best. They listed and waited. That's not a strategy. That's incompetence. I bring buyers through a proven 30-day plan that sells homes that did not sell. Week 1 is aggressive reset that brings buyers. Week 2 is maximum exposure that brings buyers. Week 3 is negotiation warfare that converts buyers. Week 4 is closing. Every week has measurable outcomes. Every week brings buyers closer to making offers. Learn more about <a href="/process" className="text-primary font-semibold hover:underline">my proven 30-day selling process for Las Vegas homes</a> and see <a href="/services" className="text-primary font-semibold hover:underline">my complete real estate services in Summerlin and Henderson</a>.
               </p>
@@ -389,6 +407,7 @@ export default function HomePage() {
             <h2 className="text-4xl md:text-5xl font-black text-center mb-6">
               What To Do When Your Home will not Sell
             </h2>
+            <HeadingMedia level={2} heading="What To Do When Your Home will not Sell" />
             <p className="text-xl text-center text-gray-600 mb-12">
               A complete reset that eliminates the stigma of unsold homes and attracts qualified buyers
             </p>
@@ -399,18 +418,21 @@ export default function HomePage() {
               <h3 className="text-2xl font-black mb-4 mt-8">
                 Complete Marketing Reset
               </h3>
+              <HeadingMedia level={3} heading="Complete Marketing Reset" />
               <p className="text-lg text-gray-700 mb-4">
                 The first step is a complete marketing reset. Your previous agent used iPhone photos. I use professional photography worth $3,700 - twilight drone shots, 3D virtual tours, magazine-quality staging. Your previous agent wrote a generic description. I write optimized descriptions that highlight unique features and attract qualified buyers. Your previous agent posted to MLS and disappeared. I use a 97-point marketing system that includes social media blitzes, network activation, targeted ads, and strategic open houses.
               </p>
               <h3 className="text-2xl font-black mb-4 mt-8">
                 Strategic Pricing Analysis
               </h3>
+              <HeadingMedia level={3} heading="Strategic Pricing Analysis" />
               <p className="text-lg text-gray-700 mb-4">
                 Most homes that did not sell are overpriced. Your previous agent probably told you what you wanted to hear about price, not the truth. Then they suggested price drop after price drop. I use data-driven pricing and market analysis to price your home right from day one. I do not guess. I analyze. I price strategically to attract qualified buyers while maximizing your sale price. The result? 98.7% of asking price average, not 92% or 95%.
               </p>
               <h3 className="text-2xl font-black mb-4 mt-8">
                 Aggressive Follow-Up System
               </h3>
+              <HeadingMedia level={3} heading="Aggressive Follow-Up System" />
               <p className="text-lg text-gray-700 mb-4">
                 Your previous agent had zero follow-up. Buyers saw your home, but your agent never followed up. Feedback disappeared. Opportunities were lost. I have an aggressive follow-up system that ensures every showing is tracked, every buyer is contacted, and every opportunity is maximized. I do not wait for offers. I create them. I do not accept lowball offers. I negotiate them up. I do not let deals fall apart. I manage every detail until closing.
               </p>
@@ -430,6 +452,7 @@ export default function HomePage() {
             
             <div className="bg-white border-2 border-gray-200 rounded-lg p-8">
               <h2 className="text-3xl font-black mb-6 text-center">Visit Our Office</h2>
+              <HeadingMedia level={2} heading="Visit Our Office" />
               <GoogleMapEmbed />
             </div>
           </div>
@@ -453,6 +476,9 @@ export default function HomePage() {
           <h2 className="text-4xl md:text-5xl font-black mb-6">
             READY TO FIRE YOUR AGENT?
           </h2>
+          <div className="max-w-4xl mx-auto">
+            <HeadingMedia level={2} heading="Schedule a luxury listing consult in Summerlin" />
+          </div>
           
           {/* Dr. Jan Duffy Headshot */}
           <div className="flex justify-center mb-6">

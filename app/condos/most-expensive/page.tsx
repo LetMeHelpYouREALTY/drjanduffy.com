@@ -2,6 +2,7 @@ import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
 import FAQSchema from '@/app/components/faq-schema'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
+import HeadingMedia from '@/app/components/heading-media'
 export const metadata = {
   title: 'Most Expensive Condos in Las Vegas | Dr. Jan Duffy',
   description:
@@ -47,6 +48,7 @@ export default function MostExpensiveCondosPage() {
               <h1 className="text-4xl md:text-5xl font-black text-center mb-4">
                 MOST EXPENSIVE CONDOS IN LAS VEGAS
               </h1>
+              <HeadingMedia level={1} heading="MOST EXPENSIVE CONDOS IN LAS VEGAS" />
               <p className="text-xl text-center text-gray-600 mb-12">
                 Expert help selling the most expensive condos in Las Vegas - luxury high-rise condos that require sophisticated marketing
               </p>
@@ -63,54 +65,66 @@ export default function MostExpensiveCondosPage() {
               </div>
               <div className="bg-primary/10 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">Why Expensive Condos Expire</h2>
+                <HeadingMedia level={2} heading="Why Expensive Condos Expire" />
                 <p className="text-lg text-gray-700 mb-4">
                   Expensive condos expire for the same reasons other condos expire - poor marketing, minimal investment, and zero follow-up. But expensive condos face additional challenges that most agents do not understand or address.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Limited Buyer Pool</h3>
+                <HeadingMedia level={3} heading="Limited Buyer Pool" />
                 <p className="text-lg text-gray-700 mb-4">
                   Expensive condos have a limited buyer pool. High-net-worth individuals. Investors seeking premium properties. Second-home buyers wanting luxury lifestyle. Most agents do not know how to reach this limited buyer pool. They use generic advertising, and expensive condos expire. I know how to reach this limited buyer pool. I use targeted advertising, exclusive access events, and luxury marketing that attracts high-net-worth buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">High Expectations</h3>
+                <HeadingMedia level={3} heading="High Expectations" />
                 <p className="text-lg text-gray-700 mb-4">
                   Expensive condos attract buyers with high expectations. Luxury amenities. Exclusive access. Sophisticated design. Professional marketing. Most agents do not meet these expectations. They use generic marketing, and high-net-worth buyers look elsewhere. I meet these expectations. I use luxury marketing, highlight exclusive amenities, and attract high-net-worth buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Premium Pricing Justification</h3>
+                <HeadingMedia level={3} heading="Premium Pricing Justification" />
                 <p className="text-lg text-gray-700 mb-4">
                   Expensive condos command premium pricing. Buyers need to understand value. Most agents do not justify premium pricing effectively. They do not explain luxury amenities. They do not showcase exclusive access. They do not highlight sophisticated design. I justify premium pricing effectively. I explain luxury amenities, showcase exclusive access, and highlight sophisticated design that attracts value-conscious luxury buyers.
                 </p>
               </div>
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">My Expensive Condo Expertise</h2>
+                <HeadingMedia level={2} heading="My Expensive Condo Expertise" />
                 <p className="text-lg text-gray-700 mb-4">
                   I've sold expired expensive condos in Turnberry Place, Panorama Towers, The Ogden, Trump International, and other premium buildings. I understand the luxury market. I know how to market high-end properties. I know how to attract high-net-worth buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Luxury Marketing Investment</h3>
+                <HeadingMedia level={3} heading="Luxury Marketing Investment" />
                 <p className="text-lg text-gray-700 mb-4">
                   Expensive condos require luxury marketing investment. Professional photography with luxury staging. Exclusive access events. High-end advertising in luxury publications. Most agents do not invest in luxury marketing. I invest $5,000+ in professional media, luxury staging, and exclusive marketing that attracts high-net-worth buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">High-Net-Worth Buyer Network</h3>
+                <HeadingMedia level={3} heading="High-Net-Worth Buyer Network" />
                 <p className="text-lg text-gray-700 mb-4">
                   Expensive condos attract high-net-worth buyers. I have a network of high-net-worth individuals, investors seeking premium properties, and second-home buyers wanting luxury lifestyle. I use this network to market expensive condos effectively. Most agents do not have this network. They use generic advertising, and expensive condos expire.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Premium Positioning</h3>
+                <HeadingMedia level={3} heading="Premium Positioning" />
                 <p className="text-lg text-gray-700 mb-4">
                   Expensive condos require premium positioning. I position expensive condos as exclusive properties with sophisticated design, world-class amenities, and prime locations. I highlight unique features, emphasize exclusive access, and showcase premium value. Most agents do not position expensive condos effectively. They use generic positioning, and expensive condos expire.
                 </p>
               </div>
               <div className="bg-white border-2 border-primary rounded-lg p-8 mb-12">
                 <h2 className="text-3xl font-black mb-4">Most Expensive Condo Buildings</h2>
+                <HeadingMedia level={2} heading="Most Expensive Condo Buildings" />
                 <p className="text-lg text-gray-700 mb-4">
                   Las Vegas has many expensive condo buildings. Each building has unique features, amenities, and buyer appeal. I've sold expired condos in many of these buildings. I understand what makes each building unique. I know how to market each building effectively.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Turnberry Place</h3>
+                <HeadingMedia level={3} heading="Turnberry Place" />
                 <p className="text-lg text-gray-700 mb-4">
                   Turnberry Place offers luxury condos priced from $1 million to $10 million+ with resort access, exclusive amenities, and sophisticated design. I've sold expired Turnberry Place condos by emphasizing resort access, highlighting amenities, and targeting sophisticated buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Panorama Towers</h3>
+                <HeadingMedia level={3} heading="Panorama Towers" />
                 <p className="text-lg text-gray-700 mb-4">
                   Panorama Towers offers luxury condos priced from $500K to $5 million+ with Strip views, world-class amenities, and prime location. I've sold expired Panorama Towers condos by highlighting Strip views, showcasing amenities, and positioning condos competitively.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Trump International</h3>
+                <HeadingMedia level={3} heading="Trump International" />
                 <p className="text-lg text-gray-700 mb-4">
                   Trump International offers luxury condos priced from $1 million to $10 million+ with brand recognition, exclusive amenities, and prime Strip location. I've sold expired Trump International condos by emphasizing brand recognition, highlighting amenities, and targeting brand-conscious buyers.
                 </p>

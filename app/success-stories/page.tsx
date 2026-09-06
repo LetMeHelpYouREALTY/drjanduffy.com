@@ -6,6 +6,7 @@ import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 import FAQSchema from '@/app/components/faq-schema'
 import NAPSection from '@/app/components/nap-section'
 import GoogleBusinessLink from '@/app/components/google-business-link'
+import HeadingMedia from '@/app/components/heading-media'
 export const metadata = {
   title: 'HOME THAT DID NOT SELL Success Stories | Dr. Jan Duffy',
   description:
@@ -46,6 +47,7 @@ export default function SuccessStoriesPage() {
             <h1 className="text-4xl md:text-5xl font-black text-center mb-4">
               EXPIRED → SOLD: SUCCESS STORIES
             </h1>
+            <HeadingMedia level={1} heading="EXPIRED → SOLD: SUCCESS STORIES" />
             <p className="text-xl text-center text-gray-600 mb-12">
               Real results from frustrated sellers who fired their agents
             </p>
@@ -61,6 +63,7 @@ export default function SuccessStoriesPage() {
                 Most agents show you their best-case scenarios - luxury homes in perfect condition that sold quickly. I show you HOMES THAT DID NOT SELL. Homes that other agents could not sell. Homes that sat on the market for 60, 90, 120+ days. Homes that were stigmatized, overpriced, or poorly marketed. Then I show you how I sold them in 14-31 days at 97-99% of asking price.
               </p>
               <h3 className="text-2xl font-bold mb-3">The Common Thread</h3>
+              <HeadingMedia level={3} heading="The Common Thread" />
               <p className="text-lg text-gray-700 mb-4">
                 Every single one of these success stories shares the same pattern: Previous agent used minimal marketing (just MLS posting), DID NOT invest in professional photography, held maybe one open house, and disappeared. Then I came in, reset everything, implemented my 97-point marketing system, and sold the home. Fast. At top dollar. The difference is not the home. The difference is the agent.
               </p>
@@ -70,6 +73,7 @@ export default function SuccessStoriesPage() {
             </div>
             <div className="max-w-4xl mx-auto mb-12">
               <h2 className="text-3xl font-black mb-6 text-center">Complete Success Story Details</h2>
+              <HeadingMedia level={2} heading="Complete Success Story Details" />
               <p className="text-lg text-gray-700 mb-8 text-center">
                 Below are detailed accounts of homes I've sold. Each story includes the neighborhood, days expired, previous agent, days to sell with me, sale price, and client testimonial.
               </p>
@@ -129,6 +133,7 @@ export default function SuccessStoriesPage() {
             </div>
             <div className="max-w-4xl mx-auto mt-12">
               <h2 className="text-3xl font-black mb-6 text-center">The Results Speak for Themselves</h2>
+              <HeadingMedia level={2} heading="The Results Speak for Themselves" />
               <div className="bg-primary text-primary-foreground p-8 rounded-lg mb-8">
                 <div className="grid md:grid-cols-3 gap-6 text-center">
                   <div>
@@ -147,6 +152,7 @@ export default function SuccessStoriesPage() {
               </div>
               <div className="bg-gray-100 p-8 rounded-lg mb-8">
                 <h3 className="text-2xl font-black mb-4">Why These Results Matter</h3>
+                <HeadingMedia level={3} heading="Why These Results Matter" />
                 <p className="text-lg text-gray-700 mb-4">
                   These are not cherry-picked success stories. These are real HOMES THAT DID NOT SELL that I sold after other agents failed. Every single one of these homes had the same problems: poor marketing, minimal investment, zero follow-up. Then I came in, reset everything, and sold them. Fast. At top dollar.
                 </p>
@@ -154,6 +160,7 @@ export default function SuccessStoriesPage() {
                   The average HOME THAT DID NOT SELL in Las Vegas sits for 63+ days before expiring. Then it sits expired for another 30-90 days before someone finally sells it (if they sell it at all). I sell them in 19 days average. That's not a coincidence. That's a proven system.
                 </p>
                 <h3 className="text-2xl font-black mb-4 mt-6">What Your Success Story Could Look Like</h3>
+                <HeadingMedia level={3} heading="What Your Success Story Could Look Like" />
                 <p className="text-lg text-gray-700">
                   Your HOME THAT DID NOT SELL could be the next success story. The same system that sold these 7 HOMES THAT did not SELL can sell yours. The same marketing, the same follow-up, the same proven results. The only question is: are you ready to work with an agent who actually delivers results?
                 </p>

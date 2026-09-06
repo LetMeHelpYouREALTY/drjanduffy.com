@@ -2,6 +2,7 @@ import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 import FAQSchema from '@/app/components/faq-schema'
+import HeadingMedia from '@/app/components/heading-media'
 export const metadata = {
   title: 'Henderson Condos | Dr. Jan Duffy',
   description:
@@ -52,6 +53,7 @@ export default function HendersonCondosPage() {
               <h1 className="text-4xl md:text-5xl font-black text-center mb-4">
                 HENDERSON CONDOS
               </h1>
+              <HeadingMedia level={1} heading="HENDERSON CONDOS" />
               <p className="text-xl text-center text-gray-600 mb-12">
                 Expert help selling expired Henderson condos - mid-rise condos and townhomes in Las Vegas's family-friendly community
               </p>
@@ -68,54 +70,66 @@ export default function HendersonCondosPage() {
               </div>
               <div className="bg-primary/10 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">Why Henderson Condos Expire</h2>
+                <HeadingMedia level={2} heading="Why Henderson Condos Expire" />
                 <p className="text-lg text-gray-700 mb-4">
                   Henderson condos expire for the same reasons other condos expire - poor marketing, minimal investment, and zero follow-up. But Henderson condos face additional challenges that most agents do not understand or address.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Value-Conscious Buyer Market</h3>
+                <HeadingMedia level={3} heading="Value-Conscious Buyer Market" />
                 <p className="text-lg text-gray-700 mb-4">
                   Henderson attracts value-conscious buyers. Families. First-time buyers. Retirees. Most agents do not know how to market to value-conscious buyers. They use luxury marketing, and value-conscious buyers look elsewhere. I know how to market to value-conscious buyers. I emphasize affordability, highlight value, and showcase family-friendly features that attract value-conscious buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Competition from New Construction</h3>
+                <HeadingMedia level={3} heading="Competition from New Construction" />
                 <p className="text-lg text-gray-700 mb-4">
                   Henderson has constant new construction. New condos compete with existing condos. New amenities compete with older amenities. New pricing competes with older pricing. Most agents do not know how to position existing condos against new construction. They do not highlight unique features. They do not emphasize established communities. I know how to position existing condos competitively. I highlight unique features. I emphasize established communities. I showcase mature neighborhoods and proven value.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Family-Friendly Amenity Marketing</h3>
+                <HeadingMedia level={3} heading="Family-Friendly Amenity Marketing" />
                 <p className="text-lg text-gray-700 mb-4">
                   Henderson offers family-friendly amenities. Parks. Schools. Community centers. Family-oriented features. Most agents do not market family-friendly amenities effectively. They do not highlight parks. They do not showcase schools. They do not emphasize family-oriented features. I market family-friendly amenities effectively. I highlight parks, showcase schools, and emphasize family-oriented features that attract family-conscious buyers.
                 </p>
               </div>
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">My Henderson Condo Expertise</h2>
+                <HeadingMedia level={2} heading="My Henderson Condo Expertise" />
                 <p className="text-lg text-gray-700 mb-4">
                   I've sold expired Henderson condos in Green Valley, Anthem, and throughout Henderson. I understand the Henderson market. I know how to market mid-rise condos and townhomes. I know how to attract value-conscious buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Value-Focused Marketing</h3>
+                <HeadingMedia level={3} heading="Value-Focused Marketing" />
                 <p className="text-lg text-gray-700 mb-4">
                   Henderson condos require value-focused marketing. Professional photography highlighting family-friendly features. Strategic positioning emphasizing affordability and value. Emphasis on established neighborhoods. Most agents do not understand this. I do. I use value-focused marketing, highlight family-friendly features, and attract value-conscious buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Affordability Positioning</h3>
+                <HeadingMedia level={3} heading="Affordability Positioning" />
                 <p className="text-lg text-gray-700 mb-4">
                   Henderson attracts value-conscious buyers who prioritize affordability. I position Henderson condos by emphasizing affordability, highlighting value, and showcasing family-friendly features. Most agents do not do this. They use generic positioning, and Henderson condos expire.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Family-Friendly Feature Highlighting</h3>
+                <HeadingMedia level={3} heading="Family-Friendly Feature Highlighting" />
                 <p className="text-lg text-gray-700 mb-4">
                   Henderson offers family-friendly features. Parks. Schools. Community centers. Family-oriented amenities. I highlight these features effectively. I showcase parks, emphasize schools, and highlight family-oriented amenities that attract family-conscious buyers. Most agents do not do this. They use generic marketing, and Henderson condos expire.
                 </p>
               </div>
               <div className="bg-white border-2 border-primary rounded-lg p-8 mb-12">
                 <h2 className="text-3xl font-black mb-4">Popular Henderson Condo Areas</h2>
+                <HeadingMedia level={2} heading="Popular Henderson Condo Areas" />
                 <p className="text-lg text-gray-700 mb-4">
                   Henderson has many condo areas. Each area has unique features, amenities, and buyer appeal. I've sold expired condos in many of these areas. I understand what makes each area unique. I know how to market each area effectively.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Green Valley</h3>
+                <HeadingMedia level={3} heading="Green Valley" />
                 <p className="text-lg text-gray-700 mb-4">
                   Green Valley offers mid-rise condos and townhomes with established communities, family-friendly amenities, and prime location. I've sold expired Green Valley condos by highlighting established communities, showcasing family-friendly amenities, and positioning condos competitively.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Anthem</h3>
+                <HeadingMedia level={3} heading="Anthem" />
                 <p className="text-lg text-gray-700 mb-4">
                   Anthem offers mid-rise condos and townhomes with master-planned community features, family-friendly amenities, and value positioning. I've sold expired Anthem condos by emphasizing master-planned features, highlighting family-friendly amenities, and targeting value-conscious buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">MacDonald Ranch</h3>
+                <HeadingMedia level={3} heading="MacDonald Ranch" />
                 <p className="text-lg text-gray-700 mb-4">
                   MacDonald Ranch offers mid-rise condos and townhomes with established neighborhoods, mature landscaping, and proven value. I've sold expired MacDonald Ranch condos by showcasing established neighborhoods, highlighting mature landscaping, and attracting value-conscious buyers.
                 </p>

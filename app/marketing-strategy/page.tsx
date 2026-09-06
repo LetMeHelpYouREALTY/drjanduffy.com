@@ -2,6 +2,7 @@ import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
 import FAQSchema from '@/app/components/faq-schema'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
+import HeadingMedia from '@/app/components/heading-media'
 export const metadata = {
   title: 'Marketing Strategy | 97-Point System | Dr. Jan Duffy',
   description:
@@ -111,6 +112,7 @@ export default function MarketingStrategyPage() {
               <h1 className="text-4xl md:text-5xl font-black text-center mb-4">
                 THE 97-POINT MARKETING SYSTEM
               </h1>
+              <HeadingMedia level={1} heading="THE 97-POINT MARKETING SYSTEM" />
               <p className="text-xl text-center text-gray-600 mb-12">
                 Comprehensive marketing strategy that sells homes that DID NOT sell fast
               </p>
@@ -138,6 +140,7 @@ export default function MarketingStrategyPage() {
                 <h2 className="text-3xl font-black mb-4 text-center">
                   WHY 97 POINTS MATTERS
                 </h2>
+                <HeadingMedia level={2} heading="WHY 97 POINTS MATTERS" />
                 <div className="space-y-4 text-lg">
                   <p>
                     Your previous agent did <strong>3-5 points</strong>: MLS posting, maybe one open house, zero follow-up.

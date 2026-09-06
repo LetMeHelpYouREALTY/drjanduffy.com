@@ -4,6 +4,7 @@ import { useState } from 'react'
 import { Button } from '@/components/ui/button'
 import { trackQuizCompleted } from '@/lib/config/analytics'
 import LeadForm from './lead-form'
+import HeadingMedia from '@/app/components/heading-media'
 
 interface Question {
   id: string
@@ -78,6 +79,7 @@ export default function BlameAnalyzer() {
       <div className="bg-white rounded-lg shadow-xl p-8 border-2 border-gray-200">
         <div className="text-center mb-8">
           <h2 className="text-4xl font-black mb-4">YOUR AGENT SCORE</h2>
+          <HeadingMedia level={2} heading="Listing agent score after a failed Las Vegas sale" />
           <div
             className={`text-6xl font-black mb-4 ${
               score < 50 ? 'text-red-600' : score < 75 ? 'text-yellow-600' : 'text-green-700'
@@ -112,6 +114,7 @@ export default function BlameAnalyzer() {
       <h2 className="text-3xl font-black mb-6 text-center">
         WHO KILLED YOUR SALE?
       </h2>
+      <HeadingMedia level={2} heading="Why the first listing failed in Las Vegas" />
       <p className="text-center text-gray-600 mb-8">
         Take the 60-Second Assessment
       </p>

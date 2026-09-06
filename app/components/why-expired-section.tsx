@@ -1,6 +1,7 @@
 'use client'
 
 import { X, Check } from 'lucide-react'
+import HeadingMedia from '@/app/components/heading-media'
 
 export default function WhyExpiredSection() {
   const failures = [
@@ -19,6 +20,7 @@ export default function WhyExpiredSection() {
         <h2 className="text-4xl md:text-5xl font-black text-center mb-4">
           WHY YOUR HOME DID NOT SELL
         </h2>
+        <HeadingMedia level={2} heading="WHY YOUR HOME DID NOT SELL" />
         <p className="text-xl text-center text-gray-600 mb-12">
           (Spoiler: It's Not Your House)
         </p>

@@ -2,6 +2,7 @@ import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
 import FAQSchema from '@/app/components/faq-schema'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
+import HeadingMedia from '@/app/components/heading-media'
 export const metadata = {
   title: 'New Listings for Las Vegas Condos | Dr. Jan Duffy',
   description:
@@ -47,6 +48,7 @@ export default function NewListingsCondosPage() {
               <h1 className="text-4xl md:text-5xl font-black text-center mb-4">
                 NEW LISTINGS FOR LAS VEGAS CONDOS
               </h1>
+              <HeadingMedia level={1} heading="NEW LISTINGS FOR LAS VEGAS CONDOS" />
               <p className="text-xl text-center text-gray-600 mb-12">
                 Expert help for new Las Vegas condo listings - avoid the mistakes that cause listings to expire
               </p>
@@ -63,46 +65,56 @@ export default function NewListingsCondosPage() {
               </div>
               <div className="bg-primary/10 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">Common Mistakes with New Condo Listings</h2>
+                <HeadingMedia level={2} heading="Common Mistakes with New Condo Listings" />
                 <p className="text-lg text-gray-700 mb-4">
                   Most agents make the same mistakes with new condo listings. These mistakes cause listings to expire. I know what these mistakes are, and I know how to avoid them.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Mistake #1: Generic Marketing</h3>
+                <HeadingMedia level={3} heading="Mistake #1: Generic Marketing" />
                 <p className="text-lg text-gray-700 mb-4">
                   Most agents use generic marketing for condos. They do not highlight unique features. They do not address condo-specific concerns. They do not target the right buyers. Generic marketing does not work for condos. I use targeted marketing that highlights unique features, addresses condo-specific concerns, and targets the right buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Mistake #2: Ignoring HOA Restrictions</h3>
+                <HeadingMedia level={3} heading="Mistake #2: Ignoring HOA Restrictions" />
                 <p className="text-lg text-gray-700 mb-4">
                   Many Las Vegas condos have strict HOA restrictions. No signs. Limited open houses. Restricted photography. Most agents do not understand these restrictions. They try to market condos like single-family homes, hit restrictions, and give up. I know how to market condos effectively within HOA restrictions. I use digital marketing, network activation, and targeted advertising that does not violate HOA rules.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Mistake #3: Wrong Pricing Strategy</h3>
+                <HeadingMedia level={3} heading="Mistake #3: Wrong Pricing Strategy" />
                 <p className="text-lg text-gray-700 mb-4">
                   Condos require different pricing strategies than single-family homes. HOA fees affect affordability. Amenities affect value. Competition from new construction affects pricing. Most agents do not understand condo pricing. They use single-family home pricing strategies, and condos expire. I use data-driven pricing strategies specifically for condos. I know how to price condos competitively while maximizing value.
                 </p>
               </div>
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">My New Listing Strategy</h2>
+                <HeadingMedia level={2} heading="My New Listing Strategy" />
                 <p className="text-lg text-gray-700 mb-4">
                   I have a proven strategy for new condo listings. This strategy avoids the mistakes that cause listings to expire. It positions your condo competitively. It markets it effectively. It sells it fast. At top dollar.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Week 1: Strategic Launch</h3>
+                <HeadingMedia level={3} heading="Week 1: Strategic Launch" />
                 <p className="text-lg text-gray-700 mb-4">
                   Week 1 is critical. This is when we launch your condo listing with professional marketing, strategic pricing, and targeted advertising. We highlight unique features. We address condo-specific concerns. We target the right buyers. We avoid the mistakes that cause listings to expire.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Week 2-3: Maximum Exposure</h3>
+                <HeadingMedia level={3} heading="Week 2-3: Maximum Exposure" />
                 <p className="text-lg text-gray-700 mb-4">
                   Week 2-3 is about maximum exposure. Strategic open houses (within HOA restrictions). Network activation. Targeted advertising. Digital marketing. We get your condo in front of as many qualified buyers as possible. We create urgency. We generate offers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Week 4: Closing</h3>
+                <HeadingMedia level={3} heading="Week 4: Closing" />
                 <p className="text-lg text-gray-700 mb-4">
                   Week 4 is closing. We negotiate offers. We handle inspections. We manage escrow. We close. Fast. At top dollar. With zero excuses.
                 </p>
               </div>
               <div className="bg-white border-2 border-primary rounded-lg p-8 mb-12">
                 <h2 className="text-3xl font-black mb-4">Why New Listings Matter</h2>
+                <HeadingMedia level={2} heading="Why New Listings Matter" />
                 <p className="text-lg text-gray-700 mb-4">
                   New listings have momentum. Buyers are interested. Agents are paying attention. The market is watching. If you do not capitalize on this momentum, your home does not sell. Most agents do not capitalize on new listing momentum. They use generic strategies, make common mistakes, and momentum dies. I capitalize on new listing momentum. I use targeted strategies, avoid common mistakes, and momentum builds. Your condo sells. Fast. At top dollar.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">The First 30 Days</h3>
+                <HeadingMedia level={3} heading="The First 30 Days" />
                 <p className="text-lg text-gray-700 mb-4">
                   The first 30 days are critical. This is when your condo has the most visibility. This is when buyers are most interested. This is when you have the best chance to sell. Most agents waste the first 30 days. They use generic strategies. They make common mistakes. They do not capitalize on momentum. I maximize the first 30 days. I use targeted strategies. I avoid common mistakes. I capitalize on momentum. Your condo sells. Fast. At top dollar.
                 </p>

@@ -6,6 +6,7 @@ import ServiceSchema from '@/app/components/service-schema'
 import NAPSection from '@/app/components/nap-section'
 import GoogleBusinessLink from '@/app/components/google-business-link'
 import { Check } from 'lucide-react'
+import HeadingMedia from '@/app/components/heading-media'
 export const metadata = {
   title: 'The Selling Process | Dr. Jan Duffy',
   description:
@@ -92,6 +93,7 @@ export default function ProcessPage() {
               <h1 className="text-4xl md:text-5xl font-black text-center mb-4">
                 THE SELLING PROCESS
               </h1>
+              <HeadingMedia level={1} heading="THE SELLING PROCESS" />
               <p className="text-xl text-center text-gray-600 mb-12">
                 How I sell homes that DID NOT sell in 30 days or less
               </p>
@@ -108,10 +110,12 @@ export default function ProcessPage() {
                   The selling process is broken down into five clear steps, each with specific deliverables and timelines. Step 1 is initial consultation. Step 2 is strategic reset. Step 3 is aggressive marketing launch. Step 4 is active negotiation. Step 5 is closing and escrow. Every step has measurable outcomes. Every step moves you closer to SOLD.
                 </p>
                 <h2 className="text-3xl font-black mb-4 mt-8">Why a Process Matters</h2>
+                <HeadingMedia level={2} heading="Why a Process Matters" />
                 <p className="text-lg text-gray-700 mb-4">
                   Most agents do not have a process. They wing it. They post to MLS and hope. They hold one open house and pray. They wait for offers and accept whatever comes. That's not how you sell homes. That's how you get expired.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">The Dr. Jan Process</h3>
+                <HeadingMedia level={3} heading="The Dr. Jan Process" />
                 <p className="text-lg text-gray-700">
                   My process is proven. I've used it to sell 7 Summerlin sellers who could not sell with an average of 19 days to contract and 98.7% of asking price. The same process can sell yours. The only question is: are you ready to work with an agent who actually has a process?
                 </p>
@@ -141,6 +145,7 @@ export default function ProcessPage() {
               </div>
               <div className="bg-primary text-primary-foreground p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4 text-center">WHAT'S INCLUDED</h2>
+                <HeadingMedia level={2} heading="WHAT'S INCLUDED" />
                 <p className="text-lg mb-6 text-center opacity-90">
                   Every step of the process includes comprehensive services designed to sell your HOME THAT DID NOT SELL fast and at top dollar. Here's what you get:
                 </p>
@@ -164,18 +169,21 @@ export default function ProcessPage() {
                   ))}
                 </div>
                 <h3 className="text-2xl font-bold mb-3 text-center">The Investment</h3>
+                <HeadingMedia level={3} heading="The Investment" />
                 <p className="text-lg text-center opacity-90">
                   I invest $5,000+ in marketing per listing. Your previous agent spent $100. The difference is obvious: expired vs. sold, $0 commission vs. full commission, $4,964/month loss vs. top dollar sale.
                 </p>
               </div>
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4 text-center">The Process Timeline</h2>
+                <HeadingMedia level={2} heading="The Process Timeline" />
                 <p className="text-lg text-gray-700 mb-6 text-center">
                   Each step of the process is designed to overcome stigma of unsold homes and attract qualified buyers. Here's what happens in each step:
                 </p>
                 <div className="space-y-6">
                   <div>
                     <h3 className="text-2xl font-bold mb-3">Step 1: Initial Consultation (Day 1)</h3>
+                    <HeadingMedia level={3} heading="Step 1: Initial Consultation (Day 1)" />
                     <p className="text-lg text-gray-700 mb-4">
                       The process starts with a free consultation. I analyze why your home DID NOT sell and what needs to change. No BS, just honest assessment. I'll tell you exactly what your previous agent did wrong, what I'll do differently, and how quickly I can sell your home. This consultation is free, with no obligation and no pressure.
                     </p>
@@ -194,6 +202,7 @@ export default function ProcessPage() {
                   </div>
                   <div>
                     <h3 className="text-2xl font-bold mb-3">Step 2: Strategic Reset (Days 2-5)</h3>
+                    <HeadingMedia level={3} heading="Step 2: Strategic Reset (Days 2-5)" />
                     <p className="text-lg text-gray-700 mb-4">
                       Once you decide to work with me, we immediately begin the strategic reset. Professional photography and staging. 3D virtual tour creation. Market analysis and pricing strategy. Fresh MLS listing with optimized description. Social media marketing blitz launch. This is when we eliminate the stigma of "expired" by making your home look brand new.
                     </p>
@@ -214,6 +223,7 @@ export default function ProcessPage() {
                   </div>
                   <div>
                     <h3 className="text-2xl font-bold mb-3">Step 3: Aggressive Marketing Launch (Week 1-2)</h3>
+                    <HeadingMedia level={3} heading="Step 3: Aggressive Marketing Launch (Week 1-2)" />
                     <p className="text-lg text-gray-700 mb-4">
                       Week 1-2 is all about maximum exposure. Strategic open house with buyer pre-qualification. Network activation reaching 500+ agents. Targeted Facebook and Google ads. Email marketing to qualified buyers. Daily follow-up on all showings. This is when the momentum builds and offers start coming in.
                     </p>
@@ -234,6 +244,7 @@ export default function ProcessPage() {
                   </div>
                   <div>
                     <h3 className="text-2xl font-bold mb-3">Step 4: Active Negotiation (Week 2-3)</h3>
+                    <HeadingMedia level={3} heading="Step 4: Active Negotiation (Week 2-3)" />
                     <p className="text-lg text-gray-700 mb-4">
                       Week 2-3 is when offers come in and negotiations begin. This is where most agents fail. They accept lowball offers or let negotiations drag on. I use aggressive follow-up, buyer psychology tactics, and strategic counter-offers to get you top dollar. I do not wait for offers. I create them.
                     </p>
@@ -254,6 +265,7 @@ export default function ProcessPage() {
                   </div>
                   <div>
                     <h3 className="text-2xl font-bold mb-3">Step 5: Closing & Escrow (Week 3-4)</h3>
+                    <HeadingMedia level={3} heading="Step 5: Closing & Escrow (Week 3-4)" />
                     <p className="text-lg text-gray-700 mb-4">
                       Week 3-4 is closing. Escrow management, timeline enforcement, problem resolution, final walkthrough coordination. This is where deals fall apart with other agents. I do not let that happen. I manage every detail, enforce every timeline, resolve every problem. SOLD - Proven results.
                     </p>
@@ -277,30 +289,35 @@ export default function ProcessPage() {
 
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4 text-center">Why This Process Works</h2>
+                <HeadingMedia level={2} heading="Why This Process Works" />
                 <p className="text-lg text-gray-700 mb-6 text-center">
                   This process has sold 7 Summerlin sellers who could not sell with an average of 19 days to contract and 98.7% of asking price. Here's why it works:
                 </p>
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
                     <h3 className="text-2xl font-bold mb-3">Complete Reset Eliminates Stigma</h3>
+                    <HeadingMedia level={3} heading="Complete Reset Eliminates Stigma" />
                     <p className="text-lg text-gray-700 mb-4">
                       The strategic reset eliminates stigma of unsold homes. Professional photography, staging, and fresh MLS listing make your home look brand new. Buyers do not see "expired." They see "opportunity." This reset is what transforms HOMES THAT did not SELL into attractive opportunities.
                     </p>
                   </div>
                   <div>
                     <h3 className="text-2xl font-bold mb-3">Maximum Exposure Attracts Buyers</h3>
+                    <HeadingMedia level={3} heading="Maximum Exposure Attracts Buyers" />
                     <p className="text-lg text-gray-700 mb-4">
                       The aggressive marketing launch creates maximum exposure. Strategic open houses, network activation, targeted ads, and email marketing reach thousands of potential buyers. This exposure is what generates showings and creates offers.
                     </p>
                   </div>
                   <div>
                     <h3 className="text-2xl font-bold mb-3">Aggressive Negotiation Maximizes Price</h3>
+                    <HeadingMedia level={3} heading="Aggressive Negotiation Maximizes Price" />
                     <p className="text-lg text-gray-700 mb-4">
                       The active negotiation maximizes your sale price. Aggressive follow-up, buyer psychology tactics, and strategic counter-offers get you top dollar. This negotiation is what delivers 98.7% of asking price average.
                     </p>
                   </div>
                   <div>
                     <h3 className="text-2xl font-bold mb-3">Complete Management Ensures Closing</h3>
+                    <HeadingMedia level={3} heading="Complete Management Ensures Closing" />
                     <p className="text-lg text-gray-700 mb-4">
                       The closing and escrow management ensures smooth closing. Timeline enforcement, problem resolution, and complete coordination ensure your sale closes on time. This management is what prevents deals from falling apart.
                     </p>

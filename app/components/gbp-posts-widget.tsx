@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { ExternalLink, Calendar } from 'lucide-react'
 import GoogleBusinessLink from './google-business-link'
+import HeadingMedia from '@/app/components/heading-media'
 
 interface GBPPost {
   title: string
@@ -52,6 +53,7 @@ export default function GBPPostsWidget({
           <GoogleBusinessLink variant="text" />
         </div>
       )}
+      {showTitle && <HeadingMedia level={2} heading="Latest Updates and Offers" />}
       <div className="space-y-6">
         {displayPosts.map((post, index) => (
           <div

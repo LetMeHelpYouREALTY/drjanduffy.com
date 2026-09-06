@@ -3,6 +3,7 @@ import LeadForm from '@/app/components/lead-form'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 import FAQSchema from '@/app/components/faq-schema'
 import { Check, X } from 'lucide-react'
+import HeadingMedia from '@/app/components/heading-media'
 export const metadata = {
   title: 'Your Agent vs Me vs Opendoor | Dr. Jan Duffy | 98.7% vs 70-85%',
   description:
@@ -93,6 +94,7 @@ export default function ComparisonPage() {
             <h1 className="text-4xl md:text-5xl font-black text-center mb-12">
               YOUR AGENT VS ME
             </h1>
+            <HeadingMedia level={1} heading="YOUR AGENT VS ME" />
             <p className="text-xl text-center text-gray-600 mb-12 max-w-3xl mx-auto">
               Side-by-side comparison of what your previous agent did vs. what I do to sell homes that DID NOT sell. The difference is obvious.
             </p>
@@ -151,6 +153,7 @@ export default function ComparisonPage() {
                   <h2 className="text-3xl font-black mb-4 text-red-800">
                     Your Agent's Investment
                   </h2>
+                  <HeadingMedia level={2} heading="Your Agent's Investment" />
                   <p className="text-lg text-gray-700 mb-4">
                     Your previous agent's total investment in marketing your home was minimal. Here's what they actually spent:
                   </p>
@@ -174,6 +177,7 @@ export default function ComparisonPage() {
                   <h2 className="text-3xl font-black mb-4 text-green-800">
                     My Investment
                   </h2>
+                  <HeadingMedia level={2} heading="My Investment" />
                   <p className="text-lg text-gray-700 mb-4">
                     I invest significantly more in marketing your home because I know it pays off. Here's what I actually spend:
                   </p>
@@ -196,10 +200,12 @@ export default function ComparisonPage() {
               </div>
               <div className="mt-12 bg-gray-100 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4 text-center">The Investment Difference</h2>
+                <HeadingMedia level={2} heading="The Investment Difference" />
                 <p className="text-lg text-gray-700 mb-4">
                   The difference in investment is dramatic: $100 vs. $5,000+. But the difference in results is even more dramatic: expired vs. sold, no buyers vs. qualified buyers, $4,964/month loss vs. top dollar sale.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Why I Invest More to Bring Buyers</h3>
+                <HeadingMedia level={3} heading="Why I Invest More to Bring Buyers" />
                 <p className="text-lg text-gray-700 mb-4">
                   I invest more because I bring buyers. Professional photography increases showing requests by 300% and sale price by 5-10%. Strategic marketing brings qualified buyers who are ready to make offers. Aggressive follow-up converts interest into offers. The $5,000+ investment pays for itself by bringing buyers who pay top dollar and close fast.
                 </p>
@@ -207,6 +213,7 @@ export default function ComparisonPage() {
                   The $5,000+ investment is not a cost - it's an investment in bringing buyers. Professional photography showcases your home at its best, attracting more buyers and commanding higher prices. Strategic marketing reaches qualified buyers who are ready to purchase. Aggressive follow-up ensures every showing leads to an offer. The investment pays for itself by bringing buyers who pay top dollar. Your previous agent saw it as a cost and minimized it. I see it as an investment in bringing buyers and maximize it.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Why Your Agent Invested Less</h3>
+                <HeadingMedia level={3} heading="Why Your Agent Invested Less" />
                 <p className="text-lg text-gray-700 mb-4">
                   Your previous agent invested less because they were juggling 47 other listings. They could not afford to invest $5,000+ in every listing. So they invested $100, hoped for the best, and got you expired. That's not how you sell homes. That's how you fail.
                 </p>
@@ -217,6 +224,7 @@ export default function ComparisonPage() {
 
               <div className="bg-yellow-50 border-2 border-yellow-300 rounded-lg p-8 mb-12">
                 <h2 className="text-3xl font-black mb-4 text-center">Dr. Jan Duffy vs Opendoor, HomeLight & Cash Buyers</h2>
+                <HeadingMedia level={2} heading="Dr. Jan Duffy vs Opendoor, HomeLight & Cash Buyers" />
                 <p className="text-center text-lg text-gray-700 mb-6">
                   Many sellers consider cash buyers like Opendoor, HomeLight, Offerpad, or "we buy houses" companies. Here's the real comparison:
                 </p>
@@ -266,6 +274,7 @@ export default function ComparisonPage() {
                 </div>
                 <div className="bg-white p-6 rounded-lg border-2 border-primary">
                   <h3 className="text-2xl font-black mb-4">The Bottom Line</h3>
+                  <HeadingMedia level={3} heading="The Bottom Line" />
                   <p className="text-lg text-gray-700 mb-4">
                     <strong>Cash buyers like Opendoor and HomeLight</strong> offer speed but cost you $30,000-$60,000+ on a $400,000 home. They pay 70-85% of market value, charge 5-12% service fees, and make heavy deductions for repairs.
                   </p>
@@ -280,12 +289,14 @@ export default function ComparisonPage() {
 
               <div className="bg-white border-2 border-primary rounded-lg p-8 mb-12">
                 <h2 className="text-3xl font-black mb-4 text-center">DETAILED COMPARISON BREAKDOWN</h2>
+                <HeadingMedia level={2} heading="DETAILED COMPARISON BREAKDOWN" />
                 <p className="text-center text-lg text-gray-700 mb-8">
                   Let's break down each category to understand exactly what your previous agent did vs. what I do:
                 </p>
                 <div className="space-y-8">
                   <div>
                     <h3 className="text-2xl font-black mb-4">Photography: iPhone vs. Professional</h3>
+                    <HeadingMedia level={3} heading="Photography: iPhone vs. Professional" />
                     <p className="text-lg text-gray-700 mb-4">
                       Your previous agent used iPhone photos. They spent $37 on photos, took a few quick shots, and called it done. The photos were dark, poorly lit, and DID NOT showcase your home's best features. Buyers saw these photos and scrolled past. Your home became invisible in a sea of listings.
                     </p>
@@ -295,6 +306,7 @@ export default function ComparisonPage() {
                   </div>
                   <div>
                     <h3 className="text-2xl font-black mb-4">Marketing: Post and Pray vs. 97-Point System</h3>
+                    <HeadingMedia level={3} heading="Marketing: Post and Pray vs. 97-Point System" />
                     <p className="text-lg text-gray-700 mb-4">
                       Your previous agent used a "post to MLS and pray" strategy. They posted your listing to MLS, held maybe one open house, and disappeared. That's not marketing. That's negligence. Your home got minimal exposure, attracted few buyers, and expired.
                     </p>
@@ -304,6 +316,7 @@ export default function ComparisonPage() {
                   </div>
                   <div>
                     <h3 className="text-2xl font-black mb-4">Follow-Up: Zero vs. Aggressive</h3>
+                    <HeadingMedia level={3} heading="Follow-Up: Zero vs. Aggressive" />
                     <p className="text-lg text-gray-700 mb-4">
                       Your previous agent had zero follow-up. Buyers saw your home, but your agent never followed up. Feedback disappeared. Opportunities were lost. Showings happened, but nothing came of them. Your agent DID NOT know why. They did not care. They moved on to the next listing.
                     </p>
@@ -313,6 +326,7 @@ export default function ComparisonPage() {
                   </div>
                   <div>
                     <h3 className="text-2xl font-black mb-4">Attention: 2.1% vs. 100%</h3>
+                    <HeadingMedia level={3} heading="Attention: 2.1% vs. 100%" />
                     <p className="text-lg text-gray-700 mb-4">
                       Your previous agent had 47+ listings. You got 2.1% of their attention. They could not afford to invest $5,000+ in every listing. They could not provide aggressive follow-up on every showing. They could not manage every detail. They spread themselves thin, hoping something would stick. Your listing got lost in the shuffle.
                     </p>
@@ -322,6 +336,7 @@ export default function ComparisonPage() {
                   </div>
                   <div>
                     <h3 className="text-2xl font-black mb-4">Results: Expired vs. Sold</h3>
+                    <HeadingMedia level={3} heading="Results: Expired vs. Sold" />
                     <p className="text-lg text-gray-700 mb-4">
                       Your previous agent got you expired. 63 days on market. 37 showings. 5 price drops. Zero offers. Then your home did not sell, and they made $0 while you lost $4,964 per month in holding costs. That's the result of minimal marketing, zero follow-up, and 2.1% attention.
                     </p>
@@ -334,12 +349,14 @@ export default function ComparisonPage() {
 
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4 text-center">The Real Cost of Working with the Wrong Agent</h2>
+                <HeadingMedia level={2} heading="The Real Cost of Working with the Wrong Agent" />
                 <p className="text-lg text-gray-700 mb-6 text-center">
                   The comparison above shows the difference in approach. But what's the real cost of working with the wrong agent?
                 </p>
                 <div className="grid md:grid-cols-2 gap-6">
                   <div className="bg-red-50 border-2 border-red-200 rounded-lg p-6">
                     <h3 className="text-2xl font-black mb-4 text-red-800">Your Previous Agent's Cost to You</h3>
+                    <HeadingMedia level={3} heading="Your Previous Agent's Cost to You" />
                     <ul className="space-y-3 text-lg text-gray-700 mb-4">
                       <li>• $4,964/month in holding costs while listing sat expired</li>
                       <li>• $14,892 in lost holding costs over 3 months</li>
@@ -354,6 +371,7 @@ export default function ComparisonPage() {
                   </div>
                   <div className="bg-green-50 border-2 border-green-200 rounded-lg p-6">
                     <h3 className="text-2xl font-black mb-4 text-green-800">My Investment in Your Success</h3>
+                    <HeadingMedia level={3} heading="My Investment in Your Success" />
                     <ul className="space-y-3 text-lg text-gray-700 mb-4">
                       <li>• $5,000+ in professional marketing</li>
                       <li>• 100% focus on your listing</li>

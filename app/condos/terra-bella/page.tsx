@@ -2,6 +2,7 @@ import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
 import FAQSchema from '@/app/components/faq-schema'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
+import HeadingMedia from '@/app/components/heading-media'
 export const metadata = {
   title: 'Terra Bella at Anthem Condos | failed listing specialist | Dr. Jan Duffy',
   description:
@@ -47,6 +48,7 @@ export default function TerraBellaCondosPage() {
               <h1 className="text-4xl md:text-5xl font-black text-center mb-4">
                 TERRA BELLA AT ANTHEM CONDOS
               </h1>
+              <HeadingMedia level={1} heading="TERRA BELLA AT ANTHEM CONDOS" />
               <p className="text-xl text-center text-gray-600 mb-12">
                 Expert help selling expired Terra Bella at Anthem condos - mid-rise condos with community amenities and value positioning
               </p>
@@ -63,54 +65,66 @@ export default function TerraBellaCondosPage() {
               </div>
               <div className="bg-primary/10 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">Why Terra Bella Condos Expire</h2>
+                <HeadingMedia level={2} heading="Why Terra Bella Condos Expire" />
                 <p className="text-lg text-gray-700 mb-4">
                   Terra Bella condos expire for the same reasons other mid-rise condos expire - poor marketing, minimal investment, and zero follow-up. But Terra Bella condos face additional challenges that most agents do not understand or address.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Competition from New Construction</h3>
+                <HeadingMedia level={3} heading="Competition from New Construction" />
                 <p className="text-lg text-gray-700 mb-4">
                   Anthem has constant new construction. New condos compete with existing condos. New amenities compete with older amenities. New pricing competes with older pricing. Most agents do not know how to position existing condos against new construction. They do not highlight unique features. They do not emphasize established communities. I know how to position existing condos competitively. I highlight unique features. I emphasize established communities. I showcase mature neighborhoods and proven value.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Value-Conscious Buyer Market</h3>
+                <HeadingMedia level={3} heading="Value-Conscious Buyer Market" />
                 <p className="text-lg text-gray-700 mb-4">
                   Terra Bella attracts value-conscious buyers. Families. First-time buyers. Retirees. Most agents do not know how to market to value-conscious buyers. They use luxury marketing, and value-conscious buyers look elsewhere. I know how to market to value-conscious buyers. I emphasize affordability, highlight value, and showcase community amenities that attract value-conscious buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Community Amenity Marketing</h3>
+                <HeadingMedia level={3} heading="Community Amenity Marketing" />
                 <p className="text-lg text-gray-700 mb-4">
                   Terra Bella offers community amenities. Parks. Pools. Community centers. Family-oriented features. Most agents do not market community amenities effectively. They do not highlight parks. They do not showcase pools. They do not emphasize family-oriented features. I market community amenities effectively. I highlight parks, showcase pools, and emphasize family-oriented features that attract community-conscious buyers.
                 </p>
               </div>
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">Terra Bella Condo Features</h2>
+                <HeadingMedia level={2} heading="Terra Bella Condo Features" />
                 <p className="text-lg text-gray-700 mb-4">
                   Terra Bella at Anthem offers mid-rise condos with community amenities, established neighborhoods, and value positioning. Understanding these features is essential for effective marketing.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Community Amenities</h3>
+                <HeadingMedia level={3} heading="Community Amenities" />
                 <p className="text-lg text-gray-700 mb-4">
                   Terra Bella offers community amenities including parks, pools, community centers, and family-oriented features. Most agents do not market community amenities effectively. I do. I highlight parks, showcase pools, emphasize community centers, and showcase family-oriented features that attract community-conscious buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Established Neighborhoods</h3>
+                <HeadingMedia level={3} heading="Established Neighborhoods" />
                 <p className="text-lg text-gray-700 mb-4">
                   Terra Bella has established neighborhoods with mature landscaping, proven communities, and established amenities. Most agents do not position established neighborhoods effectively. I do. I highlight mature landscaping, showcase proven communities, and emphasize established amenities that attract neighborhood-conscious buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Value Positioning</h3>
+                <HeadingMedia level={3} heading="Value Positioning" />
                 <p className="text-lg text-gray-700 mb-4">
                   Terra Bella offers value positioning with affordable pricing, community amenities, and established neighborhoods. Most agents do not position value effectively. I do. I highlight affordable pricing, showcase community amenities, and emphasize established neighborhoods that attract value-conscious buyers.
                 </p>
               </div>
               <div className="bg-white border-2 border-primary rounded-lg p-8 mb-12">
                 <h2 className="text-3xl font-black mb-4">My Terra Bella Condo Marketing Strategy</h2>
+                <HeadingMedia level={2} heading="My Terra Bella Condo Marketing Strategy" />
                 <p className="text-lg text-gray-700 mb-4">
                   I have a proven strategy for marketing Terra Bella condos. This strategy addresses unique challenges, highlights unique features, and attracts value-conscious buyers. It sells Terra Bella condos. Fast. At top dollar.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Value-Focused Marketing</h3>
+                <HeadingMedia level={3} heading="Value-Focused Marketing" />
                 <p className="text-lg text-gray-700 mb-4">
                   Terra Bella condos require value-focused marketing. Professional photography highlighting community amenities. Strategic positioning emphasizing affordability and value. Emphasis on established neighborhoods. Most agents do not understand this. I do. I use value-focused marketing, highlight community amenities, and attract value-conscious buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Community Amenity Highlighting</h3>
+                <HeadingMedia level={3} heading="Community Amenity Highlighting" />
                 <p className="text-lg text-gray-700 mb-4">
                   Terra Bella condos offer community amenities. I highlight these amenities effectively. I showcase parks, emphasize pools, highlight community centers, and showcase family-oriented features that attract community-conscious buyers. Most agents do not do this. They use generic marketing, and Terra Bella condos expire.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Value-Conscious Buyer Targeting</h3>
+                <HeadingMedia level={3} heading="Value-Conscious Buyer Targeting" />
                 <p className="text-lg text-gray-700 mb-4">
                   Terra Bella attracts value-conscious buyers. Families. First-time buyers. Retirees. Most agents do not know how to target these buyers. I do. I use targeted advertising, community-focused marketing, and value positioning that attracts value-conscious buyers.
                 </p>

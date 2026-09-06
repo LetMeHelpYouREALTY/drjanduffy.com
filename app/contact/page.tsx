@@ -6,6 +6,7 @@ import GoogleBusinessLink from '@/app/components/google-business-link'
 import GoogleMapEmbed from '@/app/components/google-map-embed'
 import Image from 'next/image'
 import { Phone, Mail, MapPin, Clock } from 'lucide-react'
+import HeadingMedia from '@/app/components/heading-media'
 export const metadata = {
   title: 'Contact Dr. Jan Duffy | (702) 500-1064',
   description:
@@ -47,6 +48,7 @@ export default function ContactPage() {
               <h1 className="text-4xl md:text-5xl font-black text-center mb-4">
                 CONTACT DR. JAN DUFFY
               </h1>
+              <HeadingMedia level={1} heading="CONTACT DR. JAN DUFFY" />
               <p className="text-xl text-center text-gray-600 mb-8">
                 Sell your HOME THAT DID NOT SELL in 30 days or less
               </p>
@@ -83,6 +85,7 @@ export default function ContactPage() {
                 <div className="bg-primary text-primary-foreground p-8 rounded-lg text-center">
                   <Phone className="w-12 h-12 mx-auto mb-4" />
                   <h2 className="text-3xl font-black mb-4">Call Now</h2>
+                  <HeadingMedia level={2} heading="Call Now" />
                   <a
                     href="tel:7025001064"
                     className="text-3xl font-black hover:underline block mb-4"
@@ -99,6 +102,7 @@ export default function ContactPage() {
                 <div className="bg-gray-900 text-white p-8 rounded-lg text-center">
                   <Mail className="w-12 h-12 mx-auto mb-4" />
                   <h2 className="text-3xl font-black mb-4">Email</h2>
+                  <HeadingMedia level={2} heading="Email" />
                   <a
                     href="mailto:drjan@drjanduffy.com"
                     className="text-xl font-semibold hover:underline block mb-4"
@@ -117,6 +121,7 @@ export default function ContactPage() {
                 <div className="bg-white border-2 border-gray-200 rounded-lg p-8">
                   <Clock className="w-8 h-8 mb-4 text-primary" />
                   <h2 className="text-3xl font-black mb-4">Business Hours</h2>
+                  <HeadingMedia level={2} heading="Business Hours" />
                   <div className="space-y-3 text-lg">
                     <div className="flex justify-between">
                       <span className="font-semibold">Monday - Sunday:</span>
@@ -133,10 +138,12 @@ export default function ContactPage() {
                 </div>
                 <div className="bg-gray-100 p-8 rounded-lg">
                   <h2 className="text-3xl font-black mb-4 text-center">Service Area</h2>
+                  <HeadingMedia level={2} heading="Service Area" />
                 <div className="grid md:grid-cols-2 gap-6 mb-6">
                   <div>
                     <MapPin className="w-8 h-8 mb-4 text-primary" />
                     <h3 className="text-2xl font-bold mb-3">Primary Markets</h3>
+                    <HeadingMedia level={3} heading="Primary Markets" />
                     <ul className="space-y-2 text-lg">
                       <li>• Las Vegas, Nevada</li>
                       <li>• Summerlin West</li>
@@ -147,6 +154,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="text-2xl font-bold mb-3">Additional Areas</h3>
+                    <HeadingMedia level={3} heading="Additional Areas" />
                     <ul className="space-y-2 text-lg">
                       <li>• MacDonald Ranch</li>
                       <li>• Southern Highlands</li>
@@ -166,24 +174,28 @@ export default function ContactPage() {
                 <div className="space-y-6">
                   <div>
                     <h3 className="text-2xl font-bold mb-3">Time Is Money</h3>
+                    <HeadingMedia level={3} heading="Time Is Money" />
                     <p className="text-lg text-gray-700 mb-4">
                       Every day your listing sits expired is costing you money. The average cost when your home will not sell is $4,964 per month in holding costs. That is $116 per day. Every week is another $812. Every month is another $4,964. The longer you wait, the more you lose. Do not let another day pass. Contact me now and let us stop the bleeding.
                     </p>
                   </div>
                   <div>
                     <h3 className="text-2xl font-bold mb-3">Stigma Compounds</h3>
+                    <HeadingMedia level={3} heading="Stigma Compounds" />
                     <p className="text-lg text-gray-700 mb-4">
                       The longer your listing sits expired, the more it becomes stigmatized. Buyers see "expired" and think "what's wrong with it?" After 60 days, they assume it is overpriced. After 90 days, they assume it has problems. After 120 days, it is toxic. The stigma compounds, making it harder to sell even when you finally get the right agent. The sooner you reset, the easier it is to overcome the stigma.
                     </p>
                   </div>
                   <div>
                     <h3 className="text-2xl font-bold mb-3">Market Timing</h3>
+                    <HeadingMedia level={3} heading="Market Timing" />
                     <p className="text-lg text-gray-700 mb-4">
                       January 2026 is the perfect time to reset your HOME THAT DID NOT SELL. Spring buyers are already starting to look. They are serious, pre-qualified, and ready to move. Tax refunds are coming, giving buyers more purchasing power. Interest rates are stabilizing, making buyers more confident. And most importantly, there is less competition - while other agents are chasing new listings, I'm focused on fixing expired ones. Do not miss this window.
                     </p>
                   </div>
                   <div>
                     <h3 className="text-2xl font-bold mb-3">Free Consultation</h3>
+                    <HeadingMedia level={3} heading="Free Consultation" />
                     <p className="text-lg text-gray-700">
                       I offer a free consultation to analyze why your home DID NOT sell and what needs to change. No BS, just honest assessment. I will tell you exactly what your previous agent did wrong, what I will do differently, and how quickly I can sell your home. There is no obligation, no pressure, just real answers. Contact me now and let us get started.
                     </p>
@@ -195,18 +207,21 @@ export default function ContactPage() {
                 <div className="grid md:grid-cols-3 gap-6 text-left">
                   <div>
                     <h3 className="text-2xl font-bold mb-3">Step 1: Initial Contact</h3>
+                    <HeadingMedia level={3} heading="Step 1: Initial Contact" />
                     <p className="text-lg opacity-90">
                       You call, email, or fill out the form. I respond within 24 hours (usually much faster). We discuss your HOME THAT DID NOT SELL, your situation, and your goals.
                     </p>
                   </div>
                   <div>
                     <h3 className="text-2xl font-bold mb-3">Step 2: Free Analysis</h3>
+                    <HeadingMedia level={3} heading="Step 2: Free Analysis" />
                     <p className="text-lg opacity-90">
                       I analyze why your home DID NOT sell and what needs to change. I will tell you exactly what your previous agent did wrong and what I will do differently.
                     </p>
                   </div>
                   <div>
                     <h3 className="text-2xl font-bold mb-3">Step 3: Strategy Session</h3>
+                    <HeadingMedia level={3} heading="Step 3: Strategy Session" />
                     <p className="text-lg opacity-90">
                       We discuss my 30-day plan, my proven results, and my marketing system. You get real answers, not sales pitches. Then you decide if I'm the right agent for you.
                     </p>
@@ -217,6 +232,7 @@ export default function ContactPage() {
                 <h2 className="text-3xl font-black mb-4 text-center">
                   SEND A MESSAGE
                 </h2>
+                <HeadingMedia level={2} heading="SEND A MESSAGE" />
                 <p className="text-center text-lg text-gray-700 mb-6">
                   Fill out the form below and I will contact you within 24 hours. Include details about your HOME THAT DID NOT SELL - how long it was on the market, what your previous agent did (or DID NOT do), and what you are looking for in your next agent. The more information you provide, the better I can help.
                 </p>
@@ -231,6 +247,7 @@ export default function ContactPage() {
                 <h2 className="text-3xl font-black mb-4 text-center">
                   Visit Our Office Location
                 </h2>
+                <HeadingMedia level={2} heading="Visit Our Office Location" />
                 <p className="text-center text-lg text-gray-700 mb-6">
                   Located at 1180 N Town Center Dr in Las Vegas, serving Summerlin, The Ridges, and surrounding areas.
                 </p>

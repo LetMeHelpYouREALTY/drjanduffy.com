@@ -2,6 +2,7 @@ import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
 import FAQSchema from '@/app/components/faq-schema'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
+import HeadingMedia from '@/app/components/heading-media'
 export const metadata = {
   title: 'C2 Lofts Las Vegas | C2 Lofts Summerlin | Dr. Jan Duffy',
   description:
@@ -57,6 +58,7 @@ export default function SummerlinLoftsPage() {
               <h1 className="text-4xl md:text-5xl font-black text-center mb-4">
                 SUMMERLIN LOFTS / C2 LOFTS LAS VEGAS
               </h1>
+              <HeadingMedia level={1} heading="SUMMERLIN LOFTS / C2 LOFTS LAS VEGAS" />
               <p className="text-xl text-center text-gray-600 mb-12">
                 Expert help selling expired Summerlin Lofts - urban lofts with modern design and community amenities
               </p>
@@ -73,54 +75,66 @@ export default function SummerlinLoftsPage() {
               </div>
               <div className="bg-primary/10 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">Why Summerlin Lofts Expire</h2>
+                <HeadingMedia level={2} heading="Why Summerlin Lofts Expire" />
                 <p className="text-lg text-gray-700 mb-4">
                   Summerlin Lofts expire for the same reasons other urban lofts expire - poor marketing, minimal investment, and zero follow-up. But Summerlin Lofts face additional challenges that most agents do not understand or address.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Urban Lifestyle Marketing</h3>
+                <HeadingMedia level={3} heading="Urban Lifestyle Marketing" />
                 <p className="text-lg text-gray-700 mb-4">
                   Summerlin Lofts offer urban lifestyle. Buyers need to understand urban appeal. Most agents do not market urban lifestyle effectively. They do not explain benefits. They do not showcase Summerlin location. They do not highlight urban amenities. I market urban lifestyle effectively. I explain benefits, showcase Summerlin location, and highlight urban amenities that attract urban-conscious buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Modern Design Highlighting</h3>
+                <HeadingMedia level={3} heading="Modern Design Highlighting" />
                 <p className="text-lg text-gray-700 mb-4">
                   Summerlin Lofts offer modern design. Contemporary finishes. Sleek interiors. Urban aesthetic. Most agents do not highlight modern design effectively. They do not showcase contemporary finishes. They do not emphasize sleek interiors. They do not highlight urban aesthetic. I highlight modern design effectively. I showcase contemporary finishes, emphasize sleek interiors, and highlight urban aesthetic that attracts design-conscious buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Community Living Appeal</h3>
+                <HeadingMedia level={3} heading="Community Living Appeal" />
                 <p className="text-lg text-gray-700 mb-4">
                   Summerlin Lofts attract community living enthusiasts. Young professionals. Design-conscious buyers. Urban lifestyle seekers. Most agents do not know how to market to community living enthusiasts. They use traditional marketing, and community living enthusiasts look elsewhere. I know how to market to community living enthusiasts. I emphasize modern design, highlight Summerlin location, and showcase community living appeal that attracts modern-conscious buyers.
                 </p>
               </div>
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">Summerlin Lofts Features</h2>
+                <HeadingMedia level={2} heading="Summerlin Lofts Features" />
                 <p className="text-lg text-gray-700 mb-4">
                   Summerlin Lofts offers urban lofts with modern design, community amenities, and prime Summerlin location. Understanding these features is essential for effective marketing.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Urban Lifestyle</h3>
+                <HeadingMedia level={3} heading="Urban Lifestyle" />
                 <p className="text-lg text-gray-700 mb-4">
                   Summerlin Lofts offer urban lifestyle with Summerlin location, walkability, and urban amenities. Most agents do not market urban lifestyle effectively. I do. I showcase Summerlin location, highlight walkability, and emphasize urban amenities that attract urban-conscious buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Modern Design</h3>
+                <HeadingMedia level={3} heading="Modern Design" />
                 <p className="text-lg text-gray-700 mb-4">
                   Summerlin Lofts offer modern design with contemporary finishes, sleek interiors, and urban aesthetic. Most agents do not highlight modern design effectively. I do. I showcase contemporary finishes, emphasize sleek interiors, and highlight urban aesthetic that attracts design-conscious buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Community Amenities</h3>
+                <HeadingMedia level={3} heading="Community Amenities" />
                 <p className="text-lg text-gray-700 mb-4">
                   Summerlin Lofts offer community amenities including fitness center, rooftop access, and urban features. Most agents do not showcase amenities effectively. I do. I showcase fitness center, emphasize rooftop access, and highlight urban features that attract amenity-conscious buyers.
                 </p>
               </div>
               <div className="bg-white border-2 border-primary rounded-lg p-8 mb-12">
                 <h2 className="text-3xl font-black mb-4">My Summerlin Lofts Marketing Strategy</h2>
+                <HeadingMedia level={2} heading="My Summerlin Lofts Marketing Strategy" />
                 <p className="text-lg text-gray-700 mb-4">
                   I have a proven strategy for marketing Summerlin Lofts. This strategy addresses unique challenges, highlights unique features, and attracts urban lifestyle seekers. It sells Summerlin Lofts. Fast. At top dollar.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Urban-Focused Marketing</h3>
+                <HeadingMedia level={3} heading="Urban-Focused Marketing" />
                 <p className="text-lg text-gray-700 mb-4">
                   Summerlin Lofts require urban-focused marketing. Professional photography highlighting modern design. Strategic positioning emphasizing community amenities. Explanation of urban lifestyle. Most agents do not understand this. I do. I use urban-focused marketing, highlight modern design, and attract urban lifestyle seekers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Urban Lifestyle Highlighting</h3>
+                <HeadingMedia level={3} heading="Urban Lifestyle Highlighting" />
                 <p className="text-lg text-gray-700 mb-4">
                   Summerlin Lofts offer urban lifestyle. I highlight this lifestyle effectively. I showcase Summerlin location, highlight walkability, and emphasize urban amenities that attract urban-conscious buyers. Most agents do not do this. They use generic marketing, and Summerlin Lofts expire.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Urban Lifestyle Seeker Targeting</h3>
+                <HeadingMedia level={3} heading="Urban Lifestyle Seeker Targeting" />
                 <p className="text-lg text-gray-700 mb-4">
                   Summerlin Lofts attract urban lifestyle seekers. Young professionals. Urban enthusiasts. Community living seekers. Most agents do not know how to target these buyers. I do. I use targeted advertising, urban-focused marketing, and community positioning that attracts urban-conscious buyers.
                 </p>

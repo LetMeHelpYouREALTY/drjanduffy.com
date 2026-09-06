@@ -2,6 +2,7 @@ import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
 import FAQSchema from '@/app/components/faq-schema'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
+import HeadingMedia from '@/app/components/heading-media'
 export const metadata = {
   title: 'Allure Condo Las Vegas | Allure Condos for Sale | Dr. Jan Duffy',
   description:
@@ -57,6 +58,7 @@ export default function AllureCondosPage() {
               <h1 className="text-4xl md:text-5xl font-black text-center mb-4">
                 ALLURE CONDOS LAS VEGAS
               </h1>
+              <HeadingMedia level={1} heading="ALLURE CONDOS LAS VEGAS" />
               <p className="text-xl text-center text-gray-600 mb-12">
                 Expert help selling expired Allure condos - luxury high-rise condos that require sophisticated marketing
               </p>
@@ -73,54 +75,66 @@ export default function AllureCondosPage() {
               </div>
               <div className="bg-primary/10 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">Why Allure Condos Expire</h2>
+                <HeadingMedia level={2} heading="Why Allure Condos Expire" />
                 <p className="text-lg text-gray-700 mb-4">
                   Allure condos expire for the same reasons other luxury condos expire - poor marketing, minimal investment, and zero follow-up. But Allure condos face additional challenges that most agents do not understand or address.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Strict Building Restrictions</h3>
+                <HeadingMedia level={3} heading="Strict Building Restrictions" />
                 <p className="text-lg text-gray-700 mb-4">
                   Allure has strict building restrictions. Limited open houses. Restricted photography. Complex approval processes. Most agents do not know how to work within these restrictions. They try to market Allure condos like regular condos, hit restrictions, and give up. I know how to market Allure condos effectively within building restrictions. I use digital marketing, exclusive access events, and targeted advertising that does not violate building rules.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Competition from Newer Buildings</h3>
+                <HeadingMedia level={3} heading="Competition from Newer Buildings" />
                 <p className="text-lg text-gray-700 mb-4">
                   Allure competes with newer luxury buildings. Newer amenities. Newer designs. Newer marketing. Most agents do not know how to position Allure against newer buildings. They do not highlight Allure's unique features. They do not emphasize established community. I know how to position Allure competitively. I highlight unique features. I emphasize established community. I showcase Allure's timeless appeal.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">High-End Buyer Expectations</h3>
+                <HeadingMedia level={3} heading="High-End Buyer Expectations" />
                 <p className="text-lg text-gray-700 mb-4">
                   Allure attracts high-end buyers who expect luxury amenities, exclusive access, and sophisticated marketing. Most agents do not meet these expectations. They use generic marketing, and high-end buyers look elsewhere. I meet these expectations. I use luxury marketing, highlight exclusive amenities, and attract high-end buyers.
                 </p>
               </div>
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">Allure Condo Features</h2>
+                <HeadingMedia level={2} heading="Allure Condo Features" />
                 <p className="text-lg text-gray-700 mb-4">
                   Allure offers luxury high-rise condos with sophisticated design, world-class amenities, and prime location. Understanding these features is essential for effective marketing.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Luxury Amenities</h3>
+                <HeadingMedia level={3} heading="Luxury Amenities" />
                 <p className="text-lg text-gray-700 mb-4">
                   Allure offers luxury amenities including concierge services, fitness centers, resort-style pools, and exclusive access. Most agents do not highlight these amenities effectively. I do. I showcase concierge services, emphasize fitness centers, highlight resort-style pools, and showcase exclusive access that attracts high-end buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Prime Location</h3>
+                <HeadingMedia level={3} heading="Prime Location" />
                 <p className="text-lg text-gray-700 mb-4">
                   Allure's prime location offers proximity to world-class entertainment, dining, and shopping. Most agents do not emphasize location effectively. I do. I highlight proximity to entertainment, showcase dining options, and emphasize shopping access that attracts location-conscious buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Sophisticated Design</h3>
+                <HeadingMedia level={3} heading="Sophisticated Design" />
                 <p className="text-lg text-gray-700 mb-4">
                   Allure offers sophisticated design with modern finishes, luxury appliances, and elegant interiors. Most agents do not showcase design effectively. I do. I highlight modern finishes, showcase luxury appliances, and emphasize elegant interiors that attract design-conscious buyers.
                 </p>
               </div>
               <div className="bg-white border-2 border-primary rounded-lg p-8 mb-12">
                 <h2 className="text-3xl font-black mb-4">My Allure Condo Marketing Strategy</h2>
+                <HeadingMedia level={2} heading="My Allure Condo Marketing Strategy" />
                 <p className="text-lg text-gray-700 mb-4">
                   I have a proven strategy for marketing Allure condos. This strategy addresses unique challenges, highlights unique features, and attracts high-end buyers. It sells Allure condos. Fast. At top dollar.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Luxury Marketing Investment</h3>
+                <HeadingMedia level={3} heading="Luxury Marketing Investment" />
                 <p className="text-lg text-gray-700 mb-4">
                   Allure condos require luxury marketing investment. Professional photography. Luxury staging. Exclusive access events. High-end advertising. Most agents do not invest in this level of marketing. I invest $5,000+ in professional media, luxury staging, and exclusive marketing that attracts high-end buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">High-End Buyer Targeting</h3>
+                <HeadingMedia level={3} heading="High-End Buyer Targeting" />
                 <p className="text-lg text-gray-700 mb-4">
                   Allure attracts high-end buyers. Investors. Second-home buyers. Luxury lifestyle seekers. Most agents do not know how to target these buyers. I do. I use targeted advertising, exclusive access events, and luxury marketing that attracts high-end buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Building Relationship Management</h3>
+                <HeadingMedia level={3} heading="Building Relationship Management" />
                 <p className="text-lg text-gray-700 mb-4">
                   Allure has strict building restrictions. I have relationships with building management. I know how to work within restrictions. I know how to get approvals. Most agents do not have these relationships. They hit restrictions, and Allure condos expire.
                 </p>

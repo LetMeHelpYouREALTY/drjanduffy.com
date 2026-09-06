@@ -2,6 +2,7 @@ import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
 import FAQSchema from '@/app/components/faq-schema'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
+import HeadingMedia from '@/app/components/heading-media'
 export const metadata = {
   title: 'Vdara Condos for Sale Las Vegas | Vdara Condos | Dr. Jan Duffy',
   description:
@@ -57,6 +58,7 @@ export default function VdaraCondosPage() {
               <h1 className="text-4xl md:text-5xl font-black text-center mb-4">
                 VDARA CONDOS LAS VEGAS
               </h1>
+              <HeadingMedia level={1} heading="VDARA CONDOS LAS VEGAS" />
               <p className="text-xl text-center text-gray-600 mb-12">
                 Expert help selling expired Vdara condos - luxury non-gaming condos with Aria access and sophisticated design
               </p>
@@ -73,54 +75,66 @@ export default function VdaraCondosPage() {
               </div>
               <div className="bg-primary/10 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">Why Vdara Condos Expire</h2>
+                <HeadingMedia level={2} heading="Why Vdara Condos Expire" />
                 <p className="text-lg text-gray-700 mb-4">
                   Vdara condos expire for the same reasons other luxury condos expire - poor marketing, minimal investment, and zero follow-up. But Vdara condos face additional challenges that most agents do not understand or address.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Non-Gaming Appeal Explanation</h3>
+                <HeadingMedia level={3} heading="Non-Gaming Appeal Explanation" />
                 <p className="text-lg text-gray-700 mb-4">
                   Vdara offers non-gaming condos. Buyers need to understand non-gaming appeal. Most agents do not explain non-gaming appeal effectively. They do not explain benefits. They do not showcase advantages. They do not highlight sophisticated atmosphere. I explain non-gaming appeal effectively. I explain benefits, showcase advantages, and highlight sophisticated atmosphere that attracts non-gaming buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Aria Access Marketing</h3>
+                <HeadingMedia level={3} heading="Aria Access Marketing" />
                 <p className="text-lg text-gray-700 mb-4">
                   Vdara condos offer Aria access. Buyers need to understand this value. Most agents do not market Aria access effectively. They do not explain benefits. They do not showcase amenities. They do not highlight exclusive access. I market Aria access effectively. I explain benefits, showcase amenities, and highlight exclusive access that attracts access-conscious buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Sophisticated Design Highlighting</h3>
+                <HeadingMedia level={3} heading="Sophisticated Design Highlighting" />
                 <p className="text-lg text-gray-700 mb-4">
                   Vdara offers sophisticated design. Modern finishes. Contemporary interiors. Elegant spaces. Most agents do not highlight sophisticated design effectively. They do not showcase modern finishes. They do not emphasize contemporary interiors. They do not highlight elegant spaces. I highlight sophisticated design effectively. I showcase modern finishes, emphasize contemporary interiors, and highlight elegant spaces that attract design-conscious buyers.
                 </p>
               </div>
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">Vdara Condo Features</h2>
+                <HeadingMedia level={2} heading="Vdara Condo Features" />
                 <p className="text-lg text-gray-700 mb-4">
                   Vdara offers luxury non-gaming condos with Aria access, sophisticated design, and world-class amenities. Understanding these features is essential for effective marketing.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Aria Access</h3>
+                <HeadingMedia level={3} heading="Aria Access" />
                 <p className="text-lg text-gray-700 mb-4">
                   Vdara condos offer Aria access including restaurants, entertainment, pools, and amenities. Most agents do not market Aria access effectively. I do. I showcase restaurants, highlight entertainment, emphasize pools, and showcase amenities that attract access-conscious buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Non-Gaming Atmosphere</h3>
+                <HeadingMedia level={3} heading="Non-Gaming Atmosphere" />
                 <p className="text-lg text-gray-700 mb-4">
                   Vdara offers non-gaming atmosphere with sophisticated design, quiet spaces, and elegant ambiance. Most agents do not market non-gaming atmosphere effectively. I do. I showcase sophisticated design, highlight quiet spaces, and emphasize elegant ambiance that attracts non-gaming buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">World-Class Amenities</h3>
+                <HeadingMedia level={3} heading="World-Class Amenities" />
                 <p className="text-lg text-gray-700 mb-4">
                   Vdara offers world-class amenities including spa, fitness center, pool, and concierge services. Most agents do not showcase amenities effectively. I do. I showcase spa, emphasize fitness center, highlight pool, and showcase concierge services that attract amenity-conscious buyers.
                 </p>
               </div>
               <div className="bg-white border-2 border-primary rounded-lg p-8 mb-12">
                 <h2 className="text-3xl font-black mb-4">My Vdara Condo Marketing Strategy</h2>
+                <HeadingMedia level={2} heading="My Vdara Condo Marketing Strategy" />
                 <p className="text-lg text-gray-700 mb-4">
                   I have a proven strategy for marketing Vdara condos. This strategy addresses unique challenges, highlights unique features, and attracts sophisticated buyers. It sells Vdara condos. Fast. At top dollar.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Luxury Marketing Investment</h3>
+                <HeadingMedia level={3} heading="Luxury Marketing Investment" />
                 <p className="text-lg text-gray-700 mb-4">
                   Vdara condos require luxury marketing investment. Professional photography. Luxury staging. Exclusive access events. High-end advertising. Most agents do not invest in luxury marketing. I invest $5,000+ in professional media, luxury staging, and exclusive marketing that attracts sophisticated buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Aria Access Highlighting</h3>
+                <HeadingMedia level={3} heading="Aria Access Highlighting" />
                 <p className="text-lg text-gray-700 mb-4">
                   Vdara condos offer Aria access. I highlight this access effectively. I showcase restaurants, highlight entertainment, emphasize pools, and showcase amenities that attract access-conscious buyers. Most agents do not do this. They use generic marketing, and Vdara condos expire.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Sophisticated Buyer Targeting</h3>
+                <HeadingMedia level={3} heading="Sophisticated Buyer Targeting" />
                 <p className="text-lg text-gray-700 mb-4">
                   Vdara attracts sophisticated buyers. Non-gaming enthusiasts. Design-conscious buyers. Luxury lifestyle seekers. Most agents do not know how to target these buyers. I do. I use targeted advertising, exclusive access events, and sophisticated marketing that attracts sophisticated buyers.
                 </p>

@@ -3,6 +3,7 @@ import LeadForm from '@/app/components/lead-form'
 import FAQSchema from '@/app/components/faq-schema'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 import { Lightbulb, AlertCircle, CheckCircle } from 'lucide-react'
+import HeadingMedia from '@/app/components/heading-media'
 export const metadata = {
   title: 'Selling Tips | HOME THAT DID NOT SELL Tips | Dr. Jan Duffy',
   description:
@@ -67,6 +68,7 @@ export default function SellingTipsPage() {
               <h1 className="text-4xl md:text-5xl font-black text-center mb-4">
                 SELLING TIPS FOR HOMES THAT DID NOT SELL
               </h1>
+              <HeadingMedia level={1} heading="SELLING TIPS FOR HOMES THAT DID NOT SELL" />
               <p className="text-xl text-center text-gray-600 mb-12">
                 Expert advice from someone who's sold 7 HOMES THAT DID NOT SELL
               </p>
@@ -113,6 +115,7 @@ export default function SellingTipsPage() {
                 <h2 className="text-3xl font-black mb-4 text-center">
                   THE #1 TIP
                 </h2>
+                <HeadingMedia level={2} heading="THE #1 TIP" />
                 <p className="text-2xl font-bold text-center mb-4">
                   do not hire the same type of agent who failed you.
                 </p>

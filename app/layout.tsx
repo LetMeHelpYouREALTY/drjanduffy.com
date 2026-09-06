@@ -35,14 +35,14 @@ export const metadata: Metadata = {
     title: 'could not Sell Your Las Vegas Home? | Dr. Jan Duffy - I Sell Homes That DID NOT Sell',
     description:
       'Your home DID NOT sell? I have helped 7 Summerlin sellers who could not sell with their previous agent. Average 19 days to contract, 98.7% of asking.',
-    images: ['/og-image.png'],
+    images: ['/images/headings/summerlin-estate-twilight.jpg'],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'could not Sell Your Home? | Dr. Jan Duffy',
     description:
       'Your house DID NOT sell? Sell your home that did not sell in 30 days or less with proven results.',
-    images: ['/og-image.png'],
+    images: ['/images/headings/summerlin-estate-twilight.jpg'],
   },
   verification: {
     google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || undefined,
@@ -183,7 +183,7 @@ export default function RootLayout({
               telephone: SCHEMA_PHONE,
               email: 'info@drjanduffy.com',
               url: SITE_URL,
-              image: `${SITE_URL}/og-image.png`,
+              image: `${SITE_URL}/images/headings/summerlin-estate-twilight.jpg`,
               specialty: ['Homes That DID NOT Sell', 'Failed Listing Specialist', 'Homes That Did Not Sell Specialist', 'Unsold Home Expert', 'Luxury Real Estate', 'Summerlin Real Estate'],
               areaServed: [
                 {
@@ -227,7 +227,7 @@ export default function RootLayout({
               email: 'info@drjanduffy.com',
               url: SITE_URL,
               image: [
-                `${SITE_URL}/og-image.png`,
+                `${SITE_URL}/images/headings/summerlin-estate-twilight.jpg`,
                 `${SITE_URL}/images/team/las-vegas-real-estate-agent-dr-janet-duffy-headshot.jpg`,
               ],
               address: {
@@ -311,7 +311,7 @@ export default function RootLayout({
               name: 'Dr. Janet Duffy Real Estate',
               alternateName: 'Dr. Jan Duffy - Failed Listing Specialist',
               url: SITE_URL,
-              logo: `${SITE_URL}/og-image.png`,
+              logo: `${SITE_URL}/images/headings/summerlin-estate-twilight.jpg`,
               contactPoint: {
                 '@type': 'ContactPoint',
                 telephone: SCHEMA_PHONE,

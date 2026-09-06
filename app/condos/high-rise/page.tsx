@@ -2,6 +2,7 @@ import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 import FAQSchema from '@/app/components/faq-schema'
+import HeadingMedia from '@/app/components/heading-media'
 export const metadata = {
   title: 'High Rise Condos Las Vegas | Dr. Jan Duffy',
   description:
@@ -52,6 +53,7 @@ export default function HighRiseCondosPage() {
               <h1 className="text-4xl md:text-5xl font-black text-center mb-4">
                 HIGH RISE CONDOS LAS VEGAS
               </h1>
+              <HeadingMedia level={1} heading="HIGH RISE CONDOS LAS VEGAS" />
               <p className="text-xl text-center text-gray-600 mb-12">
                 Expert help selling expired high-rise condos - luxury condos that require sophisticated marketing
               </p>
@@ -68,54 +70,66 @@ export default function HighRiseCondosPage() {
               </div>
               <div className="bg-primary/10 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">Why High-Rise Condos Expire</h2>
+                <HeadingMedia level={2} heading="Why High-Rise Condos Expire" />
                 <p className="text-lg text-gray-700 mb-4">
                   High-rise condos expire for the same reasons other condos expire - poor marketing, minimal investment, and zero follow-up. But high-rise condos face additional challenges that most agents do not understand or address.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Inadequate Luxury Marketing</h3>
+                <HeadingMedia level={3} heading="Inadequate Luxury Marketing" />
                 <p className="text-lg text-gray-700 mb-4">
                   High-rise condos require luxury marketing. Professional photography. Luxury staging. Exclusive access events. High-end advertising. Most agents do not invest in luxury marketing. They use generic strategies, and high-rise condos expire. I invest $5,000+ in professional media, luxury staging, and exclusive marketing that attracts high-end buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Wrong Buyer Targeting</h3>
+                <HeadingMedia level={3} heading="Wrong Buyer Targeting" />
                 <p className="text-lg text-gray-700 mb-4">
                   High-rise condos attract high-end buyers. Investors. Second-home buyers. Luxury lifestyle seekers. Most agents do not know how to target these buyers. They use generic advertising, and high-rise condos expire. I use targeted advertising, exclusive access events, and luxury marketing that attracts high-end buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Building Restriction Challenges</h3>
+                <HeadingMedia level={3} heading="Building Restriction Challenges" />
                 <p className="text-lg text-gray-700 mb-4">
                   High-rise condos have strict building restrictions. Limited open houses. Restricted photography. Complex approval processes. Most agents do not know how to work within these restrictions. They try to market high-rise condos like regular condos, hit restrictions, and give up. I know how to market high-rise condos effectively within building restrictions. I use digital marketing, exclusive access events, and targeted advertising that does not violate building rules.
                 </p>
               </div>
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">My High-Rise Condo Expertise</h2>
+                <HeadingMedia level={2} heading="My High-Rise Condo Expertise" />
                 <p className="text-lg text-gray-700 mb-4">
                   I've sold expired high-rise condos in Panorama Towers, Turnberry Place, The Ogden, and other luxury buildings. I understand the luxury market. I know how to market high-rise condos. I know how to attract high-end buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Luxury Marketing Investment</h3>
+                <HeadingMedia level={3} heading="Luxury Marketing Investment" />
                 <p className="text-lg text-gray-700 mb-4">
                   High-rise condos require luxury marketing investment. Professional photography. Luxury staging. Exclusive access events. High-end advertising. Most agents do not invest in luxury marketing. I invest $5,000+ in professional media, luxury staging, and exclusive marketing that attracts high-end buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">High-End Buyer Network</h3>
+                <HeadingMedia level={3} heading="High-End Buyer Network" />
                 <p className="text-lg text-gray-700 mb-4">
                   High-rise condos attract high-end buyers. I have a network of investors, second-home buyers, and luxury lifestyle seekers. I use this network to market high-rise condos effectively. Most agents do not have this network. They use generic advertising, and high-rise condos expire.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Building Relationship Management</h3>
+                <HeadingMedia level={3} heading="Building Relationship Management" />
                 <p className="text-lg text-gray-700 mb-4">
                   High-rise condos have strict building restrictions. I have relationships with building management. I know how to work within restrictions. I know how to get approvals. Most agents do not have these relationships. They hit restrictions, and high-rise condos expire.
                 </p>
               </div>
               <div className="bg-white border-2 border-primary rounded-lg p-8 mb-12">
                 <h2 className="text-3xl font-black mb-4">Popular High-Rise Condo Buildings</h2>
+                <HeadingMedia level={2} heading="Popular High-Rise Condo Buildings" />
                 <p className="text-lg text-gray-700 mb-4">
                   Las Vegas has many luxury high-rise condos. Each building has unique features, amenities, and buyer appeal. I've sold expired condos in many of these buildings. I understand what makes each building unique. I know how to market each building effectively.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Panorama Towers</h3>
+                <HeadingMedia level={3} heading="Panorama Towers" />
                 <p className="text-lg text-gray-700 mb-4">
                   Panorama Towers offers luxury high-rise condos with Strip views, world-class amenities, and prime location. I've sold expired Panorama Towers condos by highlighting Strip views, showcasing amenities, and positioning condos competitively.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Turnberry Place</h3>
+                <HeadingMedia level={3} heading="Turnberry Place" />
                 <p className="text-lg text-gray-700 mb-4">
                   Turnberry Place offers luxury high-rise condos with resort access, exclusive amenities, and sophisticated design. I've sold expired Turnberry Place condos by emphasizing resort access, highlighting amenities, and targeting sophisticated buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">The Ogden</h3>
+                <HeadingMedia level={3} heading="The Ogden" />
                 <p className="text-lg text-gray-700 mb-4">
                   The Ogden offers luxury high-rise condos with downtown location, modern design, and exclusive amenities. I've sold expired Ogden condos by showcasing downtown location, highlighting modern design, and attracting urban lifestyle seekers.
                 </p>

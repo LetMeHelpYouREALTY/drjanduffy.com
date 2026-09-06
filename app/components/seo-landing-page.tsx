@@ -10,6 +10,7 @@ import HowToSchema from '@/app/components/howto-schema'
 import NAPSection from '@/app/components/nap-section'
 import GoogleMapEmbed from '@/app/components/google-map-embed'
 import GoogleReviews from '@/app/components/google-reviews'
+import HeadingMedia from '@/app/components/heading-media'
 import { assertNever, type PageKind, type SeoPageContent } from '@/lib/content/page-types'
 import { AGENT_SHORT_NAME, PHONE_DISPLAY, PROOF } from '@/lib/seo/site'
 
@@ -95,6 +96,7 @@ export default function SeoLandingPage({ page }: SeoLandingPageProps) {
               <h1 className="text-4xl md:text-5xl font-black text-center mb-6">
                 {page.h1}
               </h1>
+              <HeadingMedia level={1} heading={page.h1} />
               <div
                 data-aeo-answer
                 className="bg-primary/10 border-l-4 border-primary p-6 rounded-r-lg mb-10"
@@ -107,6 +109,7 @@ export default function SeoLandingPage({ page }: SeoLandingPageProps) {
               {page.sections.map((section) => (
                 <section key={section.heading} className="mb-12">
                   <h2 className="text-3xl font-black mb-4">{section.heading}</h2>
+                  <HeadingMedia level={2} heading={section.heading} />
                   <p className="text-lg text-gray-800 mb-4 font-medium">
                     {section.directAnswer}
                   </p>
@@ -118,6 +121,7 @@ export default function SeoLandingPage({ page }: SeoLandingPageProps) {
                   {section.subheadings?.map((sub) => (
                     <div key={sub.heading} className="mb-6">
                       <h3 className="text-2xl font-bold mb-3">{sub.heading}</h3>
+                      <HeadingMedia level={3} heading={sub.heading} />
                       {sub.paragraphs.map((paragraph) => (
                         <p
                           key={paragraph.slice(0, 48)}
@@ -135,6 +139,10 @@ export default function SeoLandingPage({ page }: SeoLandingPageProps) {
                 <h2 className="text-3xl font-black mb-4">
                   Questions sellers ask {AGENT_SHORT_NAME}
                 </h2>
+                <HeadingMedia
+                  level={2}
+                  heading={`Questions sellers ask ${AGENT_SHORT_NAME}`}
+                />
                 <p className="text-lg text-gray-800 mb-6">
                   These answers use verified practice results: {PROOF.homesRelistedSold}{' '}
                   relisted homes sold, a {PROOF.averageDaysToContract}-day average to
@@ -154,6 +162,7 @@ export default function SeoLandingPage({ page }: SeoLandingPageProps) {
               {page.related.length > 0 && (
                 <section className="bg-gray-100 p-8 rounded-lg mb-12">
                   <h2 className="text-2xl font-black mb-4">Related Las Vegas pages</h2>
+                  <HeadingMedia level={2} heading="Related Las Vegas pages" />
                   <ul className="grid md:grid-cols-2 gap-3">
                     {page.related.map((link) => (
                       <li key={link.href}>
@@ -178,6 +187,7 @@ export default function SeoLandingPage({ page }: SeoLandingPageProps) {
                 <h2 className="text-3xl font-black mb-4 text-center">
                   Get a listing reset plan
                 </h2>
+                <HeadingMedia level={2} heading="Get a listing reset plan" />
                 <p className="text-center text-lg text-gray-700 mb-6">
                   Call {PHONE_DISPLAY} or send the form. {AGENT_SHORT_NAME} takes a
                   maximum of {PROOF.maxListings} listings so each home gets a{' '}

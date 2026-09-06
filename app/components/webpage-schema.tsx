@@ -27,7 +27,7 @@ export default function WebPageSchema({
     about: {
       '@id': `${SITE_URL}#business`,
     },
-    primaryImageOfPage: `${SITE_URL}/og-image.png`,
+    primaryImageOfPage: `${SITE_URL}/images/headings/summerlin-estate-twilight.jpg`,
     speakable: {
       '@type': 'SpeakableSpecification',
       cssSelector: ['h1', '[data-aeo-answer]'],

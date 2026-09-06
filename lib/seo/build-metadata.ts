@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { DEFAULT_OG_IMAGE } from '@/lib/seo/heading-images'
 import { AGENT_NAME, BUSINESS_NAME, PHONE_DISPLAY, SITE_URL } from '@/lib/seo/site'
 
 type BuildMetadataInput = {
@@ -39,6 +40,7 @@ export function buildPageMetadata({
       siteName: BUSINESS_NAME,
       title,
       description: truncatedDescription,
+      images: [{ url: DEFAULT_OG_IMAGE, width: 1280, height: 720, alt: title }],
       ...(publishedTime || modifiedTime
         ? {
             publishedTime,
@@ -50,6 +52,7 @@ export function buildPageMetadata({
       card: 'summary_large_image',
       title,
       description: truncatedDescription,
+      images: [DEFAULT_OG_IMAGE],
     },
     robots: {
       index: true,

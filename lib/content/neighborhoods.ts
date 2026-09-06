@@ -30,8 +30,27 @@ const records: PlaceRecord[] = [
     related: [
       { href: '/neighborhoods/summerlin-west', anchor: 'Summerlin West luxury homes' },
       { href: '/neighborhoods/the-ridges', anchor: 'The Ridges custom estates' },
+      { href: '/neighborhoods/affinity-summerlin', anchor: 'Affinity Summerlin condos' },
       { href: '/summerlin-real-estate-agent', anchor: 'Summerlin real estate agent' },
       { href: '/sell-my-house-fast-summerlin', anchor: 'Sell a house fast in Summerlin' },
+    ],
+  },
+  {
+    slug: 'affinity-summerlin',
+    name: 'Affinity Summerlin',
+    city: 'Las Vegas',
+    region: 'Summerlin, west Las Vegas',
+    propertyMix: 'mid-rise condominiums and lock-and-leave residences near Downtown Summerlin',
+    commute: 'Affinity Summerlin is a short drive to Downtown Summerlin retail and typically 20 minutes from the Strip in light traffic.',
+    amenities: 'Pooled amenities, Downtown Summerlin shopping, and west-valley trail connections are the features to photograph first.',
+    challenge: 'Condo buyers compare HOA dues, rental rules, and finish level building by building. Vague “luxury Summerlin” copy loses the click.',
+    marketingAngle: 'Lead with floor-plan size, HOA documents, and walk time to Downtown Summerlin — not a generic Las Vegas headline.',
+    priceContext: 'Affinity values move with floor, view, and renovation. Use same-building comps, not a Summerlin single-family average.',
+    related: [
+      { href: '/condos/summerlin', anchor: 'Summerlin condos for sale' },
+      { href: '/neighborhoods/downtown-summerlin', anchor: 'Downtown Summerlin homes' },
+      { href: '/neighborhoods/summerlin', anchor: 'Summerlin homes for sale' },
+      { href: '/neighborhoods/queensridge', anchor: 'Queensridge luxury homes' },
     ],
   },
   {

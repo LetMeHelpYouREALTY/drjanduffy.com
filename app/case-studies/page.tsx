@@ -4,6 +4,7 @@ import { formatCurrency } from '@/lib/utils'
 import FAQSchema from '@/app/components/faq-schema'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 import Link from 'next/link'
+import HeadingMedia from '@/app/components/heading-media'
 export const metadata = {
   title: 'Case Studies | HOME THAT DID NOT SELL Case Studies | Dr. Jan Duffy',
   description:
@@ -45,6 +46,7 @@ export default function CaseStudiesPage() {
               <h1 className="text-4xl md:text-5xl font-black text-center mb-4">
                 DETAILED CASE STUDIES
               </h1>
+              <HeadingMedia level={1} heading="DETAILED CASE STUDIES" />
               <p className="text-xl text-center text-gray-600 mb-12">
                 In-depth analysis of how HOMES THAT DID NOT SELL became successful sales
               </p>
@@ -91,6 +93,7 @@ export default function CaseStudiesPage() {
                     </div>
                     <div className="bg-primary text-primary-foreground p-6 rounded-lg mb-6">
                       <h3 className="text-2xl font-black mb-4 text-center">THE RESULTS</h3>
+                      <HeadingMedia level={3} heading="THE RESULTS" />
                       <div className="grid md:grid-cols-4 gap-4 text-center">
                         <div>
                           <p className="text-3xl font-black mb-1">{story.daysSold}</p>

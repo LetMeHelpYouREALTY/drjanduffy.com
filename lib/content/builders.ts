@@ -19,8 +19,16 @@ function daysProof(): string {
   return `${PROOF.homesRelistedSold} relisted homes sold, ${PROOF.averageDaysToContract}-day average to contract, and ${PROOF.percentOfAsking} of asking`
 }
 
-export function neighborhoodFaqs(place: PlaceRecord): FaqItem[] {
+export function neighborhoodFaqs(
+  place: PlaceRecord,
+  kind: 'neighborhood' | 'condo' = 'neighborhood',
+): FaqItem[] {
+  const product = kind === 'condo' ? 'condos' : 'homes'
   return [
+    {
+      question: `Are there ${product} for sale in ${place.name}?`,
+      answer: `Yes. ${AGENT_SHORT_NAME} represents ${place.propertyMix} in ${place.name}, ${place.city}. Inventory changes daily — call ${PHONE_DISPLAY} for a current search or a CMA at a specific address. She also resets expired ${place.name} listings with a ${PROOF.marketingPoints}-point system. Practice results: ${daysProof()}.`,
+    },
     {
       question: `How long does it take to sell a home in ${place.name}?`,
       answer: `${AGENT_SHORT_NAME}'s practice average is ${PROOF.averageDaysToContract} days from listing to contract on homes that did not sell. ${place.name} timing still depends on price, condition, and buyer traffic. Call ${PHONE_DISPLAY} for a current CMA at your address.`,
@@ -139,19 +147,26 @@ export function buildPlacePage(
       : { name: 'Las Vegas Condos', url: '/condos' }
   const h1 =
     kind === 'neighborhood'
-      ? `${place.name} Homes That Did Not Sell | ${place.city} Real Estate`
-      : `${place.name} Condos Las Vegas | Expired Listing Help`
+      ? `${place.name} Homes for Sale | ${place.city} Real Estate`
+      : `${place.name} Condos for Sale | Las Vegas`
+
+  const title =
+    kind === 'neighborhood'
+      ? `${place.name} Homes for Sale | ${place.city} | Dr. Jan Duffy`
+      : `${place.name} Condos for Sale | Las Vegas | Dr. Jan Duffy`
+
+  const product = kind === 'condo' ? 'condos' : 'homes'
 
   return {
     slug: place.slug,
     kind,
     path,
-    title: `${h1} | ${PHONE_DISPLAY}`,
-    description: `Sell a home that did not sell in ${place.name}, ${place.city}. ${AGENT_SHORT_NAME} uses a ${PROOF.marketingPoints}-point system. ${PROOF.averageDaysToContract}-day average. Call ${PHONE_DISPLAY}.`,
+    title,
+    description: `${place.name} ${product} for sale in ${place.city}. ${AGENT_SHORT_NAME} represents buyers and sellers, and resets listings that did not sell. ${PROOF.averageDaysToContract}-day average. Call ${PHONE_DISPLAY}.`,
     h1,
-    directAnswer: `If your ${place.name} home did not sell, ${AGENT_SHORT_NAME} resets photos, price, and buyer targeting. Practice results: ${daysProof()}. Office: 1180 N Town Center Dr, Las Vegas, NV 89144. Call ${PHONE_DISPLAY}.`,
+    directAnswer: `${place.name} ${product} for sale are marketed from 1180 N Town Center Dr, Las Vegas, NV 89144. If a listing already expired, ${AGENT_SHORT_NAME} resets photos, price, and buyer targeting. Practice results: ${daysProof()}. Call ${PHONE_DISPLAY}.`,
     keywords: [
-      `${place.name.toLowerCase()} homes for sale`,
+      `${place.name.toLowerCase()} ${product} for sale`,
       `${place.name.toLowerCase()} expired listing`,
       `sell house ${place.city.toLowerCase()}`,
       `${place.name.toLowerCase()} real estate agent`,
@@ -164,7 +179,7 @@ export function buildPlacePage(
     serviceName: `${place.name} listing reset and resale`,
     areaServed: [place.city, place.name, 'Las Vegas'],
     related: place.related,
-    faqs: [...neighborhoodFaqs(place), ...extraFaqs],
+    faqs: [...neighborhoodFaqs(place, kind), ...extraFaqs],
     sections: buildPlaceSections(place),
     modified: PROOF.lastReviewed,
     imageAlt: `${place.name} ${kind === 'condo' ? 'condos' : 'homes'} in ${place.city}, Nevada — listing reset by ${AGENT_SHORT_NAME}`,

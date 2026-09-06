@@ -3,6 +3,7 @@ import LeadForm from '@/app/components/lead-form'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 import FAQSchema from '@/app/components/faq-schema'
 import Link from 'next/link'
+import HeadingMedia from '@/app/components/heading-media'
 
 export const metadata = {
   title: 'Home will not Sell Las Vegas? Here is Why & How to Fix It',
@@ -74,6 +75,7 @@ export default function HomeWontSellPage() {
               <h1 className="text-4xl md:text-5xl font-black text-center mb-6">
                 Your Home will not Sell in Las Vegas? Here's Why.
               </h1>
+              <HeadingMedia level={1} heading="Your Home will not Sell in Las Vegas? Here's Why." />
               <p className="text-xl text-center text-gray-600 mb-12">
                 If your home will not sell, you are not alone. In Las Vegas, 20-30% of all homes fail to sell on their first try every year.
               </p>
@@ -96,9 +98,11 @@ export default function HomeWontSellPage() {
               <h2 className="text-4xl md:text-5xl font-black text-center mb-6">
                 5 Reasons Your Las Vegas Home will not Sell
               </h2>
+              <HeadingMedia level={2} heading="5 Reasons Your Las Vegas Home will not Sell" />
               <div className="prose prose-lg max-w-none">
                 <div className="bg-white border-2 border-red-200 rounded-lg p-8 mb-6">
                   <h3 className="text-2xl font-black mb-4 text-red-800">1. Overpricing</h3>
+                  <HeadingMedia level={3} heading="1. Overpricing" />
                   <p className="text-lg text-gray-700 mb-4">
                     Your previous agent probably told you what you wanted to hear about price, not the truth. They wanted the listing, so they overpriced it. Then, when it DID NOT sell, they suggested price drop after price drop. That's not a strategy. That's incompetence.
                   </p>
@@ -109,6 +113,7 @@ export default function HomeWontSellPage() {
 
                 <div className="bg-white border-2 border-red-200 rounded-lg p-8 mb-6">
                   <h3 className="text-2xl font-black mb-4 text-red-800">2. Poor Photography & Presentation</h3>
+                  <HeadingMedia level={3} heading="2. Poor Photography & Presentation" />
                   <p className="text-lg text-gray-700 mb-4">
                     Your previous agent used iPhone photos. Dark rooms, cluttered spaces, unprofessional staging. Buyers scroll through hundreds of listings online. If your photos do not grab them immediately, they move on. Your home becomes invisible.
                   </p>
@@ -119,6 +124,7 @@ export default function HomeWontSellPage() {
 
                 <div className="bg-white border-2 border-red-200 rounded-lg p-8 mb-6">
                   <h3 className="text-2xl font-black mb-4 text-red-800">3. Weak Marketing Strategy</h3>
+                  <HeadingMedia level={3} heading="3. Weak Marketing Strategy" />
                   <p className="text-lg text-gray-700 mb-4">
                     "Posted to MLS" is not a strategy. One open house, zero follow-up, no buyer targeting. Your house becomes invisible. Buyers never even see it.
                   </p>
@@ -129,6 +135,7 @@ export default function HomeWontSellPage() {
 
                 <div className="bg-white border-2 border-red-200 rounded-lg p-8 mb-6">
                   <h3 className="text-2xl font-black mb-4 text-red-800">4. Zero Follow-Up</h3>
+                  <HeadingMedia level={3} heading="4. Zero Follow-Up" />
                   <p className="text-lg text-gray-700 mb-4">
                     Your previous agent had zero follow-up. Buyers saw your home, but your agent never followed up. Feedback disappeared. Opportunities were lost. Showings happened, but nothing came of them.
                   </p>
@@ -139,6 +146,7 @@ export default function HomeWontSellPage() {
 
                 <div className="bg-white border-2 border-red-200 rounded-lg p-8 mb-6">
                   <h3 className="text-2xl font-black mb-4 text-red-800">5. Part-Time Agent Effort</h3>
+                  <HeadingMedia level={3} heading="5. Part-Time Agent Effort" />
                   <p className="text-lg text-gray-700 mb-4">
                     Your previous agent had 47+ listings. You got 2.1% of their attention. They could not afford to invest $5,000+ in every listing. They spread themselves thin, hoping something would stick. Your listing got lost in the shuffle.
                   </p>
@@ -157,12 +165,14 @@ export default function HomeWontSellPage() {
               <h2 className="text-4xl md:text-5xl font-black text-center mb-6">
                 The Real Cost When Your Home will not Sell
               </h2>
+              <HeadingMedia level={2} heading="The Real Cost When Your Home will not Sell" />
               <div className="prose prose-lg max-w-none">
                 <p className="text-lg text-gray-700 mb-6">
                   While your home sits unsold, you are losing money every single day. Here is the real cost:
                 </p>
                 <div className="bg-red-50 border-2 border-red-200 rounded-lg p-8 mb-6">
                   <h3 className="text-2xl font-black mb-4 text-red-800">Direct Costs</h3>
+                  <HeadingMedia level={3} heading="Direct Costs" />
                   <ul className="space-y-2 text-lg text-gray-700 mb-4">
                     <li>• $4,964/month in holding costs (mortgage, HOA, insurance, utilities, property taxes)</li>
                     <li>• $116/day in daily costs</li>
@@ -175,6 +185,7 @@ export default function HomeWontSellPage() {
                 </div>
                 <div className="bg-gray-50 border-2 border-gray-200 rounded-lg p-8 mb-6">
                   <h3 className="text-2xl font-black mb-4">Hidden Costs</h3>
+                  <HeadingMedia level={3} heading="Hidden Costs" />
                   <ul className="space-y-2 text-lg text-gray-700 mb-4">
                     <li>• Lost opportunity cost - could have sold and moved on</li>
                     <li>• Market depreciation while listing sat</li>
@@ -199,27 +210,33 @@ export default function HomeWontSellPage() {
               <h2 className="text-4xl md:text-5xl font-black text-center mb-6">
                 How to Sell a Home That will not Sell
               </h2>
+              <HeadingMedia level={2} heading="How to Sell a Home That will not Sell" />
               <div className="prose prose-lg max-w-none">
                 <p className="text-lg text-gray-700 mb-6">
                   Selling a home that will not sell requires a complete reset, not more of the same. Here is how I do it:
                 </p>
                 <h3 className="text-2xl font-black mb-4 mt-8">Step 1: Complete Marketing Reset</h3>
+                <HeadingMedia level={3} heading="Step 1: Complete Marketing Reset" />
                 <p className="text-lg text-gray-700 mb-4">
                   The first step is a complete marketing reset. Professional photography and staging ($3,700 investment). 3D virtual tour creation. Market analysis and strategic pricing. Fresh MLS listing with optimized description. Social media marketing blitz launch. This complete reset eliminates the stigma of unsold homes. Buyers see a beautiful, properly priced home with professional marketing. They do not see "DID NOT sell." They see "opportunity."
                 </p>
                 <h3 className="text-2xl font-black mb-4 mt-8">Step 2: Strategic Pricing Analysis</h3>
+                <HeadingMedia level={3} heading="Step 2: Strategic Pricing Analysis" />
                 <p className="text-lg text-gray-700 mb-4">
                   Most homes that will not sell are overpriced. But lowering price alone will not fix the problem if your marketing is weak. I use data-driven pricing and market analysis to price your home right from day one. I analyze comparable sales, market trends, buyer psychology, and competitive positioning. I price strategically to attract qualified buyers while maximizing your sale price.
                 </p>
                 <h3 className="text-2xl font-black mb-4 mt-8">Step 3: Aggressive Marketing Launch</h3>
+                <HeadingMedia level={3} heading="Step 3: Aggressive Marketing Launch" />
                 <p className="text-lg text-gray-700 mb-4">
                   Week 1-2 is maximum exposure. Strategic open house with buyer pre-qualification. Network activation reaching 500+ agents. Targeted Facebook and Google ads. Email marketing to qualified buyers. Daily follow-up on all showings. This aggressive marketing creates momentum and generates offers.
                 </p>
                 <h3 className="text-2xl font-black mb-4 mt-8">Step 4: Active Negotiation</h3>
+                <HeadingMedia level={3} heading="Step 4: Active Negotiation" />
                 <p className="text-lg text-gray-700 mb-4">
                   Week 2-3 is when offers come in and negotiations begin. I use aggressive follow-up, buyer psychology tactics, and strategic counter-offers to get you top dollar. I do not accept lowball offers. I negotiate them up. This aggressive negotiation is how I get 98.7% of asking price average.
                 </p>
                 <h3 className="text-2xl font-black mb-4 mt-8">Step 5: Closing Management</h3>
+                <HeadingMedia level={3} heading="Step 5: Closing Management" />
                 <p className="text-lg text-gray-700 mb-4">
                   Week 3-4 is closing. Escrow management, timeline enforcement, problem resolution, final walkthrough coordination. I manage every detail through closing. This complete management ensures your sale closes smoothly and on time.
                 </p>
@@ -234,6 +251,7 @@ export default function HomeWontSellPage() {
               <h2 className="text-4xl md:text-5xl font-black text-center mb-6">
                 Las Vegas Homes That would not Sell - Until Now
               </h2>
+              <HeadingMedia level={2} heading="Las Vegas Homes That would not Sell - Until Now" />
               <div className="prose prose-lg max-w-none">
                 <p className="text-lg text-gray-700 mb-6">
                   These are real Las Vegas homes that would not sell with other agents - until I got involved:
@@ -301,6 +319,7 @@ export default function HomeWontSellPage() {
             <h2 className="text-4xl md:text-5xl font-black mb-6">
               Let's Fix This in 30 Days
             </h2>
+            <HeadingMedia level={2} heading="Let's Fix This in 30 Days" />
             <p className="text-xl mb-4 max-w-2xl mx-auto">
               Your home will not sell? I specialize in homes that sat with other agents. Complete reset. Aggressive marketing. Proven results.
             </p>

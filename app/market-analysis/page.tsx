@@ -2,6 +2,7 @@ import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
 import FAQSchema from '@/app/components/faq-schema'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
+import HeadingMedia from '@/app/components/heading-media'
 export const metadata = {
   title: 'Market Analysis | Las Vegas Real Estate Market | Dr. Jan Duffy',
   description:
@@ -43,12 +44,14 @@ export default function MarketAnalysisPage() {
               <h1 className="text-4xl md:text-5xl font-black text-center mb-4">
                 LAS VEGAS MARKET ANALYSIS
               </h1>
+              <HeadingMedia level={1} heading="LAS VEGAS MARKET ANALYSIS" />
               <p className="text-xl text-center text-gray-600 mb-12">
                 Current market conditions and what they mean for HOMES THAT DID NOT SELL
               </p>
               <div className="space-y-8 mb-12">
                 <div className="bg-white border-2 border-gray-200 rounded-lg p-8">
                   <h2 className="text-3xl font-black mb-4">Current Market Conditions</h2>
+                  <HeadingMedia level={2} heading="Current Market Conditions" />
                   <div className="grid md:grid-cols-2 gap-6">
                     <div>
                       <p className="text-sm text-gray-600 mb-1">Inventory</p>
@@ -72,6 +75,7 @@ export default function MarketAnalysisPage() {
                   <h2 className="text-2xl font-black mb-4 text-red-800">
                     What This Means for HOMES THAT DID NOT SELL
                   </h2>
+                  <HeadingMedia level={2} heading="What This Means for HOMES THAT DID NOT SELL" />
                   <ul className="space-y-3 text-lg">
                     <li className="flex items-start gap-3">
                       <span className="text-red-600 font-bold">•</span>
@@ -95,6 +99,7 @@ export default function MarketAnalysisPage() {
                   <h2 className="text-2xl font-black mb-4 text-green-800">
                     Why HOMES THAT DID NOT SELL Can Still Sell Fast
                   </h2>
+                  <HeadingMedia level={2} heading="Why HOMES THAT DID NOT SELL Can Still Sell Fast" />
                   <ul className="space-y-3 text-lg">
                     <li className="flex items-start gap-3">
                       <span className="text-green-700 font-bold">✓</span>
@@ -118,6 +123,7 @@ export default function MarketAnalysisPage() {
                   <h2 className="text-3xl font-black mb-4 text-center">
                     MY RESULTS IN THIS MARKET
                   </h2>
+                  <HeadingMedia level={2} heading="MY RESULTS IN THIS MARKET" />
                   <div className="grid md:grid-cols-3 gap-6 text-center">
                     <div>
                       <p className="text-4xl font-black mb-2">19 Days</p>
@@ -138,6 +144,7 @@ export default function MarketAnalysisPage() {
                 <h2 className="text-2xl font-black mb-4 text-center">
                   GET YOUR MARKET ANALYSIS
                 </h2>
+                <HeadingMedia level={2} heading="GET YOUR MARKET ANALYSIS" />
                 <LeadForm source="market_analysis" buttonText="GET ANALYSIS" />
               </div>
             </div>
