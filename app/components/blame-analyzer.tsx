@@ -136,6 +136,8 @@ export default function BlameAnalyzer() {
 
       <div className="mb-8">
         <h3 className="text-2xl font-bold mb-6">{currentQ.question}</h3>
+        <HeadingMedia level={3} heading={currentQ.question} />
+
         <div className="space-y-4">
           {currentQ.options.map((option, index) => (
             <button

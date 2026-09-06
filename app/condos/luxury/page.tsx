@@ -146,6 +146,7 @@ export default function LuxuryCondosPage() {
                 <h2 className="text-3xl font-black mb-4 text-center">
                   READY TO SELL YOUR LUXURY CONDO?
                 </h2>
+                <HeadingMedia level={2} heading={"READY TO SELL YOUR LUXURY CONDO?"} />
                 <p className="text-center text-lg text-gray-700 mb-6">
                   If your Las Vegas luxury condo home DID NOT sell, do not wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>

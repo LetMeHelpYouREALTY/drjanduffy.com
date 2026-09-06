@@ -4,12 +4,17 @@ import FAQSchema from '@/app/components/faq-schema'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 import HeadingMedia from '@/app/components/heading-media'
 export const metadata = {
-  title: 'The Martin Condos Las Vegas | failed listing specialist | Dr. Jan Duffy',
+  title: 'The Martin Condos Las Vegas for Sale | Dr. Jan Duffy',
   description:
     'Expert help selling expired Martin condos in Las Vegas. Luxury high-rise condos with modern design. Proven results and professional marketing.',
 }
 export default function TheMartinCondosPage() {
   const faqs = [
+    {
+      question: 'Are there condos for sale at The Martin Condos?',
+      answer:
+        'Yes. Dr. Jan Duffy represents The Martin Condos condos for sale in Las Vegas. Inventory changes daily. Call (702) 500-1064 for a current search. She also resets The Martin Condos listings that did not sell with a 97-point system and $3,700 photography.',
+    },
     {
       question: 'What real estate services does Dr. Jan Duffy provide for The Martin condos in Las Vegas?',
       answer:
@@ -46,9 +51,9 @@ export default function TheMartinCondosPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <h1 className="text-4xl md:text-5xl font-black text-center mb-4">
-                THE MARTIN CONDOS LAS VEGAS
+                THE MARTIN CONDOS FOR SALE
               </h1>
-              <HeadingMedia level={1} heading="THE MARTIN CONDOS LAS VEGAS" />
+              <HeadingMedia level={1} heading="THE MARTIN CONDOS FOR SALE" />
               <p className="text-xl text-center text-gray-600 mb-12">
                 Expert help selling expired Martin condos - luxury high-rise condos with modern design and exclusive amenities
               </p>
@@ -134,6 +139,7 @@ export default function TheMartinCondosPage() {
                 <h2 className="text-3xl font-black mb-4 text-center">
                   READY TO SELL YOUR MARTIN CONDO?
                 </h2>
+                <HeadingMedia level={2} heading={"READY TO SELL YOUR MARTIN CONDO?"} />
                 <p className="text-center text-lg text-gray-700 mb-6">
                   If your Martin condo home DID NOT sell, do not wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>

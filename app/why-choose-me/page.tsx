@@ -109,6 +109,7 @@ export default function WhyChooseMePage() {
               <h1 className="text-4xl md:text-5xl font-black text-center mb-4">
                 WHY CHOOSE DR. JAN DUFFY?
               </h1>
+              <HeadingMedia level={1} heading={"WHY CHOOSE DR. JAN DUFFY?"} />
               <p className="text-xl text-center text-gray-600 mb-12">
                 The specialist in homes that DID NOT sell who actually delivers results
               </p>
@@ -121,6 +122,8 @@ export default function WhyChooseMePage() {
                     <h3 className="text-2xl font-black mb-3 text-primary">
                       {reason.title}
                     </h3>
+                    <HeadingMedia level={3} heading={reason.title} size="compact" />
+
                     <p className="text-lg text-gray-700 mb-3">
                       {reason.description}
                     </p>
@@ -176,6 +179,7 @@ export default function WhyChooseMePage() {
                 <h2 className="text-2xl font-black mb-4 text-center">
                   READY TO CHOOSE RESULTS?
                 </h2>
+                <HeadingMedia level={2} heading={"READY TO CHOOSE RESULTS?"} />
                 <LeadForm source="why_choose_me" buttonText="CHOOSE DR. JAN" />
               </div>
             </div>

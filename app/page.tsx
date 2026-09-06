@@ -16,9 +16,9 @@ import Link from 'next/link'
 import HeadingMedia from '@/app/components/heading-media'
 
 export const metadata = {
-  title: 'Dr. Janet Duffy Real Estate | Real Estate Agent in Las Vegas, NV | (702) 500-1064',
+  title: 'Las Vegas Luxury Homes for Sale | Dr. Janet Duffy | Summerlin Realtor | (702) 500-1064',
   description:
-    'Dr. Janet Duffy Real Estate - Las Vegas real estate specialist for homes that will not sell. Serving Summerlin, The Ridges, and Henderson. 7 homes that did not sell - now sold. Call (702) 500-1064 for free consultation.',
+    'Luxury homes and condos for sale in Las Vegas, Summerlin, The Ridges, Henderson, and Affinity Summerlin. Dr. Janet Duffy (Jan Duffy) also resets listings that did not sell — 7 relisted homes sold, 19-day average. Call (702) 500-1064.',
   alternates: {
     canonical: 'https://www.drjanduffy.com/',
   },
@@ -41,18 +41,33 @@ export const metadata = {
     locale: 'en_US',
     url: 'https://www.drjanduffy.com/',
     siteName: 'Dr. Janet Duffy Real Estate',
-    title: 'Dr. Janet Duffy Real Estate | Real Estate Agent in Las Vegas, NV | (702) 500-1064',
-    description: 'Dr. Janet Duffy Real Estate - Las Vegas real estate specialist for homes that will not sell. Serving Summerlin, The Ridges, and Henderson. 7 homes that did not sell - now sold. Call (702) 500-1064.',
+    title: 'Las Vegas Luxury Homes for Sale | Dr. Janet Duffy | Summerlin Realtor',
+    description: 'Luxury homes and condos for sale in Las Vegas, Summerlin, The Ridges, and Henderson. Dr. Janet Duffy also resets listings that did not sell. Call (702) 500-1064.',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Dr. Janet Duffy Real Estate | Real Estate Agent in Las Vegas, NV',
-    description: 'Las Vegas real estate specialist for homes that will not sell. Serving Summerlin, The Ridges, and Henderson. Call (702) 500-1064.',
+    title: 'Las Vegas Luxury Homes for Sale | Dr. Janet Duffy',
+    description: 'Summerlin realtor Dr. Janet Duffy — luxury homes and condos for sale, plus listing resets. Call (702) 500-1064.',
   },
 }
 
 export default function HomePage() {
   const faqs = [
+    {
+      question: 'Are there luxury homes for sale in Summerlin and Las Vegas?',
+      answer:
+        'Yes. Dr. Janet Duffy (Jan Duffy) represents luxury homes for sale in Summerlin, The Ridges, Red Rock Country Club, The Summit, Henderson, and Affinity Summerlin. Inventory changes daily. Call (702) 500-1064 for a current search. She also resets listings that did not sell — 7 relisted homes sold, 19-day average to contract, 98.7% of asking.',
+    },
+    {
+      question: 'Are there condos for sale in Las Vegas, Henderson, and on the Strip?',
+      answer:
+        'Yes. Start with Las Vegas condos for sale, Henderson condos, Summerlin condos, and Strip high-rises. Dr. Jan Duffy works buyers and sellers from 1180 N Town Center Dr, Las Vegas, NV 89144. Call (702) 500-1064.',
+    },
+    {
+      question: 'Who is Janet Duffy / Jan Duffy?',
+      answer:
+        'Dr. Janet Duffy is a Las Vegas and Summerlin realtor with BHHS Nevada Properties, license S.0197614.LLC. She works from 1180 N Town Center Dr, Las Vegas, NV 89144. Call (702) 500-1064. Verified practice results: 7 relisted homes sold, 19-day average to contract, 98.7% of asking.',
+    },
     {
       question: 'Why did my home not sell with my previous agent?',
       answer:
@@ -96,11 +111,11 @@ export default function HomePage() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h1 className="text-4xl md:text-5xl font-black text-center mb-4">
-              Sell Your House Fast in Las Vegas - Even If It DID NOT Sell Before
+              Las Vegas Luxury Homes for Sale | Summerlin Realtor Dr. Janet Duffy
             </h1>
-            <HeadingMedia level={1} heading="Sell Your House Fast in Las Vegas - Even If It DID NOT Sell Before" />
+            <HeadingMedia level={1} heading="Las Vegas Luxury Homes for Sale | Summerlin Realtor Dr. Janet Duffy" />
             <p className="text-xl text-center text-gray-600 mb-12">
-              63 Days on Market. 37 Showings. 5 Price Drops. ZERO OFFERS. Sound Familiar?
+              The Ridges, Red Rock Country Club, Henderson, and Strip condos — plus a listing reset if yours already expired
             </p>
             
             <div className="prose prose-lg max-w-none mb-12">
@@ -169,6 +184,7 @@ export default function HomePage() {
               </div>
               <div className="bg-gray-50 border-2 border-gray-200 rounded-lg p-8">
                 <h3 className="text-2xl font-black mb-4">Home Will Not Sell?</h3>
+                <HeadingMedia level={3} heading={"Home Will Not Sell?"} />
                 <p className="text-lg text-gray-700 mb-4">
                   Your home will not sell? I specialize in homes that sat with other agents. Complete reset: new photos, new pricing, fresh listing, aggressive marketing.
                 </p>
@@ -202,18 +218,22 @@ export default function HomePage() {
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
               <Link href="/neighborhoods/summerlin-west" className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:border-primary transition-colors">
                 <h3 className="text-xl font-black mb-2">Summerlin West Real Estate</h3>
+                <HeadingMedia level={3} heading={"Summerlin West Real Estate"} size="compact" />
                 <p className="text-gray-700 text-sm">Luxury homes, golf course properties, The Ridges, Red Rock Country Club in Las Vegas</p>
               </Link>
               <Link href="/neighborhoods/the-ridges" className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:border-primary transition-colors">
                 <h3 className="text-xl font-black mb-2">The Ridges Las Vegas</h3>
+                <HeadingMedia level={3} heading={"The Ridges Las Vegas"} size="compact" />
                 <p className="text-gray-700 text-sm">Ultra-luxury estates, gated communities, mountain views in Summerlin</p>
               </Link>
               <Link href="/neighborhoods/red-rock-country-club" className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:border-primary transition-colors">
                 <h3 className="text-xl font-black mb-2">Red Rock Country Club Las Vegas</h3>
+                <HeadingMedia level={3} heading={"Red Rock Country Club Las Vegas"} size="compact" />
                 <p className="text-gray-700 text-sm">Golf course homes, resort-style living, luxury amenities in Summerlin</p>
               </Link>
               <Link href="/neighborhoods/the-summit" className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:border-primary transition-colors">
                 <h3 className="text-xl font-black mb-2">The Summit Las Vegas</h3>
+                <HeadingMedia level={3} heading={"The Summit Las Vegas"} size="compact" />
                 <p className="text-gray-700 text-sm">Luxury condos, high-rise living, Strip views in Summerlin</p>
               </Link>
             </div>
@@ -476,6 +496,8 @@ export default function HomePage() {
           <h2 className="text-4xl md:text-5xl font-black mb-6">
             READY TO FIRE YOUR AGENT?
           </h2>
+          <HeadingMedia level={2} heading="READY TO FIRE YOUR AGENT?" />
+
           <div className="max-w-4xl mx-auto">
             <HeadingMedia level={2} heading="Schedule a luxury listing consult in Summerlin" />
           </div>

@@ -167,6 +167,8 @@ export default function WhyExpirePage() {
                       <h3 className="text-xl font-black mb-3 text-primary">
                         {faq.question}
                       </h3>
+                      <HeadingMedia level={3} heading={faq.question} size="compact" />
+
                       <p className="text-gray-700 text-lg leading-relaxed">
                         {faq.answer}
                       </p>

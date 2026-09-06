@@ -21,6 +21,11 @@ export const metadata = {
 export default function OgdenCondosPage() {
   const faqs = [
     {
+      question: 'Are there condos for sale at Ogden Condos?',
+      answer:
+        'Yes. Dr. Jan Duffy represents Ogden Condos condos for sale in Las Vegas. Inventory changes daily. Call (702) 500-1064 for a current search. She also resets Ogden Condos listings that did not sell with a 97-point system and $3,700 photography.',
+    },
+    {
       question: 'What real estate services does Dr. Jan Duffy provide for The Ogden condos in Las Vegas?',
       answer:
         'Dr. Jan Duffy provides complete real estate services for The Ogden condos that did not sell, including luxury marketing strategies, professional photography ($3,700 investment) highlighting urban lifestyle, premium staging, 97-point marketing system, strategic pricing for downtown high-rise condos, specialized marketing emphasizing modern design and downtown living, and attracting urban lifestyle seekers. She specializes in The Ogden in downtown Las Vegas.',
@@ -56,9 +61,9 @@ export default function OgdenCondosPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <h1 className="text-4xl md:text-5xl font-black text-center mb-4">
-                THE OGDEN CONDOS LAS VEGAS
+                THE OGDEN CONDOS FOR SALE
               </h1>
-              <HeadingMedia level={1} heading="THE OGDEN CONDOS LAS VEGAS" />
+              <HeadingMedia level={1} heading="THE OGDEN CONDOS FOR SALE" />
               <p className="text-xl text-center text-gray-600 mb-12">
                 Expert help selling expired Ogden condos - luxury downtown high-rise condos with urban lifestyle and modern design
               </p>
@@ -144,6 +149,7 @@ export default function OgdenCondosPage() {
                 <h2 className="text-3xl font-black mb-4 text-center">
                   READY TO SELL YOUR OGDEN CONDO?
                 </h2>
+                <HeadingMedia level={2} heading={"READY TO SELL YOUR OGDEN CONDO?"} />
                 <p className="text-center text-lg text-gray-700 mb-6">
                   If your Ogden condo home DID NOT sell, do not wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>

@@ -259,6 +259,8 @@ export default function SellHouseFastPage() {
                     <h3 className="text-xl font-black mb-3 text-primary">
                       {faq.question}
                     </h3>
+                    <HeadingMedia level={3} heading={faq.question} size="compact" />
+
                     <p className="text-gray-700 text-lg leading-relaxed">
                       {faq.answer}
                     </p>
@@ -303,6 +305,7 @@ export default function SellHouseFastPage() {
             <h2 className="text-4xl md:text-5xl font-black mb-6">
               Ready to Sell Your House Fast?
             </h2>
+            <HeadingMedia level={2} heading={"Ready to Sell Your House Fast?"} />
             <p className="text-xl mb-4 max-w-2xl mx-auto">
               Let's get your house sold fast. Free consultation, no obligation.
             </p>

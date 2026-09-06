@@ -4,15 +4,20 @@ import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 import FAQSchema from '@/app/components/faq-schema'
 import HeadingMedia from '@/app/components/heading-media'
 export const metadata = {
-  title: 'High Rise Condos Las Vegas | Dr. Jan Duffy',
+  title: 'Las Vegas High-Rise Condos for Sale | Dr. Jan Duffy',
   description:
-    'Expert help selling expired high-rise condos in Las Vegas. Luxury high-rise condos require sophisticated marketing. Proven results and professional marketing.',
+    'Las Vegas high-rise condos for sale on the Strip, downtown, and in west-valley towers. Dr. Jan Duffy also resets high-rise listings that did not sell. 19-day average. Call (702) 500-1064.',
   alternates: {
     canonical: '/condos/high-rise',
   },
 }
 export default function HighRiseCondosPage() {
   const faqs = [
+    {
+      question: 'Are there high-rise condos for sale in Las Vegas?',
+      answer:
+        'Yes. Dr. Jan Duffy works Las Vegas high-rise condos for sale on the Strip, downtown, and in select west-valley towers. Inventory changes daily. Call (702) 500-1064 for a current search. If a high-rise unit already expired, she resets photography, price, and buyer targeting.',
+    },
     {
       question: 'What real estate services does Dr. Jan Duffy provide for high-rise condos in Las Vegas?',
       answer:
@@ -51,11 +56,11 @@ export default function HighRiseCondosPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <h1 className="text-4xl md:text-5xl font-black text-center mb-4">
-                HIGH RISE CONDOS LAS VEGAS
+                LAS VEGAS HIGH-RISE CONDOS FOR SALE
               </h1>
-              <HeadingMedia level={1} heading="HIGH RISE CONDOS LAS VEGAS" />
+              <HeadingMedia level={1} heading="LAS VEGAS HIGH-RISE CONDOS FOR SALE" />
               <p className="text-xl text-center text-gray-600 mb-12">
-                Expert help selling expired high-rise condos - luxury condos that require sophisticated marketing
+                Las Vegas high-rise condos for sale — Strip, downtown, and west-valley towers. Listing reset if yours already expired.
               </p>
               <div className="prose prose-lg max-w-none mb-12">
                 <p className="text-lg text-gray-700 mb-6">
@@ -139,6 +144,7 @@ export default function HighRiseCondosPage() {
                 <h2 className="text-3xl font-black mb-4 text-center">
                   READY TO SELL YOUR HIGH-RISE CONDO?
                 </h2>
+                <HeadingMedia level={2} heading={"READY TO SELL YOUR HIGH-RISE CONDO?"} />
                 <p className="text-center text-lg text-gray-700 mb-6">
                   If your Las Vegas high-rise condo home DID NOT sell, do not wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>

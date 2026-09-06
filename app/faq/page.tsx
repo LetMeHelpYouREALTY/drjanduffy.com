@@ -174,6 +174,8 @@ export default function FAQPage() {
                     <h3 className="text-xl font-black mb-3 text-primary">
                       {faq.question}
                     </h3>
+                    <HeadingMedia level={3} heading={faq.question} size="compact" />
+
                     <p className="text-gray-700 text-lg leading-relaxed">
                       {faq.answer}
                     </p>
@@ -182,6 +184,8 @@ export default function FAQPage() {
               </div>
               <div className="bg-primary text-primary-foreground p-8 rounded-lg text-center mb-12">
                 <h2 className="text-3xl font-black mb-4">STILL HAVE QUESTIONS?</h2>
+                <HeadingMedia level={2} heading="STILL HAVE QUESTIONS?" />
+
                 <p className="text-xl mb-4">Call me directly:</p>
                 <a
                   href="tel:7025001064"
@@ -199,6 +203,7 @@ export default function FAQPage() {
                 <div className="space-y-6">
                   <div>
                     <h3 className="text-2xl font-bold mb-3">Is My Home Stigmatized?</h3>
+                    <HeadingMedia level={3} heading={"Is My Home Stigmatized?"} />
                     <p className="text-lg text-gray-700 mb-4">
                       Many sellers worry that their HOME THAT DID NOT SELL is stigmatized - that buyers will see "expired" and think "what's wrong with it?" The truth is, HOMES THAT DID NOT SELL can be stigmatized, but the stigma can be overcome. The key is a complete reset: new photos, new pricing strategy, fresh MLS listing, and aggressive marketing. When buyers see a beautiful, properly priced home with professional marketing, they forget it ever expired.
                     </p>
@@ -209,6 +214,7 @@ export default function FAQPage() {
                   </div>
                   <div>
                     <h3 className="text-2xl font-bold mb-3">Will I Get Less Than Asking?</h3>
+                    <HeadingMedia level={3} heading={"Will I Get Less Than Asking?"} />
                     <p className="text-lg text-gray-700 mb-4">
                       Many sellers worry that HOMES THAT DID NOT SELL sell for less than asking. The truth is, it depends on the agent. Your previous agent probably got you expired because they overpriced your home or did not negotiate effectively. I average 98.7% of asking price on HOMES THAT DID NOT SELL through aggressive marketing and strategic negotiation.
                     </p>
@@ -219,6 +225,7 @@ export default function FAQPage() {
                   </div>
                   <div>
                     <h3 className="text-2xl font-bold mb-3">How Long Will It Really Take?</h3>
+                    <HeadingMedia level={3} heading={"How Long Will It Really Take?"} />
                     <p className="text-lg text-gray-700 mb-4">
                       Many sellers worry that HOMES THAT DID NOT SELL take longer to sell. The truth is, it depends on the agent. Your previous agent probably got you expired because they DID NOT have a system. I have a proven 30-day plan that sells homes that did not sell. I average 19 days to contract and continue working until your home sells.
                     </p>
@@ -233,6 +240,7 @@ export default function FAQPage() {
                 <h2 className="text-2xl font-black mb-4 text-center">
                   READY TO GET ANSWERS?
                 </h2>
+                <HeadingMedia level={2} heading={"READY TO GET ANSWERS?"} />
                 <LeadForm source="faq_page" buttonText="ASK YOUR QUESTION" />
               </div>
             </div>

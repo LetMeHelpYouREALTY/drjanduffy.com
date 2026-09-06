@@ -170,6 +170,7 @@ export default function SellFastSummerlinPage() {
                 <div className="space-y-6 mb-8">
                   <div className="bg-white border-2 border-gray-200 rounded-lg p-6">
                     <h3 className="text-xl font-black mb-3">The Ridges Estate - $2.4M</h3>
+                    <HeadingMedia level={3} heading={"The Ridges Estate - $2.4M"} size="compact" />
                     <p className="text-gray-700 mb-2">
                       <strong>Previous Agent:</strong> 90 days, zero offers, expired
                     </p>
@@ -182,6 +183,7 @@ export default function SellFastSummerlinPage() {
                   </div>
                   <div className="bg-white border-2 border-gray-200 rounded-lg p-6">
                     <h3 className="text-xl font-black mb-3">Red Rock Country Club - $1.2M</h3>
+                    <HeadingMedia level={3} heading={"Red Rock Country Club - $1.2M"} size="compact" />
                     <p className="text-gray-700 mb-2">
                       <strong>Previous Agent:</strong> 75 days, minimal showings, expired
                     </p>
@@ -194,6 +196,7 @@ export default function SellFastSummerlinPage() {
                   </div>
                   <div className="bg-white border-2 border-gray-200 rounded-lg p-6">
                     <h3 className="text-xl font-black mb-3">The Summit Condo - $850K</h3>
+                    <HeadingMedia level={3} heading={"The Summit Condo - $850K"} size="compact" />
                     <p className="text-gray-700 mb-2">
                       <strong>Previous Agent:</strong> 60 days, 2 price drops, expired
                     </p>

@@ -5,9 +5,9 @@ import FAQSchema from '@/app/components/faq-schema'
 import HeadingMedia from '@/app/components/heading-media'
 
 export const metadata = {
-  title: 'Red Rock Country Club HOMES THAT DID NOT SELL | Dr. Jan Duffy - Golf Course Real Estate Expert',
+  title: 'Red Rock Country Club Homes for Sale | Dr. Jan Duffy',
   description:
-    'Expert help selling homes that DID NOT sell in Red Rock Country Club, Summerlin. Luxury golf course properties. 19 day average, 98.7% of asking price.',
+    'Homes for sale in Red Rock Country Club, Summerlin. Luxury golf course properties. 19 day average, 98.7% of asking price.',
   alternates: {
     canonical: '/neighborhoods/red-rock-country-club',
   },
@@ -15,6 +15,11 @@ export const metadata = {
 
 export default function RedRockCountryClubPage() {
   const faqs = [
+    {
+      question: 'Are there homes for sale in Red Rock Country Club, Summerlin?',
+      answer:
+        'Yes. Dr. Jan Duffy represents Red Rock Country Club homes for sale in Summerlin. Inventory changes daily. Call (702) 500-1064 for a current search or a CMA at a specific address. She also resets expired Red Rock Country Club listings with a 97-point system. Practice results: 7 relisted homes sold, 19-day average to contract, and 98.7% of asking.',
+    },
     {
       question: 'What real estate services does Dr. Jan Duffy provide for Red Rock Country Club homes?',
       answer:
@@ -53,9 +58,9 @@ export default function RedRockCountryClubPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <h1 className="text-4xl md:text-5xl font-black text-center mb-4">
-                RED ROCK COUNTRY CLUB HOMES THAT DID NOT SELL
+                RED ROCK COUNTRY CLUB HOMES FOR SALE
               </h1>
-              <HeadingMedia level={1} heading="RED ROCK COUNTRY CLUB HOMES THAT DID NOT SELL" />
+              <HeadingMedia level={1} heading="RED ROCK COUNTRY CLUB HOMES FOR SALE" />
               <p className="text-xl text-center text-gray-600 mb-12">
                 Expert help selling homes that DID NOT sell in Red Rock Country Club - Summerlin's premier golf course community
               </p>
@@ -145,12 +150,12 @@ export default function RedRockCountryClubPage() {
                 <h2 className="text-3xl font-black mb-4">The Red Rock Country Club HOME THAT DID NOT SELL Opportunity</h2>
                 <HeadingMedia level={2} heading="The Red Rock Country Club HOME THAT DID NOT SELL Opportunity" />
                 <p className="text-lg text-gray-700 mb-4">
-                  HOMES THAT DID NOT SELL in Red Rock Country Club represent significant opportunities. Sellers are frustrated. They have tried once and failed. They are ready to work with an agent who actually understands golf course property marketing. I understand golf course property marketing. I know how to market Red Rock Country Club properties. I know how to attract golf-conscious buyers.
+                  HOMES FOR SALE in Red Rock Country Club represent significant opportunities. Sellers are frustrated. They have tried once and failed. They are ready to work with an agent who actually understands golf course property marketing. I understand golf course property marketing. I know how to market Red Rock Country Club properties. I know how to attract golf-conscious buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Complete Golf Course Reset</h3>
                 <HeadingMedia level={3} heading="Complete Golf Course Reset" />
                 <p className="text-lg text-gray-700 mb-4">
-                  Expired Red Rock Country Club listings need a complete golf course reset. New professional photography showcasing golf course views and access. Strategic positioning emphasizing golf course benefits. Fresh MLS listing with optimized golf course description. Strategic pricing positioning. Aggressive marketing targeting golf-conscious buyers. Most agents do not do this. I do. I provide complete golf course reset services that transform HOMES THAT DID NOT SELL into attractive opportunities.
+                  Expired Red Rock Country Club listings need a complete golf course reset. New professional photography showcasing golf course views and access. Strategic positioning emphasizing golf course benefits. Fresh MLS listing with optimized golf course description. Strategic pricing positioning. Aggressive marketing targeting golf-conscious buyers. Most agents do not do this. I do. I provide complete golf course reset services that transform HOMES FOR SALE into attractive opportunities.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Golf Course Marketing System</h3>
                 <HeadingMedia level={3} heading="Golf Course Marketing System" />
@@ -160,7 +165,7 @@ export default function RedRockCountryClubPage() {
                 <h3 className="text-2xl font-bold mb-3">Proven Results</h3>
                 <HeadingMedia level={3} heading="Proven Results" />
                 <p className="text-lg text-gray-700 mb-4">
-                  I've sold 7 Summerlin sellers who could not sell with an average of 19 days to contract and 98.7% of asking price. These are not hypothetical results. These are real HOMES THAT DID NOT SELL that I sold after other agents failed. I can do the same for your Red Rock Country Club listing. Fast. At top dollar. With zero excuses.
+                  I've sold 7 Summerlin sellers who could not sell with an average of 19 days to contract and 98.7% of asking price. These are not hypothetical results. These are real HOMES FOR SALE that I sold after other agents failed. I can do the same for your Red Rock Country Club listing. Fast. At top dollar. With zero excuses.
                 </p>
               </div>
 
@@ -168,6 +173,7 @@ export default function RedRockCountryClubPage() {
                 <h2 className="text-3xl font-black mb-4 text-center">
                   READY TO SELL YOUR RED ROCK COUNTRY CLUB LISTING?
                 </h2>
+                <HeadingMedia level={2} heading={"READY TO SELL YOUR RED ROCK COUNTRY CLUB LISTING?"} />
                 <p className="text-center text-lg text-gray-700 mb-6">
                   If your Red Rock Country Club home DID NOT sell, do not wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>

@@ -133,6 +133,8 @@ export default function ProcessPage() {
                       <div className="flex-1">
                         <div className="flex items-center justify-between mb-3">
                           <h3 className="text-2xl font-black">{step.title}</h3>
+                          <HeadingMedia level={3} heading={step.title} size="compact" />
+
                           <span className="bg-gray-100 px-4 py-1 rounded-full text-sm font-semibold">
                             {step.duration}
                           </span>
@@ -328,6 +330,7 @@ export default function ProcessPage() {
                 <h2 className="text-2xl font-black mb-4 text-center">
                   READY TO START THE PROCESS?
                 </h2>
+                <HeadingMedia level={2} heading={"READY TO START THE PROCESS?"} />
                 <LeadForm source="process_page" buttonText="GET STARTED" />
               </div>
 

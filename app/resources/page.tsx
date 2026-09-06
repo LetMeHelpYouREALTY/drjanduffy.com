@@ -122,6 +122,7 @@ export default function ResourcesPage() {
                         </span>
                       </div>
                       <h3 className="text-xl font-black mb-3">{resource.title}</h3>
+                      <HeadingMedia level={3} heading={resource.title} size="compact" />
                       <p className="text-gray-700 mb-4">{resource.description}</p>
                       {resource.link ? (
                         <a
@@ -141,6 +142,8 @@ export default function ResourcesPage() {
               </div>
               <div className="bg-primary text-primary-foreground p-8 rounded-lg text-center mb-12">
                 <h2 className="text-3xl font-black mb-4">NEED PERSONALIZED HELP?</h2>
+                <HeadingMedia level={2} heading="NEED PERSONALIZED HELP?" />
+
                 <p className="text-xl mb-4">
                   Call me directly for a free consultation
                 </p>

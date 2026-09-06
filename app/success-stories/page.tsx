@@ -59,6 +59,8 @@ export default function SuccessStoriesPage() {
                 The numbers do not lie. I've sold 7 Summerlin sellers who could not sell with an average of 19 days to contract and 98.7% of asking price. That's not a coincidence. That's not luck. That's a proven system that works. When you see these success stories, you're seeing what's possible when you work with an agent who actually knows what they're doing. Learn about <a href="/process" className="text-primary font-semibold hover:underline">my proven 30-day selling process</a> and <a href="/services" className="text-primary font-semibold hover:underline">my complete services</a>.
               </p>
               <h2 className="text-3xl font-black mb-4 mt-8">What Makes These Success Stories Different?</h2>
+              <HeadingMedia level={2} heading="What Makes These Success Stories Different?" />
+
               <p className="text-lg text-gray-700 mb-4">
                 Most agents show you their best-case scenarios - luxury homes in perfect condition that sold quickly. I show you HOMES THAT DID NOT SELL. Homes that other agents could not sell. Homes that sat on the market for 60, 90, 120+ days. Homes that were stigmatized, overpriced, or poorly marketed. Then I show you how I sold them in 14-31 days at 97-99% of asking price.
               </p>
@@ -87,6 +89,7 @@ export default function SuccessStoriesPage() {
                   <div className="mb-4">
                     <div className="flex justify-between items-start mb-2">
                       <h3 className="text-2xl font-bold">{story.neighborhood}</h3>
+                      <HeadingMedia level={3} heading={story.neighborhood} size="compact" />
                       <span className="bg-red-100 text-red-800 px-3 py-1 rounded-full text-sm font-bold">
                         EXPIRED: {story.daysExpired} Days
                       </span>

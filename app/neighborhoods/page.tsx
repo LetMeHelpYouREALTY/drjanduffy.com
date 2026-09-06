@@ -6,9 +6,9 @@ import { getNeighborhoodHubLinks } from '@/lib/content/neighborhoods'
 import HeadingMedia from '@/app/components/heading-media'
 
 export const metadata = {
-  title: 'Las Vegas Neighborhoods | failed listing specialist | Dr. Jan Duffy',
+  title: 'Las Vegas Homes for Sale by Neighborhood | The Ridges, Summit, Summerlin | Dr. Jan Duffy',
   description:
-    'Expert help selling homes that DID NOT sell in Las Vegas neighborhoods: Summerlin West, The Ridges, Red Rock Country Club, The Summit, and more. 19 day average, 98.7% of asking price.',
+    'Homes for sale in Las Vegas neighborhoods: Summerlin West, The Ridges, Red Rock Country Club, The Summit, Affinity Summerlin, and Henderson. 19-day average. Call (702) 500-1064.',
   alternates: {
     canonical: 'https://www.drjanduffy.com/neighborhoods',
   },
@@ -18,13 +18,18 @@ export const metadata = {
     type: 'website',
     locale: 'en_US',
     url: 'https://www.drjanduffy.com/neighborhoods',
-    title: 'Las Vegas Neighborhoods | failed listing specialist',
-    description: 'Expert help selling homes that DID NOT sell in Las Vegas neighborhoods.',
+    title: 'Las Vegas Homes for Sale by Neighborhood | Dr. Jan Duffy',
+    description: 'Homes for sale in The Ridges, The Summit, Red Rock Country Club, Summerlin West, and Henderson.',
   },
 }
 
 export default function NeighborhoodsPage() {
   const faqs = [
+    {
+      question: 'Are there homes for sale in The Ridges, The Summit, and Summerlin?',
+      answer:
+        'Yes. Dr. Jan Duffy represents homes for sale in The Ridges, The Summit, Red Rock Country Club, Summerlin West, Affinity Summerlin, Henderson, and surrounding Las Vegas neighborhoods. Inventory changes daily. Call (702) 500-1064 for a current search. She also resets listings that did not sell.',
+    },
     {
       question: 'What Las Vegas neighborhoods does Dr. Jan Duffy serve?',
       answer:
@@ -62,11 +67,11 @@ export default function NeighborhoodsPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <h1 className="text-4xl md:text-5xl font-black text-center mb-4">
-                LAS VEGAS NEIGHBORHOODS
+                LAS VEGAS HOMES FOR SALE BY NEIGHBORHOOD
               </h1>
-              <HeadingMedia level={1} heading="LAS VEGAS NEIGHBORHOODS" />
+              <HeadingMedia level={1} heading="LAS VEGAS HOMES FOR SALE BY NEIGHBORHOOD" />
               <p className="text-xl text-center text-gray-600 mb-12">
-                Expert help selling homes that DID NOT sell in Las Vegas's premier neighborhoods
+                The Ridges, The Summit, Red Rock Country Club, Summerlin West, Affinity Summerlin, and Henderson
               </p>
 
               <div className="prose prose-lg max-w-none mb-12">
@@ -77,7 +82,7 @@ export default function NeighborhoodsPage() {
                   Las Vegas neighborhoods are diverse. Each community has unique characteristics, buyer profiles, and marketing requirements. Summerlin West offers luxury estates and golf course properties. The Ridges offers custom estates with golf and mountain backdrops. Red Rock Country Club offers golf course access and mountain views. The Summit offers gated streets and larger lots. MacDonald Ranch offers mature landscaping and mixed custom and production homes. Southern Highlands offers master-planned amenities and recreation facilities. Skye Canyon offers newer construction and modern elevations. Mountains Edge offers parks, trail connections, and southwest-valley production homes. Each requires different marketing strategies. Most agents do not understand this. They use generic strategies, and homes fail to sell. I understand neighborhood-specific marketing. I use targeted strategies for each community, and listings sell. Fast. At top dollar.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
-                  The Las Vegas neighborhood market is competitive. Each community competes for specific buyer types. Luxury communities compete for high-end buyers. Family communities compete for family buyers. Golf communities compete for golf-conscious buyers. Most agents do not understand these distinctions. They use mass marketing, do not target specific buyers, and fail to meet community-specific requirements. I understand these distinctions. I use targeted marketing, target specific buyers, and meet community-specific requirements that attract the right buyers for each neighborhood.
+                  The Las Vegas neighborhood market is competitive. Each community competes for specific buyer types. Luxury communities compete for high-end buyers. Master-planned villages compete on parks, recreation, and square footage. Golf communities compete for golf-conscious buyers. Most agents do not understand these distinctions. They use mass marketing, do not target specific buyers, and fail to meet community-specific requirements. I understand these distinctions. I use targeted marketing, target specific buyers, and meet community-specific requirements that attract the right buyers for each neighborhood.
                 </p>
               </div>
 
@@ -90,17 +95,17 @@ export default function NeighborhoodsPage() {
                 <h3 className="text-2xl font-bold mb-3">Neighborhood-Specific Marketing Requirements</h3>
                 <HeadingMedia level={3} heading="Neighborhood-Specific Marketing Requirements" />
                 <p className="text-lg text-gray-700 mb-4">
-                  Each neighborhood requires specialized marketing. Luxury communities require luxury marketing. Golf communities require golf course marketing. Family communities require family-oriented marketing. Gated communities require security-focused marketing. Most agents do not understand these requirements. They use generic strategies, do not highlight neighborhood-specific features, and fail to target neighborhood-specific buyers. I understand these requirements. I use specialized strategies, highlight neighborhood-specific features, and target neighborhood-specific buyers who value these properties.
+                  Each neighborhood requires specialized marketing. Luxury communities require luxury marketing. Golf communities require golf course marketing. Master-planned villages require park-and-recreation marketing. Gated communities require security-focused marketing. Most agents do not understand these requirements. They use generic strategies, do not highlight neighborhood-specific features, and fail to target neighborhood-specific buyers. I understand these requirements. I use specialized strategies, highlight neighborhood-specific features, and target neighborhood-specific buyers who value these properties.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Buyer Profile Differences</h3>
                 <HeadingMedia level={3} heading="Buyer Profile Differences" />
                 <p className="text-lg text-gray-700 mb-4">
-                  Each neighborhood attracts different buyer profiles. Luxury communities attract high-end buyers. Golf communities attract golf-conscious buyers. Family communities attract family buyers. Gated communities attract security-conscious buyers. Most agents do not understand these differences. They use mass marketing, do not target specific profiles, and fail to meet buyer expectations. I understand these differences. I use targeted marketing, target specific profiles, and meet buyer expectations that attract the right buyers for each neighborhood.
+                  Each neighborhood attracts different buyer profiles. Luxury communities attract high-end buyers. Golf communities attract golf-conscious buyers. Master-planned villages attract buyers comparing parks and recreation. Gated communities attract security-conscious buyers. Most agents do not understand these differences. They use mass marketing, do not target specific profiles, and fail to meet buyer expectations. I understand these differences. I use targeted marketing, target specific profiles, and meet buyer expectations that attract the right buyers for each neighborhood.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Community Feature Highlighting</h3>
                 <HeadingMedia level={3} heading="Community Feature Highlighting" />
                 <p className="text-lg text-gray-700 mb-4">
-                  Each neighborhood has unique features that need highlighting. Luxury communities have exclusive amenities. Golf communities have golf course access. Family communities have family amenities. Gated communities have security features. Most agents do not highlight these features. They do not explain community benefits. They do not showcase unique amenities. They do not emphasize community advantages. I highlight these features. I explain community benefits. I showcase unique amenities. I emphasize community advantages. I attract buyers who value neighborhood-specific features.
+                  Each neighborhood has unique features that need highlighting. Luxury communities have exclusive amenities. Golf communities have golf course access. Master-planned villages have parks and recreation amenities. Gated communities have security features. Most agents do not highlight these features. They do not explain community benefits. They do not showcase unique amenities. They do not emphasize community advantages. I highlight these features. I explain community benefits. I showcase unique amenities. I emphasize community advantages. I attract buyers who value neighborhood-specific features.
                 </p>
               </div>
 
@@ -113,17 +118,17 @@ export default function NeighborhoodsPage() {
                 <h3 className="text-2xl font-bold mb-3">Neighborhood-Specific Marketing</h3>
                 <HeadingMedia level={3} heading="Neighborhood-Specific Marketing" />
                 <p className="text-lg text-gray-700 mb-4">
-                  Each neighborhood requires specialized marketing strategies. I use targeted strategies for each community, highlighting unique features and attracting the right buyers. Luxury communities get luxury marketing. Golf communities get golf course marketing. Family communities get family-oriented marketing. Gated communities get security-focused marketing. Most agents do not do this. I do. I provide neighborhood-specific marketing that attracts the right buyers for each community.
+                  Each neighborhood requires specialized marketing strategies. I use targeted strategies for each community, highlighting unique features and attracting the right buyers. Luxury communities get luxury marketing. Golf communities get golf course marketing. Master-planned villages get park-and-recreation marketing. Gated communities get security-focused marketing. Most agents do not do this. I do. I provide neighborhood-specific marketing that attracts the right buyers for each community.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Buyer Profile Targeting</h3>
                 <HeadingMedia level={3} heading="Buyer Profile Targeting" />
                 <p className="text-lg text-gray-700 mb-4">
-                  Each neighborhood requires targeting specific buyer profiles. I use targeted marketing to reach the right buyers for each community. Luxury communities target high-end buyers. Golf communities target golf-conscious buyers. Family communities target family buyers. Gated communities target security-conscious buyers. Most agents do not do this. I do. I provide buyer profile targeting that attracts the right buyers for each neighborhood.
+                  Each neighborhood requires targeting specific buyer profiles. I use targeted marketing to reach the right buyers for each community. Luxury communities target high-end buyers. Golf communities target golf-conscious buyers. Master-planned villages target buyers comparing parks and recreation. Gated communities target security-conscious buyers. Most agents do not do this. I do. I provide buyer profile targeting that attracts the right buyers for each neighborhood.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Community Feature Showcasing</h3>
                 <HeadingMedia level={3} heading="Community Feature Showcasing" />
                 <p className="text-lg text-gray-700 mb-4">
-                  Each neighborhood requires showcasing unique community features. I highlight unique features for each community, explaining benefits and attracting buyers who value these features. Luxury communities showcase exclusive amenities. Golf communities showcase golf course access. Family communities showcase family amenities. Gated communities showcase security features. Most agents do not do this. I do. I provide community feature showcasing that attracts buyers who value neighborhood-specific features.
+                  Each neighborhood requires showcasing unique community features. I highlight unique features for each community, explaining benefits and attracting buyers who value these features. Luxury communities showcase exclusive amenities. Golf communities showcase golf course access. Master-planned villages showcase parks and recreation amenities. Gated communities showcase security features. Most agents do not do this. I do. I provide community feature showcasing that attracts buyers who value neighborhood-specific features.
                 </p>
               </div>
 
@@ -143,6 +148,8 @@ export default function NeighborhoodsPage() {
                       className="block p-4 bg-gray-50 rounded-lg hover:bg-primary/10 transition-colors"
                     >
                       <h3 className="font-bold text-lg mb-2">{place.name}</h3>
+                      <HeadingMedia level={3} heading={place.name} size="compact" />
+
                       <p className="text-sm text-gray-600">{place.blurb}</p>
                     </a>
                   ))}
@@ -153,12 +160,12 @@ export default function NeighborhoodsPage() {
                 <h2 className="text-3xl font-black mb-4">The Neighborhood HOME THAT DID NOT SELL Opportunity</h2>
                 <HeadingMedia level={2} heading="The Neighborhood HOME THAT DID NOT SELL Opportunity" />
                 <p className="text-lg text-gray-700 mb-4">
-                  HOMES THAT DID NOT SELL in Las Vegas neighborhoods represent significant opportunities. Sellers are frustrated. They have tried once and failed. They are ready to work with an agent who actually understands neighborhood-specific marketing. I understand neighborhood-specific marketing. I know how to market neighborhood properties. I know how to attract neighborhood-specific buyers.
+                  HOMES FOR SALE in Las Vegas neighborhoods represent significant opportunities. Sellers are frustrated. They have tried once and failed. They are ready to work with an agent who actually understands neighborhood-specific marketing. I understand neighborhood-specific marketing. I know how to market neighborhood properties. I know how to attract neighborhood-specific buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Complete Neighborhood Reset</h3>
                 <HeadingMedia level={3} heading="Complete Neighborhood Reset" />
                 <p className="text-lg text-gray-700 mb-4">
-                  Expired neighborhood listings need a complete neighborhood-specific reset. New professional photography showcasing neighborhood features. Strategic positioning emphasizing neighborhood benefits. Fresh MLS listing with optimized neighborhood description. Strategic pricing positioning. Aggressive marketing targeting neighborhood-specific buyers. Most agents do not do this. I do. I provide complete neighborhood reset services that transform HOMES THAT DID NOT SELL into attractive opportunities.
+                  Expired neighborhood listings need a complete neighborhood-specific reset. New professional photography showcasing neighborhood features. Strategic positioning emphasizing neighborhood benefits. Fresh MLS listing with optimized neighborhood description. Strategic pricing positioning. Aggressive marketing targeting neighborhood-specific buyers. Most agents do not do this. I do. I provide complete neighborhood reset services that transform HOMES FOR SALE into attractive opportunities.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Neighborhood Marketing System</h3>
                 <HeadingMedia level={3} heading="Neighborhood Marketing System" />
@@ -168,7 +175,7 @@ export default function NeighborhoodsPage() {
                 <h3 className="text-2xl font-bold mb-3">Proven Results</h3>
                 <HeadingMedia level={3} heading="Proven Results" />
                 <p className="text-lg text-gray-700 mb-4">
-                  I've sold 7 Summerlin sellers who could not sell with an average of 19 days to contract and 98.7% of asking price. These are not hypothetical results. These are real HOMES THAT DID NOT SELL that I sold after other agents failed. I can do the same for your neighborhood listing. Fast. At top dollar. With zero excuses.
+                  I've sold 7 Summerlin sellers who could not sell with an average of 19 days to contract and 98.7% of asking price. These are not hypothetical results. These are real HOMES FOR SALE that I sold after other agents failed. I can do the same for your neighborhood listing. Fast. At top dollar. With zero excuses.
                 </p>
               </div>
 
@@ -176,6 +183,7 @@ export default function NeighborhoodsPage() {
                 <h2 className="text-3xl font-black mb-4 text-center">
                   READY TO SELL YOUR NEIGHBORHOOD LISTING?
                 </h2>
+                <HeadingMedia level={2} heading={"READY TO SELL YOUR NEIGHBORHOOD LISTING?"} />
                 <p className="text-center text-lg text-gray-700 mb-6">
                   If your neighborhood home DID NOT sell, do not wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>

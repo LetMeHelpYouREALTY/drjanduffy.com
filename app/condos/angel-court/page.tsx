@@ -4,12 +4,17 @@ import FAQSchema from '@/app/components/faq-schema'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 import HeadingMedia from '@/app/components/heading-media'
 export const metadata = {
-  title: 'Angel Court Condos Las Vegas | failed listing specialist | Dr. Jan Duffy',
+  title: 'Angel Court Condos Las Vegas for Sale | Dr. Jan Duffy',
   description:
     'Expert help selling expired Angel Court condos in Las Vegas. Mid-rise condos with community amenities. Proven results and professional marketing.',
 }
 export default function AngelCourtCondosPage() {
   const faqs = [
+    {
+      question: 'Are there condos for sale at Angel Court Condos?',
+      answer:
+        'Yes. Dr. Jan Duffy represents Angel Court Condos condos for sale in Las Vegas. Inventory changes daily. Call (702) 500-1064 for a current search. She also resets Angel Court Condos listings that did not sell with a 97-point system and $3,700 photography.',
+    },
     {
       question: 'What real estate services does Dr. Jan Duffy provide for Angel Court condos in Las Vegas?',
       answer:
@@ -46,21 +51,21 @@ export default function AngelCourtCondosPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <h1 className="text-4xl md:text-5xl font-black text-center mb-4">
-                ANGEL COURT CONDOS LAS VEGAS
+                ANGEL COURT CONDOS FOR SALE
               </h1>
-              <HeadingMedia level={1} heading="ANGEL COURT CONDOS LAS VEGAS" />
+              <HeadingMedia level={1} heading="ANGEL COURT CONDOS FOR SALE" />
               <p className="text-xl text-center text-gray-600 mb-12">
                 Expert help selling expired Angel Court condos - mid-rise condos with community amenities and value positioning
               </p>
               <div className="prose prose-lg max-w-none mb-12">
                 <p className="text-lg text-gray-700 mb-6">
-                  Angel Court is a mid-rise condominium community in Las Vegas that offers affordable living with community amenities, established neighborhoods, and value positioning. If your Angel Court condo home DID NOT sell, you're not alone. Angel Court condos face unique challenges - from competition with new construction to value-conscious buyers to emphasis on community amenities. Most agents do not understand Angel Court condos. They use generic strategies, and Angel Court condos expire.
+                  Angel Court is a mid-rise condominium community in Las Vegas that offers affordable living with community amenities, streets with mature landscaping, and value positioning. If your Angel Court condo home DID NOT sell, you're not alone. Angel Court condos face unique challenges - from competition with new construction to value-conscious buyers to emphasis on community amenities. Most agents do not understand Angel Court condos. They use generic strategies, and Angel Court condos expire.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   I specialize in selling expired Angel Court condos. I understand the mid-rise market. I know how to market community amenities. I know how to attract value-conscious buyers. I've sold expired condos in Angel Court and other mid-rise communities. Fast. At top dollar. With zero excuses.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
-                  Angel Court condos require value-focused marketing. Professional photography highlighting community amenities. Strategic positioning emphasizing affordability and value. Emphasis on established neighborhoods and mature communities. Most agents do not understand this. They use generic strategies, and Angel Court condos expire. I use value-focused marketing, highlight community amenities, and attract value-conscious buyers. Angel Court condos sell. Fast. At top dollar.
+                  Angel Court condos require value-focused marketing. Professional photography highlighting community amenities. Strategic positioning emphasizing affordability and value. Emphasis on streets with mature landscaping and mature communities. Most agents do not understand this. They use generic strategies, and Angel Court condos expire. I use value-focused marketing, highlight community amenities, and attract value-conscious buyers. Angel Court condos sell. Fast. At top dollar.
                 </p>
               </div>
               <div className="bg-primary/10 p-8 rounded-lg mb-12">
@@ -72,7 +77,7 @@ export default function AngelCourtCondosPage() {
                 <h3 className="text-2xl font-bold mb-3">Competition from New Construction</h3>
                 <HeadingMedia level={3} heading="Competition from New Construction" />
                 <p className="text-lg text-gray-700 mb-4">
-                  Las Vegas has constant new construction. New condos compete with existing condos. New amenities compete with older amenities. New pricing competes with older pricing. Most agents do not know how to position existing condos against new construction. They do not highlight unique features. They do not emphasize established communities. I know how to position existing condos competitively. I highlight unique features. I emphasize established communities. I showcase mature neighborhoods and proven value.
+                  Las Vegas has constant new construction. New condos compete with existing condos. New amenities compete with older amenities. New pricing competes with older pricing. Most agents do not know how to position existing condos against new construction. They do not highlight unique features. They do not emphasize mature landscaping. I know how to position existing condos competitively. I highlight unique features. I emphasize mature landscaping. I showcase mature neighborhoods and proven value.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Value-Conscious Buyer Market</h3>
                 <HeadingMedia level={3} heading="Value-Conscious Buyer Market" />
@@ -82,29 +87,29 @@ export default function AngelCourtCondosPage() {
                 <h3 className="text-2xl font-bold mb-3">Community Amenity Marketing</h3>
                 <HeadingMedia level={3} heading="Community Amenity Marketing" />
                 <p className="text-lg text-gray-700 mb-4">
-                  Angel Court offers community amenities. Parks. Pools. Community centers. Family-oriented features. Most agents do not market community amenities effectively. They do not highlight parks. They do not showcase pools. They do not emphasize family-oriented features. I market community amenities effectively. I highlight parks, showcase pools, and emphasize family-oriented features that attract community-conscious buyers.
+                  Angel Court offers community amenities. Parks. Pools. Community centers. Recreation amenities. Most agents do not market community amenities effectively. They do not highlight parks. They do not showcase pools. They do not emphasize park and recreation amenities. I market community amenities effectively. I highlight parks, showcase pools, and emphasize park and recreation amenities that attract community-conscious buyers.
                 </p>
               </div>
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">Angel Court Condo Features</h2>
                 <HeadingMedia level={2} heading="Angel Court Condo Features" />
                 <p className="text-lg text-gray-700 mb-4">
-                  Angel Court offers mid-rise condos with community amenities, established neighborhoods, and value positioning. Understanding these features is essential for effective marketing.
+                  Angel Court offers mid-rise condos with community amenities, streets with mature landscaping, and value positioning. Understanding these features is essential for effective marketing.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Community Amenities</h3>
                 <HeadingMedia level={3} heading="Community Amenities" />
                 <p className="text-lg text-gray-700 mb-4">
-                  Angel Court offers community amenities including parks, pools, community centers, and family-oriented features. Most agents do not market community amenities effectively. I do. I highlight parks, showcase pools, emphasize community centers, and showcase family-oriented features that attract community-conscious buyers.
+                  Angel Court offers community amenities including parks, pools, community centers, and park and recreation amenities. Most agents do not market community amenities effectively. I do. I highlight parks, showcase pools, emphasize community centers, and showcase park and recreation amenities that attract community-conscious buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Established Neighborhoods</h3>
                 <HeadingMedia level={3} heading="Established Neighborhoods" />
                 <p className="text-lg text-gray-700 mb-4">
-                  Angel Court has established neighborhoods with mature landscaping, proven communities, and established amenities. Most agents do not position established neighborhoods effectively. I do. I highlight mature landscaping, showcase proven communities, and emphasize established amenities that attract neighborhood-conscious buyers.
+                  Angel Court has streets with mature landscaping with mature landscaping, proven communities, and existing HOA amenities. Most agents do not position streets with mature landscaping effectively. I do. I highlight mature landscaping, showcase proven communities, and emphasize existing HOA amenities that attract neighborhood-conscious buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Value Positioning</h3>
                 <HeadingMedia level={3} heading="Value Positioning" />
                 <p className="text-lg text-gray-700 mb-4">
-                  Angel Court offers value positioning with affordable pricing, community amenities, and established neighborhoods. Most agents do not position value effectively. I do. I highlight affordable pricing, showcase community amenities, and emphasize established neighborhoods that attract value-conscious buyers.
+                  Angel Court offers value positioning with affordable pricing, community amenities, and streets with mature landscaping. Most agents do not position value effectively. I do. I highlight affordable pricing, showcase community amenities, and emphasize streets with mature landscaping that attract value-conscious buyers.
                 </p>
               </div>
               <div className="bg-white border-2 border-primary rounded-lg p-8 mb-12">
@@ -116,12 +121,12 @@ export default function AngelCourtCondosPage() {
                 <h3 className="text-2xl font-bold mb-3">Value-Focused Marketing</h3>
                 <HeadingMedia level={3} heading="Value-Focused Marketing" />
                 <p className="text-lg text-gray-700 mb-4">
-                  Angel Court condos require value-focused marketing. Professional photography highlighting community amenities. Strategic positioning emphasizing affordability and value. Emphasis on established neighborhoods. Most agents do not understand this. I do. I use value-focused marketing, highlight community amenities, and attract value-conscious buyers.
+                  Angel Court condos require value-focused marketing. Professional photography highlighting community amenities. Strategic positioning emphasizing affordability and value. Emphasis on streets with mature landscaping. Most agents do not understand this. I do. I use value-focused marketing, highlight community amenities, and attract value-conscious buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Community Amenity Highlighting</h3>
                 <HeadingMedia level={3} heading="Community Amenity Highlighting" />
                 <p className="text-lg text-gray-700 mb-4">
-                  Angel Court condos offer community amenities. I highlight these amenities effectively. I showcase parks, emphasize pools, highlight community centers, and showcase family-oriented features that attract community-conscious buyers. Most agents do not do this. They use generic marketing, and Angel Court condos expire.
+                  Angel Court condos offer community amenities. I highlight these amenities effectively. I showcase parks, emphasize pools, highlight community centers, and showcase park and recreation amenities that attract community-conscious buyers. Most agents do not do this. They use generic marketing, and Angel Court condos expire.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Value-Conscious Buyer Targeting</h3>
                 <HeadingMedia level={3} heading="Value-Conscious Buyer Targeting" />
@@ -134,6 +139,7 @@ export default function AngelCourtCondosPage() {
                 <h2 className="text-3xl font-black mb-4 text-center">
                   READY TO SELL YOUR ANGEL COURT CONDO?
                 </h2>
+                <HeadingMedia level={2} heading={"READY TO SELL YOUR ANGEL COURT CONDO?"} />
                 <p className="text-center text-lg text-gray-700 mb-6">
                   If your Angel Court condo home DID NOT sell, do not wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>

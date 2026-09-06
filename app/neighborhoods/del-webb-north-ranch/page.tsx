@@ -5,9 +5,9 @@ import FAQSchema from '@/app/components/faq-schema'
 import HeadingMedia from '@/app/components/heading-media'
 
 export const metadata = {
-  title: 'Del Webb North Ranch HOMES THAT DID NOT SELL | Dr. Jan Duffy - Expert Real Estate Agent',
+  title: 'Del Webb North Ranch Homes for Sale | Dr. Jan Duffy',
   description:
-    'Expert help selling homes that DID NOT sell in Del Webb North Ranch, Las Vegas. 55+ active adult community specialist. 19 day average, 98.7% of asking price.',
+    'Homes for sale in Del Webb North Ranch, Las Vegas. 55+ active adult community specialist. 19 day average, 98.7% of asking price.',
   alternates: {
     canonical: '/neighborhoods/del-webb-north-ranch',
   },
@@ -15,6 +15,11 @@ export const metadata = {
 
 export default function DelWebbNorthRanchPage() {
   const faqs = [
+    {
+      question: 'Are there homes for sale in Del Webb North Ranch, Summerlin?',
+      answer:
+        'Yes. Dr. Jan Duffy represents Del Webb North Ranch homes for sale in Summerlin. Inventory changes daily. Call (702) 500-1064 for a current search or a CMA at a specific address. She also resets expired Del Webb North Ranch listings with a 97-point system. Practice results: 7 relisted homes sold, 19-day average to contract, and 98.7% of asking.',
+    },
     {
       question: 'What real estate services does Dr. Jan Duffy provide for Del Webb North Ranch homes?',
       answer:
@@ -53,9 +58,9 @@ export default function DelWebbNorthRanchPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <h1 className="text-4xl md:text-5xl font-black text-center mb-4">
-                DEL WEBB NORTH RANCH HOMES THAT DID NOT SELL
+                DEL WEBB NORTH RANCH HOMES FOR SALE
               </h1>
-              <HeadingMedia level={1} heading="DEL WEBB NORTH RANCH HOMES THAT DID NOT SELL" />
+              <HeadingMedia level={1} heading="DEL WEBB NORTH RANCH HOMES FOR SALE" />
               <p className="text-xl text-center text-gray-600 mb-12">
                 Expert help selling homes that DID NOT sell in Del Webb North Ranch - Las Vegas's premier 55+ active adult community
               </p>
@@ -86,7 +91,7 @@ export default function DelWebbNorthRanchPage() {
                 <h3 className="text-2xl font-bold mb-3">Competition from New Construction</h3>
                 <HeadingMedia level={3} heading="Competition from New Construction" />
                 <p className="text-lg text-gray-700 mb-4">
-                  Del Webb North Ranch and other 55+ communities constantly have new construction entering the market. New homes compete with existing homes. New amenities compete with older amenities. New pricing competes with older pricing. Most agents do not know how to position existing properties against new construction. I know how to highlight established communities, emphasize mature landscaping, and position existing properties competitively against new construction.
+                  Del Webb North Ranch and other 55+ communities constantly have new construction entering the market. New homes compete with existing homes. New amenities compete with older amenities. New pricing competes with older pricing. Most agents do not know how to position existing properties against new construction. I know how to highlight mature landscaping, emphasize mature landscaping, and position existing properties competitively against new construction.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Active Adult Lifestyle Marketing</h3>
                 <HeadingMedia level={3} heading="Active Adult Lifestyle Marketing" />
@@ -168,6 +173,7 @@ export default function DelWebbNorthRanchPage() {
                 <h2 className="text-3xl font-black mb-4 text-center">
                   READY TO SELL YOUR DEL WEBB NORTH RANCH LISTING?
                 </h2>
+                <HeadingMedia level={2} heading={"READY TO SELL YOUR DEL WEBB NORTH RANCH LISTING?"} />
                 <p className="text-center text-lg text-gray-700 mb-6">
                   If your Del Webb North Ranch home DID NOT sell, do not wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>

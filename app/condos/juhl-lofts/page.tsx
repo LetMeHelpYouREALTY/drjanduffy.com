@@ -4,12 +4,17 @@ import FAQSchema from '@/app/components/faq-schema'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 import HeadingMedia from '@/app/components/heading-media'
 export const metadata = {
-  title: 'Juhl Lofts Las Vegas | failed listing specialist | Dr. Jan Duffy',
+  title: 'Juhl Lofts Las Vegas for Sale | Dr. Jan Duffy',
   description:
     'Expert help selling expired Juhl Lofts in Las Vegas. Urban lofts with modern design. Proven results and professional marketing.',
 }
 export default function JuhlLoftsPage() {
   const faqs = [
+    {
+      question: 'Are there condos for sale at Juhl Lofts?',
+      answer:
+        'Yes. Dr. Jan Duffy represents Juhl Lofts condos for sale in Las Vegas. Inventory changes daily. Call (702) 500-1064 for a current search. She also resets Juhl Lofts listings that did not sell with a 97-point system and $3,700 photography.',
+    },
     {
       question: 'What real estate services does Dr. Jan Duffy provide for Juhl Lofts in Las Vegas?',
       answer:
@@ -46,9 +51,9 @@ export default function JuhlLoftsPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <h1 className="text-4xl md:text-5xl font-black text-center mb-4">
-                JUHL LOFTS LAS VEGAS
+                JUHL LOFTS FOR SALE
               </h1>
-              <HeadingMedia level={1} heading="JUHL LOFTS LAS VEGAS" />
+              <HeadingMedia level={1} heading="JUHL LOFTS FOR SALE" />
               <p className="text-xl text-center text-gray-600 mb-12">
                 Expert help selling expired Juhl Lofts - urban lofts with modern design and downtown location
               </p>
@@ -134,6 +139,7 @@ export default function JuhlLoftsPage() {
                 <h2 className="text-3xl font-black mb-4 text-center">
                   READY TO SELL YOUR JUHL LOFTS?
                 </h2>
+                <HeadingMedia level={2} heading={"READY TO SELL YOUR JUHL LOFTS?"} />
                 <p className="text-center text-lg text-gray-700 mb-6">
                   If your Juhl Lofts home DID NOT sell, do not wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>

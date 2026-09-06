@@ -18,30 +18,30 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drjanduffy.com'),
-  title: 'Sell Your House Fast Las Vegas | Summerlin Real Estate Specialist',
+  title: 'Las Vegas Luxury Homes for Sale | Dr. Janet Duffy | Summerlin Realtor',
   description:
-    'Las Vegas real estate specialist for homes that will not sell. 7 homes that did not sell - now sold. Summerlin luxury expert. Free consultation: (702) 500-1064',
+    'Luxury homes and condos for sale in Las Vegas, Summerlin, The Ridges, and Henderson. Dr. Janet Duffy also resets listings that did not sell. Call (702) 500-1064.',
   keywords: [
+    'las vegas luxury homes for sale',
+    'summerlin homes for sale',
+    'the ridges homes for sale',
+    'las vegas condos for sale',
+    'janet duffy',
+    'jan duffy realtor',
     'home that DID NOT sell las vegas',
-    'house will not sell vegas',
-    'could not sell my house',
-    'fire my real estate agent',
-    'failed listing help',
-    'unsold home las vegas',
-    'home that failed to sell',
     're-list my home las vegas',
   ],
   openGraph: {
-    title: 'could not Sell Your Las Vegas Home? | Dr. Jan Duffy - I Sell Homes That DID NOT Sell',
+    title: 'Las Vegas Luxury Homes for Sale | Dr. Janet Duffy | Summerlin Realtor',
     description:
-      'Your home DID NOT sell? I have helped 7 Summerlin sellers who could not sell with their previous agent. Average 19 days to contract, 98.7% of asking.',
+      'Luxury homes and condos for sale in Las Vegas, Summerlin, The Ridges, and Henderson. Dr. Janet Duffy also resets listings that did not sell. 19-day average. Call (702) 500-1064.',
     images: ['/images/headings/summerlin-estate-twilight.jpg'],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'could not Sell Your Home? | Dr. Jan Duffy',
+    title: 'Las Vegas Luxury Homes for Sale | Dr. Janet Duffy',
     description:
-      'Your house DID NOT sell? Sell your home that did not sell in 30 days or less with proven results.',
+      'Summerlin realtor for luxury homes and condos for sale — and listings that did not sell. Call (702) 500-1064.',
     images: ['/images/headings/summerlin-estate-twilight.jpg'],
   },
   verification: {

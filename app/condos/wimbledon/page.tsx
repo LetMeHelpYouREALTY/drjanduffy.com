@@ -4,12 +4,17 @@ import FAQSchema from '@/app/components/faq-schema'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 import HeadingMedia from '@/app/components/heading-media'
 export const metadata = {
-  title: 'Wimbledon Tennis Club Condos Las Vegas | failed listing specialist | Dr. Jan Duffy',
+  title: 'Wimbledon Tennis Club Condos Las Vegas for Sale | Dr. Jan Duffy',
   description:
     'Expert help selling expired Wimbledon Tennis Club condos in Las Vegas. Mid-rise condos with tennis amenities. Proven results and professional marketing.',
 }
 export default function WimbledonCondosPage() {
   const faqs = [
+    {
+      question: 'Are there condos for sale at Wimbledon Tennis Club Condos?',
+      answer:
+        'Yes. Dr. Jan Duffy represents Wimbledon Tennis Club Condos condos for sale in Las Vegas. Inventory changes daily. Call (702) 500-1064 for a current search. She also resets Wimbledon Tennis Club Condos listings that did not sell with a 97-point system and $3,700 photography.',
+    },
     {
       question: 'What real estate services does Dr. Jan Duffy provide for Wimbledon Tennis Club condos in Las Vegas?',
       answer:
@@ -46,9 +51,9 @@ export default function WimbledonCondosPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <h1 className="text-4xl md:text-5xl font-black text-center mb-4">
-                WIMBLEDON TENNIS CLUB CONDOS LAS VEGAS
+                WIMBLEDON TENNIS CLUB CONDOS FOR SALE
               </h1>
-              <HeadingMedia level={1} heading="WIMBLEDON TENNIS CLUB CONDOS LAS VEGAS" />
+              <HeadingMedia level={1} heading="WIMBLEDON TENNIS CLUB CONDOS FOR SALE" />
               <p className="text-xl text-center text-gray-600 mb-12">
                 Expert help selling expired Wimbledon Tennis Club condos - mid-rise condos with tennis amenities and community features
               </p>
@@ -60,7 +65,7 @@ export default function WimbledonCondosPage() {
                   I specialize in selling expired Wimbledon Tennis Club condos. I understand the mid-rise market. I know how to market tennis amenities. I know how to attract active lifestyle buyers. I've sold expired condos in Wimbledon and other tennis community properties. Fast. At top dollar. With zero excuses.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
-                  Wimbledon condos require lifestyle-focused marketing. Professional photography highlighting tennis amenities. Strategic positioning emphasizing active lifestyle and community features. Emphasis on established neighborhoods and mature communities. Most agents do not understand this. They use generic strategies, and Wimbledon condos expire. I use lifestyle-focused marketing, highlight tennis amenities, and attract active lifestyle buyers. Wimbledon condos sell. Fast. At top dollar.
+                  Wimbledon condos require lifestyle-focused marketing. Professional photography highlighting tennis amenities. Strategic positioning emphasizing active lifestyle and community features. Emphasis on streets with mature landscaping and mature communities. Most agents do not understand this. They use generic strategies, and Wimbledon condos expire. I use lifestyle-focused marketing, highlight tennis amenities, and attract active lifestyle buyers. Wimbledon condos sell. Fast. At top dollar.
                 </p>
               </div>
               <div className="bg-primary/10 p-8 rounded-lg mb-12">
@@ -104,7 +109,7 @@ export default function WimbledonCondosPage() {
                 <h3 className="text-2xl font-bold mb-3">Value Positioning</h3>
                 <HeadingMedia level={3} heading="Value Positioning" />
                 <p className="text-lg text-gray-700 mb-4">
-                  Wimbledon offers value positioning with affordable pricing, tennis amenities, and established neighborhoods. Most agents do not position value effectively. I do. I highlight affordable pricing, showcase tennis amenities, and emphasize established neighborhoods that attract value-conscious buyers.
+                  Wimbledon offers value positioning with affordable pricing, tennis amenities, and streets with mature landscaping. Most agents do not position value effectively. I do. I highlight affordable pricing, showcase tennis amenities, and emphasize streets with mature landscaping that attract value-conscious buyers.
                 </p>
               </div>
               <div className="bg-white border-2 border-primary rounded-lg p-8 mb-12">
@@ -116,7 +121,7 @@ export default function WimbledonCondosPage() {
                 <h3 className="text-2xl font-bold mb-3">Lifestyle-Focused Marketing</h3>
                 <HeadingMedia level={3} heading="Lifestyle-Focused Marketing" />
                 <p className="text-lg text-gray-700 mb-4">
-                  Wimbledon condos require lifestyle-focused marketing. Professional photography highlighting tennis amenities. Strategic positioning emphasizing active lifestyle and community features. Emphasis on established neighborhoods. Most agents do not understand this. I do. I use lifestyle-focused marketing, highlight tennis amenities, and attract active lifestyle buyers.
+                  Wimbledon condos require lifestyle-focused marketing. Professional photography highlighting tennis amenities. Strategic positioning emphasizing active lifestyle and community features. Emphasis on streets with mature landscaping. Most agents do not understand this. I do. I use lifestyle-focused marketing, highlight tennis amenities, and attract active lifestyle buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Tennis Amenity Highlighting</h3>
                 <HeadingMedia level={3} heading="Tennis Amenity Highlighting" />
@@ -134,6 +139,7 @@ export default function WimbledonCondosPage() {
                 <h2 className="text-3xl font-black mb-4 text-center">
                   READY TO SELL YOUR WIMBLEDON CONDO?
                 </h2>
+                <HeadingMedia level={2} heading={"READY TO SELL YOUR WIMBLEDON CONDO?"} />
                 <p className="text-center text-lg text-gray-700 mb-6">
                   If your Wimbledon Tennis Club condo home DID NOT sell, do not wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>

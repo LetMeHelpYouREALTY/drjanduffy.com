@@ -23,6 +23,11 @@ export const metadata = {
 export default function StripCondosPage() {
   const faqs = [
     {
+      question: 'Are there condos for sale on the Las Vegas Strip?',
+      answer:
+        'Yes. Strip condo inventory includes Cosmopolitan, Vdara, Veer Towers, and nearby high-rises. Dr. Jan Duffy markets Strip condos for buyers and sellers from 1180 N Town Center Dr, Las Vegas, NV 89144. Call (702) 500-1064.',
+    },
+    {
       question: 'What real estate services does Dr. Jan Duffy provide for Las Vegas Strip condos?',
       answer:
         'Dr. Jan Duffy provides complete real estate services for Las Vegas Strip condos that did not sell, including luxury marketing strategies, professional photography ($3,700 investment), staging, 97-point marketing system, strategic pricing for high-rise luxury condos, specialized marketing for luxury buyers, and highlighting exclusive amenities. She serves The Cosmopolitan, Vdara, Veer Towers, Turnberry Place, and other luxury Strip properties.',
@@ -58,11 +63,11 @@ export default function StripCondosPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <h1 className="text-4xl md:text-5xl font-black text-center mb-4">
-                CONDOS ON THE STRIP
+                LAS VEGAS STRIP CONDOS FOR SALE
               </h1>
-              <HeadingMedia level={1} heading="CONDOS ON THE STRIP" />
+              <HeadingMedia level={1} heading="LAS VEGAS STRIP CONDOS FOR SALE" />
               <p className="text-xl text-center text-gray-600 mb-12">
-                Expert help selling expired Las Vegas Strip condos - luxury high-rise condos that require sophisticated marketing
+                Las Vegas Strip condos for sale — Cosmopolitan, Vdara, Veer Towers, and nearby high-rises
               </p>
               <div className="prose prose-lg max-w-none mb-12">
                 <p className="text-lg text-gray-700 mb-6">
@@ -146,6 +151,7 @@ export default function StripCondosPage() {
                 <h2 className="text-3xl font-black mb-4 text-center">
                   READY TO SELL YOUR STRIP CONDO?
                 </h2>
+                <HeadingMedia level={2} heading={"READY TO SELL YOUR STRIP CONDO?"} />
                 <p className="text-center text-lg text-gray-700 mb-6">
                   If your Las Vegas Strip condo home DID NOT sell, do not wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>

@@ -2,6 +2,7 @@ import BlameAnalyzer from '@/app/components/blame-analyzer'
 import Header from '@/app/components/header'
 import FAQSchema from '@/app/components/faq-schema'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
+import HeadingMedia from '@/app/components/heading-media'
 export const metadata = {
   title: 'Blame Analyzer Quiz | Dr. Jan Duffy',
   description:
@@ -47,6 +48,7 @@ export default function BlameAnalyzerPage() {
               <h1 className="text-4xl md:text-5xl font-black mb-4">
                 WHO KILLED YOUR SALE?
               </h1>
+              <HeadingMedia level={1} heading={"WHO KILLED YOUR SALE?"} />
               <p className="text-xl text-gray-600">
                 Take the 60-Second Assessment
               </p>

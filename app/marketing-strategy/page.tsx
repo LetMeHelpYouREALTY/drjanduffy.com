@@ -125,6 +125,8 @@ export default function MarketingStrategyPage() {
                     <h3 className="text-2xl font-black mb-4 text-primary">
                       {strategy.category}
                     </h3>
+                    <HeadingMedia level={3} heading={strategy.category} size="compact" />
+
                     <ul className="space-y-2">
                       {strategy.points.map((point, i) => (
                         <li key={i} className="flex items-start gap-2">
@@ -157,6 +159,7 @@ export default function MarketingStrategyPage() {
                 <h2 className="text-2xl font-black mb-4 text-center">
                   READY FOR REAL MARKETING?
                 </h2>
+                <HeadingMedia level={2} heading={"READY FOR REAL MARKETING?"} />
                 <LeadForm source="marketing_strategy" buttonText="GET MY STRATEGY" />
               </div>
             </div>

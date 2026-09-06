@@ -23,6 +23,8 @@ export default function SuccessStoriesCarousel() {
     <div className="relative bg-white rounded-lg shadow-xl p-8 border-2 border-gray-200">
       <div className="flex justify-between items-center mb-6">
         <h2 className="text-3xl font-black">SUCCESS STORIES</h2>
+        <HeadingMedia level={2} heading="SUCCESS STORIES" />
+
         <div className="flex gap-2">
           <button
             onClick={prev}

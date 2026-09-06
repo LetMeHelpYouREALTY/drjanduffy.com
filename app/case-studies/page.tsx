@@ -59,6 +59,7 @@ export default function CaseStudiesPage() {
                     <div className="flex flex-col md:flex-row justify-between items-start mb-6">
                       <div>
                         <h2 className="text-3xl font-black mb-2">{story.neighborhood}</h2>
+                        <HeadingMedia level={2} heading={story.neighborhood} size="compact" />
                         <p className="text-gray-600">
                           Previous Agent: {story.previousAgent}
                         </p>
@@ -72,6 +73,7 @@ export default function CaseStudiesPage() {
                     <div className="grid md:grid-cols-2 gap-8 mb-6">
                       <div className="bg-gray-50 p-6 rounded-lg">
                         <h3 className="text-xl font-bold mb-4">The Problem</h3>
+                        <HeadingMedia level={3} heading={"The Problem"} size="compact" />
                         <ul className="space-y-2 text-gray-700">
                           <li>• home did not sell after {story.daysExpired} days</li>
                           <li>• Previous agent: {story.previousAgent}</li>
@@ -82,6 +84,8 @@ export default function CaseStudiesPage() {
                       </div>
                       <div className="bg-green-50 p-6 rounded-lg">
                         <h3 className="text-xl font-bold mb-4">The Solution</h3>
+                        <HeadingMedia level={3} heading="The Solution" />
+
                         <ul className="space-y-2 text-gray-700">
                           <li>• Complete MLS reset with fresh listing</li>
                           <li>• Professional photography and staging</li>
@@ -120,6 +124,7 @@ export default function CaseStudiesPage() {
                     {story.testimonial && (
                       <div className="border-t pt-6">
                         <h3 className="text-xl font-bold mb-3">Client Testimonial</h3>
+                        <HeadingMedia level={3} heading={"Client Testimonial"} size="compact" />
                         <p className="text-lg text-gray-700 italic">
                           "{story.testimonial}"
                         </p>

@@ -4,12 +4,17 @@ import FAQSchema from '@/app/components/faq-schema'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 import HeadingMedia from '@/app/components/heading-media'
 export const metadata = {
-  title: 'Las Vegas Townhomes | Dr. Jan Duffy',
+  title: 'Las Vegas Townhomes for Sale | Dr. Jan Duffy',
   description:
     'Expert help selling expired Las Vegas townhomes. Townhomes offer space and value. Proven results and professional marketing.',
 }
 export default function TownhomesPage() {
   const faqs = [
+    {
+      question: 'Are there townhomes for sale in Las Vegas?',
+      answer:
+        'Yes. Dr. Jan Duffy represents Las Vegas townhomes for sale in Summerlin, Henderson, and the west valley. Call (702) 500-1064 for a current search. She also resets townhomes that did not sell.',
+    },
     {
       question: 'What real estate services does Dr. Jan Duffy provide for Las Vegas townhomes?',
       answer:
@@ -46,9 +51,9 @@ export default function TownhomesPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <h1 className="text-4xl md:text-5xl font-black text-center mb-4">
-                LAS VEGAS TOWNHOMES
+                LAS VEGAS TOWNHOMES FOR SALE
               </h1>
-              <HeadingMedia level={1} heading="LAS VEGAS TOWNHOMES" />
+              <HeadingMedia level={1} heading="LAS VEGAS TOWNHOMES FOR SALE" />
               <p className="text-xl text-center text-gray-600 mb-12">
                 Expert help selling expired Las Vegas townhomes - space, value, and community living
               </p>
@@ -116,12 +121,12 @@ export default function TownhomesPage() {
                 <h3 className="text-2xl font-bold mb-3">Summerlin Townhomes</h3>
                 <HeadingMedia level={3} heading="Summerlin Townhomes" />
                 <p className="text-lg text-gray-700 mb-4">
-                  Summerlin offers townhomes with community amenities, established neighborhoods, and prime location. I've sold expired Summerlin townhomes by highlighting community amenities, showcasing established neighborhoods, and positioning townhomes competitively.
+                  Summerlin offers townhomes with community amenities, streets with mature landscaping, and prime location. I've sold expired Summerlin townhomes by highlighting community amenities, showcasing streets with mature landscaping, and positioning townhomes competitively.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Henderson Townhomes</h3>
                 <HeadingMedia level={3} heading="Henderson Townhomes" />
                 <p className="text-lg text-gray-700 mb-4">
-                  Henderson offers townhomes with family-friendly amenities, value positioning, and suburban appeal. I've sold expired Henderson townhomes by emphasizing family-friendly amenities, highlighting value, and targeting family-conscious buyers.
+                  Henderson offers townhomes with parks, pools, and recreation amenities, value positioning, and suburban appeal. I've sold expired Henderson townhomes by emphasizing parks, pools, and recreation amenities, highlighting value, and targeting buyers comparing parks, recreation, and square footage.
                 </p>
               </div>
               
@@ -129,6 +134,7 @@ export default function TownhomesPage() {
                 <h2 className="text-3xl font-black mb-4 text-center">
                   READY TO SELL YOUR TOWNHOME?
                 </h2>
+                <HeadingMedia level={2} heading={"READY TO SELL YOUR TOWNHOME?"} />
                 <p className="text-center text-lg text-gray-700 mb-6">
                   If your Las Vegas townhome home DID NOT sell, do not wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>

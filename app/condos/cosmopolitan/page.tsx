@@ -22,6 +22,11 @@ export const metadata = {
 export default function CosmopolitanCondosPage() {
   const faqs = [
     {
+      question: 'Are there condos for sale at Cosmopolitan Condos?',
+      answer:
+        'Yes. Dr. Jan Duffy represents Cosmopolitan Condos condos for sale in Las Vegas. Inventory changes daily. Call (702) 500-1064 for a current search. She also resets Cosmopolitan Condos listings that did not sell with a 97-point system and $3,700 photography.',
+    },
+    {
       question: 'What real estate services does Dr. Jan Duffy provide for Cosmopolitan condos in Las Vegas?',
       answer:
         'Dr. Jan Duffy provides complete real estate services for Cosmopolitan condos that did not sell, including luxury marketing strategies, professional photography ($3,700 investment), premium staging, 97-point marketing system, strategic pricing for luxury Strip condos, specialized marketing highlighting resort access and world-class amenities, and overcoming strict building restrictions. She specializes in The Cosmopolitan on the Las Vegas Strip.',
@@ -60,9 +65,9 @@ export default function CosmopolitanCondosPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <h1 className="text-4xl md:text-5xl font-black text-center mb-4">
-                COSMOPOLITAN CONDOS LAS VEGAS
+                COSMOPOLITAN CONDOS FOR SALE
               </h1>
-              <HeadingMedia level={1} heading="COSMOPOLITAN CONDOS LAS VEGAS" />
+              <HeadingMedia level={1} heading="COSMOPOLITAN CONDOS FOR SALE" />
               <p className="text-xl text-center text-gray-600 mb-12">
                 Expert help selling expired Cosmopolitan condos - luxury Strip condos with resort access and world-class amenities
               </p>
@@ -148,6 +153,7 @@ export default function CosmopolitanCondosPage() {
                 <h2 className="text-3xl font-black mb-4 text-center">
                   READY TO SELL YOUR COSMOPOLITAN CONDO?
                 </h2>
+                <HeadingMedia level={2} heading={"READY TO SELL YOUR COSMOPOLITAN CONDO?"} />
                 <p className="text-center text-lg text-gray-700 mb-6">
                   If your Cosmopolitan condo home DID NOT sell, do not wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>

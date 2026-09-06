@@ -4,7 +4,7 @@ import FAQSchema from '@/app/components/faq-schema'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 import HeadingMedia from '@/app/components/heading-media'
 export const metadata = {
-  title: 'Panorama Towers Condos Las Vegas | failed listing specialist | Dr. Jan Duffy',
+  title: 'Panorama Towers Condos Las Vegas for Sale | Dr. Jan Duffy',
   description:
     'Expert help selling expired Panorama Towers condos in Las Vegas. Luxury high-rise condos with Strip views. Proven results and professional marketing.',
   alternates: {
@@ -13,6 +13,11 @@ export const metadata = {
 }
 export default function PanoramaTowersCondosPage() {
   const faqs = [
+    {
+      question: 'Are there condos for sale at Panorama Towers Condos?',
+      answer:
+        'Yes. Dr. Jan Duffy represents Panorama Towers Condos condos for sale in Las Vegas. Inventory changes daily. Call (702) 500-1064 for a current search. She also resets Panorama Towers Condos listings that did not sell with a 97-point system and $3,700 photography.',
+    },
     {
       question: 'What real estate services does Dr. Jan Duffy provide for Panorama Towers condos in Las Vegas?',
       answer:
@@ -49,9 +54,9 @@ export default function PanoramaTowersCondosPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <h1 className="text-4xl md:text-5xl font-black text-center mb-4">
-                PANORAMA TOWERS CONDOS LAS VEGAS
+                PANORAMA TOWERS CONDOS FOR SALE
               </h1>
-              <HeadingMedia level={1} heading="PANORAMA TOWERS CONDOS LAS VEGAS" />
+              <HeadingMedia level={1} heading="PANORAMA TOWERS CONDOS FOR SALE" />
               <p className="text-xl text-center text-gray-600 mb-12">
                 Expert help selling expired Panorama Towers condos - luxury high-rise condos with Strip views and world-class amenities
               </p>
@@ -137,6 +142,7 @@ export default function PanoramaTowersCondosPage() {
                 <h2 className="text-3xl font-black mb-4 text-center">
                   READY TO SELL YOUR PANORAMA TOWERS CONDO?
                 </h2>
+                <HeadingMedia level={2} heading={"READY TO SELL YOUR PANORAMA TOWERS CONDO?"} />
                 <p className="text-center text-lg text-gray-700 mb-6">
                   If your Panorama Towers condo home DID NOT sell, do not wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>

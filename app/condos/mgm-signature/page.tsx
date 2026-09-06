@@ -21,6 +21,11 @@ export const metadata = {
 export default function MGMSignatureCondosPage() {
   const faqs = [
     {
+      question: 'Are there condos for sale at MGM Signature?',
+      answer:
+        'Yes. Dr. Jan Duffy represents MGM Condos condos for sale in Las Vegas. Inventory changes daily. Call (702) 500-1064 for a current search. She also resets MGM Condos listings that did not sell with a 97-point system and $3,700 photography.',
+    },
+    {
       question: 'What real estate services does Dr. Jan Duffy provide for MGM Signature condos in Las Vegas?',
       answer:
         'Dr. Jan Duffy provides complete real estate services for MGM Signature condos that did not sell, including investment-focused marketing, professional photography ($3,700 investment) highlighting hotel amenities, premium staging, 97-point marketing system, strategic pricing for condo hotels, specialized marketing emphasizing rental income potential and MGM Grand access, and attracting investors and second-home buyers. She specializes in MGM Signature on the Las Vegas Strip.',
@@ -56,9 +61,9 @@ export default function MGMSignatureCondosPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <h1 className="text-4xl md:text-5xl font-black text-center mb-4">
-                MGM SIGNATURE CONDOS LAS VEGAS
+                MGM SIGNATURE CONDOS FOR SALE
               </h1>
-              <HeadingMedia level={1} heading="MGM SIGNATURE CONDOS LAS VEGAS" />
+              <HeadingMedia level={1} heading="MGM SIGNATURE CONDOS FOR SALE" />
               <p className="text-xl text-center text-gray-600 mb-12">
                 Expert help selling expired MGM Signature condos - luxury condo hotel with resort access and rental programs
               </p>
@@ -144,6 +149,7 @@ export default function MGMSignatureCondosPage() {
                 <h2 className="text-3xl font-black mb-4 text-center">
                   READY TO SELL YOUR MGM SIGNATURE CONDO?
                 </h2>
+                <HeadingMedia level={2} heading={"READY TO SELL YOUR MGM SIGNATURE CONDO?"} />
                 <p className="text-center text-lg text-gray-700 mb-6">
                   If your MGM Signature condo home DID NOT sell, do not wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>

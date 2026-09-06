@@ -11,6 +11,11 @@ export const metadata = {
 export default function CondosSoldPage() {
   const faqs = [
     {
+      question: 'Which Las Vegas condos has Dr. Jan Duffy sold?',
+      answer:
+        'Dr. Jan Duffy has sold 7 relisted homes, including condos, after prior listings expired. Practice average: 19 days to contract and 98.7% of asking. Call (702) 500-1064 for current sold examples and a CMA on your unit.',
+    },
+    {
       question: 'What results has Dr. Jan Duffy achieved selling Las Vegas condos that did not sell?',
       answer:
         'Dr. Jan Duffy has sold 7 Las Vegas condos that did not sell with previous agents, achieving 19-day average time to contract, 98.7% of asking price, and 100% success rate. She uses her 97-point marketing system and invests $5,000+ per listing in professional marketing for condos in Summerlin, Henderson, and throughout Las Vegas.',
@@ -65,6 +70,8 @@ export default function CondosSoldPage() {
               </div>
               <div className="bg-primary/10 p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-black mb-4">What Makes These Sold Condos Different?</h2>
+                <HeadingMedia level={2} heading="What Makes These Sold Condos Different?" />
+
                 <p className="text-lg text-gray-700 mb-4">
                   Most agents show you their best-case scenarios - luxury condos in perfect condition that sold quickly. I show you expired condos. Condos that other agents could not sell. Condos that sat on the market for 60, 90, 120+ days. Homes that were stigmatized, overpriced, or poorly marketed. Then I show you how I sold them in 14-31 days at 97-99% of asking price.
                 </p>
@@ -114,6 +121,7 @@ export default function CondosSoldPage() {
                 <h2 className="text-3xl font-black mb-4 text-center">
                   READY TO SELL YOUR CONDO?
                 </h2>
+                <HeadingMedia level={2} heading={"READY TO SELL YOUR CONDO?"} />
                 <p className="text-center text-lg text-gray-700 mb-6">
                   Your expired condo could be the next success story. The same system that sold these 7 HOMES THAT did not SELL can sell yours. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>

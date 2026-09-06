@@ -4,12 +4,17 @@ import FAQSchema from '@/app/components/faq-schema'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 import HeadingMedia from '@/app/components/heading-media'
 export const metadata = {
-  title: 'Most Expensive Condos in Las Vegas | Dr. Jan Duffy',
+  title: 'Most Expensive Las Vegas Condos for Sale | Dr. Jan Duffy',
   description:
     'Expert help selling the most expensive condos in Las Vegas. Luxury high-rise condos require sophisticated marketing. Proven results and professional marketing.',
 }
 export default function MostExpensiveCondosPage() {
   const faqs = [
+    {
+      question: 'Are there luxury high-end condos for sale in Las Vegas?',
+      answer:
+        'Yes. Dr. Jan Duffy represents the most expensive Las Vegas condos for sale, including Turnberry Towers, Panorama Towers, and Trump International. Inventory changes daily. Call (702) 500-1064 for a current search. She also resets luxury condos that did not sell.',
+    },
     {
       question: 'What real estate services does Dr. Jan Duffy provide for the most expensive condos in Las Vegas?',
       answer:
@@ -46,9 +51,9 @@ export default function MostExpensiveCondosPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <h1 className="text-4xl md:text-5xl font-black text-center mb-4">
-                MOST EXPENSIVE CONDOS IN LAS VEGAS
+                MOST EXPENSIVE LAS VEGAS CONDOS FOR SALE
               </h1>
-              <HeadingMedia level={1} heading="MOST EXPENSIVE CONDOS IN LAS VEGAS" />
+              <HeadingMedia level={1} heading="MOST EXPENSIVE LAS VEGAS CONDOS FOR SALE" />
               <p className="text-xl text-center text-gray-600 mb-12">
                 Expert help selling the most expensive condos in Las Vegas - luxury high-rise condos that require sophisticated marketing
               </p>
@@ -134,6 +139,7 @@ export default function MostExpensiveCondosPage() {
                 <h2 className="text-3xl font-black mb-4 text-center">
                   READY TO SELL YOUR EXPENSIVE CONDO?
                 </h2>
+                <HeadingMedia level={2} heading={"READY TO SELL YOUR EXPENSIVE CONDO?"} />
                 <p className="text-center text-lg text-gray-700 mb-6">
                   If your expensive Las Vegas condo home DID NOT sell, do not wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>

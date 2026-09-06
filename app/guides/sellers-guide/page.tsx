@@ -90,6 +90,7 @@ export default function SellersGuidePage() {
                 </p>
 
                 <h3 className="text-2xl font-bold mb-4 mt-8">What Went Wrong?</h3>
+                <HeadingMedia level={3} heading={"What Went Wrong?"} />
                 <p className="text-lg text-gray-700 mb-4">
                   There are usually three main reasons a home did not sell: price, presentation, and promotion. Understanding which areas were weak helps you evaluate what needs to change.
                 </p>
@@ -340,6 +341,7 @@ export default function SellersGuidePage() {
                 <div className="space-y-6">
                   <div>
                     <h3 className="text-xl font-bold mb-2">Track Record Questions</h3>
+                    <HeadingMedia level={3} heading={"Track Record Questions"} size="compact" />
                     <ul className="space-y-2 text-gray-700">
                       <li>• What is your track record with expired listings?</li>
                       <li>• How many homes that did not sell have you sold?</li>
@@ -351,6 +353,7 @@ export default function SellersGuidePage() {
 
                   <div>
                     <h3 className="text-xl font-bold mb-2">Strategy Questions</h3>
+                    <HeadingMedia level={3} heading={"Strategy Questions"} size="compact" />
                     <ul className="space-y-2 text-gray-700">
                       <li>• What specific strategies will you use that are different from my previous agent?</li>
                       <li>• What is your marketing budget per listing?</li>
@@ -362,6 +365,7 @@ export default function SellersGuidePage() {
 
                   <div>
                     <h3 className="text-xl font-bold mb-2">Availability Questions</h3>
+                    <HeadingMedia level={3} heading={"Availability Questions"} size="compact" />
                     <ul className="space-y-2 text-gray-700">
                       <li>• How many listings do you handle at once?</li>
                       <li>• How much time can you dedicate to my listing?</li>
@@ -372,6 +376,7 @@ export default function SellersGuidePage() {
 
                   <div>
                     <h3 className="text-xl font-bold mb-2">Process Questions</h3>
+                    <HeadingMedia level={3} heading={"Process Questions"} size="compact" />
                     <ul className="space-y-2 text-gray-700">
                       <li>• What happens if my home does not sell?</li>
                       <li>• What is your timeline for getting started?</li>
@@ -392,6 +397,7 @@ export default function SellersGuidePage() {
               {/* Call to Action Section */}
               <div className="bg-primary text-primary-foreground p-8 rounded-lg text-center mb-12">
                 <h2 className="text-3xl font-black mb-4">READY TO GET STARTED?</h2>
+                <HeadingMedia level={2} heading={"READY TO GET STARTED?"} />
                 <p className="text-xl mb-4">
                   I have helped 7 Summerlin sellers whose homes did not sell with other agents
                 </p>
@@ -421,6 +427,7 @@ export default function SellersGuidePage() {
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
                     <h3 className="text-xl font-bold mb-3">Learn More</h3>
+                    <HeadingMedia level={3} heading={"Learn More"} size="compact" />
                     <ul className="space-y-2">
                       <li>
                         <Link href="/why-expire" className="text-primary hover:underline">
@@ -446,6 +453,7 @@ export default function SellersGuidePage() {
                   </div>
                   <div>
                     <h3 className="text-xl font-bold mb-3">Get Help</h3>
+                    <HeadingMedia level={3} heading={"Get Help"} size="compact" />
                     <ul className="space-y-2">
                       <li>
                         <Link href="/faq" className="text-primary hover:underline">
@@ -477,6 +485,7 @@ export default function SellersGuidePage() {
                 <h2 className="text-2xl font-black mb-4 text-center">
                   HAVE QUESTIONS ABOUT RELISTING?
                 </h2>
+                <HeadingMedia level={2} heading={"HAVE QUESTIONS ABOUT RELISTING?"} />
                 <p className="text-center text-gray-600 mb-6">
                   Get personalized guidance on your specific situation
                 </p>

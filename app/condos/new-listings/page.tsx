@@ -4,12 +4,17 @@ import FAQSchema from '@/app/components/faq-schema'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 import HeadingMedia from '@/app/components/heading-media'
 export const metadata = {
-  title: 'New Listings for Las Vegas Condos | Dr. Jan Duffy',
+  title: 'New Las Vegas Condo Listings for Sale | Dr. Jan Duffy',
   description:
     'New Las Vegas condo listings. Expert help selling your condo fast and at top dollar. Proven results and professional marketing.',
 }
 export default function NewListingsCondosPage() {
   const faqs = [
+    {
+      question: 'Are there new Las Vegas condos for sale?',
+      answer:
+        'Yes. Dr. Jan Duffy represents new Las Vegas condo listings for sale. Inventory changes daily. Call (702) 500-1064 for a current search. She also resets condo listings that did not sell with a 97-point system and $3,700 photography.',
+    },
     {
       question: 'What real estate services does Dr. Jan Duffy provide for new Las Vegas condo listings?',
       answer:
@@ -46,9 +51,9 @@ export default function NewListingsCondosPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <h1 className="text-4xl md:text-5xl font-black text-center mb-4">
-                NEW LISTINGS FOR LAS VEGAS CONDOS
+                NEW LAS VEGAS CONDO LISTINGS FOR SALE
               </h1>
-              <HeadingMedia level={1} heading="NEW LISTINGS FOR LAS VEGAS CONDOS" />
+              <HeadingMedia level={1} heading="NEW LAS VEGAS CONDO LISTINGS FOR SALE" />
               <p className="text-xl text-center text-gray-600 mb-12">
                 Expert help for new Las Vegas condo listings - avoid the mistakes that cause listings to expire
               </p>
@@ -124,6 +129,7 @@ export default function NewListingsCondosPage() {
                 <h2 className="text-3xl font-black mb-4 text-center">
                   READY TO LIST YOUR LAS VEGAS CONDO?
                 </h2>
+                <HeadingMedia level={2} heading={"READY TO LIST YOUR LAS VEGAS CONDO?"} />
                 <p className="text-center text-lg text-gray-700 mb-6">
                   If you're listing your Las Vegas condo for the first time, work with an agent who actually understands condos. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>

@@ -81,6 +81,8 @@ export default function SellingTipsPage() {
                     <h3 className="text-xl font-black mb-3 text-primary">
                       {faq.question}
                     </h3>
+                    <HeadingMedia level={3} heading={faq.question} size="compact" />
+
                     <p className="text-gray-700 text-lg leading-relaxed">
                       {faq.answer}
                     </p>
@@ -98,6 +100,8 @@ export default function SellingTipsPage() {
                       <div className="flex items-center gap-3 mb-4">
                         <Icon className="w-6 h-6 text-primary" />
                         <h3 className="text-xl font-black">{tip.category}</h3>
+                        <HeadingMedia level={3} heading={tip.category} size="compact" />
+
                       </div>
                       <ul className="space-y-3">
                         {tip.items.map((item, i) => (
@@ -127,6 +131,7 @@ export default function SellingTipsPage() {
                 <h2 className="text-2xl font-black mb-4 text-center">
                   NEED PERSONALIZED ADVICE?
                 </h2>
+                <HeadingMedia level={2} heading={"NEED PERSONALIZED ADVICE?"} />
                 <LeadForm source="selling_tips" buttonText="GET EXPERT ADVICE" />
               </div>
             </div>

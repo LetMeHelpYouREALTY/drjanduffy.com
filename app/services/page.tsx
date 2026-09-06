@@ -145,6 +145,8 @@ export default function ServicesPage() {
                       <h3 className="text-xl font-black mb-3 text-primary">
                         {faq.question}
                       </h3>
+                      <HeadingMedia level={3} heading={faq.question} size="compact" />
+
                       <p className="text-gray-700 text-lg leading-relaxed">
                         {faq.answer}
                       </p>
@@ -176,6 +178,8 @@ export default function ServicesPage() {
                           <Icon className="w-6 h-6" />
                         </div>
                         <h3 className="text-xl font-black">{service.title}</h3>
+                        <HeadingMedia level={3} heading={service.title} size="compact" />
+
                       </div>
                       <p className="text-gray-700 mb-4">{service.description}</p>
                       <ul className="space-y-2">
@@ -196,11 +200,15 @@ export default function ServicesPage() {
                 <div className="grid md:grid-cols-2 gap-8 max-w-3xl mx-auto">
                   <div className="bg-white/10 p-6 rounded-lg">
                     <h3 className="text-xl font-bold mb-2">Your Previous Agent</h3>
+                    <HeadingMedia level={3} heading="Your Previous Agent" />
+
                     <p className="text-4xl font-black mb-2">~$100</p>
                     <p className="text-sm opacity-90">Basic MLS posting</p>
                   </div>
                   <div className="bg-white/10 p-6 rounded-lg">
                     <h3 className="text-xl font-bold mb-2">Dr. Jan Duffy</h3>
+                    <HeadingMedia level={3} heading="Dr. Jan Duffy" />
+
                     <p className="text-4xl font-black mb-2">$5,000+</p>
                     <p className="text-sm opacity-90">Complete marketing system</p>
                   </div>
@@ -285,26 +293,34 @@ export default function ServicesPage() {
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
                   <Link href="/process" className="block p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow text-center">
                     <h3 className="font-bold text-lg mb-2">Selling Process</h3>
+                    <HeadingMedia level={3} heading={"Selling Process"} size="compact" />
                     <p className="text-sm text-gray-600">30-day plan to sell your home</p>
                   </Link>
                   <Link href="/marketing-strategy" className="block p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow text-center">
                     <h3 className="font-bold text-lg mb-2">Marketing Strategy</h3>
+                    <HeadingMedia level={3} heading={"Marketing Strategy"} size="compact" />
                     <p className="text-sm text-gray-600">97-point marketing system</p>
                   </Link>
                   <Link href="/success-stories" className="block p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow text-center">
                     <h3 className="font-bold text-lg mb-2">Success Stories</h3>
+                    <HeadingMedia level={3} heading={"Success Stories"} size="compact" />
                     <p className="text-sm text-gray-600">Real results from homes That DID NOT sell</p>
                   </Link>
                   <Link href="/about" className="block p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow text-center">
                     <h3 className="font-bold text-lg mb-2">About Dr. Jan</h3>
+                    <HeadingMedia level={3} heading={"About Dr. Jan"} size="compact" />
                     <p className="text-sm text-gray-600">Learn about the expert</p>
                   </Link>
                   <Link href="/why-choose-me" className="block p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow text-center">
                     <h3 className="font-bold text-lg mb-2">Why Choose Me</h3>
+                    <HeadingMedia level={3} heading="Why Choose Me" size="compact" />
+
                     <p className="text-sm text-gray-600">What makes me different</p>
                   </Link>
                   <Link href="/comparison" className="block p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow text-center">
                     <h3 className="font-bold text-lg mb-2">Agent Comparison</h3>
+                    <HeadingMedia level={3} heading="Agent Comparison" size="compact" />
+
                     <p className="text-sm text-gray-600">See the difference</p>
                   </Link>
                 </div>
@@ -357,6 +373,7 @@ export default function ServicesPage() {
                 <h2 className="text-2xl font-black mb-4 text-center">
                   READY FOR COMPLETE SERVICE?
                 </h2>
+                <HeadingMedia level={2} heading={"READY FOR COMPLETE SERVICE?"} />
                 <LeadForm source="services_page" buttonText="GET STARTED" />
               </div>
 

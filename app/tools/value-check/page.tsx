@@ -131,6 +131,7 @@ export default function ValueCheckPage() {
               <h1 className="text-4xl md:text-5xl font-black mb-4">
                 WHAT'S YOUR HOME REALLY WORTH?
               </h1>
+              <HeadingMedia level={1} heading={"WHAT'S YOUR HOME REALLY WORTH?"} />
               <p className="text-xl text-gray-600">
                 (Not the Fantasy Number)
               </p>

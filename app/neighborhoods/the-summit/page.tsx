@@ -5,9 +5,9 @@ import FAQSchema from '@/app/components/faq-schema'
 import HeadingMedia from '@/app/components/heading-media'
 
 export const metadata = {
-  title: 'The Summit HOMES THAT DID NOT SELL | Dr. Jan Duffy - Luxury Real Estate Expert',
+  title: 'The Summit Homes for Sale | Dr. Jan Duffy',
   description:
-    'Expert help selling homes that DID NOT sell in The Summit, Las Vegas. Luxury gated community properties. 19 day average, 98.7% of asking price.',
+    'Homes for sale in The Summit, Las Vegas. Luxury gated community properties. 19 day average, 98.7% of asking price.',
   alternates: {
     canonical: '/neighborhoods/the-summit',
   },
@@ -15,6 +15,11 @@ export const metadata = {
 
 export default function TheSummitPage() {
   const faqs = [
+    {
+      question: 'Are there homes for sale in The Summit, Summerlin?',
+      answer:
+        'Yes. Dr. Jan Duffy represents The Summit homes for sale in Summerlin. Inventory changes daily. Call (702) 500-1064 for a current search or a CMA at a specific address. She also resets expired The Summit listings with a 97-point system. Practice results: 7 relisted homes sold, 19-day average to contract, and 98.7% of asking.',
+    },
     {
       question: 'What real estate services does Dr. Jan Duffy provide for The Summit homes?',
       answer:
@@ -53,9 +58,9 @@ export default function TheSummitPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <h1 className="text-4xl md:text-5xl font-black text-center mb-4">
-                THE SUMMIT HOMES THAT DID NOT SELL
+                THE SUMMIT HOMES FOR SALE
               </h1>
-              <HeadingMedia level={1} heading="THE SUMMIT HOMES THAT DID NOT SELL" />
+              <HeadingMedia level={1} heading="THE SUMMIT HOMES FOR SALE" />
               <p className="text-xl text-center text-gray-600 mb-12">
                 Expert help selling homes that DID NOT sell in The Summit - Las Vegas's premier gated luxury community
               </p>
@@ -145,12 +150,12 @@ export default function TheSummitPage() {
                 <h2 className="text-3xl font-black mb-4">The Summit HOME THAT DID NOT SELL Opportunity</h2>
                 <HeadingMedia level={2} heading="The Summit HOME THAT DID NOT SELL Opportunity" />
                 <p className="text-lg text-gray-700 mb-4">
-                  HOMES THAT DID NOT SELL in The Summit represent significant opportunities. Sellers are frustrated. They have tried once and failed. They are ready to work with an agent who actually understands gated community marketing. I understand gated community marketing. I know how to market Summit properties. I know how to attract security-conscious buyers.
+                  HOMES FOR SALE in The Summit represent significant opportunities. Sellers are frustrated. They have tried once and failed. They are ready to work with an agent who actually understands gated community marketing. I understand gated community marketing. I know how to market Summit properties. I know how to attract security-conscious buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Complete Gated Community Reset</h3>
                 <HeadingMedia level={3} heading="Complete Gated Community Reset" />
                 <p className="text-lg text-gray-700 mb-4">
-                  Expired Summit listings need a complete gated community reset. New professional photography showcasing security features and exclusive amenities. Strategic positioning emphasizing security and privacy benefits. Fresh MLS listing with optimized gated community description. Strategic pricing positioning. Aggressive marketing targeting security-conscious buyers. Most agents do not do this. I do. I provide complete gated community reset services that transform HOMES THAT DID NOT SELL into attractive opportunities.
+                  Expired Summit listings need a complete gated community reset. New professional photography showcasing security features and exclusive amenities. Strategic positioning emphasizing security and privacy benefits. Fresh MLS listing with optimized gated community description. Strategic pricing positioning. Aggressive marketing targeting security-conscious buyers. Most agents do not do this. I do. I provide complete gated community reset services that transform HOMES FOR SALE into attractive opportunities.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Gated Community Marketing System</h3>
                 <HeadingMedia level={3} heading="Gated Community Marketing System" />
@@ -160,7 +165,7 @@ export default function TheSummitPage() {
                 <h3 className="text-2xl font-bold mb-3">Proven Results</h3>
                 <HeadingMedia level={3} heading="Proven Results" />
                 <p className="text-lg text-gray-700 mb-4">
-                  I've sold 7 Summerlin sellers who could not sell with an average of 19 days to contract and 98.7% of asking price. These are not hypothetical results. These are real HOMES THAT DID NOT SELL that I sold after other agents failed. I can do the same for your Summit listing. Fast. At top dollar. With zero excuses.
+                  I've sold 7 Summerlin sellers who could not sell with an average of 19 days to contract and 98.7% of asking price. These are not hypothetical results. These are real HOMES FOR SALE that I sold after other agents failed. I can do the same for your Summit listing. Fast. At top dollar. With zero excuses.
                 </p>
               </div>
 
@@ -168,6 +173,7 @@ export default function TheSummitPage() {
                 <h2 className="text-3xl font-black mb-4 text-center">
                   READY TO SELL YOUR SUMMIT LISTING?
                 </h2>
+                <HeadingMedia level={2} heading={"READY TO SELL YOUR SUMMIT LISTING?"} />
                 <p className="text-center text-lg text-gray-700 mb-6">
                   If your Summit home DID NOT sell, do not wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>

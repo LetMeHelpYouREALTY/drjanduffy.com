@@ -198,6 +198,7 @@ export default function RelistHomePage() {
                 <div className="space-y-6 mb-8">
                   <div className="bg-white border-2 border-gray-200 rounded-lg p-6">
                     <h3 className="text-xl font-black mb-3">Summerlin West Home - Relisted</h3>
+                    <HeadingMedia level={3} heading={"Summerlin West Home - Relisted"} size="compact" />
                     <p className="text-gray-700 mb-2">
                       <strong>Previous Agent:</strong> 90 days, zero offers, expired
                     </p>
@@ -210,6 +211,7 @@ export default function RelistHomePage() {
                   </div>
                   <div className="bg-white border-2 border-gray-200 rounded-lg p-6">
                     <h3 className="text-xl font-black mb-3">The Ridges Estate - Relisted</h3>
+                    <HeadingMedia level={3} heading={"The Ridges Estate - Relisted"} size="compact" />
                     <p className="text-gray-700 mb-2">
                       <strong>Previous Agent:</strong> 120 days, 3 price drops, expired
                     </p>
@@ -222,6 +224,7 @@ export default function RelistHomePage() {
                   </div>
                   <div className="bg-white border-2 border-gray-200 rounded-lg p-6">
                     <h3 className="text-xl font-black mb-3">Henderson Home - Relisted</h3>
+                    <HeadingMedia level={3} heading={"Henderson Home - Relisted"} size="compact" />
                     <p className="text-gray-700 mb-2">
                       <strong>Previous Agent:</strong> 100 days, 5 price drops, expired
                     </p>

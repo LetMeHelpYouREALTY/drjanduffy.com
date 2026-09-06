@@ -173,6 +173,7 @@ export default function SellMyHomeNoCommissionPage() {
                 <h2 className="text-3xl font-black mb-4 text-center">
                   READY FOR AN AGENT WHO BRINGS BUYERS?
                 </h2>
+                <HeadingMedia level={2} heading={"READY FOR AN AGENT WHO BRINGS BUYERS?"} />
                 <p className="text-center text-lg text-gray-700 mb-6">
                   If your home didn't sell and you need an agent who brings buyers, call me now at (702) 500-1064 or fill out the form below for a free consultation. I bring buyers through aggressive marketing, strategic pricing, and relentless follow-up. 19-day average to contract. 98.7% of asking price.
                 </p>

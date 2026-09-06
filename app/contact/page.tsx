@@ -171,6 +171,8 @@ export default function ContactPage() {
               </div>
               <div className="bg-white border-2 border-primary rounded-lg p-8 mb-12">
                 <h2 className="text-3xl font-black mb-4 text-center">Why Contact Me Now?</h2>
+                <HeadingMedia level={2} heading="Why Contact Me Now?" />
+
                 <div className="space-y-6">
                   <div>
                     <h3 className="text-2xl font-bold mb-3">Time Is Money</h3>
@@ -204,6 +206,8 @@ export default function ContactPage() {
               </div>
               <div className="bg-primary text-primary-foreground p-8 rounded-lg mb-12 text-center">
                 <h2 className="text-3xl font-black mb-4">What Happens When You Contact Me?</h2>
+                <HeadingMedia level={2} heading="What Happens When You Contact Me?" />
+
                 <div className="grid md:grid-cols-3 gap-6 text-left">
                   <div>
                     <h3 className="text-2xl font-bold mb-3">Step 1: Initial Contact</h3>

@@ -21,6 +21,11 @@ export const metadata = {
 export default function VdaraCondosPage() {
   const faqs = [
     {
+      question: 'Are there condos for sale at Vdara Condos?',
+      answer:
+        'Yes. Dr. Jan Duffy represents Vdara Condos condos for sale in Las Vegas. Inventory changes daily. Call (702) 500-1064 for a current search. She also resets Vdara Condos listings that did not sell with a 97-point system and $3,700 photography.',
+    },
+    {
       question: 'What real estate services does Dr. Jan Duffy provide for Vdara condos in Las Vegas?',
       answer:
         'Dr. Jan Duffy provides complete real estate services for Vdara condos that did not sell, including luxury marketing strategies, professional photography ($3,700 investment) highlighting non-gaming appeal, premium staging, 97-point marketing system, strategic pricing for luxury non-gaming condos, specialized marketing emphasizing Aria access and sophisticated design, and attracting sophisticated buyers. She specializes in Vdara in CityCenter on the Las Vegas Strip.',
@@ -56,9 +61,9 @@ export default function VdaraCondosPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <h1 className="text-4xl md:text-5xl font-black text-center mb-4">
-                VDARA CONDOS LAS VEGAS
+                VDARA CONDOS FOR SALE
               </h1>
-              <HeadingMedia level={1} heading="VDARA CONDOS LAS VEGAS" />
+              <HeadingMedia level={1} heading="VDARA CONDOS FOR SALE" />
               <p className="text-xl text-center text-gray-600 mb-12">
                 Expert help selling expired Vdara condos - luxury non-gaming condos with Aria access and sophisticated design
               </p>
@@ -144,6 +149,7 @@ export default function VdaraCondosPage() {
                 <h2 className="text-3xl font-black mb-4 text-center">
                   READY TO SELL YOUR VDARA CONDO?
                 </h2>
+                <HeadingMedia level={2} heading={"READY TO SELL YOUR VDARA CONDO?"} />
                 <p className="text-center text-lg text-gray-700 mb-6">
                   If your Vdara condo home DID NOT sell, do not wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>

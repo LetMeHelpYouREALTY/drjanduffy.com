@@ -231,6 +231,7 @@ export default function ComparisonPage() {
                 <div className="grid md:grid-cols-3 gap-6 mb-6">
                   <div className="bg-white p-6 rounded-lg border-2 border-red-200">
                     <h3 className="text-xl font-black mb-3 text-red-800">Cash Buyers (Opendoor/HomeLight)</h3>
+                    <HeadingMedia level={3} heading={"Cash Buyers (Opendoor/HomeLight)"} size="compact" />
                     <ul className="space-y-2 text-gray-700 text-sm">
                       <li>• 70-85% of market value</li>
                       <li>• 5-12% service fees</li>
@@ -245,6 +246,7 @@ export default function ComparisonPage() {
                   </div>
                   <div className="bg-white p-6 rounded-lg border-2 border-green-200">
                     <h3 className="text-xl font-black mb-3 text-green-800">Dr. Jan Duffy</h3>
+                    <HeadingMedia level={3} heading={"Dr. Jan Duffy"} size="compact" />
                     <ul className="space-y-2 text-gray-700 text-sm">
                       <li>• 98.7% of asking price</li>
                       <li>• No upfront fees</li>
@@ -259,6 +261,8 @@ export default function ComparisonPage() {
                   </div>
                   <div className="bg-white p-6 rounded-lg border-2 border-gray-200">
                     <h3 className="text-xl font-black mb-3 text-gray-800">Your Previous Agent</h3>
+                    <HeadingMedia level={3} heading="Your Previous Agent" size="compact" />
+
                     <ul className="space-y-2 text-gray-700 text-sm">
                       <li>• Variable pricing</li>
                       <li>• Standard commission</li>
@@ -393,6 +397,7 @@ export default function ComparisonPage() {
                 <h2 className="text-2xl font-black mb-4 text-center">
                   READY TO FIRE YOUR AGENT?
                 </h2>
+                <HeadingMedia level={2} heading={"READY TO FIRE YOUR AGENT?"} />
                 <LeadForm
                   source="comparison"
                   buttonText="HIRE ME NOW"

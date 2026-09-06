@@ -72,6 +72,7 @@ export default function FindNewAgentPage() {
               <h1 className="text-4xl md:text-5xl font-black text-center mb-6">
                 Looking for a New Real Estate Agent in Las Vegas?
               </h1>
+              <HeadingMedia level={1} heading={"Looking for a New Real Estate Agent in Las Vegas?"} />
               <p className="text-xl text-center text-gray-600 mb-12">
                 You trusted an agent. They DID NOT deliver. Now what? Here's how to find a real estate agent who actually sells homes.
               </p>
@@ -212,6 +213,7 @@ export default function FindNewAgentPage() {
                 </p>
                 <div className="bg-white border-2 border-gray-200 rounded-lg p-8 mb-6">
                   <h3 className="text-2xl font-black mb-4">1. How many homes have you sold in my neighborhood?</h3>
+                  <HeadingMedia level={3} heading={"1. How many homes have you sold in my neighborhood?"} />
                   <p className="text-lg text-gray-700">
                     Local expertise matters. I've sold multiple homes in The Ridges, Red Rock Country Club, The Summit, and newer Summerlin villages. I know the market, the buyers, and what works in your specific neighborhood.
                   </p>
@@ -219,6 +221,7 @@ export default function FindNewAgentPage() {
 
                 <div className="bg-white border-2 border-gray-200 rounded-lg p-8 mb-6">
                   <h3 className="text-2xl font-black mb-4">2. What's your average days on market?</h3>
+                  <HeadingMedia level={3} heading={"2. What's your average days on market?"} />
                   <p className="text-lg text-gray-700">
                     Speed matters. For homes that DID NOT sell with other agents, I average 19 days to contract. For properly priced and marketed homes, the average is 30-45 days. This is what a proven system gets you.
                   </p>
@@ -226,6 +229,7 @@ export default function FindNewAgentPage() {
 
                 <div className="bg-white border-2 border-gray-200 rounded-lg p-8 mb-6">
                   <h3 className="text-2xl font-black mb-4">3. What happens if my home does not sell?</h3>
+                  <HeadingMedia level={3} heading={"3. What happens if my home does not sell?"} />
                   <p className="text-lg text-gray-700">
                     Accountability matters. I have a proven system that works. But if your home does not sell, we analyze what went wrong and adjust the strategy. I do not disappear. I do not make excuses. I deliver results or we figure out why.
                   </p>
@@ -233,6 +237,7 @@ export default function FindNewAgentPage() {
 
                 <div className="bg-white border-2 border-gray-200 rounded-lg p-8 mb-6">
                   <h3 className="text-2xl font-black mb-4">4. What's your marketing plan?</h3>
+                  <HeadingMedia level={3} heading={"4. What's your marketing plan?"} />
                   <p className="text-lg text-gray-700">
                     Specific strategy matters. I use a 97-point marketing system with specific tactics: professional photography ($3,700), social media blitzes, network activation (500+ agents), targeted ads, strategic open houses, email marketing. This comprehensive system ensures your home gets maximum exposure.
                   </p>
@@ -240,6 +245,8 @@ export default function FindNewAgentPage() {
 
                 <div className="bg-white border-2 border-gray-200 rounded-lg p-8 mb-6">
                   <h3 className="text-2xl font-black mb-4">5. How many listings do you take at a time?</h3>
+                  <HeadingMedia level={3} heading="5. How many listings do you take at a time?" />
+
                   <p className="text-lg text-gray-700">
                     Focus matters. I take maximum 6 listings at a time. You get 100% focus. Every home gets the full treatment. Your previous agent had 47+ listings. You got 2.1% of their attention. This focus is what separates successful sales from failed listings.
                   </p>
@@ -302,6 +309,7 @@ export default function FindNewAgentPage() {
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
                     <h3 className="text-xl font-black mb-3">Results</h3>
+                    <HeadingMedia level={3} heading={"Results"} size="compact" />
                     <ul className="space-y-2 text-gray-700">
                       <li>• 7 homes that DID NOT sell - now sold</li>
                       <li>• 19 day average</li>
@@ -312,6 +320,7 @@ export default function FindNewAgentPage() {
                   </div>
                   <div>
                     <h3 className="text-xl font-black mb-3">Credentials</h3>
+                    <HeadingMedia level={3} heading={"Credentials"} size="compact" />
                     <ul className="space-y-2 text-gray-700">
                       <li>• Dr. Jan Duffy</li>
                       <li>• Berkshire Hathaway HomeServices</li>

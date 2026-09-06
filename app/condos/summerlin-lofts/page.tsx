@@ -4,7 +4,7 @@ import FAQSchema from '@/app/components/faq-schema'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 import HeadingMedia from '@/app/components/heading-media'
 export const metadata = {
-  title: 'C2 Lofts Las Vegas | C2 Lofts Summerlin | Dr. Jan Duffy',
+  title: 'C2 Lofts Summerlin for Sale | Las Vegas Lofts | Dr. Jan Duffy',
   description:
     'C2 Lofts Las Vegas for sale. C2 Lofts Summerlin. Expert help selling expired C2 Lofts (Summerlin Lofts). Urban lofts with modern design. 19 days average to contract. Call (702) 500-1064.',
   keywords: [
@@ -20,6 +20,11 @@ export const metadata = {
 }
 export default function SummerlinLoftsPage() {
   const faqs = [
+    {
+      question: 'Are there condos for sale at C2 Lofts?',
+      answer:
+        'Yes. Dr. Jan Duffy represents C2 Lofts condos for sale in Las Vegas. Inventory changes daily. Call (702) 500-1064 for a current search. She also resets C2 Lofts listings that did not sell with a 97-point system and $3,700 photography.',
+    },
     {
       question: 'What real estate services does Dr. Jan Duffy provide for Summerlin Lofts in Las Vegas?',
       answer:
@@ -56,9 +61,9 @@ export default function SummerlinLoftsPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <h1 className="text-4xl md:text-5xl font-black text-center mb-4">
-                SUMMERLIN LOFTS / C2 LOFTS LAS VEGAS
+                C2 LOFTS SUMMERLIN CONDOS FOR SALE
               </h1>
-              <HeadingMedia level={1} heading="SUMMERLIN LOFTS / C2 LOFTS LAS VEGAS" />
+              <HeadingMedia level={1} heading="C2 LOFTS SUMMERLIN CONDOS FOR SALE" />
               <p className="text-xl text-center text-gray-600 mb-12">
                 Expert help selling expired Summerlin Lofts - urban lofts with modern design and community amenities
               </p>
@@ -144,6 +149,7 @@ export default function SummerlinLoftsPage() {
                 <h2 className="text-3xl font-black mb-4 text-center">
                   READY TO SELL YOUR SUMMERLIN LOFTS?
                 </h2>
+                <HeadingMedia level={2} heading={"READY TO SELL YOUR SUMMERLIN LOFTS?"} />
                 <p className="text-center text-lg text-gray-700 mb-6">
                   If your Summerlin Lofts home DID NOT sell, do not wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>

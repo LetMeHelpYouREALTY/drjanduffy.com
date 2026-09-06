@@ -55,6 +55,8 @@ export default function AnswersHubPage() {
                         {page.h1}
                       </Link>
                     </h2>
+                    <HeadingMedia level={2} heading={page.h1} size="compact" />
+
                     <p className="text-lg text-gray-700 mb-3">{page.directAnswer}</p>
                     <Link href={page.path} className="font-semibold text-primary hover:underline">
                       Full answer →

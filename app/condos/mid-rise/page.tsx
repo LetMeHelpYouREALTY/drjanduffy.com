@@ -4,7 +4,7 @@ import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 import FAQSchema from '@/app/components/faq-schema'
 import HeadingMedia from '@/app/components/heading-media'
 export const metadata = {
-  title: 'Mid-Rise Condos & Lofts Las Vegas | Dr. Jan Duffy',
+  title: 'Las Vegas Mid-Rise Condos for Sale | Dr. Jan Duffy',
   description:
     'Expert help selling expired mid-rise condos and lofts in Las Vegas. Urban living and modern design. Proven results and professional marketing.',
   alternates: {
@@ -13,6 +13,11 @@ export const metadata = {
 }
 export default function MidRiseCondosPage() {
   const faqs = [
+    {
+      question: 'Are there mid-rise condos for sale in Las Vegas?',
+      answer:
+        'Yes. Dr. Jan Duffy represents Las Vegas mid-rise condos and lofts for sale in Summerlin, Henderson, and downtown. Inventory changes daily. Call (702) 500-1064 for a current search. She also resets mid-rise listings that did not sell.',
+    },
     {
       question: 'What real estate services does Dr. Jan Duffy provide for mid-rise condos and lofts in Las Vegas?',
       answer:
@@ -51,9 +56,9 @@ export default function MidRiseCondosPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <h1 className="text-4xl md:text-5xl font-black text-center mb-4">
-                MID-RISE CONDOS & LOFTS LAS VEGAS
+                LAS VEGAS MID-RISE CONDOS FOR SALE
               </h1>
-              <HeadingMedia level={1} heading="MID-RISE CONDOS & LOFTS LAS VEGAS" />
+              <HeadingMedia level={1} heading="LAS VEGAS MID-RISE CONDOS FOR SALE" />
               <p className="text-xl text-center text-gray-600 mb-12">
                 Expert help selling expired mid-rise condos and lofts - urban living with modern design and community amenities
               </p>
@@ -134,6 +139,7 @@ export default function MidRiseCondosPage() {
                 <h2 className="text-3xl font-black mb-4 text-center">
                   READY TO SELL YOUR MID-RISE CONDO OR LOFT?
                 </h2>
+                <HeadingMedia level={2} heading={"READY TO SELL YOUR MID-RISE CONDO OR LOFT?"} />
                 <p className="text-center text-lg text-gray-700 mb-6">
                   If your mid-rise condo or loft home DID NOT sell, do not wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>

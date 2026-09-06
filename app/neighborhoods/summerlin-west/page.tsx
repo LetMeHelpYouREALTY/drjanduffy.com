@@ -5,9 +5,9 @@ import FAQSchema from '@/app/components/faq-schema'
 import HeadingMedia from '@/app/components/heading-media'
 
 export const metadata = {
-  title: 'Summerlin West HOMES THAT DID NOT SELL | Dr. Jan Duffy - Expert Real Estate Agent',
+  title: 'Summerlin West Homes for Sale | Dr. Jan Duffy',
   description:
-    'Expert help selling homes that DID NOT sell in Summerlin West, Las Vegas. Dr. Jan Duffy has sold 7 Summerlin sellers who could not sell in 19 days average at 98.7% of asking price.',
+    'Homes for sale in Summerlin West, Las Vegas. Dr. Jan Duffy has sold 7 Summerlin sellers who could not sell in 19 days average at 98.7% of asking price.',
   alternates: {
     canonical: '/neighborhoods/summerlin-west',
   },
@@ -15,6 +15,11 @@ export const metadata = {
 
 export default function SummerlinWestPage() {
   const faqs = [
+    {
+      question: 'Are there homes for sale in Summerlin West, Las Vegas?',
+      answer:
+        'Yes. Dr. Jan Duffy represents Summerlin West homes for sale in Las Vegas. Inventory changes daily. Call (702) 500-1064 for a current search or a CMA at a specific address. She also resets expired Summerlin West listings with a 97-point system. Practice results: 7 relisted homes sold, 19-day average to contract, and 98.7% of asking.',
+    },
     {
       question: 'What real estate services does Dr. Jan Duffy provide for Summerlin West homes?',
       answer:
@@ -53,9 +58,9 @@ export default function SummerlinWestPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <h1 className="text-4xl md:text-5xl font-black text-center mb-4">
-                SUMMERLIN WEST HOMES THAT DID NOT SELL
+                SUMMERLIN WEST HOMES FOR SALE
               </h1>
-              <HeadingMedia level={1} heading="SUMMERLIN WEST HOMES THAT DID NOT SELL" />
+              <HeadingMedia level={1} heading="SUMMERLIN WEST HOMES FOR SALE" />
               <p className="text-xl text-center text-gray-600 mb-12">
                 Expert help selling homes that DID NOT sell in Summerlin West - Las Vegas's premier luxury community
               </p>
@@ -86,7 +91,7 @@ export default function SummerlinWestPage() {
                 <h3 className="text-2xl font-bold mb-3">Competition from New Construction</h3>
                 <HeadingMedia level={3} heading="Competition from New Construction" />
                 <p className="text-lg text-gray-700 mb-4">
-                  Summerlin West constantly has new construction entering the market. New homes compete with existing homes. New amenities compete with older amenities. New pricing competes with older pricing. Most agents do not know how to position existing properties against new construction. I know how to highlight unique features, emphasize established communities, and position existing properties competitively against new construction.
+                  Summerlin West constantly has new construction entering the market. New homes compete with existing homes. New amenities compete with older amenities. New pricing competes with older pricing. Most agents do not know how to position existing properties against new construction. I know how to highlight unique features, emphasize mature landscaping, and position existing properties competitively against new construction.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">High Price Points</h3>
                 <HeadingMedia level={3} heading="High Price Points" />
@@ -145,12 +150,12 @@ export default function SummerlinWestPage() {
                 <h2 className="text-3xl font-black mb-4">The Summerlin West HOME THAT DID NOT SELL Opportunity</h2>
                 <HeadingMedia level={2} heading="The Summerlin West HOME THAT DID NOT SELL Opportunity" />
                 <p className="text-lg text-gray-700 mb-4">
-                  HOMES THAT DID NOT SELL in Summerlin West represent opportunities. Sellers are frustrated. They have tried once and failed. They are ready to work with an agent who actually understands luxury marketing. I understand luxury marketing. I know how to market Summerlin West properties. I know how to attract high-end buyers.
+                  HOMES FOR SALE in Summerlin West represent opportunities. Sellers are frustrated. They have tried once and failed. They are ready to work with an agent who actually understands luxury marketing. I understand luxury marketing. I know how to market Summerlin West properties. I know how to attract high-end buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Complete Reset</h3>
                 <HeadingMedia level={3} heading="Complete Reset" />
                 <p className="text-lg text-gray-700 mb-4">
-                  Expired Summerlin West listings need a complete reset. New professional photography showcasing luxury features. Luxury staging highlighting sophisticated design. Fresh MLS listing with optimized description. Strategic pricing positioning. Aggressive marketing targeting luxury buyers. Most agents do not do this. I do. I provide complete reset services that transform HOMES THAT DID NOT SELL into attractive opportunities.
+                  Expired Summerlin West listings need a complete reset. New professional photography showcasing luxury features. Luxury staging highlighting sophisticated design. Fresh MLS listing with optimized description. Strategic pricing positioning. Aggressive marketing targeting luxury buyers. Most agents do not do this. I do. I provide complete reset services that transform HOMES FOR SALE into attractive opportunities.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Luxury Marketing System</h3>
                 <HeadingMedia level={3} heading="Luxury Marketing System" />
@@ -160,7 +165,7 @@ export default function SummerlinWestPage() {
                 <h3 className="text-2xl font-bold mb-3">Proven Results</h3>
                 <HeadingMedia level={3} heading="Proven Results" />
                 <p className="text-lg text-gray-700 mb-4">
-                  I've sold 7 Summerlin sellers who could not sell with an average of 19 days to contract and 98.7% of asking price. These are not hypothetical results. These are real HOMES THAT DID NOT SELL that I sold after other agents failed. I can do the same for your Summerlin West listing. Fast. At top dollar. With zero excuses.
+                  I've sold 7 Summerlin sellers who could not sell with an average of 19 days to contract and 98.7% of asking price. These are not hypothetical results. These are real HOMES FOR SALE that I sold after other agents failed. I can do the same for your Summerlin West listing. Fast. At top dollar. With zero excuses.
                 </p>
               </div>
 
@@ -168,6 +173,7 @@ export default function SummerlinWestPage() {
                 <h2 className="text-3xl font-black mb-4 text-center">
                   READY TO SELL YOUR SUMMERLIN WEST LISTING?
                 </h2>
+                <HeadingMedia level={2} heading={"READY TO SELL YOUR SUMMERLIN WEST LISTING?"} />
                 <p className="text-center text-lg text-gray-700 mb-6">
                   If your Summerlin West home DID NOT sell, do not wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>

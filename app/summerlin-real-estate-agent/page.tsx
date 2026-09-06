@@ -237,24 +237,28 @@ export default function SummerlinAgentPage() {
                 <div className="grid md:grid-cols-2 gap-6 mb-8">
                   <div className="bg-gray-50 border-2 border-gray-200 rounded-lg p-6">
                     <h3 className="text-xl font-black mb-3">Inventory Levels</h3>
+                    <HeadingMedia level={3} heading={"Inventory Levels"} size="compact" />
                     <p className="text-gray-700">
                       Summerlin has approximately 400-500 active listings, with The Ridges and Red Rock Country Club having the lowest inventory (creating seller advantage) and newer villages having higher inventory (creating buyer advantage).
                     </p>
                   </div>
                   <div className="bg-gray-50 border-2 border-gray-200 rounded-lg p-6">
                     <h3 className="text-xl font-black mb-3">Days on Market</h3>
+                    <HeadingMedia level={3} heading={"Days on Market"} size="compact" />
                     <p className="text-gray-700">
                       Average days on market varies by price range: $800K-$1.5M (30-45 days), $1.5M-$3M (45-60 days), $3M+ (60-90 days). Properly priced and marketed homes sell faster.
                     </p>
                   </div>
                   <div className="bg-gray-50 border-2 border-gray-200 rounded-lg p-6">
                     <h3 className="text-xl font-black mb-3">Price Trends</h3>
+                    <HeadingMedia level={3} heading={"Price Trends"} size="compact" />
                     <p className="text-gray-700">
                       Summerlin prices have stabilized after 2023-2024 adjustments. Luxury segment ($2M+) remains strong with limited inventory. Mid-range ($800K-$1.5M) is competitive with good buyer activity.
                     </p>
                   </div>
                   <div className="bg-gray-50 border-2 border-gray-200 rounded-lg p-6">
                     <h3 className="text-xl font-black mb-3">Buyer Activity</h3>
+                    <HeadingMedia level={3} heading={"Buyer Activity"} size="compact" />
                     <p className="text-gray-700">
                       Spring 2026 buyers are already active. Pre-qualified, serious buyers looking for luxury homes. Tax refund season (February-April) typically increases buyer activity and purchasing power.
                     </p>
@@ -282,18 +286,21 @@ export default function SummerlinAgentPage() {
                 <div className="space-y-6 mb-8">
                   <div className="bg-white border-2 border-gray-200 rounded-lg p-6">
                     <h3 className="text-xl font-black mb-3">The Ridges Estate - $2.4M</h3>
+                    <HeadingMedia level={3} heading={"The Ridges Estate - $2.4M"} size="compact" />
                     <p className="text-gray-700">
                       Sold in 21 days at 98.5% of asking. Previous agent had it for 90 days with zero offers. Complete luxury marketing reset with professional photography, targeted buyer outreach, and strategic negotiation.
                     </p>
                   </div>
                   <div className="bg-white border-2 border-gray-200 rounded-lg p-6">
                     <h3 className="text-xl font-black mb-3">Red Rock Country Club - $1.2M</h3>
+                    <HeadingMedia level={3} heading={"Red Rock Country Club - $1.2M"} size="compact" />
                     <p className="text-gray-700">
                       Sold in 19 days at 99% of asking. Golf course home that sat with previous agent for 75 days. Professional staging, strategic open house, aggressive follow-up with golf course property buyers.
                     </p>
                   </div>
                   <div className="bg-white border-2 border-gray-200 rounded-lg p-6">
                     <h3 className="text-xl font-black mb-3">The Summit Condo - $850K</h3>
+                    <HeadingMedia level={3} heading={"The Summit Condo - $850K"} size="compact" />
                     <p className="text-gray-700">
                       Sold in 16 days at 99.2% of asking. High-rise condo that DID NOT sell with previous agent. Professional photography showcasing Strip views, targeted marketing to second-home buyers, strategic pricing.
                     </p>
@@ -348,6 +355,7 @@ export default function SummerlinAgentPage() {
             <h2 className="text-4xl md:text-5xl font-black mb-6">
               Thinking of Buying or Selling in Summerlin?
             </h2>
+            <HeadingMedia level={2} heading={"Thinking of Buying or Selling in Summerlin?"} />
             <p className="text-xl mb-4 max-w-2xl mx-auto">
               Let's discuss your Summerlin real estate goals. Free consultation, no obligation.
             </p>

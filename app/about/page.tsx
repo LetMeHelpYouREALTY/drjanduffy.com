@@ -155,6 +155,8 @@ export default function AboutPage() {
 
                 <div className="bg-gray-100 p-8 rounded-lg mb-12">
                   <h2 className="text-3xl font-black mb-4">Why HOMES THAT DID NOT SELL?</h2>
+                  <HeadingMedia level={2} heading="Why HOMES THAT DID NOT SELL?" />
+
                   <p className="text-lg mb-4">
                     Most agents avoid HOMES THAT DID NOT SELL. They see them as damaged goods or too much work. They think HOMES That DID NOT SELL are stigmatized, overpriced, or have problems. They are wrong. I see HOMES THAT DID NOT SELL as opportunities - homes that just need the right agent, the right strategy, and the right marketing.
                   </p>
@@ -261,6 +263,7 @@ export default function AboutPage() {
 
                 <div className="bg-white border-2 border-gray-200 rounded-lg p-8 mb-12">
                   <h2 className="text-3xl font-black mb-4 text-center">Ready to Work with the Expert?</h2>
+                  <HeadingMedia level={2} heading={"Ready to Work with the Expert?"} />
                   <p className="text-lg text-gray-700 mb-4 text-center">
                     If your home did not sell, you need an agent who actually knows what they are doing. You need an agent who specializes in HOMES THAT DID NOT SELL. You need an agent who delivers proven results. That is me. I have sold 7 Summerlin sellers who could not sell with an average of 19 days to contract and 98.7% of asking price. The same system that delivered these results can deliver yours.
                   </p>
@@ -280,26 +283,32 @@ export default function AboutPage() {
                   <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
                     <a href="/services" className="block p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow text-center">
                       <h3 className="font-bold text-lg mb-2">Services</h3>
+                      <HeadingMedia level={3} heading={"Services"} size="compact" />
                       <p className="text-sm text-gray-600">Complete failed listing solutions</p>
                     </a>
                     <a href="/process" className="block p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow text-center">
                       <h3 className="font-bold text-lg mb-2">Selling Process</h3>
+                      <HeadingMedia level={3} heading={"Selling Process"} size="compact" />
                       <p className="text-sm text-gray-600">30-day plan to sell your home</p>
                     </a>
                     <a href="/success-stories" className="block p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow text-center">
                       <h3 className="font-bold text-lg mb-2">Success Stories</h3>
+                      <HeadingMedia level={3} heading={"Success Stories"} size="compact" />
                       <p className="text-sm text-gray-600">Real results from homes that did not sell</p>
                     </a>
                     <a href="/marketing-strategy" className="block p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow text-center">
                       <h3 className="font-bold text-lg mb-2">Marketing Strategy</h3>
+                      <HeadingMedia level={3} heading={"Marketing Strategy"} size="compact" />
                       <p className="text-sm text-gray-600">97-point marketing system</p>
                     </a>
                     <a href="/why-choose-me" className="block p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow text-center">
                       <h3 className="font-bold text-lg mb-2">Why Choose Me</h3>
+                      <HeadingMedia level={3} heading={"Why Choose Me"} size="compact" />
                       <p className="text-sm text-gray-600">What makes me different</p>
                     </a>
                     <a href="/faq" className="block p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow text-center">
                       <h3 className="font-bold text-lg mb-2">FAQ</h3>
+                      <HeadingMedia level={3} heading={"FAQ"} size="compact" />
                       <p className="text-sm text-gray-600">Common questions answered</p>
                     </a>
                   </div>
@@ -309,6 +318,7 @@ export default function AboutPage() {
                 <h2 className="text-2xl font-black mb-4 text-center">
                   READY TO WORK WITH THE EXPERT?
                 </h2>
+                <HeadingMedia level={2} heading={"READY TO WORK WITH THE EXPERT?"} />
                 <LeadForm source="about_page" buttonText="GET STARTED NOW" />
               </div>
 

@@ -21,6 +21,11 @@ export const metadata = {
 export default function AllureCondosPage() {
   const faqs = [
     {
+      question: 'Are there condos for sale at Allure?',
+      answer:
+        'Yes. Dr. Jan Duffy represents Allure Condo condos for sale in Las Vegas. Inventory changes daily. Call (702) 500-1064 for a current search. She also resets Allure Condo listings that did not sell with a 97-point system and $3,700 photography.',
+    },
+    {
       question: 'What real estate services does Dr. Jan Duffy provide for Allure condos in Las Vegas?',
       answer:
         'Dr. Jan Duffy provides complete real estate services for Allure condos that did not sell, including luxury marketing strategies, professional photography ($3,700 investment), premium staging, 97-point marketing system, strategic pricing for luxury high-rise condos, specialized marketing highlighting exclusive amenities, and attracting high-end buyers. She specializes in Allure in Las Vegas.',
@@ -56,9 +61,9 @@ export default function AllureCondosPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <h1 className="text-4xl md:text-5xl font-black text-center mb-4">
-                ALLURE CONDOS LAS VEGAS
+                ALLURE CONDOS FOR SALE
               </h1>
-              <HeadingMedia level={1} heading="ALLURE CONDOS LAS VEGAS" />
+              <HeadingMedia level={1} heading="ALLURE CONDOS FOR SALE" />
               <p className="text-xl text-center text-gray-600 mb-12">
                 Expert help selling expired Allure condos - luxury high-rise condos that require sophisticated marketing
               </p>
@@ -87,7 +92,7 @@ export default function AllureCondosPage() {
                 <h3 className="text-2xl font-bold mb-3">Competition from Newer Buildings</h3>
                 <HeadingMedia level={3} heading="Competition from Newer Buildings" />
                 <p className="text-lg text-gray-700 mb-4">
-                  Allure competes with newer luxury buildings. Newer amenities. Newer designs. Newer marketing. Most agents do not know how to position Allure against newer buildings. They do not highlight Allure's unique features. They do not emphasize established community. I know how to position Allure competitively. I highlight unique features. I emphasize established community. I showcase Allure's timeless appeal.
+                  Allure competes with newer luxury buildings. Newer amenities. Newer designs. Newer marketing. Most agents do not know how to position Allure against newer buildings. They do not highlight Allure's unique features. They do not emphasize mature-landscaping neighborhood. I know how to position Allure competitively. I highlight unique features. I emphasize mature-landscaping neighborhood. I showcase Allure's timeless appeal.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">High-End Buyer Expectations</h3>
                 <HeadingMedia level={3} heading="High-End Buyer Expectations" />
@@ -144,6 +149,7 @@ export default function AllureCondosPage() {
                 <h2 className="text-3xl font-black mb-4 text-center">
                   READY TO SELL YOUR ALLURE CONDO?
                 </h2>
+                <HeadingMedia level={2} heading={"READY TO SELL YOUR ALLURE CONDO?"} />
                 <p className="text-center text-lg text-gray-700 mb-6">
                   If your Allure condo home DID NOT sell, do not wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>

@@ -86,6 +86,7 @@ export default function BlogPage() {
                         {post.title}
                       </Link>
                     </h2>
+                    <HeadingMedia level={2} heading={post.title} size="compact" />
                     <p className="text-lg text-gray-700 mb-4">
                       {post.excerpt}
                     </p>

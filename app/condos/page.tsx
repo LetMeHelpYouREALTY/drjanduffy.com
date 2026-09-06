@@ -99,7 +99,7 @@ export default function LasVegasCondosPage() {
                 <h3 className="text-2xl font-bold mb-3">Competition from New Construction</h3>
                 <HeadingMedia level={3} heading="Competition from New Construction" />
                 <p className="text-lg text-gray-700 mb-4">
-                  Las Vegas has constant new construction. New condos compete with existing condos. New amenities compete with older amenities. New pricing competes with older pricing. Most agents do not know how to position existing condos against new construction. I know how to highlight unique features, emphasize established communities, and position existing condos competitively against new construction.
+                  Las Vegas has constant new construction. New condos compete with existing condos. New amenities compete with older amenities. New pricing competes with older pricing. Most agents do not know how to position existing condos against new construction. I know how to highlight unique features, emphasize mature landscaping, and position existing condos competitively against new construction.
                 </p>
               </div>
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
@@ -157,38 +157,49 @@ export default function LasVegasCondosPage() {
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
                   <a href="/condos/strip" className="block p-4 bg-gray-50 rounded-lg hover:bg-primary/10 transition-colors">
                     <h3 className="font-bold text-lg mb-2">Strip Condos for Sale</h3>
+                    <HeadingMedia level={3} heading={"Strip Condos for Sale"} size="compact" />
                     <p className="text-sm text-gray-600">Condos for sale on the Las Vegas Strip</p>
                   </a>
                   <a href="/condos/high-rise" className="block p-4 bg-gray-50 rounded-lg hover:bg-primary/10 transition-colors">
                     <h3 className="font-bold text-lg mb-2">High-Rise Condos</h3>
+                    <HeadingMedia level={3} heading={"High-Rise Condos"} size="compact" />
                     <p className="text-sm text-gray-600">Luxury high-rise buildings</p>
                   </a>
                   <a href="/condos/luxury" className="block p-4 bg-gray-50 rounded-lg hover:bg-primary/10 transition-colors">
                     <h3 className="font-bold text-lg mb-2">Luxury Condos for Sale</h3>
+                    <HeadingMedia level={3} heading={"Luxury Condos for Sale"} size="compact" />
                     <p className="text-sm text-gray-600">Las Vegas luxury condos for sale</p>
                   </a>
                   <a href="/condos/mid-rise" className="block p-4 bg-gray-50 rounded-lg hover:bg-primary/10 transition-colors">
                     <h3 className="font-bold text-lg mb-2">Mid-Rise Condos</h3>
+                    <HeadingMedia level={3} heading={"Mid-Rise Condos"} size="compact" />
                     <p className="text-sm text-gray-600">Urban living options</p>
                   </a>
                   <a href="/condos/summerlin" className="block p-4 bg-gray-50 rounded-lg hover:bg-primary/10 transition-colors">
                     <h3 className="font-bold text-lg mb-2">Summerlin Condos for Sale</h3>
+                    <HeadingMedia level={3} heading={"Summerlin Condos for Sale"} size="compact" />
                     <p className="text-sm text-gray-600">Condos for sale in Summerlin NV</p>
                   </a>
                   <a href="/condos/henderson" className="block p-4 bg-gray-50 rounded-lg hover:bg-primary/10 transition-colors">
                     <h3 className="font-bold text-lg mb-2">Henderson Condos for Sale</h3>
+                    <HeadingMedia level={3} heading={"Henderson Condos for Sale"} size="compact" />
                     <p className="text-sm text-gray-600">Condos in Henderson, Nevada</p>
                   </a>
                   <a href="/condos/condo-hotels" className="block p-4 bg-gray-50 rounded-lg hover:bg-primary/10 transition-colors">
                     <h3 className="font-bold text-lg mb-2">Condo Hotels</h3>
+                    <HeadingMedia level={3} heading={"Condo Hotels"} size="compact" />
                     <p className="text-sm text-gray-600">Investment properties</p>
                   </a>
                   <a href="/condos/townhomes" className="block p-4 bg-gray-50 rounded-lg hover:bg-primary/10 transition-colors">
                     <h3 className="font-bold text-lg mb-2">Townhomes</h3>
+                    <HeadingMedia level={3} heading="Townhomes" size="compact" />
+
                     <p className="text-sm text-gray-600">Space and value</p>
                   </a>
                   <a href="/condos/sold" className="block p-4 bg-gray-50 rounded-lg hover:bg-primary/10 transition-colors">
                     <h3 className="font-bold text-lg mb-2">Sold Condos</h3>
+                    <HeadingMedia level={3} heading="Sold Condos" size="compact" />
+
                     <p className="text-sm text-gray-600">See real results</p>
                   </a>
                 </div>
@@ -217,6 +228,7 @@ export default function LasVegasCondosPage() {
                 <h2 className="text-3xl font-black mb-4 text-center">
                   READY TO SELL YOUR LAS VEGAS CONDO?
                 </h2>
+                <HeadingMedia level={2} heading={"READY TO SELL YOUR LAS VEGAS CONDO?"} />
                 <p className="text-center text-lg text-gray-700 mb-6">
                   If your Las Vegas condo home DID NOT sell, do not wait. Every day costs you money. Call me now at (702) 500-1064 or fill out the form below for a free consultation.
                 </p>

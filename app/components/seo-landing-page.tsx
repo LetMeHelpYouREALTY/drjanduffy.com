@@ -153,6 +153,8 @@ export default function SeoLandingPage({ page }: SeoLandingPageProps) {
                   {page.faqs.map((faq) => (
                     <div key={faq.question} className="border-b border-gray-200 pb-4">
                       <h3 className="text-xl font-bold mb-2">{faq.question}</h3>
+                      <HeadingMedia level={3} heading={faq.question} size="compact" />
+
                       <p className="text-lg text-gray-700">{faq.answer}</p>
                     </div>
                   ))}

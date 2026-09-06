@@ -115,6 +115,8 @@ export default function ThirtyDayPlanPage() {
                       {weekData.week}
                     </div>
                     <h2 className="text-3xl font-black">{weekData.title}</h2>
+                    <HeadingMedia level={2} heading={weekData.title} size="compact" />
+
                   </div>
                   <ul className="space-y-3">
                     {weekData.items.map((item, index) => (
@@ -198,6 +200,7 @@ export default function ThirtyDayPlanPage() {
                 <h2 className="text-2xl font-black mb-4 text-center">
                   READY TO GET STARTED?
                 </h2>
+                <HeadingMedia level={2} heading={"READY TO GET STARTED?"} />
                 <LeadForm
                   source="30_day_plan"
                   buttonText="START MY 30-DAY PLAN"
