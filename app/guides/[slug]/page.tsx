@@ -1,7 +1,7 @@
 import { notFound } from 'next/navigation'
 import type { Metadata } from 'next'
 import SeoLandingPage from '@/app/components/seo-landing-page'
-import { getBlogPage, getBlogSlugs } from '@/lib/content/blog-posts'
+import { getGuidePage, getGuideSlugs } from '@/lib/content/guides'
 import { buildPageMetadata } from '@/lib/seo/build-metadata'
 
 type PageProps = {
@@ -9,12 +9,12 @@ type PageProps = {
 }
 
 export function generateStaticParams() {
-  return getBlogSlugs().map((slug) => ({ slug }))
+  return getGuideSlugs().map((slug) => ({ slug }))
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { slug } = await params
-  const page = getBlogPage(slug)
+  const page = getGuidePage(slug)
   if (!page) return {}
   return buildPageMetadata({
     title: page.title,
@@ -27,9 +27,9 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   })
 }
 
-export default async function BlogPostPage({ params }: PageProps) {
+export default async function GuideSlugPage({ params }: PageProps) {
   const { slug } = await params
-  const page = getBlogPage(slug)
+  const page = getGuidePage(slug)
   if (!page) notFound()
   return <SeoLandingPage page={page} />
 }

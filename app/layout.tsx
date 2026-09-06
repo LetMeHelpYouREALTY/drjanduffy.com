@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from 'next/font/google'
 import Script from 'next/script'
 import { ThemeProvider } from 'next-themes'
 import Footer from './components/footer'
+import LocalActionsBar from './components/local-actions-bar'
 import './globals.css'
 
 const geistSans = Geist({
@@ -354,6 +355,7 @@ export default function RootLayout({
             <main className="flex-grow">
               {children}
             </main>
+            <LocalActionsBar />
             <Footer />
           </div>
         </ThemeProvider>

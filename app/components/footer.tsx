@@ -114,6 +114,21 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/answers" className="hover:text-primary transition-colors">
+                  Seller answers
+                </Link>
+              </li>
+              <li>
+                <Link href="/neighborhoods" className="hover:text-primary transition-colors">
+                  Las Vegas neighborhoods
+                </Link>
+              </li>
+              <li>
+                <Link href="/blog" className="hover:text-primary transition-colors">
+                  Las Vegas real estate blog
+                </Link>
+              </li>
+              <li>
                 <Link href="/why-expire" className="hover:text-primary transition-colors">
                   Why homes fail to sell
                 </Link>

@@ -2,6 +2,7 @@ import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 import FAQSchema from '@/app/components/faq-schema'
+import { getNewCondoHubLinks } from '@/lib/content/condos'
 export const metadata = {
   title: 'Las Vegas Condos | Dr. Jan Duffy - failed listing specialist',
   description:
@@ -163,6 +164,25 @@ export default function LasVegasCondosPage() {
                     <h3 className="font-bold text-lg mb-2">Sold Condos</h3>
                     <p className="text-sm text-gray-600">See real results</p>
                   </a>
+                </div>
+              </div>
+              <div className="bg-gray-100 p-8 rounded-lg mb-12">
+                <h2 className="text-3xl font-black mb-4 text-center">
+                  Additional Las Vegas condo buildings
+                </h2>
+                <p className="text-center text-lg text-gray-700 mb-6">
+                  New building pages for expired-listing help, including Sky Las Vegas, Park Towers, and Lake Las Vegas product:
+                </p>
+                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+                  {getNewCondoHubLinks().map((building) => (
+                    <a
+                      key={building.href}
+                      href={building.href}
+                      className="block p-4 bg-white rounded-lg hover:bg-primary/10 transition-colors font-semibold"
+                    >
+                      {building.name} condos
+                    </a>
+                  ))}
                 </div>
               </div>
               <div className="bg-white border-2 border-gray-200 rounded-lg p-8">

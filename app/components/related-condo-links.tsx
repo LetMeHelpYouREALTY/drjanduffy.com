@@ -15,6 +15,10 @@ export default function RelatedCondoLinks({ currentBuilding, category }: Related
     { name: 'Trump International', path: '/condos/trump-international' },
     { name: 'Waldorf Astoria', path: '/condos/waldorf-astoria' },
     { name: 'One Las Vegas', path: '/condos/one-las-vegas' },
+    { name: 'Sky Las Vegas', path: '/condos/sky-las-vegas' },
+    { name: 'Park Towers', path: '/condos/park-towers' },
+    { name: 'Manhattan', path: '/condos/manhattan' },
+    { name: 'Regency Towers', path: '/condos/regency-towers' },
   ]
 
   const midRiseBuildings = [
@@ -24,6 +28,7 @@ export default function RelatedCondoLinks({ currentBuilding, category }: Related
     { name: 'Viera', path: '/condos/viera' },
     { name: 'Tramonto', path: '/condos/tramonto' },
     { name: 'Wimbledon Tennis Club', path: '/condos/wimbledon' },
+    { name: 'South Shore at Lake Las Vegas', path: '/condos/south-shore' },
   ]
 
   const loftBuildings = [
@@ -34,6 +39,7 @@ export default function RelatedCondoLinks({ currentBuilding, category }: Related
     { name: 'Eleventh Street Lofts', path: '/condos/eleventh-street-lofts' },
     { name: 'Summerlin Lofts', path: '/condos/summerlin-lofts' },
     { name: 'Loft 5', path: '/condos/loft-5' },
+    { name: 'Streamline Tower', path: '/condos/streamline-tower' },
   ]
 
   const condoHotels = [

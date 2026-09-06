@@ -2,6 +2,7 @@ import Header from '@/app/components/header'
 import LeadForm from '@/app/components/lead-form'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
 import FAQSchema from '@/app/components/faq-schema'
+import { getNeighborhoodHubLinks } from '@/lib/content/neighborhoods'
 
 export const metadata = {
   title: 'Las Vegas Neighborhoods | failed listing specialist | Dr. Jan Duffy',
@@ -71,7 +72,7 @@ export default function NeighborhoodsPage() {
                   If your home DID NOT sell in any Las Vegas neighborhood, you're not alone. Even in the most prestigious communities - Summerlin West, The Ridges, Red Rock Country Club, The Summit - homes fail to sell when agents do not understand neighborhood-specific marketing. I've sold 7 Summerlin sellers who could not sell with an average of 19 days to contract and 98.7% of asking price. I understand neighborhood-specific marketing. I know how to market properties in each unique community. I can sell your HOME THAT DID NOT SELL. Fast. At top dollar. With zero excuses.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
-                  Las Vegas neighborhoods are diverse. Each community has unique characteristics, buyer profiles, and marketing requirements. Summerlin West offers luxury estates and golf course properties. The Ridges offers ultra-luxury living with exclusivity. Red Rock Country Club offers golf course access and mountain views. The Summit offers gated security and privacy. MacDonald Ranch offers established communities and mature landscaping. Southern Highlands offers master-planned amenities and family features. Skye Canyon offers new construction and modern design. Mountains Edge offers family-friendly living and quality schools. Each requires different marketing strategies. Most agents do not understand this. They use generic strategies, and homes fail to sell. I understand neighborhood-specific marketing. I use targeted strategies for each community, and listings sell. Fast. At top dollar.
+                  Las Vegas neighborhoods are diverse. Each community has unique characteristics, buyer profiles, and marketing requirements. Summerlin West offers luxury estates and golf course properties. The Ridges offers custom estates with golf and mountain backdrops. Red Rock Country Club offers golf course access and mountain views. The Summit offers gated streets and larger lots. MacDonald Ranch offers mature landscaping and mixed custom and production homes. Southern Highlands offers master-planned amenities and recreation facilities. Skye Canyon offers newer construction and modern elevations. Mountains Edge offers parks, trail connections, and southwest-valley production homes. Each requires different marketing strategies. Most agents do not understand this. They use generic strategies, and homes fail to sell. I understand neighborhood-specific marketing. I use targeted strategies for each community, and listings sell. Fast. At top dollar.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   The Las Vegas neighborhood market is competitive. Each community competes for specific buyer types. Luxury communities compete for high-end buyers. Family communities compete for family buyers. Golf communities compete for golf-conscious buyers. Most agents do not understand these distinctions. They use mass marketing, do not target specific buyers, and fail to meet community-specific requirements. I understand these distinctions. I use targeted marketing, target specific buyers, and meet community-specific requirements that attract the right buyers for each neighborhood.
@@ -124,38 +125,16 @@ export default function NeighborhoodsPage() {
                   Find expert help for your specific neighborhood:
                 </p>
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
-                  <a href="/neighborhoods/summerlin-west" className="block p-4 bg-gray-50 rounded-lg hover:bg-primary/10 transition-colors">
-                    <h3 className="font-bold text-lg mb-2">Summerlin West</h3>
-                    <p className="text-sm text-gray-600">Luxury estates and golf course properties</p>
-                  </a>
-                  <a href="/neighborhoods/the-ridges" className="block p-4 bg-gray-50 rounded-lg hover:bg-primary/10 transition-colors">
-                    <h3 className="font-bold text-lg mb-2">The Ridges</h3>
-                    <p className="text-sm text-gray-600">Ultra-luxury living with exclusivity</p>
-                  </a>
-                  <a href="/neighborhoods/red-rock-country-club" className="block p-4 bg-gray-50 rounded-lg hover:bg-primary/10 transition-colors">
-                    <h3 className="font-bold text-lg mb-2">Red Rock Country Club</h3>
-                    <p className="text-sm text-gray-600">Golf course access and mountain views</p>
-                  </a>
-                  <a href="/neighborhoods/the-summit" className="block p-4 bg-gray-50 rounded-lg hover:bg-primary/10 transition-colors">
-                    <h3 className="font-bold text-lg mb-2">The Summit</h3>
-                    <p className="text-sm text-gray-600">Gated security and privacy</p>
-                  </a>
-                  <a href="/neighborhoods/macdonald-ranch" className="block p-4 bg-gray-50 rounded-lg hover:bg-primary/10 transition-colors">
-                    <h3 className="font-bold text-lg mb-2">MacDonald Ranch</h3>
-                    <p className="text-sm text-gray-600">Established communities and mature landscaping</p>
-                  </a>
-                  <a href="/neighborhoods/southern-highlands" className="block p-4 bg-gray-50 rounded-lg hover:bg-primary/10 transition-colors">
-                    <h3 className="font-bold text-lg mb-2">Southern Highlands</h3>
-                    <p className="text-sm text-gray-600">Master-planned amenities and family features</p>
-                  </a>
-                  <a href="/neighborhoods/skye-canyon" className="block p-4 bg-gray-50 rounded-lg hover:bg-primary/10 transition-colors">
-                    <h3 className="font-bold text-lg mb-2">Skye Canyon</h3>
-                    <p className="text-sm text-gray-600">New construction and modern design</p>
-                  </a>
-                  <a href="/neighborhoods/mountains-edge" className="block p-4 bg-gray-50 rounded-lg hover:bg-primary/10 transition-colors">
-                    <h3 className="font-bold text-lg mb-2">Mountains Edge</h3>
-                    <p className="text-sm text-gray-600">Family-friendly living and quality schools</p>
-                  </a>
+                  {getNeighborhoodHubLinks().map((place) => (
+                    <a
+                      key={place.href}
+                      href={place.href}
+                      className="block p-4 bg-gray-50 rounded-lg hover:bg-primary/10 transition-colors"
+                    >
+                      <h3 className="font-bold text-lg mb-2">{place.name}</h3>
+                      <p className="text-sm text-gray-600">{place.blurb}</p>
+                    </a>
+                  ))}
                 </div>
               </div>
 

@@ -62,3 +62,6 @@ User-agent: *
 Allow: /
 
 Sitemap: https://www.drjanduffy.com/sitemap.xml
+
+# Optional agent briefing (not a ranking signal)
+# https://www.drjanduffy.com/llms.txt
