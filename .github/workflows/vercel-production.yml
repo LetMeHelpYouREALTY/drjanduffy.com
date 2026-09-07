@@ -16,6 +16,10 @@ concurrency:
 jobs:
   security:
     runs-on: ubuntu-latest
+    env:
+      VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+      VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+      VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
     steps:
       - uses: actions/checkout@v4
       - uses: pnpm/action-setup@v4
@@ -28,8 +32,10 @@ jobs:
       - run: pnpm install --frozen-lockfile
       - name: Security version check
         run: npx --yes fix-react2shell-next
-      - name: Production build
-        run: pnpm run build
+      - name: Production-like Vercel build
+        run: |
+          npx vercel pull --yes --environment=production
+          npx vercel build --prod
 
   deploy:
     needs: security
@@ -37,6 +43,8 @@ jobs:
     env:
       VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
       VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+      # Prefer env over --token so the secret is not visible in process lists/logs.
+      VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
     steps:
       - uses: actions/checkout@v4
       - uses: pnpm/action-setup@v4
@@ -47,6 +55,6 @@ jobs:
           node-version: 22
           cache: pnpm
       - run: pnpm install --frozen-lockfile
-      - run: npx vercel pull --yes --environment=production --token=${{ secrets.VERCEL_TOKEN }}
-      - run: npx vercel build --prod --token=${{ secrets.VERCEL_TOKEN }}
-      - run: npx vercel deploy --prebuilt --prod --token=${{ secrets.VERCEL_TOKEN }}
+      - run: npx vercel pull --yes --environment=production
+      - run: npx vercel build --prod
+      - run: npx vercel deploy --prebuilt --prod

@@ -58,15 +58,19 @@ DATABASE_URL=your_database_url
 # Install dependencies
 pnpm install
 
-# Run development server
+# Next.js dev server (Turbopack)
 pnpm dev
 
-# Build for production
-pnpm build
-
-# Start production server
-pnpm start
+# Replicate the Vercel deployment environment locally
+pnpm i -g vercel@latest
+vercel link
+pnpm vercel:pull
+pnpm vercel:dev
 ```
+
+Production-like builds use the Vercel CLI (`vercel build` / `pnpm vercel:build:prod`), not a bare `pnpm build`. Keep `"build": "next build"` — Vercel’s platform runs that script.
+
+CI on `main` authenticates with the `VERCEL_TOKEN` environment variable (not `--token`) and runs `vercel pull` → `vercel build --prod` → `vercel deploy --prebuilt --prod`. See `AGENTS.md` for the full CLI workflow.
 
 ## Pages
 
