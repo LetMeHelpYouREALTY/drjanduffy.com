@@ -7,6 +7,10 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
+    "vercel:dev": "vercel dev --port 3000",
+    "vercel:pull": "vercel pull --yes",
+    "vercel:build": "vercel build",
+    "vercel:build:prod": "vercel build --prod",
     "start": "next start",
     "lint": "next lint",
     "format": "prettier --write \"**/*.{ts,tsx}\"",

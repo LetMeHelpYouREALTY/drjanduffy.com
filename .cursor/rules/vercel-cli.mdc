@@ -1,0 +1,16 @@
+---
+description: Use Vercel CLI for local replica, production-like builds, and CI auth on this site.
+globs: package.json,.github/workflows/**,AGENTS.md,vercel.json,.vercel/**
+alwaysApply: true
+---
+
+# Vercel CLI (drjanduffy.com)
+
+- Install: `pnpm i -g vercel@latest`. Check with `vercel --version`.
+- Local replica: `vercel dev --port 3000` (or `pnpm vercel:dev`).
+- Deploy-bound / production-like builds: `vercel build` or `vercel build --prod`. Do not use a bare `pnpm build` as the production-build path.
+- Keep `package.json` `"build": "next build"`. Vercel runs that script; `"build": "vercel build"` recurses.
+- CI auth: set `VERCEL_TOKEN` (and `VERCEL_ORG_ID` / `VERCEL_PROJECT_ID`). Never pass `--token` on the CLI — it leaks in process lists and logs.
+- Non-interactive: `--yes`. Confirm live production deploys before running `vercel deploy --prod`.
+- Protected previews: `vercel curl`, not disabling Deployment Protection.
+- Refresh agent guidance: `vercel agent init --yes` (updates only the marked section in `AGENTS.md`).
