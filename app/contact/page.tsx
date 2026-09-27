@@ -6,10 +6,15 @@ import GoogleBusinessLink from '@/app/components/google-business-link'
 import GoogleMapEmbed from '@/app/components/google-map-embed'
 import Image from 'next/image'
 import { Phone, Mail, MapPin, Clock } from 'lucide-react'
+import { siteCanonical } from '@/lib/site'
+
 export const metadata = {
-  title: 'Contact Dr. Jan Duffy | (702) 500-1064',
+  title: 'Contact Dr. Jan Duffy | Las Vegas Real Estate Agent',
   description:
-    'Contact Dr. Janet Duffy to discuss your HOME THAT DID NOT SELL. Call (702) 500-1064 or fill out the form for immediate response.',
+    'Contact Dr. Jan Duffy — Las Vegas REALTOR®. Call (702) 500-1064 or use the form for biography and general real estate inquiries.',
+  alternates: {
+    canonical: siteCanonical('/contact'),
+  },
 }
 export default function ContactPage() {
   const faqs = [
