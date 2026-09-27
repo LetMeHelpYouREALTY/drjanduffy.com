@@ -6,27 +6,29 @@ import NAPSection from '@/app/components/nap-section'
 import GoogleReviews from '@/app/components/google-reviews'
 import GoogleBusinessLink from '@/app/components/google-business-link'
 import Image from 'next/image'
+import { siteCanonical } from '@/lib/site'
 
 export const metadata = {
-  title: 'About Dr. Janet Duffy | Real Estate Agent in Las Vegas, NV | (702) 500-1064',
+  title: 'About Dr. Jan Duffy | Las Vegas Real Estate Agent',
   description:
-    'Learn about Dr. Janet Duffy, Las Vegas real estate expert specializing in selling homes that did not sell. Serving Summerlin, The Ridges, and Henderson. Helped 7 Summerlin sellers in 19 days average at 98.7% of asking price. Call (702) 500-1064.',
+    'Dr. Jan Duffy real estate biography — Nevada license S.0197614.LLC, Las Vegas REALTOR® with Berkshire Hathaway HomeServices Nevada Properties. Call (702) 500-1064.',
   alternates: {
-    canonical: 'https://www.drjanduffy.com/about',
+    canonical: siteCanonical('/about'),
   },
-  authors: [{ name: 'Dr. Janet Duffy' }],
-  creator: 'Dr. Janet Duffy',
+  authors: [{ name: 'Dr. Jan Duffy' }],
+  creator: 'Dr. Jan Duffy',
   openGraph: {
     type: 'profile',
     locale: 'en_US',
-    url: 'https://www.drjanduffy.com/about',
-    title: 'About Dr. Janet Duffy | Real Estate Agent in Las Vegas, NV',
-    description: 'Learn about Dr. Janet Duffy, Las Vegas real estate expert specializing in selling homes that did not sell. Serving Summerlin, The Ridges, and Henderson.',
+    url: siteCanonical('/about'),
+    title: 'About Dr. Jan Duffy | Las Vegas Real Estate Agent',
+    description:
+      'Professional biography and background for Dr. Jan Duffy, Las Vegas real estate agent.',
   },
   twitter: {
     card: 'summary',
-    title: 'About Dr. Janet Duffy | Real Estate Agent in Las Vegas, NV',
-    description: 'Las Vegas real estate expert specializing in selling homes that did not sell. Serving Summerlin, The Ridges, and Henderson.',
+    title: 'About Dr. Jan Duffy | Las Vegas Real Estate Agent',
+    description: 'Las Vegas REALTOR® biography and credentials for Dr. Jan Duffy.',
   },
 }
 

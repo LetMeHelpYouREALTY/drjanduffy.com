@@ -2,6 +2,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { Phone, Mail, MapPin, Clock } from 'lucide-react'
 import GoogleBusinessLink from './google-business-link'
+import { JUST_CALL_DR_JAN_URL } from '@/lib/site'
 
 export default function Footer() {
   const currentYear = new Date().getFullYear()
@@ -12,10 +13,10 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           {/* Contact Information */}
           <div>
-            <h3 className="text-white font-black text-xl mb-4">Dr. Janet Duffy</h3>
+            <h3 className="text-white font-black text-xl mb-4">Dr. Jan Duffy</h3>
             <p className="text-sm mb-4">
-              Las Vegas Real Estate Expert<br />
-              Specializing in HOMES THAT DID NOT SELL
+              Las Vegas REALTOR®<br />
+              Personal brand &amp; agent biography
             </p>
             <div className="space-y-3">
               <a
@@ -50,122 +51,65 @@ export default function Footer() {
             </div>
             <div className="mt-4 pt-4 border-t border-gray-800">
               <p className="text-xs text-gray-500">
-                <strong className="text-white">Awards:</strong><br />
-                Failed Listing Specialist 2026<br />
+                Berkshire Hathaway HomeServices Nevada Properties<br />
+                Nevada License S.0197614.LLC<br />
                 Good Neighbor Award Recipient
               </p>
             </div>
           </div>
 
-          {/* Main Pages */}
+          {/* Site links */}
           <div>
-            <h3 className="text-white font-bold text-lg mb-4">Services</h3>
+            <h3 className="text-white font-bold text-lg mb-4">Site</h3>
             <ul className="space-y-2 text-sm">
+              <li>
+                <Link href="/" className="hover:text-primary transition-colors">
+                  Home
+                </Link>
+              </li>
               <li>
                 <Link href="/about" className="hover:text-primary transition-colors">
                   About Dr. Jan Duffy
                 </Link>
               </li>
               <li>
-                <Link href="/services" className="hover:text-primary transition-colors">
-                  Complete Services
-                </Link>
-              </li>
-              <li>
-                <Link href="/process" className="hover:text-primary transition-colors">
-                  Selling Process
-                </Link>
-              </li>
-              <li>
-                <Link href="/marketing-strategy" className="hover:text-primary transition-colors">
-                  Marketing Strategy
-                </Link>
-              </li>
-              <li>
-                <Link href="/why-choose-me" className="hover:text-primary transition-colors">
-                  Why Choose Me
-                </Link>
-              </li>
-              <li>
-                <Link href="/comparison" className="hover:text-primary transition-colors">
-                  Agent Comparison
+                <Link href="/contact" className="hover:text-primary transition-colors">
+                  Contact
                 </Link>
               </li>
             </ul>
           </div>
 
-          {/* Resources */}
+          {/* Sister sites */}
           <div>
-            <h3 className="text-white font-bold text-lg mb-4">Resources</h3>
+            <h3 className="text-white font-bold text-lg mb-4">Related Sites</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="/success-stories" className="hover:text-primary transition-colors">
-                  Success Stories
-                </Link>
+                <a
+                  href="https://www.lasvegashomeexpert.com"
+                  className="hover:text-primary transition-colors"
+                >
+                  Las Vegas real estate expert
+                </a>
               </li>
               <li>
-                <Link href="/testimonials" className="hover:text-primary transition-colors">
-                  Testimonials
-                </Link>
+                <a
+                  href="https://www.vegashomeagents.com"
+                  className="hover:text-primary transition-colors"
+                >
+                  Choose a Las Vegas agent
+                </a>
               </li>
               <li>
-                <Link href="/faq" className="hover:text-primary transition-colors">
-                  FAQ
-                </Link>
-              </li>
-              <li>
-                <Link href="/why-expire" className="hover:text-primary transition-colors">
-                  Why homes fail to sell
-                </Link>
-              </li>
-              <li>
-                <Link href="/resources" className="hover:text-primary transition-colors">
-                  Free Resources
-                </Link>
-              </li>
-              <li>
-                <Link href="/tools/cost-calculator" className="hover:text-primary transition-colors">
-                  Cost Calculator
-                </Link>
+                <a href={JUST_CALL_DR_JAN_URL} className="hover:text-primary transition-colors">
+                  Homes that did not sell
+                </a>
               </li>
             </ul>
           </div>
 
-          {/* Condos & Legal */}
+          {/* Legal */}
           <div>
-            <h3 className="text-white font-bold text-lg mb-4">Las Vegas Condos</h3>
-            <ul className="space-y-2 text-sm mb-6">
-              <li>
-                <Link href="/condos" className="hover:text-primary transition-colors">
-                  All Las Vegas Condos
-                </Link>
-              </li>
-              <li>
-                <Link href="/condos/strip" className="hover:text-primary transition-colors">
-                  Strip Condos
-                </Link>
-              </li>
-              <li>
-                <Link href="/condos/luxury" className="hover:text-primary transition-colors">
-                  Luxury Condos
-                </Link>
-              </li>
-              <li>
-                <Link href="/condos/high-rise" className="hover:text-primary transition-colors">
-                  High-Rise Condos
-                </Link>
-              </li>
-              <li>
-                <Link href="/condos/summerlin" className="hover:text-primary transition-colors">
-                  Summerlin Condos
-                </Link>
-              </li>
-              <li>
-                <Link href="/condos/henderson" className="hover:text-primary transition-colors">
-                  Henderson Condos
-                </Link>
-              </li>
-            </ul>
             <h3 className="text-white font-bold text-lg mb-4">Legal</h3>
             <ul className="space-y-2 text-sm">
               <li>
