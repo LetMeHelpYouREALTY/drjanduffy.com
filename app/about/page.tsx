@@ -11,7 +11,7 @@ import { siteCanonical } from '@/lib/site'
 export const metadata = {
   title: 'About Dr. Jan Duffy | Las Vegas Real Estate Agent',
   description:
-    'Dr. Jan Duffy real estate biography — Nevada license S.0197614.LLC, Las Vegas REALTOR® with Berkshire Hathaway HomeServices Nevada Properties. Call (702) 500-1064.',
+    'Dr. Jan Duffy real estate biography — Las Vegas REALTOR® in real estate since 1983. Call (702) 500-1064.',
   alternates: {
     canonical: siteCanonical('/about'),
   },

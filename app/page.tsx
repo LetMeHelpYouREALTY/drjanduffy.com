@@ -18,7 +18,7 @@ import {
 export const metadata: Metadata = {
   title: 'Meet Dr. Jan Duffy | Las Vegas Real Estate Agent',
   description:
-    'Meet Dr. Jan Duffy, Nevada-licensed REALTOR® (S.0197614.LLC) with Berkshire Hathaway HomeServices Nevada Properties. Las Vegas agent profile, background, and contact. Call (702) 500-1064.',
+    'Meet Dr. Jan Duffy, Nevada-licensed REALTOR® in real estate since 1983. Las Vegas agent profile, background, and contact. Call (702) 500-1064.',
   alternates: {
     canonical: siteCanonical('/'),
   },
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     siteName: 'Dr. Jan Duffy',
     title: 'Meet Dr. Jan Duffy | Las Vegas Real Estate Agent',
     description:
-      'Personal brand and professional biography for Dr. Jan Duffy, Las Vegas REALTOR®. License S.0197614.LLC. Call (702) 500-1064.',
+      'Personal brand and professional biography for Dr. Jan Duffy, Las Vegas REALTOR®. Call (702) 500-1064.',
   },
   twitter: {
     card: 'summary_large_image',
@@ -46,12 +46,12 @@ export default function HomePage() {
     {
       question: 'Who is Dr. Jan Duffy?',
       answer:
-        'Dr. Jan Duffy is a Nevada-licensed real estate agent (License S.0197614.LLC) with Berkshire Hathaway HomeServices Nevada Properties in Las Vegas. This site is her personal brand and professional biography destination.',
+        'Dr. Jan Duffy is a Nevada-licensed real estate agent in Las Vegas, in real estate since 1983. This site is her personal brand and professional biography destination.',
     },
     {
-      question: 'What is Dr. Jan Duffy\'s Nevada real estate license number?',
+      question: 'Where can I verify Dr. Jan Duffy\'s Nevada real estate license?',
       answer:
-        'Dr. Jan Duffy holds Nevada real estate license S.0197614.LLC. License details appear in site footer and structured data for verification.',
+        'License details appear in the site footer and structured data for verification.',
     },
     {
       question: 'How do I contact Dr. Jan Duffy in Las Vegas?',
@@ -92,7 +92,7 @@ export default function HomePage() {
               Meet Dr. Jan Duffy, REALTOR®, Las Vegas
             </h1>
             <p className="text-xl md:text-2xl text-gray-200 mb-8 max-w-3xl mx-auto">
-              Nevada license S.0197614.LLC · Las Vegas real estate agent · Personal biography and professional contact
+              Top 1% Las Vegas REALTOR® · In real estate since 1983 · Personal biography and professional contact
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <a
@@ -119,7 +119,7 @@ export default function HomePage() {
               Dr. Jan Duffy Las Vegas Real Estate Agent
             </h2>
             <p>
-              Dr. Jan Duffy is a Las Vegas REALTOR® with Berkshire Hathaway HomeServices Nevada Properties.
+              Dr. Jan Duffy is a Las Vegas REALTOR®, in real estate since 1983.
               She brings a research-driven, direct approach to client work across the Las Vegas Valley —
               from Summerlin and Henderson to Southern Highlands and MacDonald Ranch.
             </p>

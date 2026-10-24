@@ -51,8 +51,6 @@ export default function Footer() {
             </div>
             <div className="mt-4 pt-4 border-t border-gray-800">
               <p className="text-xs text-gray-500">
-                Berkshire Hathaway HomeServices Nevada Properties<br />
-                Nevada License S.0197614.LLC<br />
                 Good Neighbor Award Recipient
               </p>
             </div>
@@ -139,7 +137,7 @@ export default function Footer() {
                 © {currentYear} Sell My Home Fast | Homes by Dr Jan Duffy. All rights reserved.
               </p>
               <p className="mt-2 text-xs">
-                Dr. Jan Duffy | Nevada Real Estate License #S.0197614
+                Berkshire Hathaway HomeServices Nevada Properties since September 2008 · License S.0197614.LLC
               </p>
             </div>
             <div className="flex flex-col items-center gap-2">

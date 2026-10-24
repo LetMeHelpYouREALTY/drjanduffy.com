@@ -293,8 +293,7 @@ export default function FindNewAgentPage() {
                     <h3 className="text-xl font-black mb-3">Credentials</h3>
                     <ul className="space-y-2 text-gray-700">
                       <li>• Dr. Jan Duffy</li>
-                      <li>• Berkshire Hathaway HomeServices</li>
-                      <li>• Nevada License #S.0197614.LLC</li>
+                      <li>• Licensed Nevada REALTOR®</li>
                       <li>• Summerlin luxury specialist</li>
                       <li>• Good Neighbor Award Recipient</li>
                     </ul>
@@ -337,7 +336,7 @@ export default function FindNewAgentPage() {
               <LeadForm source="find_new_agent_page" buttonText="GET FREE CONSULTATION" />
             </div>
             <p className="text-sm mt-6 opacity-75">
-              Dr. Jan Duffy | Berkshire Hathaway HomeServices | Nevada License #S.0197614.LLC
+              Dr. Jan Duffy | REALTOR®
             </p>
           </div>
         </section>

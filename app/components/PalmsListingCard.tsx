@@ -70,7 +70,7 @@ export default function PalmsListingCard() {
           ✦ Featured Listing — Active Now
         </span>
         <span style={{ fontSize: '12px', color: '#C9A84C', fontWeight: '600' }}>
-          Dr. Jan Duffy · BHHS Nevada Properties
+          Dr. Jan Duffy · REALTOR®
         </span>
       </div>
 

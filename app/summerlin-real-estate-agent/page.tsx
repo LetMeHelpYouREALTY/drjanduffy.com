@@ -349,7 +349,7 @@ export default function SummerlinAgentPage() {
               <LeadForm source="summerlin_agent_page" buttonText="GET FREE CONSULTATION" />
             </div>
             <p className="text-sm mt-6 opacity-75">
-              Dr. Jan Duffy | Berkshire Hathaway HomeServices | Nevada License #S.0197614.LLC
+              Dr. Jan Duffy | REALTOR®
             </p>
           </div>
         </section>

@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     template: '%s',
   },
   description:
-    'Meet Dr. Jan Duffy, Nevada-licensed Las Vegas REALTOR® (S.0197614.LLC). Personal brand, biography, and contact. Call (702) 500-1064.',
+    'Meet Dr. Jan Duffy, Nevada-licensed Las Vegas REALTOR®, in real estate since 1983. Personal brand, biography, and contact. Call (702) 500-1064.',
   keywords: [
     'Dr. Jan Duffy Las Vegas real estate agent',
     'Dr. Jan Duffy real estate biography',
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Meet Dr. Jan Duffy | Las Vegas Real Estate Agent',
     description:
-      'Personal brand and professional biography for Dr. Jan Duffy, Las Vegas REALTOR®. License S.0197614.LLC.',
+      'Personal brand and professional biography for Dr. Jan Duffy, Las Vegas REALTOR®.',
     url: `${SITE_URL}/`,
     images: ['/og-image.png'],
   },
