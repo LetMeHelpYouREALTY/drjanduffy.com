@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     template: '%s',
   },
   description:
-    'Meet Dr. Jan Duffy, Nevada-licensed Las Vegas REALTOR®, in real estate since 1983. Personal brand, biography, and contact. Call (702) 500-1064.',
+    'Meet Dr. Jan Duffy, Nevada-licensed Las Vegas REALTOR®, licensed since 2008 · 35 years in Las Vegas. Personal brand, biography, and contact. Call (702) 500-1064.',
   keywords: [
     'Dr. Jan Duffy Las Vegas real estate agent',
     'Dr. Jan Duffy real estate biography',

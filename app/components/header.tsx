@@ -33,7 +33,7 @@ export default function Header() {
       <div className="bg-primary text-primary-foreground text-sm py-2">
         <div className="container mx-auto px-4 text-center">
           <span className="font-semibold">
-            Dr. Jan Duffy · Las Vegas REALTOR® · In Real Estate Since 1983
+            Dr. Jan Duffy · Las Vegas REALTOR® · Licensed Since 2008 · 35 Years in Las Vegas
           </span>
         </div>
       </div>
