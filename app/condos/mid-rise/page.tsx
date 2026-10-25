@@ -81,7 +81,7 @@ export default function MidRiseCondosPage() {
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Urban Lifestyle Appeal</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Mid-rise condos attract urban lifestyle seekers. Young professionals. Empty nesters. Urban enthusiasts. Most agents do not know how to market to urban lifestyle seekers. They use suburban marketing, and urban lifestyle seekers look elsewhere. I know how to market to urban lifestyle seekers. I emphasize urban location, highlight convenience, and showcase urban lifestyle appeal that attracts urban-conscious buyers.
+                  Mid-rise condos attract urban lifestyle seekers. First-time buyers. Downsizers. Urban enthusiasts. Most agents do not know how to market to urban lifestyle seekers. They use suburban marketing, and urban lifestyle seekers look elsewhere. I know how to market to urban lifestyle seekers. I emphasize urban location, highlight convenience, and showcase urban lifestyle appeal that attracts urban-conscious buyers.
                 </p>
               </div>
               <div className="bg-gray-100 p-8 rounded-lg mb-12">

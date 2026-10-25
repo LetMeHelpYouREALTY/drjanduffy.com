@@ -108,7 +108,7 @@ export default function TownhomesPage() {
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Henderson Townhomes</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Henderson offers townhomes with family-friendly amenities, value positioning, and suburban appeal. I've sold expired Henderson townhomes by emphasizing family-friendly amenities, highlighting value, and targeting family-conscious buyers.
+                  Henderson offers townhomes with parks, pools, and community amenities, value positioning, and suburban appeal. I've sold expired Henderson townhomes by emphasizing parks, pools, and community amenities, highlighting value, and targeting value-conscious buyers.
                 </p>
               </div>
               

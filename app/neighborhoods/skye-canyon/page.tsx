@@ -60,10 +60,10 @@ export default function SkyeCanyonPage() {
 
               <div className="prose prose-lg max-w-none mb-12">
                 <p className="text-lg text-gray-700 mb-6">
-                  If your Skye Canyon home DID NOT sell, you're dealing with one of Las Vegas's newest master-planned communities. Skye Canyon offers modern properties with new construction amenities, family-friendly features, and contemporary living. Even in this new community, homes fail to sell when agents do not understand new construction marketing. I've sold homes that DID NOT sell in Skye Canyon and throughout Las Vegas. I understand new construction marketing. I know how to attract modern buyers. I can sell your expired Skye Canyon listing. Fast. At top dollar. With zero excuses.
+                  If your Skye Canyon home DID NOT sell, you're dealing with one of Las Vegas's newest master-planned communities. Skye Canyon offers modern properties with new construction amenities, open floor plans and outdoor space, and contemporary living. Even in this new community, homes fail to sell when agents do not understand new construction marketing. I've sold homes that DID NOT sell in Skye Canyon and throughout Las Vegas. I understand new construction marketing. I know how to attract modern buyers. I can sell your expired Skye Canyon listing. Fast. At top dollar. With zero excuses.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
-                  Skye Canyon is Las Vegas's newest master-planned community, offering modern properties with new construction amenities, family-friendly features, and contemporary living. Properties range from $500K to $2M+, attracting buyers who value new construction, modern amenities, and contemporary design. Most agents do not understand the Skye Canyon buyer. They use generic marketing, and Skye Canyon homes fail to sell. I understand the Skye Canyon buyer. I use new construction marketing strategies, highlight modern amenities, and attract modern buyers. Skye Canyon listings sell. Fast. At top dollar.
+                  Skye Canyon is Las Vegas's newest master-planned community, offering modern properties with new construction amenities, open floor plans and outdoor space, and contemporary living. Properties range from $500K to $2M+, attracting buyers who value new construction, modern amenities, and contemporary design. Most agents do not understand the Skye Canyon buyer. They use generic marketing, and Skye Canyon homes fail to sell. I understand the Skye Canyon buyer. I use new construction marketing strategies, highlight modern amenities, and attract modern buyers. Skye Canyon listings sell. Fast. At top dollar.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   The Skye Canyon market is competitive. New construction communities compete for modern buyers. Buyers have expectations for new construction features, modern amenities, and contemporary design. Most agents do not meet these expectations. They use minimal marketing, do not highlight new construction features, and fail to showcase modern amenities. I meet these expectations. I invest $5,000+ in professional marketing per listing, highlight new construction features, and showcase every aspect of modern community living.
@@ -111,7 +111,7 @@ export default function SkyeCanyonPage() {
               <div className="bg-white border-2 border-primary rounded-lg p-8 mb-12">
                 <h2 className="text-3xl font-black mb-4">Skye Canyon Market Overview</h2>
                 <p className="text-lg text-gray-700 mb-4">
-                  Skye Canyon is Las Vegas's newest master-planned community, offering modern properties with new construction amenities, family-friendly features, and contemporary living. Understanding this market is key to effective marketing.
+                  Skye Canyon is Las Vegas's newest master-planned community, offering modern properties with new construction amenities, open floor plans and outdoor space, and contemporary living. Understanding this market is key to effective marketing.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Property Types</h3>
                 <p className="text-lg text-gray-700 mb-4">
