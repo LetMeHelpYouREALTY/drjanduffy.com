@@ -82,11 +82,11 @@ export default function TheDistrictCondosPage() {
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Value-Conscious Buyer Market</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  District attracts value-conscious buyers. Families. First-time buyers. Retirees. Most agents do not know how to market to value-conscious buyers. They use luxury marketing, and value-conscious buyers look elsewhere. I know how to market to value-conscious buyers. I emphasize affordability, highlight value, and showcase community amenities that attract value-conscious buyers.
+                  District attracts value-conscious buyers. Move-up buyers. First-time buyers. Retirees. Most agents do not know how to market to value-conscious buyers. They use luxury marketing, and value-conscious buyers look elsewhere. I know how to market to value-conscious buyers. I emphasize affordability, highlight value, and showcase community amenities that attract value-conscious buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Community Amenity Marketing</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  District offers community amenities. Parks. Pools. Community centers. Family-oriented features. Most agents do not market community amenities effectively. They do not highlight parks. They do not showcase pools. They do not emphasize family-oriented features. I market community amenities effectively. I highlight parks, showcase pools, and emphasize family-oriented features that attract community-conscious buyers.
+                  District offers community amenities. Parks. Pools. Community centers. Amenity features. Most agents do not market community amenities effectively. They do not highlight parks. They do not showcase pools. They do not emphasize amenity features. I market community amenities effectively. I highlight parks, showcase pools, and emphasize amenity features that attract community-conscious buyers.
                 </p>
               </div>
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
@@ -96,7 +96,7 @@ export default function TheDistrictCondosPage() {
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Community Amenities</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  District offers community amenities including parks, pools, community centers, and family-oriented features. Most agents do not market community amenities effectively. I do. I highlight parks, showcase pools, emphasize community centers, and showcase family-oriented features that attract community-conscious buyers.
+                  District offers community amenities including parks, pools, community centers, and amenity features. Most agents do not market community amenities effectively. I do. I highlight parks, showcase pools, emphasize community centers, and showcase amenity features that attract community-conscious buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Established Neighborhoods</h3>
                 <p className="text-lg text-gray-700 mb-4">
@@ -118,11 +118,11 @@ export default function TheDistrictCondosPage() {
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Community Amenity Highlighting</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  District condos offer community amenities. I highlight these amenities effectively. I showcase parks, emphasize pools, highlight community centers, and showcase family-oriented features that attract community-conscious buyers. Most agents do not do this. They use generic marketing, and District condos expire.
+                  District condos offer community amenities. I highlight these amenities effectively. I showcase parks, emphasize pools, highlight community centers, and showcase amenity features that attract community-conscious buyers. Most agents do not do this. They use generic marketing, and District condos expire.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Value-Conscious Buyer Targeting</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  District attracts value-conscious buyers. Families. First-time buyers. Retirees. Most agents do not know how to target these buyers. I do. I use targeted advertising, community-focused marketing, and value positioning that attracts value-conscious buyers.
+                  District attracts value-conscious buyers. Move-up buyers. First-time buyers. Retirees. Most agents do not know how to target these buyers. I do. I use targeted advertising, community-focused marketing, and value positioning that attracts value-conscious buyers.
                 </p>
               </div>
               
