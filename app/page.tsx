@@ -18,7 +18,7 @@ import {
 export const metadata: Metadata = {
   title: 'Meet Dr. Jan Duffy | Las Vegas Real Estate Agent',
   description:
-    'Meet Dr. Jan Duffy, Nevada-licensed REALTOR® in real estate since 1983. Las Vegas agent profile, background, and contact. Call (702) 500-1064.',
+    'Meet Dr. Jan Duffy, Nevada-licensed REALTOR® licensed since 2008 · 35 years in Las Vegas. Las Vegas agent profile, background, and contact. Call (702) 500-1064.',
   alternates: {
     canonical: siteCanonical('/'),
   },
@@ -46,7 +46,7 @@ export default function HomePage() {
     {
       question: 'Who is Dr. Jan Duffy?',
       answer:
-        'Dr. Jan Duffy is a Nevada-licensed real estate agent in Las Vegas, in real estate since 1983. This site is her personal brand and professional biography destination.',
+        'Dr. Jan Duffy is a Nevada-licensed real estate agent in Las Vegas, licensed since 2008 · 35 years in Las Vegas. This site is her personal brand and professional biography destination.',
     },
     {
       question: 'Where can I verify Dr. Jan Duffy\'s Nevada real estate license?',
@@ -92,7 +92,7 @@ export default function HomePage() {
               Meet Dr. Jan Duffy, REALTOR®, Las Vegas
             </h1>
             <p className="text-xl md:text-2xl text-gray-200 mb-8 max-w-3xl mx-auto">
-              Top 1% Las Vegas REALTOR® · In real estate since 1983 · Personal biography and professional contact
+              Las Vegas REALTOR® · Licensed since 2008 · 35 years in Las Vegas · Personal biography and professional contact
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <a
@@ -119,7 +119,7 @@ export default function HomePage() {
               Dr. Jan Duffy Las Vegas Real Estate Agent
             </h2>
             <p>
-              Dr. Jan Duffy is a Las Vegas REALTOR®, in real estate since 1983.
+              Dr. Jan Duffy is a Las Vegas REALTOR®, licensed since 2008 · 35 years in Las Vegas.
               She brings a research-driven, direct approach to client work across the Las Vegas Valley —
               from Summerlin and Henderson to Southern Highlands and MacDonald Ranch.
             </p>
