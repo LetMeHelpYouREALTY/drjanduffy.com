@@ -77,7 +77,7 @@ export default function HendersonCondosPage() {
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Competition from New Construction</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Henderson has constant new construction. New condos compete with existing condos. New amenities compete with older amenities. New pricing competes with older pricing. Most agents do not know how to position existing condos against new construction. They do not highlight unique features. They do not emphasize established communities. I know how to position existing condos competitively. I highlight unique features. I emphasize established communities. I showcase mature neighborhoods and proven value.
+                  Henderson has constant new construction. New condos compete with existing condos. New amenities compete with older amenities. New pricing competes with older pricing. Most agents do not know how to position existing condos against new construction. They do not highlight unique features. They do not emphasize resale communities. I know how to position existing condos competitively. I highlight unique features. I emphasize resale communities. I showcase mature neighborhoods and proven value.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Amenity Marketing</h3>
                 <p className="text-lg text-gray-700 mb-4">
@@ -109,7 +109,7 @@ export default function HendersonCondosPage() {
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Green Valley</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Green Valley offers mid-rise condos and townhomes with established communities, parks, pools, and community amenities, and prime location. I've sold expired Green Valley condos by highlighting established communities, showcasing parks, pools, and community amenities, and positioning condos competitively.
+                  Green Valley offers mid-rise condos and townhomes with resale communities, parks, pools, and community amenities, and prime location. I've sold expired Green Valley condos by highlighting resale communities, showcasing parks, pools, and community amenities, and positioning condos competitively.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Anthem</h3>
                 <p className="text-lg text-gray-700 mb-4">

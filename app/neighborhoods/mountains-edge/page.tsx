@@ -32,7 +32,7 @@ export default function MountainsEdgePage() {
     {
       question: 'What makes Mountains Edge real estate market unique in Las Vegas?',
       answer:
-        'Mountains Edge is a master-planned community in Las Vegas offering larger-floor-plan properties with community amenities, parks, trails, and quality schools. Dr. Jan Duffy specializes in marketing these properties and has proven results selling Mountains Edge homes that did not sell with other agents.',
+        'Mountains Edge is a master-planned community in Las Vegas offering larger-floor-plan properties with community amenities, parks, and trails. Dr. Jan Duffy specializes in marketing these properties and has proven results selling Mountains Edge homes that did not sell with other agents.',
     },
   ]
 
@@ -60,13 +60,13 @@ export default function MountainsEdgePage() {
 
               <div className="prose prose-lg max-w-none mb-12">
                 <p className="text-lg text-gray-700 mb-6">
-                  If your Mountains Edge home DID NOT sell, you're dealing with one of Las Vegas's most amenity-rich master-planned communities. Mountains Edge offers larger-floor-plan properties with master-planned amenities, excellent schools, and park-and-trail living. Even in this family-focused community, homes fail to sell when agents do not understand amenity-focused marketing. I've sold homes that DID NOT sell in Mountains Edge and throughout Las Vegas. I understand amenity-focused marketing. I know how to attract move-up buyers. I can sell your expired Mountains Edge listing. Fast. At top dollar. With zero excuses.
+                  If your Mountains Edge home DID NOT sell, you're dealing with one of Las Vegas's most amenity-rich master-planned communities. Mountains Edge offers larger-floor-plan properties with master-planned amenities, CCSD schools, and park-and-trail living. Even in this family-focused community, homes fail to sell when agents do not understand amenity-focused marketing. I've sold homes that DID NOT sell in Mountains Edge and throughout Las Vegas. I understand amenity-focused marketing. I know how to attract move-up buyers. I can sell your expired Mountains Edge listing. Fast. At top dollar. With zero excuses.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
-                  Mountains Edge is Las Vegas's amenity-rich master-planned community, offering larger-floor-plan properties with master-planned amenities, excellent schools, and park-and-trail living. Properties range from $450K to $1.5M+, attracting buyers who value community amenities, quality schools, and amenity-focused communities. Most agents do not understand the Mountains Edge buyer. They use generic marketing, and Mountains Edge homes fail to sell. I understand the Mountains Edge buyer. I use amenity-focused marketing strategies, highlight community amenities, and attract move-up buyers. Mountains Edge listings sell. Fast. At top dollar.
+                  Mountains Edge is Las Vegas's amenity-rich master-planned community, offering larger-floor-plan properties with master-planned amenities, CCSD schools, and park-and-trail living. Properties range from $450K to $1.5M+, attracting buyers who value community amenities, CCSD schools, and amenity-focused communities. Most agents do not understand the Mountains Edge buyer. They use generic marketing, and Mountains Edge homes fail to sell. I understand the Mountains Edge buyer. I use amenity-focused marketing strategies, highlight community amenities, and attract move-up buyers. Mountains Edge listings sell. Fast. At top dollar.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
-                  The Mountains Edge market is competitive. Amenity-focused communities compete for move-up buyers. Buyers have expectations for community amenities, quality schools, and amenity features. Most agents do not meet these expectations. They use minimal marketing, do not highlight floor plan features, and fail to showcase community amenities. I meet these expectations. I invest $5,000+ in professional marketing per listing, highlight floor plan features, and showcase every aspect of amenity-focused community living.
+                  The Mountains Edge market is competitive. Amenity-focused communities compete for move-up buyers. Buyers have expectations for community amenities, CCSD schools, and amenity features. Most agents do not meet these expectations. They use minimal marketing, do not highlight floor plan features, and fail to showcase community amenities. I meet these expectations. I invest $5,000+ in professional marketing per listing, highlight floor plan features, and showcase every aspect of amenity-focused community living.
                 </p>
               </div>
 
@@ -81,7 +81,7 @@ export default function MountainsEdgePage() {
                 </p>
                 <h3 className="text-2xl font-bold mb-3">School Quality Value</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Mountains Edge offers excellent schools that add significant value. Buyers pay premium prices for quality schools, community amenities, and amenity features. Most agents do not understand this value. They do not showcase school quality. They do not explain school benefits. They do not emphasize amenity features. I understand this value. I showcase school quality. I explain school benefits. I emphasize amenity features. I attract move-up buyers who understand and value quality schools.
+                  Mountains Edge offers the nearly 80-acre Exploration Peak Park, a summit trail to 2,846 feet, and larger floor plans. Most agents list the square footage and stop there. They do not show the parks. They do not explain the trail access. I show both, name the Desert Oasis or Sierra Vista High School zone for the address, and point buyers to the CCSD Zoning Search to confirm it.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Community Amenities Positioning</h3>
                 <p className="text-lg text-gray-700 mb-4">
@@ -111,7 +111,7 @@ export default function MountainsEdgePage() {
               <div className="bg-white border-2 border-primary rounded-lg p-8 mb-12">
                 <h2 className="text-3xl font-black mb-4">Mountains Edge Market Overview</h2>
                 <p className="text-lg text-gray-700 mb-4">
-                  Mountains Edge is Las Vegas's amenity-rich master-planned community, offering larger-floor-plan properties with master-planned amenities, excellent schools, and park-and-trail living. Understanding this market is key to effective marketing.
+                  Mountains Edge is Las Vegas's amenity-rich master-planned community, offering larger-floor-plan properties with master-planned amenities, CCSD schools, and park-and-trail living. Understanding this market is key to effective marketing.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Property Types</h3>
                 <p className="text-lg text-gray-700 mb-4">
@@ -119,7 +119,7 @@ export default function MountainsEdgePage() {
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Price Range</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Mountains Edge properties range from $450K to $1.5M+, attracting buyers with significant purchasing power who value community amenities and quality schools. These buyers expect specialized amenity-focused marketing, professional service, and lifestyle-focused presentation. Most agents do not meet these expectations. I do. I provide specialized amenity-focused marketing, professional service, and lifestyle-focused presentation that attracts amenity-focused buyers.
+                  Mountains Edge properties range from $450K to $1.5M+, attracting buyers with significant purchasing power who value community amenities and CCSD schools. These buyers expect specialized amenity-focused marketing, professional service, and lifestyle-focused presentation. Most agents do not meet these expectations. I do. I provide specialized amenity-focused marketing, professional service, and lifestyle-focused presentation that attracts amenity-focused buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Buyer Profile</h3>
                 <p className="text-lg text-gray-700 mb-4">

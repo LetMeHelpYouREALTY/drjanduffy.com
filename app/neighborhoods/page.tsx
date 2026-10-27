@@ -71,7 +71,7 @@ export default function NeighborhoodsPage() {
                   If your home DID NOT sell in any Las Vegas neighborhood, you're not alone. Even in the most prestigious communities - Summerlin West, The Ridges, Red Rock Country Club, The Summit - homes fail to sell when agents do not understand neighborhood-specific marketing. I've sold 7 Summerlin sellers who could not sell with an average of 19 days to contract and 98.7% of asking price. I understand neighborhood-specific marketing. I know how to market properties in each unique community. I can sell your HOME THAT DID NOT SELL. Fast. At top dollar. With zero excuses.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
-                  Las Vegas neighborhoods are diverse. Each community has unique characteristics, buyer profiles, and marketing requirements. Summerlin West offers luxury estates and golf course properties. The Ridges offers ultra-luxury living with exclusivity. Red Rock Country Club offers golf course access and mountain views. The Summit offers gated security and privacy. MacDonald Ranch offers established communities and mature landscaping. Southern Highlands offers master-planned amenities and floor plan features. Skye Canyon offers new construction and modern design. Mountains Edge offers park-and-trail living and quality schools. Each requires different marketing strategies. Most agents do not understand this. They use generic strategies, and homes fail to sell. I understand neighborhood-specific marketing. I use targeted strategies for each community, and listings sell. Fast. At top dollar.
+                  Las Vegas neighborhoods are diverse. Each community has unique characteristics, buyer profiles, and marketing requirements. Summerlin West offers luxury estates and golf course properties. The Ridges offers ultra-luxury living with exclusivity. Red Rock Country Club offers golf course access and mountain views. The Summit offers gated security and privacy. MacDonald Ranch offers resale communities and mature landscaping. Southern Highlands offers master-planned amenities and floor plan features. Skye Canyon offers new construction and modern design. Mountains Edge offers park-and-trail living and CCSD schools. Each requires different marketing strategies. Most agents do not understand this. They use generic strategies, and homes fail to sell. I understand neighborhood-specific marketing. I use targeted strategies for each community, and listings sell. Fast. At top dollar.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   The Las Vegas neighborhood market is competitive. Each community competes for specific buyer types. Luxury communities compete for high-end buyers. Master-planned communities compete for move-up buyers. Golf communities compete for golf-conscious buyers. Most agents do not understand these distinctions. They use mass marketing, do not target specific buyers, and fail to meet community-specific requirements. I understand these distinctions. I use targeted marketing, target specific buyers, and meet community-specific requirements that attract the right buyers for each neighborhood.
@@ -142,7 +142,7 @@ export default function NeighborhoodsPage() {
                   </a>
                   <a href="/neighborhoods/macdonald-ranch" className="block p-4 bg-gray-50 rounded-lg hover:bg-primary/10 transition-colors">
                     <h3 className="font-bold text-lg mb-2">MacDonald Ranch</h3>
-                    <p className="text-sm text-gray-600">Established communities and mature landscaping</p>
+                    <p className="text-sm text-gray-600">Resale communities and mature landscaping</p>
                   </a>
                   <a href="/neighborhoods/southern-highlands" className="block p-4 bg-gray-50 rounded-lg hover:bg-primary/10 transition-colors">
                     <h3 className="font-bold text-lg mb-2">Southern Highlands</h3>
@@ -154,7 +154,7 @@ export default function NeighborhoodsPage() {
                   </a>
                   <a href="/neighborhoods/mountains-edge" className="block p-4 bg-gray-50 rounded-lg hover:bg-primary/10 transition-colors">
                     <h3 className="font-bold text-lg mb-2">Mountains Edge</h3>
-                    <p className="text-sm text-gray-600">Park-and-trail living and quality schools</p>
+                    <p className="text-sm text-gray-600">Park-and-trail living and CCSD schools</p>
                   </a>
                 </div>
               </div>
