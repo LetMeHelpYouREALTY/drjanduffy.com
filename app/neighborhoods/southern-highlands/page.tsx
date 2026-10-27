@@ -32,7 +32,7 @@ export default function SouthernHighlandsPage() {
     {
       question: 'What makes Southern Highlands real estate market unique in Las Vegas?',
       answer:
-        'Southern Highlands is a master-planned community in Las Vegas offering larger-floor-plan properties with community amenities, parks, and quality schools. Dr. Jan Duffy specializes in marketing these properties and has proven results selling Southern Highlands homes that did not sell with other agents.',
+        'Southern Highlands is a master-planned community in Las Vegas offering larger-floor-plan properties with community amenities and parks. Dr. Jan Duffy specializes in marketing these properties and has proven results selling Southern Highlands homes that did not sell with other agents.',
     },
   ]
 

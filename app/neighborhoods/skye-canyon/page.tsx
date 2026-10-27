@@ -32,7 +32,7 @@ export default function SkyeCanyonPage() {
     {
       question: 'What makes Skye Canyon real estate market unique in Las Vegas?',
       answer:
-        'Skye Canyon is a new master-planned community in Las Vegas offering modern properties with community amenities, parks, trails, and quality schools. Dr. Jan Duffy specializes in marketing these new properties and has proven results selling Skye Canyon homes that did not sell with other agents.',
+        'Skye Canyon is a new master-planned community in Las Vegas offering modern properties with community amenities, parks, and trails. Dr. Jan Duffy specializes in marketing these new properties and has proven results selling Skye Canyon homes that did not sell with other agents.',
     },
   ]
 
