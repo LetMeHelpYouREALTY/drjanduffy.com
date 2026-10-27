@@ -73,7 +73,7 @@ export default function SummerlinCondosPage() {
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Competition from New Construction</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Summerlin has constant new construction. New condos compete with existing condos. New amenities compete with older amenities. New pricing competes with older pricing. Most agents do not know how to position existing condos against new construction. They do not highlight unique features. They do not emphasize established communities. I know how to position existing condos competitively. I highlight unique features. I emphasize established communities. I showcase mature landscaping and proven neighborhoods.
+                  Summerlin has constant new construction. New condos compete with existing condos. New amenities compete with older amenities. New pricing competes with older pricing. Most agents do not know how to position existing condos against new construction. They do not highlight unique features. They do not emphasize resale communities. I know how to position existing condos competitively. I highlight unique features. I emphasize resale communities. I showcase mature landscaping and proven neighborhoods.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">HOA Restriction Challenges</h3>
                 <p className="text-lg text-gray-700 mb-4">
@@ -109,7 +109,7 @@ export default function SummerlinCondosPage() {
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Summerlin West</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Summerlin West offers mid-rise condos and townhomes with mountain views, established communities, and prime location. I've sold expired Summerlin West condos by highlighting mountain views, showcasing established communities, and positioning condos competitively.
+                  Summerlin West offers mid-rise condos and townhomes with mountain views, resale communities, and prime location. I've sold expired Summerlin West condos by highlighting mountain views, showcasing resale communities, and positioning condos competitively.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">The Ridges</h3>
                 <p className="text-lg text-gray-700 mb-4">

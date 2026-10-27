@@ -68,7 +68,7 @@ export default function TramontoCondosPage() {
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Competition from New Construction</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Las Vegas has constant new construction. New condos compete with existing condos. New amenities compete with older amenities. New pricing competes with older pricing. Most agents do not know how to position existing condos against new construction. They do not highlight unique features. They do not emphasize established communities. I know how to position existing condos competitively. I highlight unique features. I emphasize established communities. I showcase mature neighborhoods and proven value.
+                  Las Vegas has constant new construction. New condos compete with existing condos. New amenities compete with older amenities. New pricing competes with older pricing. Most agents do not know how to position existing condos against new construction. They do not highlight unique features. They do not emphasize resale communities. I know how to position existing condos competitively. I highlight unique features. I emphasize resale communities. I showcase mature neighborhoods and proven value.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Value-Conscious Buyer Market</h3>
                 <p className="text-lg text-gray-700 mb-4">
