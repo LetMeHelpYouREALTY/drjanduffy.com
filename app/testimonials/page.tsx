@@ -105,7 +105,7 @@ export default function TestimonialsPage() {
                     <Star key={i} className="w-8 h-8 fill-yellow-400 text-yellow-400" />
                   ))}
                 </div>
-                <p className="text-3xl font-bold">4.9/5 Average Rating</p>
+                <p className="text-3xl font-bold">5.0/5 on Realtor.com (50 reviews)</p>
                 <p className="text-lg text-gray-600 mt-2">Based on 7+ HOME THAT DID NOT SELL sales</p>
               </div>
               <div className="grid md:grid-cols-2 gap-8 mb-12">
