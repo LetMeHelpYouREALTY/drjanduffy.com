@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
 import Header from './components/header'
+import FeaturedListing from '@/components/sections/FeaturedListing'
 import BreadcrumbSchema from './components/breadcrumb-schema'
 import FAQSchema from './components/faq-schema'
 import NAPSection from './components/nap-section'
@@ -111,6 +112,12 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      <FeaturedListing
+        phone="(702) 903-1276"
+        phoneHref="tel:+17029031276"
+        siteHost="drjanduffy.com"
+      />
 
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
