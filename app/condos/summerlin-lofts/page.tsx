@@ -86,7 +86,7 @@ export default function SummerlinLoftsPage() {
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Community Living Appeal</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Summerlin Lofts attract community living enthusiasts. Young professionals. Design-conscious buyers. Urban lifestyle seekers. Most agents do not know how to market to community living enthusiasts. They use traditional marketing, and community living enthusiasts look elsewhere. I know how to market to community living enthusiasts. I emphasize modern design, highlight Summerlin location, and showcase community living appeal that attracts modern-conscious buyers.
+                  Summerlin Lofts attract community living enthusiasts. Professionals. Design-conscious buyers. Urban lifestyle seekers. Most agents do not know how to market to community living enthusiasts. They use traditional marketing, and community living enthusiasts look elsewhere. I know how to market to community living enthusiasts. I emphasize modern design, highlight Summerlin location, and showcase community living appeal that attracts modern-conscious buyers.
                 </p>
               </div>
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
@@ -122,7 +122,7 @@ export default function SummerlinLoftsPage() {
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Urban Lifestyle Seeker Targeting</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Summerlin Lofts attract urban lifestyle seekers. Young professionals. Urban enthusiasts. Community living seekers. Most agents do not know how to target these buyers. I do. I use targeted advertising, urban-focused marketing, and community positioning that attracts urban-conscious buyers.
+                  Summerlin Lofts attract urban lifestyle seekers. Professionals. Urban enthusiasts. Community living seekers. Most agents do not know how to target these buyers. I do. I use targeted advertising, urban-focused marketing, and community positioning that attracts urban-conscious buyers.
                 </p>
               </div>
               

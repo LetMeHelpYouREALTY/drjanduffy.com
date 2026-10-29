@@ -15,7 +15,7 @@ export default function HendersonCondosPage() {
     {
       question: 'What real estate services does Dr. Jan Duffy provide for Henderson condos?',
       answer:
-        'Dr. Jan Duffy provides complete real estate services for Henderson condos that did not sell, including professional photography ($3,700 investment), staging, 97-point marketing system, strategic pricing for mid-rise condos and townhomes, specialized marketing for value-conscious buyers, and highlighting family-friendly amenities. She serves Green Valley, Anthem, and throughout Henderson.',
+        'Dr. Jan Duffy provides complete real estate services for Henderson condos that did not sell, including professional photography ($3,700 investment), staging, 97-point marketing system, strategic pricing for mid-rise condos and townhomes, specialized marketing for value-conscious buyers, and highlighting amenities. She serves Green Valley, Anthem, and throughout Henderson.',
     },
     {
       question: 'How long does it take to sell a condo in Henderson?',
@@ -25,7 +25,7 @@ export default function HendersonCondosPage() {
     {
       question: 'Why choose Dr. Jan Duffy to sell my Henderson condo?',
       answer:
-        'Dr. Jan Duffy specializes in Henderson condos and understands the unique challenges including competition with new construction, value-conscious buyers, and emphasis on family-friendly amenities. She invests $5,000+ per listing in professional marketing and has proven results selling Henderson condos in Green Valley, Anthem, and throughout Henderson that did not sell with previous agents.',
+        'Dr. Jan Duffy specializes in Henderson condos and understands the unique challenges including competition with new construction, value-conscious buyers, and emphasis on amenities. She invests $5,000+ per listing in professional marketing and has proven results selling Henderson condos in Green Valley, Anthem, and throughout Henderson that did not sell with previous agents.',
     },
     {
       question: 'What areas of Henderson does Dr. Jan Duffy serve for condos?',
@@ -53,17 +53,17 @@ export default function HendersonCondosPage() {
                 HENDERSON CONDOS
               </h1>
               <p className="text-xl text-center text-gray-600 mb-12">
-                Expert help selling expired Henderson condos - mid-rise condos and townhomes in Las Vegas's family-friendly community
+                Expert help selling expired Henderson condos - mid-rise condos and townhomes in Las Vegas's community
               </p>
               <div className="prose prose-lg max-w-none mb-12">
                 <p className="text-lg text-gray-700 mb-6">
-                  Henderson is Las Vegas's family-friendly community, offering mid-rise condos, townhomes, and affordable properties in a suburban setting. If your Henderson condo home DID NOT sell, you're not alone. Henderson condos face unique challenges - from competition with new construction to value-conscious buyers to emphasis on family-friendly amenities. Most agents do not understand Henderson condos. They use generic strategies, and Henderson condos expire.
+                  Henderson is Las Vegas's community, offering mid-rise condos, townhomes, and affordable properties in a suburban setting. If your Henderson condo home DID NOT sell, you're not alone. Henderson condos face unique challenges - from competition with new construction to value-conscious buyers to emphasis on community amenities. Most agents do not understand Henderson condos. They use generic strategies, and Henderson condos expire.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   I specialize in selling expired Henderson condos. I understand the Henderson market. I know how to market mid-rise condos and townhomes. I know how to attract value-conscious buyers. I've sold expired condos in Green Valley, Anthem, and throughout Henderson. Fast. At top dollar. With zero excuses.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
-                  Henderson condos require value-focused marketing. Professional photography highlighting family-friendly features. Strategic positioning emphasizing affordability and value. Emphasis on established neighborhoods and mature communities. Most agents do not understand this. They use generic strategies, and Henderson condos expire. I use value-focused marketing, highlight family-friendly features, and attract value-conscious buyers. Henderson condos sell. Fast. At top dollar.
+                  Henderson condos require value-focused marketing. Professional photography highlighting community features. Strategic positioning emphasizing affordability and value. Emphasis on older neighborhoods and older communities. Most agents do not understand this. They use generic strategies, and Henderson condos expire. I use value-focused marketing, highlight community features, and attract value-conscious buyers. Henderson condos sell. Fast. At top dollar.
                 </p>
               </div>
               <div className="bg-primary/10 p-8 rounded-lg mb-12">
@@ -73,15 +73,15 @@ export default function HendersonCondosPage() {
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Value-Conscious Buyer Market</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Henderson attracts value-conscious buyers. Families. First-time buyers. Retirees. Most agents do not know how to market to value-conscious buyers. They use luxury marketing, and value-conscious buyers look elsewhere. I know how to market to value-conscious buyers. I emphasize affordability, highlight value, and showcase family-friendly features that attract value-conscious buyers.
+                  Henderson attracts value-conscious buyers. Families. First-time buyers. Retirees. Most agents do not know how to market to value-conscious buyers. They use luxury marketing, and value-conscious buyers look elsewhere. I know how to market to value-conscious buyers. I emphasize affordability, highlight value, and showcase community features that attract value-conscious buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Competition from New Construction</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Henderson has constant new construction. New condos compete with existing condos. New amenities compete with older amenities. New pricing competes with older pricing. Most agents do not know how to position existing condos against new construction. They do not highlight unique features. They do not emphasize established communities. I know how to position existing condos competitively. I highlight unique features. I emphasize established communities. I showcase mature neighborhoods and proven value.
+                  Henderson has constant new construction. New condos compete with existing condos. New amenities compete with older amenities. New pricing competes with older pricing. Most agents do not know how to position existing condos against new construction. They do not highlight unique features. They do not emphasize older communities. I know how to position existing condos competitively. I highlight unique features. I emphasize older communities. I showcase older neighborhoods and proven value.
                 </p>
-                <h3 className="text-2xl font-bold mb-3">Family-Friendly Amenity Marketing</h3>
+                <h3 className="text-2xl font-bold mb-3">Amenity Marketing</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Henderson offers family-friendly amenities. Parks. Schools. Community centers. Family-oriented features. Most agents do not market family-friendly amenities effectively. They do not highlight parks. They do not showcase schools. They do not emphasize family-oriented features. I market family-friendly amenities effectively. I highlight parks, showcase schools, and emphasize family-oriented features that attract family-conscious buyers.
+                  Henderson offers community amenities. Parks. Schools. Community centers. Recreation features. Most agents do not market community amenities effectively. They do not highlight parks. They do not showcase schools. They do not emphasize recreation features. I market community amenities effectively. I highlight parks, showcase schools, and emphasize recreation features that attract value-conscious buyers.
                 </p>
               </div>
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
@@ -91,15 +91,15 @@ export default function HendersonCondosPage() {
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Value-Focused Marketing</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Henderson condos require value-focused marketing. Professional photography highlighting family-friendly features. Strategic positioning emphasizing affordability and value. Emphasis on established neighborhoods. Most agents do not understand this. I do. I use value-focused marketing, highlight family-friendly features, and attract value-conscious buyers.
+                  Henderson condos require value-focused marketing. Professional photography highlighting features. Strategic positioning emphasizing affordability and value. Emphasis on neighborhoods. Most agents do not understand this. I do. I use value-focused marketing, highlight features, and attract value-conscious buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Affordability Positioning</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Henderson attracts value-conscious buyers who prioritize affordability. I position Henderson condos by emphasizing affordability, highlighting value, and showcasing family-friendly features. Most agents do not do this. They use generic positioning, and Henderson condos expire.
+                  Henderson attracts value-conscious buyers who prioritize affordability. I position Henderson condos by emphasizing affordability, highlighting value, and showcasing features. Most agents do not do this. They use generic positioning, and Henderson condos expire.
                 </p>
-                <h3 className="text-2xl font-bold mb-3">Family-Friendly Feature Highlighting</h3>
+                <h3 className="text-2xl font-bold mb-3">Feature Highlighting</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Henderson offers family-friendly features. Parks. Schools. Community centers. Family-oriented amenities. I highlight these features effectively. I showcase parks, emphasize schools, and highlight family-oriented amenities that attract family-conscious buyers. Most agents do not do this. They use generic marketing, and Henderson condos expire.
+                  Henderson offers practical features. Parks. Schools. Community centers. Community amenities. I highlight these features effectively. I showcase parks, emphasize schools, and highlight community amenities that attract value-conscious buyers. Most agents do not do this. They use generic marketing, and Henderson condos expire.
                 </p>
               </div>
               <div className="bg-white border-2 border-primary rounded-lg p-8 mb-12">
@@ -109,15 +109,15 @@ export default function HendersonCondosPage() {
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Green Valley</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Green Valley offers mid-rise condos and townhomes with established communities, family-friendly amenities, and prime location. I've sold expired Green Valley condos by highlighting established communities, showcasing family-friendly amenities, and positioning condos competitively.
+                  Green Valley offers mid-rise condos and townhomes with older communities, community amenities, and prime location. I've sold expired Green Valley condos by highlighting older communities, showcasing community amenities, and positioning condos competitively.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Anthem</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Anthem offers mid-rise condos and townhomes with master-planned community features, family-friendly amenities, and value positioning. I've sold expired Anthem condos by emphasizing master-planned features, highlighting family-friendly amenities, and targeting value-conscious buyers.
+                  Anthem offers mid-rise condos and townhomes with master-planned community features, amenities, and value positioning. I've sold expired Anthem condos by emphasizing master-planned features, highlighting amenities, and targeting value-conscious buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">MacDonald Ranch</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  MacDonald Ranch offers mid-rise condos and townhomes with established neighborhoods, mature landscaping, and proven value. I've sold expired MacDonald Ranch condos by showcasing established neighborhoods, highlighting mature landscaping, and attracting value-conscious buyers.
+                  MacDonald Ranch offers mid-rise condos and townhomes with older neighborhoods, mature landscaping, and proven value. I've sold expired MacDonald Ranch condos by showcasing older neighborhoods, highlighting mature landscaping, and attracting value-conscious buyers.
                 </p>
               </div>
               

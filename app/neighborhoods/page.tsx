@@ -71,7 +71,7 @@ export default function NeighborhoodsPage() {
                   If your home DID NOT sell in any Las Vegas neighborhood, you're not alone. Even in the most prestigious communities - Summerlin West, The Ridges, Red Rock Country Club, The Summit - homes fail to sell when agents do not understand neighborhood-specific marketing. I've sold 7 Summerlin sellers who could not sell with an average of 19 days to contract and 98.7% of asking price. I understand neighborhood-specific marketing. I know how to market properties in each unique community. I can sell your HOME THAT DID NOT SELL. Fast. At top dollar. With zero excuses.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
-                  Las Vegas neighborhoods are diverse. Each community has unique characteristics, buyer profiles, and marketing requirements. Summerlin West offers luxury estates and golf course properties. The Ridges offers ultra-luxury living with exclusivity. Red Rock Country Club offers golf course access and mountain views. The Summit offers gated security and privacy. MacDonald Ranch offers established communities and mature landscaping. Southern Highlands offers master-planned amenities and family features. Skye Canyon offers new construction and modern design. Mountains Edge offers family-friendly living and quality schools. Each requires different marketing strategies. Most agents do not understand this. They use generic strategies, and homes fail to sell. I understand neighborhood-specific marketing. I use targeted strategies for each community, and listings sell. Fast. At top dollar.
+                  Las Vegas neighborhoods are diverse. Each community has unique characteristics, buyer profiles, and marketing requirements. Summerlin West offers luxury estates and golf course properties. The Ridges offers ultra-luxury living with exclusivity. Red Rock Country Club offers golf course access and mountain views. The Summit offers gated security and privacy. MacDonald Ranch offers older communities and mature landscaping. Southern Highlands offers master-planned amenities and community features. Skye Canyon offers new construction and modern design. Mountains Edge offers community living and nearby public schools. Each requires different marketing strategies. Most agents do not understand this. They use generic strategies, and homes fail to sell. I understand neighborhood-specific marketing. I use targeted strategies for each community, and listings sell. Fast. At top dollar.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   The Las Vegas neighborhood market is competitive. Each community competes for specific buyer types. Luxury communities compete for high-end buyers. Family communities compete for family buyers. Golf communities compete for golf-conscious buyers. Most agents do not understand these distinctions. They use mass marketing, do not target specific buyers, and fail to meet community-specific requirements. I understand these distinctions. I use targeted marketing, target specific buyers, and meet community-specific requirements that attract the right buyers for each neighborhood.
@@ -85,7 +85,7 @@ export default function NeighborhoodsPage() {
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Neighborhood-Specific Marketing Requirements</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Each neighborhood requires specialized marketing. Luxury communities require luxury marketing. Golf communities require golf course marketing. Family communities require family-oriented marketing. Gated communities require security-focused marketing. Most agents do not understand these requirements. They use generic strategies, do not highlight neighborhood-specific features, and fail to target neighborhood-specific buyers. I understand these requirements. I use specialized strategies, highlight neighborhood-specific features, and target neighborhood-specific buyers who value these properties.
+                  Each neighborhood requires specialized marketing. Luxury communities require luxury marketing. Golf communities require golf course marketing. Family communities require amenity-focused marketing. Gated communities require security-focused marketing. Most agents do not understand these requirements. They use generic strategies, do not highlight neighborhood-specific features, and fail to target neighborhood-specific buyers. I understand these requirements. I use specialized strategies, highlight neighborhood-specific features, and target neighborhood-specific buyers who value these properties.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Buyer Profile Differences</h3>
                 <p className="text-lg text-gray-700 mb-4">
@@ -104,7 +104,7 @@ export default function NeighborhoodsPage() {
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Neighborhood-Specific Marketing</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Each neighborhood requires specialized marketing strategies. I use targeted strategies for each community, highlighting unique features and attracting the right buyers. Luxury communities get luxury marketing. Golf communities get golf course marketing. Family communities get family-oriented marketing. Gated communities get security-focused marketing. Most agents do not do this. I do. I provide neighborhood-specific marketing that attracts the right buyers for each community.
+                  Each neighborhood requires specialized marketing strategies. I use targeted strategies for each community, highlighting unique features and attracting the right buyers. Luxury communities get luxury marketing. Golf communities get golf course marketing. Family communities get amenity-focused marketing. Gated communities get security-focused marketing. Most agents do not do this. I do. I provide neighborhood-specific marketing that attracts the right buyers for each community.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Buyer Profile Targeting</h3>
                 <p className="text-lg text-gray-700 mb-4">
@@ -142,7 +142,7 @@ export default function NeighborhoodsPage() {
                   </a>
                   <a href="/neighborhoods/macdonald-ranch" className="block p-4 bg-gray-50 rounded-lg hover:bg-primary/10 transition-colors">
                     <h3 className="font-bold text-lg mb-2">MacDonald Ranch</h3>
-                    <p className="text-sm text-gray-600">Established communities and mature landscaping</p>
+                    <p className="text-sm text-gray-600">Communities and mature landscaping</p>
                   </a>
                   <a href="/neighborhoods/southern-highlands" className="block p-4 bg-gray-50 rounded-lg hover:bg-primary/10 transition-colors">
                     <h3 className="font-bold text-lg mb-2">Southern Highlands</h3>
@@ -154,7 +154,7 @@ export default function NeighborhoodsPage() {
                   </a>
                   <a href="/neighborhoods/mountains-edge" className="block p-4 bg-gray-50 rounded-lg hover:bg-primary/10 transition-colors">
                     <h3 className="font-bold text-lg mb-2">Mountains Edge</h3>
-                    <p className="text-sm text-gray-600">Family-friendly living and quality schools</p>
+                    <p className="text-sm text-gray-600">Suburban living and nearby schools</p>
                   </a>
                 </div>
               </div>

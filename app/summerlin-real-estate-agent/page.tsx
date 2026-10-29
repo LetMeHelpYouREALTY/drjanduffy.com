@@ -145,7 +145,7 @@ export default function SummerlinAgentPage() {
                 <div className="bg-gray-50 border-2 border-gray-200 rounded-lg p-8 mb-6">
                   <h3 className="text-2xl font-black mb-4">The Ridges</h3>
                   <p className="text-lg text-gray-700 mb-4">
-                    The Ridges is Summerlin's most exclusive community. Ultra-luxury estates from $1.5M to $10M+. Gated communities, mountain views, private golf courses. This market requires specialized marketing for high-net-worth buyers, off-market property access, and luxury home expertise.
+                    The Ridges is a luxury community in Summerlin. Ultra-luxury estates from $1.5M to $10M+. Gated communities, mountain views, private golf courses. This market requires specialized marketing for high-net-worth buyers, off-market property access, and luxury home expertise.
                   </p>
                   <p className="text-lg text-gray-700">
                     I've sold multiple homes in The Ridges, understanding the unique buyer psychology and marketing needs. Luxury buyers want privacy, exclusivity, and quality. They do not respond to generic marketing. They respond to targeted, high-end marketing that showcases the lifestyle, not just the home.

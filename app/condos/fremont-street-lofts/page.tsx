@@ -76,7 +76,7 @@ export default function FremontStreetLoftsPage() {
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Urban Lifestyle Appeal</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Fremont Street Lofts attract urban lifestyle seekers. Young professionals. Urban enthusiasts. Downtown living seekers. Most agents do not know how to market to urban lifestyle seekers. They use suburban marketing, and urban lifestyle seekers look elsewhere. I know how to market to urban lifestyle seekers. I emphasize downtown location, highlight Fremont Street proximity, and showcase urban lifestyle appeal that attracts urban-conscious buyers.
+                  Fremont Street Lofts attract urban lifestyle seekers. Professionals. Urban enthusiasts. Downtown living seekers. Most agents do not know how to market to urban lifestyle seekers. They use suburban marketing, and urban lifestyle seekers look elsewhere. I know how to market to urban lifestyle seekers. I emphasize downtown location, highlight Fremont Street proximity, and showcase urban lifestyle appeal that attracts urban-conscious buyers.
                 </p>
               </div>
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
@@ -112,7 +112,7 @@ export default function FremontStreetLoftsPage() {
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Urban Lifestyle Seeker Targeting</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Fremont Street Lofts attract urban lifestyle seekers. Young professionals. Urban enthusiasts. Downtown living seekers. Most agents do not know how to target these buyers. I do. I use targeted advertising, urban-focused marketing, and downtown positioning that attracts urban-conscious buyers.
+                  Fremont Street Lofts attract urban lifestyle seekers. Professionals. Urban enthusiasts. Downtown living seekers. Most agents do not know how to target these buyers. I do. I use targeted advertising, urban-focused marketing, and downtown positioning that attracts urban-conscious buyers.
                 </p>
               </div>
               

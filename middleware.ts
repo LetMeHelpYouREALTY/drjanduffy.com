@@ -16,6 +16,7 @@ export function middleware(request: NextRequest) {
   if (
     !BRAND_SITE_PATHS.has(pathname) &&
     !pathname.startsWith('/api') &&
+    !pathname.startsWith('/images/listings/') &&
     pathname !== '/sitemap.xml' &&
     pathname !== '/robots.txt'
   ) {
