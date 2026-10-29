@@ -64,7 +64,7 @@ export default function HeroSection() {
                 <a href="tel:7025001064" className="font-bold hover:underline">Call (702) 500-1064</a>
               </div>
               <p className="text-sm md:text-base text-gray-300 mb-4">
-                Dr. Jan Duffy | REALTOR® | In Real Estate Since 1983
+                Dr. Jan Duffy | REALTOR® | Licensed Since 2008
               </p>
               <LiveCounter />
             </div>

@@ -11,7 +11,7 @@ import { siteCanonical } from '@/lib/site'
 export const metadata = {
   title: 'About Dr. Jan Duffy | Las Vegas Real Estate Agent',
   description:
-    'Dr. Jan Duffy real estate biography — Las Vegas REALTOR® in real estate since 1983. Call (702) 500-1064.',
+    'Dr. Jan Duffy real estate biography — Las Vegas REALTOR® licensed since 2008 · 35 years in Las Vegas. Call (702) 500-1064.',
   alternates: {
     canonical: siteCanonical('/about'),
   },
@@ -112,7 +112,7 @@ export default function AboutPage() {
                       <li>• Licensed Real Estate Agent (Nevada)</li>
                       <li>• specialist in homes that DID NOT sell</li>
                       <li>• 135+ Domain Portfolio</li>
-                      <li>• Top 1% of Las Vegas Agents</li>
+                      <li>• 5.0★ from 50 Realtor.com reviews</li>
                       <li>• 7 homes that DID NOT sell - now sold</li>
                       <li>• 19 Day Average Time to Contract</li>
                       <li>• 98.7% Average Sale Price Percentage</li>
