@@ -63,7 +63,7 @@ export default function SummerlinCondosPage() {
                   I specialize in selling expired Summerlin condos. I understand the Summerlin market. I know how to market mid-rise condos and townhomes. I know how to attract community-conscious buyers. I've sold expired condos in Summerlin West, The Ridges, and throughout Summerlin. Fast. At top dollar. With zero excuses.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
-                  Summerlin condos require community-focused marketing. Professional photography highlighting community amenities. Strategic positioning against new construction. Emphasis on established neighborhoods and mature landscaping. Most agents do not understand this. They use generic strategies, and Summerlin condos expire. I use community-focused marketing, highlight amenities, and attract community-conscious buyers. Summerlin condos sell. Fast. At top dollar.
+                  Summerlin condos require community-focused marketing. Professional photography highlighting community amenities. Strategic positioning against new construction. Emphasis on older neighborhoods and mature landscaping. Most agents do not understand this. They use generic strategies, and Summerlin condos expire. I use community-focused marketing, highlight amenities, and attract community-conscious buyers. Summerlin condos sell. Fast. At top dollar.
                 </p>
               </div>
               <div className="bg-primary/10 p-8 rounded-lg mb-12">
@@ -73,7 +73,7 @@ export default function SummerlinCondosPage() {
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Competition from New Construction</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Summerlin has constant new construction. New condos compete with existing condos. New amenities compete with older amenities. New pricing competes with older pricing. Most agents do not know how to position existing condos against new construction. They do not highlight unique features. They do not emphasize established communities. I know how to position existing condos competitively. I highlight unique features. I emphasize established communities. I showcase mature landscaping and proven neighborhoods.
+                  Summerlin has constant new construction. New condos compete with existing condos. New amenities compete with older amenities. New pricing competes with older pricing. Most agents do not know how to position existing condos against new construction. They do not highlight unique features. They do not emphasize communities. I know how to position existing condos competitively. I highlight unique features. I emphasize communities. I showcase mature landscaping and proven neighborhoods.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">HOA Restriction Challenges</h3>
                 <p className="text-lg text-gray-700 mb-4">
@@ -91,11 +91,11 @@ export default function SummerlinCondosPage() {
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Community-Focused Marketing</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Summerlin condos require community-focused marketing. Professional photography highlighting community amenities. Strategic positioning against new construction. Emphasis on established neighborhoods. Most agents do not understand this. I do. I use community-focused marketing, highlight amenities, and attract community-conscious buyers.
+                  Summerlin condos require community-focused marketing. Professional photography highlighting community amenities. Strategic positioning against new construction. Emphasis on older neighborhoods. Most agents do not understand this. I do. I use community-focused marketing, highlight amenities, and attract community-conscious buyers.
                 </p>
-                <h3 className="text-2xl font-bold mb-3">Established Neighborhood Positioning</h3>
+                <h3 className="text-2xl font-bold mb-3">Older Neighborhood Positioning</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Summerlin has established neighborhoods with mature landscaping, proven communities, and established amenities. I position existing condos by highlighting established neighborhoods, showcasing mature landscaping, and emphasizing proven communities. Most agents do not do this. They use generic positioning, and Summerlin condos expire.
+                  Summerlin has older neighborhoods with mature landscaping, proven communities, and established amenities. I position existing condos by highlighting older neighborhoods, showcasing mature landscaping, and emphasizing proven communities. Most agents do not do this. They use generic positioning, and Summerlin condos expire.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Community Amenity Highlighting</h3>
                 <p className="text-lg text-gray-700 mb-4">
@@ -109,7 +109,7 @@ export default function SummerlinCondosPage() {
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Summerlin West</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Summerlin West offers mid-rise condos and townhomes with mountain views, established communities, and prime location. I've sold expired Summerlin West condos by highlighting mountain views, showcasing established communities, and positioning condos competitively.
+                  Summerlin West offers mid-rise condos and townhomes with mountain views, communities, and prime location. I've sold expired Summerlin West condos by highlighting mountain views, showcasing communities, and positioning condos competitively.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">The Ridges</h3>
                 <p className="text-lg text-gray-700 mb-4">
