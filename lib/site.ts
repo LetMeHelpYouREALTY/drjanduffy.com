@@ -12,6 +12,7 @@ export const BRAND_SITE_PATHS = new Set([
   '/contact',
   '/privacy-policy',
   '/terms',
+  '/listings/9528-rainfall-avenue',
 ])
 
 export const SITE_PHONE_TEL = '7025001064'
