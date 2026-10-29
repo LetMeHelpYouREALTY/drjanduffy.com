@@ -58,7 +58,7 @@ export default function WimbledonCondosPage() {
                   I specialize in selling expired Wimbledon Tennis Club condos. I understand the mid-rise market. I know how to market tennis amenities. I know how to attract active lifestyle buyers. I've sold expired condos in Wimbledon and other tennis community properties. Fast. At top dollar. With zero excuses.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
-                  Wimbledon condos require lifestyle-focused marketing. Professional photography highlighting tennis amenities. Strategic positioning emphasizing active lifestyle and community features. Emphasis on established neighborhoods and mature communities. Most agents do not understand this. They use generic strategies, and Wimbledon condos expire. I use lifestyle-focused marketing, highlight tennis amenities, and attract active lifestyle buyers. Wimbledon condos sell. Fast. At top dollar.
+                  Wimbledon condos require lifestyle-focused marketing. Professional photography highlighting tennis amenities. Strategic positioning emphasizing active lifestyle and community features. Emphasis on older neighborhoods and older communities. Most agents do not understand this. They use generic strategies, and Wimbledon condos expire. I use lifestyle-focused marketing, highlight tennis amenities, and attract active lifestyle buyers. Wimbledon condos sell. Fast. At top dollar.
                 </p>
               </div>
               <div className="bg-primary/10 p-8 rounded-lg mb-12">
@@ -94,7 +94,7 @@ export default function WimbledonCondosPage() {
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Value Positioning</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Wimbledon offers value positioning with affordable pricing, tennis amenities, and established neighborhoods. Most agents do not position value effectively. I do. I highlight affordable pricing, showcase tennis amenities, and emphasize established neighborhoods that attract value-conscious buyers.
+                  Wimbledon offers value positioning with affordable pricing, tennis amenities, and older neighborhoods. Most agents do not position value effectively. I do. I highlight affordable pricing, showcase tennis amenities, and emphasize older neighborhoods that attract value-conscious buyers.
                 </p>
               </div>
               <div className="bg-white border-2 border-primary rounded-lg p-8 mb-12">
@@ -104,7 +104,7 @@ export default function WimbledonCondosPage() {
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Lifestyle-Focused Marketing</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Wimbledon condos require lifestyle-focused marketing. Professional photography highlighting tennis amenities. Strategic positioning emphasizing active lifestyle and community features. Emphasis on established neighborhoods. Most agents do not understand this. I do. I use lifestyle-focused marketing, highlight tennis amenities, and attract active lifestyle buyers.
+                  Wimbledon condos require lifestyle-focused marketing. Professional photography highlighting tennis amenities. Strategic positioning emphasizing active lifestyle and community features. Emphasis on older neighborhoods. Most agents do not understand this. I do. I use lifestyle-focused marketing, highlight tennis amenities, and attract active lifestyle buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Tennis Amenity Highlighting</h3>
                 <p className="text-lg text-gray-700 mb-4">

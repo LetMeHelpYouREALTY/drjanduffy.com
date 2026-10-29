@@ -86,7 +86,7 @@ export default function OgdenCondosPage() {
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Downtown Living Appeal</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Ogden attracts downtown living enthusiasts. Young professionals. Urban lifestyle seekers. Downtown enthusiasts. Most agents do not know how to market to downtown living enthusiasts. They use suburban marketing, and downtown living enthusiasts look elsewhere. I know how to market to downtown living enthusiasts. I emphasize urban location, highlight downtown amenities, and showcase downtown living appeal that attracts urban-conscious buyers.
+                  Ogden attracts downtown living enthusiasts. Professionals. Urban lifestyle seekers. Downtown enthusiasts. Most agents do not know how to market to downtown living enthusiasts. They use suburban marketing, and downtown living enthusiasts look elsewhere. I know how to market to downtown living enthusiasts. I emphasize urban location, highlight downtown amenities, and showcase downtown living appeal that attracts urban-conscious buyers.
                 </p>
               </div>
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
@@ -122,7 +122,7 @@ export default function OgdenCondosPage() {
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Urban Lifestyle Seeker Targeting</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Ogden attracts urban lifestyle seekers. Young professionals. Urban enthusiasts. Downtown living seekers. Most agents do not know how to target these buyers. I do. I use targeted advertising, exclusive access events, and urban marketing that attracts urban-conscious buyers.
+                  Ogden attracts urban lifestyle seekers. Professionals. Urban enthusiasts. Downtown living seekers. Most agents do not know how to target these buyers. I do. I use targeted advertising, exclusive access events, and urban marketing that attracts urban-conscious buyers.
                 </p>
               </div>
               

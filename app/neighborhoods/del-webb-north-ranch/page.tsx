@@ -81,7 +81,7 @@ export default function DelWebbNorthRanchPage() {
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Competition from New Construction</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Del Webb North Ranch and other 55+ communities constantly have new construction entering the market. New homes compete with existing homes. New amenities compete with older amenities. New pricing competes with older pricing. Most agents do not know how to position existing properties against new construction. I know how to highlight established communities, emphasize mature landscaping, and position existing properties competitively against new construction.
+                  Del Webb North Ranch and other 55+ communities constantly have new construction entering the market. New homes compete with existing homes. New amenities compete with older amenities. New pricing competes with older pricing. Most agents do not know how to position existing properties against new construction. I know how to highlight communities, emphasize mature landscaping, and position existing properties competitively against new construction.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Active Adult Lifestyle Marketing</h3>
                 <p className="text-lg text-gray-700 mb-4">

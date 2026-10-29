@@ -17,12 +17,12 @@ export default function SouthernHighlandsPage() {
     {
       question: 'What real estate services does Dr. Jan Duffy provide for Southern Highlands homes?',
       answer:
-        'Dr. Jan Duffy provides complete real estate services for Southern Highlands homes that did not sell, including professional photography ($3,700 investment), staging, 97-point marketing system, strategic pricing for master-planned communities, and specialized marketing for family-friendly properties in this Las Vegas neighborhood.',
+        'Dr. Jan Duffy provides complete real estate services for Southern Highlands homes that did not sell, including professional photography ($3,700 investment), staging, 97-point marketing system, strategic pricing for master-planned communities, and specialized marketing for properties in this Las Vegas neighborhood.',
     },
     {
       question: 'How long does it take to sell a home in Southern Highlands, Las Vegas?',
       answer:
-        'Dr. Jan Duffy\'s average is 19 days from listing to contract for Southern Highlands homes that did not sell. She specializes in master-planned community properties in Las Vegas and uses strategic marketing to attract buyers for family-friendly homes in Southern Highlands.',
+        'Dr. Jan Duffy\'s average is 19 days from listing to contract for Southern Highlands homes that did not sell. She specializes in master-planned community properties in Las Vegas and uses strategic marketing to attract buyers for homes in Southern Highlands.',
     },
     {
       question: 'Why choose Dr. Jan Duffy to sell my Southern Highlands home?',
@@ -32,7 +32,7 @@ export default function SouthernHighlandsPage() {
     {
       question: 'What makes Southern Highlands real estate market unique in Las Vegas?',
       answer:
-        'Southern Highlands is a master-planned community in Las Vegas offering family-friendly properties with community amenities, parks, and quality schools. Dr. Jan Duffy specializes in marketing these properties and has proven results selling Southern Highlands homes that did not sell with other agents.',
+        'Southern Highlands is a master-planned community in Las Vegas offering properties with community amenities, parks, and nearby schools. Dr. Jan Duffy specializes in marketing these properties and has proven results selling Southern Highlands homes that did not sell with other agents.',
     },
   ]
 
@@ -60,13 +60,13 @@ export default function SouthernHighlandsPage() {
 
               <div className="prose prose-lg max-w-none mb-12">
                 <p className="text-lg text-gray-700 mb-6">
-                  If your Southern Highlands home DID NOT sell, you're dealing with one of Las Vegas's most desirable master-planned communities. Southern Highlands offers luxury properties with master-planned amenities, family-friendly features, and sophisticated living. Even in this premier community, homes fail to sell when agents do not understand master-planned community marketing. I've sold homes that DID NOT sell in Southern Highlands and throughout Las Vegas. I understand master-planned community marketing. I know how to attract family-conscious buyers. I can sell your expired Southern Highlands listing. Fast. At top dollar. With zero excuses.
+                  If your Southern Highlands home DID NOT sell, you're dealing with one of Las Vegas's most desirable master-planned communities. Southern Highlands offers luxury properties with master-planned amenities, community features, and sophisticated living. Even in this premier community, homes fail to sell when agents do not understand master-planned community marketing. I've sold homes that DID NOT sell in Southern Highlands and throughout Las Vegas. I understand master-planned community marketing. I know how to attract family-conscious buyers. I can sell your expired Southern Highlands listing. Fast. At top dollar. With zero excuses.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
-                  Southern Highlands is Las Vegas's premier master-planned community, offering luxury properties with master-planned amenities, family-friendly features, and sophisticated living. Properties range from $700K to $4M+, attracting buyers who value master-planned communities, family amenities, and quality. Most agents do not understand the Southern Highlands buyer. They use generic marketing, and Southern Highlands homes fail to sell. I understand the Southern Highlands buyer. I use master-planned community marketing strategies, highlight family amenities, and attract family-conscious buyers. Southern Highlands listings sell. Fast. At top dollar.
+                  Southern Highlands is Las Vegas's premier master-planned community, offering luxury properties with master-planned amenities, community features, and sophisticated living. Properties range from $700K to $4M+, attracting buyers who value master-planned communities, family amenities, and quality. Most agents do not understand the Southern Highlands buyer. They use generic marketing, and Southern Highlands homes fail to sell. I understand the Southern Highlands buyer. I use master-planned community marketing strategies, highlight family amenities, and attract family-conscious buyers. Southern Highlands listings sell. Fast. At top dollar.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
-                  The Southern Highlands market is competitive. Master-planned communities compete for family-conscious buyers. Buyers have expectations for master-planned amenities, family-friendly features, and community benefits. Most agents do not meet these expectations. They use minimal marketing, do not highlight master-planned features, and fail to showcase family amenities. I meet these expectations. I invest $5,000+ in professional marketing per listing, highlight master-planned features, and showcase every aspect of master-planned community living.
+                  The Southern Highlands market is competitive. Master-planned communities compete for family-conscious buyers. Buyers have expectations for master-planned amenities, community features, and community benefits. Most agents do not meet these expectations. They use minimal marketing, do not highlight master-planned features, and fail to showcase family amenities. I meet these expectations. I invest $5,000+ in professional marketing per listing, highlight master-planned features, and showcase every aspect of master-planned community living.
                 </p>
               </div>
 
@@ -81,7 +81,7 @@ export default function SouthernHighlandsPage() {
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Family Amenities Value</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Southern Highlands offers family amenities that add significant value. Buyers pay premium prices for parks, schools, and family-friendly features. Most agents do not understand this value. They do not showcase family amenities. They do not explain amenity benefits. They do not emphasize family-friendly features. I understand this value. I showcase family amenities. I explain amenity benefits. I emphasize family-friendly features. I attract family-conscious buyers who understand and value family amenities.
+                  Southern Highlands offers family amenities that add significant value. Buyers pay premium prices for parks, schools, and community features. Most agents do not understand this value. They do not showcase family amenities. They do not explain amenity benefits. They do not emphasize community features. I understand this value. I showcase family amenities. I explain amenity benefits. I emphasize community features. I attract family-conscious buyers who understand and value family amenities.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Community Benefits Positioning</h3>
                 <p className="text-lg text-gray-700 mb-4">
@@ -96,22 +96,22 @@ export default function SouthernHighlandsPage() {
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Master-Planned Community Marketing</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Southern Highlands requires specialized master-planned community marketing. Professional photography showcasing master-planned amenities and family-friendly features. Strategic positioning emphasizing community benefits. Marketing targeting family-conscious buyers. Network activation reaching family buyers. Most agents do not invest in this specialized marketing. I invest $5,000+ in professional media, master-planned positioning, and targeted marketing that attracts family-conscious buyers.
+                  Southern Highlands requires specialized master-planned community marketing. Professional photography showcasing master-planned amenities and community features. Strategic positioning emphasizing community benefits. Marketing targeting family-conscious buyers. Network activation reaching family buyers. Most agents do not invest in this specialized marketing. I invest $5,000+ in professional media, master-planned positioning, and targeted marketing that attracts family-conscious buyers.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Family Amenities Highlighting</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Southern Highlands properties require highlighting family amenities. Buyers need to understand amenity benefits, family-friendly features, and community advantages. Most agents do not explain these benefits. They do not showcase family amenities. They do not emphasize family-friendly features. I explain these benefits. I showcase family amenities. I emphasize family-friendly features. I attract family-conscious buyers who understand and value master-planned communities.
+                  Southern Highlands properties require highlighting family amenities. Buyers need to understand amenity benefits, community features, and community advantages. Most agents do not explain these benefits. They do not showcase family amenities. They do not emphasize community features. I explain these benefits. I showcase family amenities. I emphasize community features. I attract family-conscious buyers who understand and value master-planned communities.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Community Benefits Strategy</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Southern Highlands requires community benefits strategy. Buyers expect master-planned design information, community features, and family-friendly presentation. Most agents do not provide this. They use generic information, do not highlight master-planned features, and fail to showcase community benefits. I provide master-planned design information, highlight community features, and showcase community benefits that attract buyers who value master-planned communities.
+                  Southern Highlands requires community benefits strategy. Buyers expect master-planned design information, community features, and presentation. Most agents do not provide this. They use generic information, do not highlight master-planned features, and fail to showcase community benefits. I provide master-planned design information, highlight community features, and showcase community benefits that attract buyers who value master-planned communities.
                 </p>
               </div>
 
               <div className="bg-white border-2 border-primary rounded-lg p-8 mb-12">
                 <h2 className="text-3xl font-black mb-4">Southern Highlands Market Overview</h2>
                 <p className="text-lg text-gray-700 mb-4">
-                  Southern Highlands is Las Vegas's premier master-planned community, offering luxury properties with master-planned amenities, family-friendly features, and sophisticated living. Understanding this market is key to effective marketing.
+                  Southern Highlands is Las Vegas's premier master-planned community, offering luxury properties with master-planned amenities, features, and sophisticated living. Understanding this market is key to effective marketing.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Property Types</h3>
                 <p className="text-lg text-gray-700 mb-4">
@@ -134,7 +134,7 @@ export default function SouthernHighlandsPage() {
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Complete Master-Planned Community Reset</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Expired Southern Highlands listings need a complete master-planned community reset. New professional photography showcasing master-planned amenities and family-friendly features. Strategic positioning emphasizing community benefits. Fresh MLS listing with optimized master-planned community description. Strategic pricing positioning. Aggressive marketing targeting family-conscious buyers. Most agents do not do this. I do. I provide complete master-planned community reset services that transform HOMES THAT DID NOT SELL into attractive opportunities.
+                  Expired Southern Highlands listings need a complete master-planned community reset. New professional photography showcasing master-planned amenities and practical features. Strategic positioning emphasizing community benefits. Fresh MLS listing with optimized master-planned community description. Strategic pricing positioning. Aggressive marketing targeting value-conscious buyers. Most agents do not do this. I do. I provide complete master-planned community reset services that transform HOMES THAT DID NOT SELL into attractive opportunities.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Master-Planned Community Marketing System</h3>
                 <p className="text-lg text-gray-700 mb-4">

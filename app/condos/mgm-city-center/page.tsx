@@ -76,7 +76,7 @@ export default function MGMCityCenterCondosPage() {
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Contemporary Living Appeal</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  MGM City Center attracts contemporary living enthusiasts. Young professionals. Design-conscious buyers. Urban lifestyle seekers. Most agents do not know how to market to contemporary living enthusiasts. They use traditional marketing, and contemporary living enthusiasts look elsewhere. I know how to market to contemporary living enthusiasts. I emphasize modern design, highlight urban location, and showcase contemporary living appeal that attracts modern-conscious buyers.
+                  MGM City Center attracts contemporary living enthusiasts. Professionals. Design-conscious buyers. Urban lifestyle seekers. Most agents do not know how to market to contemporary living enthusiasts. They use traditional marketing, and contemporary living enthusiasts look elsewhere. I know how to market to contemporary living enthusiasts. I emphasize modern design, highlight urban location, and showcase contemporary living appeal that attracts modern-conscious buyers.
                 </p>
               </div>
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
@@ -112,7 +112,7 @@ export default function MGMCityCenterCondosPage() {
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Modern Design Enthusiast Targeting</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  MGM City Center attracts modern design enthusiasts. Young professionals. Design-conscious buyers. Urban lifestyle seekers. Most agents do not know how to target these buyers. I do. I use targeted advertising, exclusive access events, and modern marketing that attracts design-conscious buyers.
+                  MGM City Center attracts modern design enthusiasts. Professionals. Design-conscious buyers. Urban lifestyle seekers. Most agents do not know how to target these buyers. I do. I use targeted advertising, exclusive access events, and modern marketing that attracts design-conscious buyers.
                 </p>
               </div>
               

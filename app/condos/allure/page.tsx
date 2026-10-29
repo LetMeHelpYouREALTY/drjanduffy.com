@@ -82,7 +82,7 @@ export default function AllureCondosPage() {
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Competition from Newer Buildings</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Allure competes with newer luxury buildings. Newer amenities. Newer designs. Newer marketing. Most agents do not know how to position Allure against newer buildings. They do not highlight Allure's unique features. They do not emphasize established community. I know how to position Allure competitively. I highlight unique features. I emphasize established community. I showcase Allure's timeless appeal.
+                  Allure competes with newer luxury buildings. Newer amenities. Newer designs. Newer marketing. Most agents do not know how to position Allure against newer buildings. They do not highlight Allure's unique features. They do not emphasize community. I know how to position Allure competitively. I highlight unique features. I emphasize community. I showcase Allure's timeless appeal.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">High-End Buyer Expectations</h3>
                 <p className="text-lg text-gray-700 mb-4">

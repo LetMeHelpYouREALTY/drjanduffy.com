@@ -63,7 +63,7 @@ export default function TheRidgesPage() {
                   If your Ridges home DID NOT sell, you're dealing with one of Las Vegas's most exclusive luxury communities. The Ridges offers luxury estates, golf course properties, and sophisticated living at the highest level. Even in this prestigious community, homes fail to sell when agents do not understand luxury marketing. I've sold homes that DID NOT sell in The Ridges and throughout Summerlin. I understand luxury marketing. I know how to attract high-end buyers. I can sell your expired Ridges listing. Fast. At top dollar. With zero excuses.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
-                  The Ridges is Summerlin's most exclusive community, offering luxury estates with golf course access, mountain views, and world-class amenities. Properties range from $1M to $10M+, attracting buyers who value exclusivity, quality, and sophisticated living. Most agents do not understand The Ridges buyer. They use generic marketing, and Ridges homes fail to sell. I understand The Ridges buyer. I use luxury marketing strategies, highlight exclusive amenities, and attract sophisticated buyers. Ridges listings sell. Fast. At top dollar.
+                  The Ridges is a guard-gated Summerlin community, offering luxury estates with golf course access, mountain views, and world-class amenities. Properties range from $1M to $10M+, attracting buyers who value privacy, quality, and sophisticated living. Most agents do not understand The Ridges buyer. They use generic marketing, and Ridges homes fail to sell. I understand The Ridges buyer. I use luxury marketing strategies, highlight private amenities, and attract sophisticated buyers. Ridges listings sell. Fast. At top dollar.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
                   The Ridges market is ultra-competitive. New construction constantly enters the market. Existing properties compete for a limited pool of high-end buyers. Luxury buyers have the highest expectations. Most agents do not meet these expectations. They use minimal marketing, do not invest in professional photography, and fail to showcase luxury features. I meet these expectations. I invest $5,000+ in professional marketing per listing, use luxury staging, and showcase every feature that makes Ridges properties special.
@@ -111,7 +111,7 @@ export default function TheRidgesPage() {
               <div className="bg-white border-2 border-primary rounded-lg p-8 mb-12">
                 <h2 className="text-3xl font-black mb-4">The Ridges Market Overview</h2>
                 <p className="text-lg text-gray-700 mb-4">
-                  The Ridges is Summerlin's most exclusive community, offering ultra-luxury living with golf course access, mountain views, and world-class amenities. Understanding this market is key to effective marketing.
+                  The Ridges is a luxury community in Summerlin, offering ultra-luxury living with golf course access, mountain views, and world-class amenities. Understanding this market is key to effective marketing.
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Property Types</h3>
                 <p className="text-lg text-gray-700 mb-4">

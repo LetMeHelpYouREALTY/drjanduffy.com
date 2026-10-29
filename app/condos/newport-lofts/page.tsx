@@ -76,7 +76,7 @@ export default function NewportLoftsPage() {
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Contemporary Living Appeal</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Newport Lofts attract contemporary living enthusiasts. Young professionals. Design-conscious buyers. Urban lifestyle seekers. Most agents do not know how to market to contemporary living enthusiasts. They use traditional marketing, and contemporary living enthusiasts look elsewhere. I know how to market to contemporary living enthusiasts. I emphasize modern design, highlight urban location, and showcase contemporary living appeal that attracts modern-conscious buyers.
+                  Newport Lofts attract contemporary living enthusiasts. Professionals. Design-conscious buyers. Urban lifestyle seekers. Most agents do not know how to market to contemporary living enthusiasts. They use traditional marketing, and contemporary living enthusiasts look elsewhere. I know how to market to contemporary living enthusiasts. I emphasize modern design, highlight urban location, and showcase contemporary living appeal that attracts modern-conscious buyers.
                 </p>
               </div>
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
@@ -112,7 +112,7 @@ export default function NewportLoftsPage() {
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Urban Lifestyle Seeker Targeting</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Newport Lofts attract urban lifestyle seekers. Young professionals. Urban enthusiasts. Contemporary living seekers. Most agents do not know how to target these buyers. I do. I use targeted advertising, urban-focused marketing, and contemporary positioning that attracts urban-conscious buyers.
+                  Newport Lofts attract urban lifestyle seekers. Professionals. Urban enthusiasts. Contemporary living seekers. Most agents do not know how to target these buyers. I do. I use targeted advertising, urban-focused marketing, and contemporary positioning that attracts urban-conscious buyers.
                 </p>
               </div>
               

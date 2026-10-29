@@ -80,7 +80,7 @@ export default function LasVegasCondosPage() {
                 </p>
                 <h3 className="text-2xl font-bold mb-3">Competition from New Construction</h3>
                 <p className="text-lg text-gray-700 mb-4">
-                  Las Vegas has constant new construction. New condos compete with existing condos. New amenities compete with older amenities. New pricing competes with older pricing. Most agents do not know how to position existing condos against new construction. I know how to highlight unique features, emphasize established communities, and position existing condos competitively against new construction.
+                  Las Vegas has constant new construction. New condos compete with existing condos. New amenities compete with older amenities. New pricing competes with older pricing. Most agents do not know how to position existing condos against new construction. I know how to highlight unique features, emphasize communities, and position existing condos competitively against new construction.
                 </p>
               </div>
               <div className="bg-gray-100 p-8 rounded-lg mb-12">
