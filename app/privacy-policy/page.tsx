@@ -1,8 +1,10 @@
 import Header from '@/app/components/header'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
+import { siteCanonical } from '@/lib/site'
 export const metadata = {
   title: 'Privacy Policy | Dr. Jan Duffy',
   description: 'Privacy policy for Dr. Janet Duffy real estate website.',
+  alternates: { canonical: siteCanonical('/privacy-policy') },
 }
 export default function PrivacyPolicyPage() {
   return (

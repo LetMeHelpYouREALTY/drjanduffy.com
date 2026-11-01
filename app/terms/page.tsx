@@ -1,8 +1,10 @@
 import Header from '@/app/components/header'
 import BreadcrumbSchema from '@/app/components/breadcrumb-schema'
+import { siteCanonical } from '@/lib/site'
 export const metadata = {
   title: 'Terms of Service | Dr. Jan Duffy',
   description: 'Terms of service for Dr. Janet Duffy real estate website.',
+  alternates: { canonical: siteCanonical('/terms') },
 }
 export default function TermsPage() {
   return (

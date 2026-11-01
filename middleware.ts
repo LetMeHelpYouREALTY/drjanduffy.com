@@ -17,6 +17,8 @@ export function middleware(request: NextRequest) {
     !BRAND_SITE_PATHS.has(pathname) &&
     !pathname.startsWith('/api') &&
     !pathname.startsWith('/images/listings/') &&
+    // Static files in /public (og-image.png, headshots, llms.txt) are served here, not sent to the other domain.
+    !/\.[a-z0-9]+$/i.test(pathname) &&
     pathname !== '/sitemap.xml' &&
     pathname !== '/robots.txt'
   ) {

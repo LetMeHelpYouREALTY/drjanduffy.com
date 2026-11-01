@@ -343,14 +343,6 @@ export default function RootLayout({
               publisher: {
                 '@id': SITE_ORG_ID,
               },
-              potentialAction: {
-                '@type': 'SearchAction',
-                target: {
-                  '@type': 'EntryPoint',
-                  urlTemplate: `${SITE_URL}/search?q={search_term_string}`,
-                },
-                'query-input': 'required name=search_term_string',
-              },
             },
           ]).replace(/</g, '\\u003c'),
           }}
