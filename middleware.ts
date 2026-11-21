@@ -16,6 +16,8 @@ export function middleware(request: NextRequest) {
   if (
     !BRAND_SITE_PATHS.has(pathname) &&
     !pathname.startsWith('/api') &&
+    // Tracked home value report links (app/r/[code]) stay on this domain.
+    !pathname.startsWith('/r/') &&
     !pathname.startsWith('/images/listings/') &&
     // Static files in /public (og-image.png, headshots, llms.txt) are served here, not sent to the other domain.
     !/\.[a-z0-9]+$/i.test(pathname) &&
